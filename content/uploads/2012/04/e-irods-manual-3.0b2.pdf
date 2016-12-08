@@ -1,0 +1,3415 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 40 0 R
+ /F4 44 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+4 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 398.0236
+ 0 ]
+ /Rect [ 62.69291
+ 647.7736
+ 121.0629
+ 659.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 398.0236
+ 0 ]
+ /Rect [ 527.0227
+ 647.7736
+ 532.5827
+ 659.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 173.0236
+ 0 ]
+ /Rect [ 62.69291
+ 629.7736
+ 124.3729
+ 641.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 173.0236
+ 0 ]
+ /Rect [ 527.0227
+ 629.7736
+ 532.5827
+ 641.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 741.0236
+ 0 ]
+ /Rect [ 62.69291
+ 611.7736
+ 129.3829
+ 623.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 741.0236
+ 0 ]
+ /Rect [ 527.0227
+ 611.7736
+ 532.5827
+ 623.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 314.4236
+ 0 ]
+ /Rect [ 62.69291
+ 593.7736
+ 126.0529
+ 605.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 314.4236
+ 0 ]
+ /Rect [ 527.0227
+ 593.7736
+ 532.5827
+ 605.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 174.2236
+ 0 ]
+ /Rect [ 82.69291
+ 575.7736
+ 308.3529
+ 587.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 174.2236
+ 0 ]
+ /Rect [ 527.0227
+ 575.7736
+ 532.5827
+ 587.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 671.8236
+ 0 ]
+ /Rect [ 82.69291
+ 557.7736
+ 217.7729
+ 569.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 671.8236
+ 0 ]
+ /Rect [ 527.0227
+ 557.7736
+ 532.5827
+ 569.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 173.4439
+ 0 ]
+ /Rect [ 82.69291
+ 539.7736
+ 221.6429
+ 551.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 173.4439
+ 0 ]
+ /Rect [ 527.0227
+ 539.7736
+ 532.5827
+ 551.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 43 0 R
+ /XYZ
+ 62.69291
+ 327.8236
+ 0 ]
+ /Rect [ 82.69291
+ 521.7736
+ 202.1929
+ 533.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 43 0 R
+ /XYZ
+ 62.69291
+ 327.8236
+ 0 ]
+ /Rect [ 527.0227
+ 521.7736
+ 532.5827
+ 533.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 659.8236
+ 0 ]
+ /Rect [ 62.69291
+ 503.7736
+ 126.5929
+ 515.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 659.8236
+ 0 ]
+ /Rect [ 527.0227
+ 503.7736
+ 532.5827
+ 515.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 590.8236
+ 0 ]
+ /Rect [ 62.69291
+ 485.7736
+ 131.6029
+ 497.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 590.8236
+ 0 ]
+ /Rect [ 527.0227
+ 485.7736
+ 532.5827
+ 497.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 299.8236
+ 0 ]
+ /Rect [ 62.69291
+ 467.7736
+ 139.9329
+ 479.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 299.8236
+ 0 ]
+ /Rect [ 527.0227
+ 467.7736
+ 532.5827
+ 479.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 182.8236
+ 0 ]
+ /Rect [ 62.69291
+ 449.7736
+ 142.1429
+ 461.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 182.8236
+ 0 ]
+ /Rect [ 527.0227
+ 449.7736
+ 532.5827
+ 461.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 601.0236
+ 0 ]
+ /Rect [ 62.69291
+ 431.7736
+ 119.3929
+ 443.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 601.0236
+ 0 ]
+ /Rect [ 527.0227
+ 431.7736
+ 532.5827
+ 443.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 520.0236
+ 0 ]
+ /Rect [ 62.69291
+ 413.7736
+ 174.9629
+ 425.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 520.0236
+ 0 ]
+ /Rect [ 527.0227
+ 413.7736
+ 532.5827
+ 425.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class PDFDictionary 
+32 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://e-irods.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.69291
+ 329.7736
+ 532.5827
+ 341.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class PDFDictionary 
+33 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (file:///var/lib/e-rods/iRODS/doc/html/index.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.69291
+ 311.7736
+ 532.5827
+ 323.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class PDFDictionary 
+34 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.69291
+ 263.7736
+ 532.5827
+ 275.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class PDFDictionary 
+35 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org/doxygen) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.69291
+ 245.7736
+ 532.5827
+ 257.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class PDFDictionary 
+36 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.amazon.com/dp/1608453332) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 239.4129
+ 215.7736
+ 418.3929
+ 227.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class PDFDictionary 
+37 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.amazon.com/dp/1466469129) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.69291
+ 185.7736
+ 261.6729
+ 197.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+38 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R ]
+ /Contents 73 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER35': class PDFDictionary 
+39 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://e-irods.org/download) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 242.2229
+ 753.7736
+ 360.6129
+ 765.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F3': class PDFType1Font 
+40 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page2': class PDFPage 
+41 0 obj
+% Page dictionary
+<< /Annots [ 39 0 R ]
+ /Contents 74 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+42 0 obj
+% Page dictionary
+<< /Contents 75 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+43 0 obj
+% Page dictionary
+<< /Contents 76 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F4': class PDFType1Font 
+44 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER36': class PDFDictionary 
+45 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (file:///var/lib/e-irods/iRODS/doc/html/sys_backup_m_s_8c_abab044dfcae659a200741d4f69999c29.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 132.2983
+ 477.5736
+ 215.051
+ 489.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class PDFDictionary 
+46 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.postgresql.org/docs/8.4/static/warm-standby.html#WARM-STANDBY-RECORD) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 387.5736
+ 220.89
+ 399.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class PDFDictionary 
+47 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.postgresql.org/docs/9.0/static/warm-standby.html#STREAMING-REPLICATION) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 351.5736
+ 195.2715
+ 363.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page5': class PDFPage 
+48 0 obj
+% Page dictionary
+<< /Annots [ 45 0 R
+ 46 0 R
+ 47 0 R ]
+ /Contents 77 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER39': class PDFDictionary 
+49 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 296.1229
+ 550.7736
+ 360.0429
+ 562.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+50 0 obj
+% Page dictionary
+<< /Annots [ 49 0 R ]
+ /Contents 78 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER40': class PDFDictionary 
+51 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.irods.org/index.php/Jargon) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 259.9829
+ 530.7736
+ 432.8329
+ 542.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page7': class PDFPage 
+52 0 obj
+% Page dictionary
+<< /Annots [ 51 0 R ]
+ /Contents 79 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page8': class PDFPage 
+53 0 obj
+% Page dictionary
+<< /Contents 80 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page9': class PDFPage 
+54 0 obj
+% Page dictionary
+<< /Contents 81 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 72 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R55': class PDFCatalog 
+55 0 obj
+% Document Root
+<< /Outlines 57 0 R
+ /PageLabels 82 0 R
+ /PageMode /UseNone
+ /Pages 72 0 R
+ /Type /Catalog >>
+endobj
+% 'R56': class PDFInfo 
+56 0 obj
+<< /Author (Renaissance Computing Institute \(RENCI\))
+ /CreationDate (D:20120625143224+05'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Enterprise iRODS \(E-iRODS\) Manual) >>
+endobj
+% 'R57': class PDFOutlines 
+57 0 obj
+<< /Count 15
+ /First 58 0 R
+ /Last 71 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+58 0 obj
+<< /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 398.0236
+ 0 ]
+ /Next 59 0 R
+ /Parent 57 0 R
+ /Title (\376\377\0001\000\240\000\240\000\240\000O\000v\000e\000r\000v\000i\000e\000w) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+59 0 obj
+<< /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 173.0236
+ 0 ]
+ /Next 60 0 R
+ /Parent 57 0 R
+ /Prev 58 0 R
+ /Title (\376\377\0002\000\240\000\240\000\240\000D\000o\000w\000n\000l\000o\000a\000d) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+60 0 obj
+<< /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 741.0236
+ 0 ]
+ /Next 61 0 R
+ /Parent 57 0 R
+ /Prev 59 0 R
+ /Title (\376\377\0003\000\240\000\240\000\240\000I\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+61 0 obj
+<< /Count 4
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 314.4236
+ 0 ]
+ /First 62 0 R
+ /Last 65 0 R
+ /Next 66 0 R
+ /Parent 57 0 R
+ /Prev 60 0 R
+ /Title (\376\377\0004\000\240\000\240\000\240\000Q\000u\000i\000c\000k\000s\000t\000a\000r\000t) >>
+endobj
+% 'Outline.15.0': class OutlineEntryObject 
+62 0 obj
+<< /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 174.2236
+ 0 ]
+ /Next 63 0 R
+ /Parent 61 0 R
+ /Title (\376\377\0004\000.\0001\000\240\000\240\000\240\000C\000h\000a\000n\000g\000i\000n\000g\000 \000t\000h\000e\000 \000a\000d\000m\000i\000n\000i\000s\000t\000r\000a\000t\000o\000r\000 \000a\000c\000c\000o\000u\000n\000t\000 \000p\000a\000s\000s\000w\000o\000r\000d) >>
+endobj
+% 'Outline.15.1': class OutlineEntryObject 
+63 0 obj
+<< /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 671.8236
+ 0 ]
+ /Next 64 0 R
+ /Parent 61 0 R
+ /Prev 62 0 R
+ /Title (\376\377\0004\000.\0002\000\240\000\240\000\240\000C\000h\000a\000n\000g\000i\000n\000g\000 \000t\000h\000e\000 \000Z\000o\000n\000e\000 \000n\000a\000m\000e) >>
+endobj
+% 'Outline.15.2': class OutlineEntryObject 
+64 0 obj
+<< /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 173.4439
+ 0 ]
+ /Next 65 0 R
+ /Parent 61 0 R
+ /Prev 63 0 R
+ /Title (\376\377\0004\000.\0003\000\240\000\240\000\240\000A\000d\000d\000 \000a\000d\000d\000i\000t\000i\000o\000n\000a\000l\000 \000r\000e\000s\000o\000u\000r\000c\000e\000\(\000s\000\)) >>
+endobj
+% 'Outline.15.3': class OutlineEntryObject 
+65 0 obj
+<< /Dest [ 43 0 R
+ /XYZ
+ 62.69291
+ 327.8236
+ 0 ]
+ /Parent 61 0 R
+ /Prev 64 0 R
+ /Title (\376\377\0004\000.\0004\000\240\000\240\000\240\000A\000d\000d\000 \000a\000d\000d\000i\000t\000i\000o\000n\000a\000l\000 \000u\000s\000e\000r\000\(\000s\000\)) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+66 0 obj
+<< /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 659.8236
+ 0 ]
+ /Next 67 0 R
+ /Parent 57 0 R
+ /Prev 61 0 R
+ /Title (\376\377\0005\000\240\000\240\000\240\000U\000p\000g\000r\000a\000d\000i\000n\000g) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+67 0 obj
+<< /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 590.8236
+ 0 ]
+ /Next 68 0 R
+ /Parent 57 0 R
+ /Prev 66 0 R
+ /Title (\376\377\0006\000\240\000\240\000\240\000B\000a\000c\000k\000i\000n\000g\000 \000U\000p) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+68 0 obj
+<< /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 299.8236
+ 0 ]
+ /Next 69 0 R
+ /Parent 57 0 R
+ /Prev 67 0 R
+ /Title (\376\377\0007\000\240\000\240\000\240\000A\000s\000s\000u\000m\000p\000t\000i\000o\000n\000s) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+69 0 obj
+<< /Dest [ 48 0 R
+ /XYZ
+ 62.69291
+ 182.8236
+ 0 ]
+ /Next 70 0 R
+ /Parent 57 0 R
+ /Prev 68 0 R
+ /Title (\376\377\0008\000\240\000\240\000\240\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.8': class OutlineEntryObject 
+70 0 obj
+<< /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 601.0236
+ 0 ]
+ /Next 71 0 R
+ /Parent 57 0 R
+ /Prev 69 0 R
+ /Title (\376\377\0009\000\240\000\240\000\240\000G\000l\000o\000s\000s\000a\000r\000y) >>
+endobj
+% 'Outline.9': class OutlineEntryObject 
+71 0 obj
+<< /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 520.0236
+ 0 ]
+ /Parent 57 0 R
+ /Prev 70 0 R
+ /Title (\376\377\0001\0000\000\240\000\240\000\240\000H\000i\000s\000t\000o\000r\000y\000 \000o\000f\000 \000R\000e\000l\000e\000a\000s\000e\000s) >>
+endobj
+% 'R72': class PDFPages 
+72 0 obj
+% page tree
+<< /Count 9
+ /Kids [ 38 0 R
+ 41 0 R
+ 42 0 R
+ 43 0 R
+ 48 0 R
+ 50 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R ]
+ /Type /Pages >>
+endobj
+% 'R73': class PDFStream 
+73 0 obj
+% page stream
+<< /Length 7245 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 62.69488 0 Td (Enterprise iRODS \(E-iRODS\) Manual) Tj T* -62.69488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 716.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 36.93937 0 Td (Author:) Tj T* -36.93937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Renaissance Computing Institute \(RENCI\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 701.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 33.02937 0 Td (Version:) Tj T* -33.02937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0beta2) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 668.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 410.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 237 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 237 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 219 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   Download) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 219 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 201 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Installation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 201 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 183 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Quickstart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 183 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 165 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.1   Changing the administrator account password) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 165 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 147 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.2   Changing the Zone name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 147 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 129 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.3   Add additional resource\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 129 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 111 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4.4   Add additional user\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 111 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 93 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Upgrading) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 93 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Backing Up) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (7   Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (8   Configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (9   Glossary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (10   History of Releases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 377.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (1   Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 347.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.97498 Tw (This manual attempts to provide standalone documentation for E-iRODS as packaged by the) Tj T* 0 Tw (Renaissance Computing Institute \(RENCI\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 341.0236 cm
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 18 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://e-irods.com) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (file:///var/lib/e-rods/iRODS/doc/html/index.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+Q
+q
+1 0 0 1 62.69291 281.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.09186 Tw (Additional documentation is available on the iRODS wiki and in the two books published by the iRODS) Tj T* 0 Tw (team:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 275.0236 cm
+Q
+q
+1 0 0 1 62.69291 185.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 78 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://irods.org) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 60 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://irods.org/doxygen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 30 cm
+q
+BT 1 0 0 1 0 14 Tm 2.251976 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(2010\) iRODS Primer: integrated Rule-Oriented Data System \(Synthesis Lectures on Information) Tj T* 0 Tw (Concepts, Retrieval, and Services\) ) Tj 0 0 .501961 rg (http://www.amazon.com/dp/1608453332) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 14 Tm 6.827752 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(2011\) The integrated Rule-Oriented Data System \(iRODS 3.0\) Micro-service Workbook) Tj T* 0 Tw 0 0 .501961 rg (http://www.amazon.com/dp/1466469129) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 185.0236 cm
+Q
+q
+1 0 0 1 62.69291 152.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (2   Download) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 110.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .797984 Tw (E-iRODS is released in binary form. RPM and DEB formats are available for both iCAT-enabled servers) Tj T* 0 Tw .578314 Tw (and resource-only servers. There are variations available for combinations of platform, operating system,) Tj T* 0 Tw (and database type.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (More combinations will be made available as our testing matrix increases.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R74': class PDFStream 
+74 0 obj
+% page stream
+<< /Length 5727 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The latest files can be downloaded from ) Tj 0 0 .501961 rg (http://e-irods.org/download) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Installation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Installation of the Postgres iCAT DEB:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 668.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL ($ \(sudo\) dpkg -i e-irods-3.0b2-64bit-icat-postgres.deb) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 648.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Installation of the Resource RPM:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL ($ \(sudo\) rpm -i e-irods-3.0b2-64bit-resource.rpm) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 583.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .095697 Tw (These packages install the dependencies necessary to run E-iRODS, a service account and group named) Tj T* 0 Tw ('eirods', the E-iRODS binaries, microservice documentation, and this manual.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 553.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.838314 Tw (For the iCAT-enabled server packages, the E-iRODS server and EICAT database are started) Tj T* 0 Tw (automatically with default values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 424.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+BT 1 0 0 1 0 98 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( ienv) Tj T* (NOTICE: Release Version = rods3.0, API Version = d) Tj T* (NOTICE: irodsHost=hostname) Tj T* (NOTICE: irodsPort=1247) Tj T* (NOTICE: irodsDefResource=demoResc) Tj T* (NOTICE: irodsHome=/tempZone/home/rods) Tj T* (NOTICE: irodsCwd=/tempZone/home/rods) Tj T* (NOTICE: irodsUserName=rods) Tj T* (NOTICE: irodsZone=tempZone) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 380.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .313984 Tw (For the resource-only packages, the server is not started automatically. The administrator will need to run) Tj T* 0 Tw 2.799069 Tw (the packaging/setup_resource.sh script and provide the following three pieces of information before) Tj T* 0 Tw (E-iRODS can start and connect to its configured iCAT Zone:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 374.4236 cm
+Q
+q
+1 0 0 1 62.69291 374.4236 cm
+Q
+q
+1 0 0 1 62.69291 362.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Hostname or IP) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 356.4236 cm
+Q
+q
+1 0 0 1 62.69291 344.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iCAT Port) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 338.4236 cm
+Q
+q
+1 0 0 1 62.69291 326.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iCAT Zone) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 326.4236 cm
+Q
+q
+1 0 0 1 62.69291 293.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Quickstart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 251.4236 cm
+q
+BT 1 0 0 1 0 26 Tm .654269 Tw 12 TL /F1 10 Tf 0 0 0 rg (Successful installation will complete and leave a running iRODS server. If you installed an iCAT-enabled) Tj T* 0 Tw .703735 Tw (iRODS server, a database of your choice will also have been created and running. The iCommand ) Tj /F3 10 Tf (ils) Tj T* 0 Tw /F1 10 Tf (will list your new iRODS administrator's empty home directory in the iRODS virtual filesystem:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 206.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( ils) Tj T* (/tempZone/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 186.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (When moving into production, you will probably want to cover the next few basic steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 156.2236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.1   Changing the administrator account password) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .577318 Tw (The default installation of E-iRODS comes with a single account 'rods' that has rodsadmin privileges and) Tj T* 0 Tw (password 'rods'. You should change the password before letting anyone else onto the system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iadmin moduser rods password ) Tj (<) Tj (newpassword) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R75': class PDFStream 
+75 0 obj
+% page stream
+<< /Length 4731 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To make sure everything succeeded, you'll need to reauthenticate and check the new connection:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iinit) Tj T* (Enter your current iRODS password:) Tj T* ($ eirods@hostname:~) Tj (>) Tj ( ils) Tj T* (/tempZone/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 653.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.2   Changing the Zone name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 623.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .538651 Tw (The default installation of E-iRODS comes with a Zone named 'tempZone'. You probably want to change) Tj T* 0 Tw (the Zone name to something more domain-specific:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.8439 cm
+q
+q
+.988825 0 0 .988825 0 0 cm
+q
+1 0 0 1 6.6 6.674587 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 474 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iadmin modzone tempZone name ) Tj (<) Tj (newzonename) Tj (>) Tj  T* (If you modify the local zone name, you and other users will need to) Tj T* (change your .irodsEnv files to use it, you may need to update) Tj T* (irods.config and, if rules use the zone name, you'll need to update) Tj T* (core.re.  This command will update various tables with the new name) Tj T* (and rename the top-level collection.) Tj T* (Do you really want to modify the local zone name? \(enter y or yes to do so\):y) Tj T* (OK, performing the local zone rename) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 475.8439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .215251 Tw (The Zone has been renamed, but now you will need to update your .irodsEnv file to match \(note the three) Tj T* 0 Tw (places where the updated zone name is located\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 274.6439 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 192 re B*
+Q
+q
+BT 1 0 0 1 0 170 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( cat .irods/.irodsEnv) Tj T* (# iRODS server host name:) Tj T* (irodsHost 'ubuntu2') Tj T* (# iRODS server port number:) Tj T* (irodsPort 1247) Tj T* (# Default storage resource name:) Tj T* (irodsDefResource 'demoResc') Tj T* (# Home directory in iRODS:) Tj T* (irodsHome '/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods') Tj T* (# Current directory in iRODS:) Tj T* (irodsCwd '/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods') Tj T* (# Account name:) Tj T* (irodsUserName 'rods') Tj T* (# Zone:) Tj T* (irodsZone ') Tj (<) Tj (newzonename) Tj (>) Tj (') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 254.6439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Now, the connection should be reset and you should be able to list your empty iRODS collection again:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 185.4439 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iinit) Tj T* (Enter your current iRODS password:) Tj T* ($ eirods@hostname:~) Tj (>) Tj ( ils) Tj T* (/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 155.4439 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.3   Add additional resource\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 101.4439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .319318 Tw (The default installation of E-iRODS comes with a single resource named 'demoResc' and which stores its) Tj T* 0 Tw 2.244597 Tw (files in the /var/lib/e-irods/iRODS/Vault directory. You will want to create additional resources at disk) Tj T* 0 Tw 1.021318 Tw (locations of your choosing. The following command will create a basic 'cache' resource at a designated) Tj T* 0 Tw (host at the designated fullpath:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.4017 cm
+q
+q
+.596913 0 0 .596913 0 0 cm
+q
+1 0 0 1 6.6 11.05689 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 786 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iadmin mkresc ) Tj (<) Tj (newrescname) Tj (>) Tj ( 'unix file system' cache ) Tj (<) Tj (fully.qualified.domain.name) Tj (>) Tj ( ) Tj (<) Tj (/full/path/to/new/vault) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R76': class PDFStream 
+76 0 obj
+% page stream
+<< /Length 3101 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Additional information about creating resources can be found with:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 371.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 372 re B*
+Q
+q
+BT 1 0 0 1 0 350 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iadmin help mkresc) Tj T* ( mkresc Name Type Class Host [Path] \(make Resource\)) Tj T* (Create \(register\) a new storage or database resource.) Tj T*  T* (Name is the name of the new resource.) Tj T* (Type is the resource type \(see 'lt resc_type' for a list\).) Tj T* (Class is the usage class of the resource \(see 'lt resc_class'\).) Tj T* (Host is the DNS host name.) Tj T* (And Path is the defaultPath for the vault \(not needed for resources of) Tj T* (type 'database' \(DBRs\)\).) Tj T*  T* (Tip: Also see the lt command for Type and Class token information.) Tj T*  T* ($ eirods@hostname:~) Tj (>) Tj ( iadmin lt resc_type) Tj T* (unix file system) Tj T* (hpss file system) Tj T* (windows file system) Tj T* (s3) Tj T* (MSS universal driver) Tj T* (database) Tj T* (mso) Tj T*  T* ($ eirods@hostname:~) Tj (>) Tj ( iadmin lt resc_class) Tj T* (cache) Tj T* (archive) Tj T* (compound) Tj T* (bundle) Tj T* (postgresql) Tj T* (mysql) Tj T* (oracle) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 339.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .260542 Tw (Creating new resources does not make them default for any existing or new users. You will need to make) Tj T* 0 Tw (sure that default resources are properly set for newly ingested files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4.4   Add additional user\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .198735 Tw (The default installation of E-iRODS comes with a single user 'rods' which is a designated 'rodsadmin' type) Tj T* 0 Tw 1.391318 Tw (user account. You will want to create additional 'rodsuser' type user accounts and set their passwords) Tj T* 0 Tw (before allowing connections to your new grid:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.62362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 180 re B*
+Q
+q
+BT 1 0 0 1 0 158 Tm 12 TL /F3 10 Tf 0 0 0 rg ($ eirods@hostname:~) Tj (>) Tj ( iadmin mkuser ) Tj (<) Tj (newusername) Tj (>) Tj ( rodsuser) Tj T*  T* ($ eirods@hostname:~) Tj (>) Tj ( iadmin lu) Tj T* (rodsBoot#tempZone) Tj T* (rods#tempZone) Tj T* (<) Tj (newusername) Tj (>) Tj (#tempZone) Tj T*  T* ($ eirods@hostname:~) Tj (>) Tj ( iadmin help mkuser) Tj T* ( mkuser Name[#Zone] Type \(make user\)) Tj T* (Create a new iRODS user in the ICAT database) Tj T*  T* (Name is the user name to create) Tj T* (Type is the user type \(see 'lt user_type' for a list\)) Tj T* (Zone is the user's zone \(for remote-zone users\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R77': class PDFStream 
+77 0 obj
+% page stream
+<< /Length 6459 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg  T* (Tip: Use moduser to set a password or other attributes,) Tj T* (use 'aua' to add a user auth name \(GSI DN or Kerberos Principal name\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 671.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .867318 Tw (Best practice suggests changing your Zone name before adding new users as any existing users would) Tj T* 0 Tw .503876 Tw (need to be informed of the new connection information and changes that would need to be made to their) Tj T* 0 Tw (local .irodsEnv files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 638.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5   Upgrading) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 620.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The beta release of E-iRODS does not yet support upgrading. Every install will be a clean install.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 602.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This section will be updated when support is included.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 569.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6   Backing Up) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .832651 Tw (Backing up E-iRODS consists of three major parts: The data, the iRODS system and configuration files,) Tj T* 0 Tw (and the iCAT database itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.8236 cm
+Q
+q
+1 0 0 1 62.69291 533.8236 cm
+Q
+q
+1 0 0 1 62.69291 509.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .521235 Tw (The data itself can be handled by the iRODS system through replication and should not require any) Tj T* 0 Tw (specific backup efforts worth noting here.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 503.8236 cm
+Q
+q
+1 0 0 1 62.69291 455.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 38 Tm 1.211751 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iRODS system and configuration files can be copied into iRODS as a set of Data Objects by) Tj T* 0 Tw 1.622706 Tw (using the ) Tj 0 0 .501961 rg (msiServerBackup ) Tj 0 0 0 rg (microservice. When run on a regular schedule, the ) Tj /F4 10 Tf (msiServerBackup) Tj T* 0 Tw .191647 Tw /F1 10 Tf (microservice will contain all the necessary configuration information to reconstruct your iRODS setup) Tj T* 0 Tw (during disaster recovery.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 455.8236 cm
+Q
+q
+1 0 0 1 62.69291 449.8236 cm
+Q
+q
+1 0 0 1 62.69291 449.8236 cm
+Q
+q
+1 0 0 1 62.69291 341.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 98 Tm .784692 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iCAT database itself can be backed up in a variety of ways. A Postgres database is contained) Tj T* 0 Tw .750988 Tw (on the local filesystem as a data/ directory and can be copied like any other set of files. This is the) Tj T* 0 Tw 3.723828 Tw (most basic means to have backup copies. However, this will have stale information almost) Tj T* 0 Tw 4.277674 Tw (immediately. To cut into this problem of staleness, Postgres 8.4 includes a feature called) Tj T* 0 Tw 2.073555 Tw 0 0 .501961 rg ("Record-based Log Shipping") Tj 0 0 0 rg (. This consists of sending a full transaction log to another copy of) Tj T* 0 Tw .367045 Tw (Postgres where it could be "re-played" and bring the copy up to date with the originating server. Log) Tj T* 0 Tw .112651 Tw (shipping would generally be handled with a cronjob. A faster, seamless version of log shipping called) Tj T* 0 Tw .944269 Tw 0 0 .501961 rg ("Streaming Replication" ) Tj 0 0 0 rg (was included in Postgres 9.0+ and can keep two Postgres servers in sync) Tj T* 0 Tw (with sub-second delay.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 341.8236 cm
+Q
+q
+1 0 0 1 62.69291 311.8236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.352927 Tw 12 TL /F1 10 Tf 0 0 0 rg (Configuration and maintenance of this type of backup system is out of scope for this document, but is) Tj T* 0 Tw (included here as an indication of best practice.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 278.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (7   Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 236.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.248555 Tw (E-iRODS enforces that the database in use \(Postgres, MySQL, etc.\) is configured for UTF-8 encoding.) Tj T* 0 Tw .18683 Tw (For MySQL, this is enforced at the database level and the table level. For Postgres, this is enforced at the) Tj T* 0 Tw (database level and then the tables inherit this setting. MySQL is not yet supported with a binary release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 194.8236 cm
+q
+BT 1 0 0 1 0 26 Tm 3.394651 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iRODS setting 'StrictACL' is configured on by default in E-iRODS. This is different from the) Tj T* 0 Tw .017984 Tw (community version of iRODS and behaves more like standard Unix permissions. This setting can be found) Tj T* 0 Tw (in the ) Tj /F4 10 Tf (server/config/reConfigs/core.re ) Tj /F1 10 Tf (file under acAclPolicy{}.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 161.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (8   Configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 131.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .864692 Tw (There are a number of configuration files that control how an iRODS server behaves. The following is a) Tj T* 0 Tw (listing of the configuration files in a binary-only E-iRODS installation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 101.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.794983 Tw (This document is intended to explain how the various configuration files are connected, what their) Tj T* 0 Tw (parameters are, and when to use them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 83.82362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (~/.odbc.ini) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R78': class PDFStream 
+78 0 obj
+% page stream
+<< /Length 7121 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iRODS/config/irods.config) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iRODS/server/config/server.config) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (~/.irods/.irodsA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 656.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 50 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 50 Tm .046488 Tw 12 TL /F1 10 Tf 0 0 0 rg (This is the scrambled password file that is saved after an ) Tj /F3 10 Tf (iinit ) Tj /F1 10 Tf (is run. If this file does not exist, then) Tj T* 0 Tw 1.019318 Tw (each iCommand will prompt for a password before authenticating with the iRODS server. If this file) Tj T* 0 Tw .340574 Tw (does exist, then each iCommand will read this file and use the contents as a cached password token) Tj T* 0 Tw 1.856235 Tw (and skip the password prompt. This file can be deleted manually or can be removed by running) Tj T* 0 Tw /F3 10 Tf (iexit full) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 640.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (~/.irods/.irodsEnv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 613.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .257126 Tw (This is the main iRODS configuration file defining the iRODS environment. Any changes are effective) Tj T* 0 Tw (immediately since iCommands reload their environment on every execution.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 580.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (9   Glossary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 550.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .74686 Tw 12 TL /F1 10 Tf 0 0 0 rg (This glossary attempts to cover most of the terms you may encounter when first interacting with iRODS.) Tj T* 0 Tw (More information can be found on the iRODS wiki at ) Tj 0 0 .501961 rg (http://irods.org) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 534.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .57311 Tw (An external \(logical\) name given to an iRODS Rule\(s\) that defines a set of macro-level tasks. These) Tj T* 0 Tw 2.287674 Tw (tasks are performed by a chain of Micro-services in accordance with external input parameters.) Tj T* 0 Tw (Analogous to head atom in a Prolog rule or trigger-name in a relational database.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 479.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Agent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 452.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .363672 Tw (A type of iRODS server process. Each time a client connects to a server, and agent is created and a) Tj T* 0 Tw (network connection established between it and the client.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 436.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 385.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.968443 Tw (An Application Programming Interface \(API\) is a piece of software's set of defined programmatic) Tj T* 0 Tw .868651 Tw (interfaces to enable other software to communicate with it. iRODS defines a client API and expects) Tj T* 0 Tw .814269 Tw (that clients connect and communicate with iRODS servers in this controlled manner. iRODS has an) Tj T* 0 Tw (API written in C, and another written in Java \(Jargon\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Authentication Mechanisms) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 318.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.330697 Tw (iRODS can employ various mechanisms to verify user identity and control access to Data Objects) Tj T* 0 Tw 3.867251 Tw (\(iRODS files\), Collections, etc. These currently includes the default iRODS secure password) Tj T* 0 Tw 5.66372 Tw (mechanism \(challenge-response\), Grid Security Infrastructure \(GSI\), and Operating System) Tj T* 0 Tw (authentication \(OSAuth\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 302.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Audit Trail) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 251.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .01528 Tw (List of all operations performed upon a Data Object, a Collection, a Resource, a User, or other iRODS) Tj T* 0 Tw 1.090697 Tw (entities. When Auditing is enabled, significant events in the iRODS system \(affecting the iCAT\) are) Tj T* 0 Tw .107674 Tw (recorded. Full activity reports can be compiled to verify important preservation and/or security policies) Tj T* 0 Tw (have been enforced.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 235.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Client) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 184.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .694983 Tw (A Client in the iRODS client-server architecture gives users an interface to manipulate Data Objects) Tj T* 0 Tw 2.243555 Tw (and other iRODS entities that may be stored on remote iRODS servers. iRODS clients include:) Tj T* 0 Tw .939069 Tw (iCommands unix-like command line interface, iDrop \(ftp-like client java application\), iDropWeb \(web) Tj T* 0 Tw (interface\), etc.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 168.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Collection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 62 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .834692 Tw (All Data Objects stored in an iRODS system are stored in some Collection, which is a logical name) Tj T* 0 Tw .312651 Tw (for that set of Data Objects. A Collection can have sub-collections, and hence provides a hierarchical) Tj T* 0 Tw .604987 Tw (structure. An iRODS Collection is like a directory in a Unix file system \(or Folder in Windows\), but is) Tj T* 0 Tw 1.156098 Tw (not limited to a single device or partition. A Collection is logical so that the Data Objects can span) Tj T* 0 Tw 3.914976 Tw (separate and heterogeneous storage devices \(i.e. is infrastructure and administrative domain) Tj T* 0 Tw (independent\). Each Data Object in a Collection must have a unique name in that Collection.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 77.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Data Grid) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R79': class PDFStream 
+79 0 obj
+% page stream
+<< /Length 7640 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 738.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .891412 Tw (A grid computing system \(a set of distributed, cooperating computers\) that deals with the controlled) Tj T* 0 Tw (sharing and management of large amounts of distributed data.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 722.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Data Object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.96811 Tw (A Data Object is a single "stream-of-bytes" entity that can be uniquely identified; a file stored in) Tj T* 0 Tw 2.101235 Tw (iRODS. It is given a Unique Internal Identifier in iRODS \(allowing a global name space\), and is) Tj T* 0 Tw (associated with \(situated in\) a Collection.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 667.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Driver) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 616.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .471751 Tw (A piece of software that interfaces to a particular type of resource as part of the iRODS server/agent) Tj T* 0 Tw 1.055984 Tw (process. The driver provides a common set of functions \(open, read, write, close, etc.\) which allow) Tj T* 0 Tw .734983 Tw (iRODS clients \(iCommands and other programs using the client API\) to access different devices via) Tj T* 0 Tw (the common iRODS protocol.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 600.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Federation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.713059 Tw (Zone Federation occurs when two or more independent iRODS Zones are registered with one) Tj T* 0 Tw .811412 Tw (another. Users from one Zone can authenticate through their home iRODS server and have access) Tj T* 0 Tw (rights on a remote Zone and its Data Objects, Collections, and Metadata.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Jargon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 530.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The Java API for iRODS. Read more at ) Tj 0 0 .501961 rg (https://www.irods.org/index.php/Jargon) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 514.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iCAT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 463.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .69284 Tw (The iCAT, or iRODS Metadata Catalog, stores descriptive state metadata about the Data Objects in) Tj T* 0 Tw 1.859982 Tw (iRODS Collections in a DBMS database \(e.g. PostgreSQL, MySQL, Oracle\). The iCAT can keep) Tj T* 0 Tw 1.728443 Tw (track of both system-level metadata and user-defined metadata. There is one iCAT database per) Tj T* 0 Tw (iRODS Zone.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (IES \(iCAT-Enabled Server\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 432.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A machine that runs both an iRODS server and the iCAT database for a particular Zone.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 416.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iCommands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 365.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.943984 Tw (iCommands are Unix utilities that give users a command-line interface to operate on data in the) Tj T* 0 Tw 1.505814 Tw (iRODS system. There are commands related to the logical hierarchical filesystem, metadata, data) Tj T* 0 Tw 4.469979 Tw (object information, administration, rules, and the rule engine. iCommands provide the most) Tj T* 0 Tw (comprehensive set of client-side standard iRODS manipulation functions.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 349.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Inheritance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 274.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 62 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 62 Tm .404597 Tw 12 TL /F1 10 Tf 0 0 0 rg (Collections in the iRODS logical name space have an attribute named Inheritance. When Collections) Tj T* 0 Tw .903984 Tw (have this attribute set to Enabled, new Data Objects and Collections added to the Collection inherit) Tj T* 0 Tw 3.12748 Tw (the access permissions \(ACLs\) of the Collection. Data Objects created within Collections with) Tj T* 0 Tw .533318 Tw (Inheritance set to Disabled do not inherit the parent Collection's ACL settings. ) Tj /F3 10 Tf (ichmod ) Tj /F1 10 Tf (can be used) Tj T* 0 Tw 1.702126 Tw (to manipulate this attribute on a per-Collection level. ) Tj /F3 10 Tf (ils -A ) Tj /F1 10 Tf (displays ACLs and the inheritance) Tj T* 0 Tw (status of the current working iRODS directory.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 258.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Logical Name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .536651 Tw (The identifier used by iRODS to uniquely name a Data Object, Collection, Resource, or User. These) Tj T* 0 Tw 1.22248 Tw (identifiers enable global namespaces that are capable of spanning distributed storage and multiple) Tj T* 0 Tw (administrative domains for shared Collections or a unified virtual Collection.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 203.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Management Policies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 152.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .453555 Tw (The specification of the controls on procedures applied to Data Objects in a Collection. Management) Tj T* 0 Tw 3.509983 Tw (policies may define that certain Metadata be required to be stored. Those policies could be) Tj T* 0 Tw 1.017318 Tw (implemented via a set of iRODS Rules that generate and verify the required Metadata. Audit Trails) Tj T* 0 Tw (could be used to generate reports that show that Management Policies have been followed.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 136.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Metadata) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 97.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.240751 Tw (Metadata is data about data. In iRODS, metadata can include system or user-defined attributes) Tj T* 0 Tw .06152 Tw (associated with a Data-Object, Collection, Resource, etc., stored in the iCAT database. The metadata) Tj T* 0 Tw (stored in the iCAT database are in the form of AVUs \(attribute-value-unit tuples\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Metadata Harvesting) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R80': class PDFStream 
+80 0 obj
+% page stream
+<< /Length 7502 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 726.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .959213 Tw (The process of extraction of existing Metadata from a remote information resource and subsequent) Tj T* 0 Tw 2.359269 Tw (addition to the iRODS iCAT. The harvested Metadata could be related to certain Data Objects,) Tj T* 0 Tw (Collections, or any other iRODS entity.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 710.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Micro-service) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 74 Tm  T* ET
+q
+1 0 0 1 20 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A set of operations performed on a Collection at a remote storage location.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.642976 Tw (Micro-services are small, well-defined procedures/functions that perform a certain server-side task) Tj T* 0 Tw 4.888314 Tw (and are compiled into the iRODS server code. Rules invoke Micro-services to implement) Tj T* 0 Tw 1.252976 Tw (Management Policies. Micro-services can be chained to implement larger macro-level functionality,) Tj T* 0 Tw .570574 Tw (called an Action. By having more than one chain of Micro-services for an Action, a system can have) Tj T* 0 Tw 2.157674 Tw (multiple ways of performing the Action. At runtime, using priorities and validation conditions, the) Tj T* 0 Tw (system chooses the "best" micro-service chain to be executed.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 607.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Migration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 568.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.216905 Tw (The process of moving digital Collections to new hardware and/or software as technology evolves.) Tj T* 0 Tw 2.285366 Tw (Separately, Transformative Migration may be used to mean the process of manipulating a Data) Tj T* 0 Tw (Object into a new format \(e.g. gif to png\) for preservation purposes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Physical Resource) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .467485 Tw (A storage system onto which Data Objects may be deposited. iRODS supports a wide range of disk,) Tj T* 0 Tw (tape, and remote storage resources.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 509.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Resource) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.13229 Tw (A resource, or storage resource, is a software/hardware system that stores digital data. Resources) Tj T* 0 Tw 2.054651 Tw (can be classified as cache, archive, or compound \(a virtual type consisting of a cache resource) Tj T* 0 Tw 1.684651 Tw (affiliated with an archive resource\). iRODS clients can operate on local or remote data stored on) Tj T* 0 Tw (different types of resources through a common interface.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 442.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 50 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .387318 Tw (Rules are a major innovation in iRODS that let users automate data management tasks, essential as) Tj T* 0 Tw .165318 Tw (data collections scale to petabytes across hundreds of millions of files. Rules allow users to automate) Tj T* 0 Tw .696976 Tw (enforcement of complex Management Policies \(workflows\), controlling the server-side execution \(via) Tj T* 0 Tw .833059 Tw (Micro-services\) of all data access and manipulation operations, with the capability of verifying these) Tj T* 0 Tw (operations.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Rule Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 312.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .795984 Tw (The Rule Engine interprets Rules following the iRODS rule syntax. The Rule Engine, which runs on) Tj T* 0 Tw 1.989982 Tw (all iRODS servers, is invoked by server-side procedure calls and selects, prioritizes, and applies) Tj T* 0 Tw 1.047674 Tw (Rules and their corresponding Micro-services. The Rule Engine can apply recovery procedures if a) Tj T* 0 Tw (Micro-service or Action fails.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 296.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Scalability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 245.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .39936 Tw (Scalability means that a computer system performs well, even when scaled up to very large sizes. In) Tj T* 0 Tw 2.042339 Tw (iRODS, this refers to its ability to manage Collections ranging from the data on a single disk to) Tj T* 0 Tw 1.52784 Tw (petabytes \(millions of gigabytes\) of data in hundreds of millions of files distributed across multiple) Tj T* 0 Tw (locations and administrative domains.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 229.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Server) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 202.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .989985 Tw (An iRODS server is software that interacts with the access protocol of a specific storage system. It) Tj T* 0 Tw (enables storing and sharing data distributed geographically and across administrative domains.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 186.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Transformative Migration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 147.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .830651 Tw (The process of manipulating a Data Object from one encoding format to another. Usually the target) Tj T* 0 Tw .361984 Tw (format will be newer and more compatible with other systems. Sometimes this process is "lossy" and) Tj T* 0 Tw (does not capture all of the information in the original format.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 131.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Trust Virtualization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The management of Authentication and authorization independently of the storage location.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 100.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Unique Internal Identifier) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 85.02362 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (See Logical Name.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R81': class PDFStream 
+81 0 obj
+% page stream
+<< /Length 5014 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (User Name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .906651 Tw (Unique identifier for each person or entity using iRODS; sometimes combined with the name of the) Tj T* 0 Tw 1.045366 Tw (home iRODS Zone \(as username#Zonename\) to provide a globally unique name when using Zone) Tj T* 0 Tw (Federation.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 698.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Vault) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 599.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 86 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .74686 Tw (An iRODS Vault is a data repository system that iRODS can maintain on any storage system which) Tj T* 0 Tw 1.496654 Tw (can be accessed by an iRODS server. For example, there can be an iRODS Vault on a Unix file) Tj T* 0 Tw .016235 Tw (system, an HPSS \(High Performance Storage System\), or an IBM DB2 database. A Data Object in an) Tj T* 0 Tw .694983 Tw (iRODS Vault is stored as an iRODS-written object, with access controlled through the iCAT catalog.) Tj T* 0 Tw 2.042339 Tw (This is distinct from legacy data objects that can be accessed by iRODS but are still owned by) Tj T* 0 Tw .636457 Tw (previous owners of the data. For file systems such as Unix and HPSS, a separate directory is used;) Tj T* 0 Tw .202651 Tw (for databases such as Oracle or DB2 a system-defined table with LOB-space \(Large Object space\) is) Tj T* 0 Tw (used.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 583.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Zone) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 532.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 38 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.329982 Tw (An iRODS Zone is an independent iRODS system consisting of an iCAT-Enabled Server \(IES\),) Tj T* 0 Tw 1.793615 Tw (optional additional distributed iRODS Servers \(which can reach hundreds, worldwide\) and clients.) Tj T* 0 Tw 1.349318 Tw (Each Zone has a unique name. When two iRODS Zones are configured to interoperate with each) Tj T* 0 Tw (other securely, it is called \(Zone\) Federation.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 499.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (10   History of Releases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 487.0236 cm
+Q
+q
+1 0 0 1 62.69291 367.0236 cm
+1 1 1 rg
+n 0 120 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 102 469.8898 -57 re f*
+1 1 1 rg
+n 0 45 469.8898 -45 re f*
+.960784 .960784 .862745 rg
+n 0 120 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 105 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 55.12711 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 17.00355 0 Td (Date) Tj T* -17.00355 0 Td ET
+Q
+Q
+q
+1 0 0 1 73.12711 105 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 34.98898 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL .544488 0 Td (Version) Tj T* -0.544488 0 Td ET
+Q
+Q
+q
+1 0 0 1 120.1161 105 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 343.7737 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 146.8818 0 Td (Description) Tj T* -146.8818 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2012-06-25) Tj T* ET
+Q
+Q
+q
+1 0 0 1 73.12711 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Second Beta Release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 26 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.141243 Tw (This is the second release from RENCI. It includes packages for iCAT,) Tj T* 0 Tw 4.55421 Tw (Resource, iCommands, and development, in both DEB and RPM) Tj T* 0 Tw (formats. Also includes more documentation.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 6 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2012-03-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 73.12711 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Initial Beta Release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 14 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .166973 Tw (This is the first release from RENCI, based on the iRODS 3.0 community) Tj T* 0 Tw (codebase.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 102 m 469.8898 102 l S
+n 0 45 m 469.8898 45 l S
+n 67.12711 0 m 67.12711 120 l S
+n 114.1161 0 m 114.1161 120 l S
+n 0 120 m 469.8898 120 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 120 l S
+n 469.8898 0 m 469.8898 120 l S
+Q
+Q
+q
+1 0 0 1 62.69291 367.0236 cm
+Q
+ 
+endstream
+endobj
+% 'R82': class PDFPageLabels 
+82 0 obj
+% Document Root
+<< /Nums [ 0
+ 83 0 R
+ 1
+ 84 0 R
+ 2
+ 85 0 R
+ 3
+ 86 0 R
+ 4
+ 87 0 R
+ 5
+ 88 0 R
+ 6
+ 89 0 R
+ 7
+ 90 0 R
+ 8
+ 91 0 R ] >>
+endobj
+% 'R83': class PDFPageLabel 
+83 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R84': class PDFPageLabel 
+84 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R85': class PDFPageLabel 
+85 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R86': class PDFPageLabel 
+86 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R87': class PDFPageLabel 
+87 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R88': class PDFPageLabel 
+88 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R89': class PDFPageLabel 
+89 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R90': class PDFPageLabel 
+90 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R91': class PDFPageLabel 
+91 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+xref
+0 92
+0000000000 65535 f
+0000000113 00000 n
+0000000247 00000 n
+0000000412 00000 n
+0000000600 00000 n
+0000000841 00000 n
+0000001082 00000 n
+0000001323 00000 n
+0000001564 00000 n
+0000001805 00000 n
+0000002046 00000 n
+0000002288 00000 n
+0000002530 00000 n
+0000002773 00000 n
+0000003016 00000 n
+0000003259 00000 n
+0000003502 00000 n
+0000003745 00000 n
+0000003988 00000 n
+0000004231 00000 n
+0000004474 00000 n
+0000004717 00000 n
+0000004960 00000 n
+0000005203 00000 n
+0000005446 00000 n
+0000005689 00000 n
+0000005932 00000 n
+0000006175 00000 n
+0000006418 00000 n
+0000006661 00000 n
+0000006904 00000 n
+0000007147 00000 n
+0000007389 00000 n
+0000007627 00000 n
+0000007895 00000 n
+0000008131 00000 n
+0000008375 00000 n
+0000008630 00000 n
+0000008870 00000 n
+0000009477 00000 n
+0000009711 00000 n
+0000009871 00000 n
+0000010172 00000 n
+0000010452 00000 n
+0000010734 00000 n
+0000010929 00000 n
+0000011243 00000 n
+0000011540 00000 n
+0000011826 00000 n
+0000012160 00000 n
+0000012381 00000 n
+0000012697 00000 n
+0000012940 00000 n
+0000013241 00000 n
+0000013521 00000 n
+0000013802 00000 n
+0000013961 00000 n
+0000014285 00000 n
+0000014411 00000 n
+0000014649 00000 n
+0000014902 00000 n
+0000015175 00000 n
+0000015483 00000 n
+0000015909 00000 n
+0000016245 00000 n
+0000016603 00000 n
+0000016923 00000 n
+0000017181 00000 n
+0000017444 00000 n
+0000017712 00000 n
+0000017990 00000 n
+0000018243 00000 n
+0000018525 00000 n
+0000018705 00000 n
+0000026049 00000 n
+0000031875 00000 n
+0000036705 00000 n
+0000039905 00000 n
+0000046463 00000 n
+0000053683 00000 n
+0000061422 00000 n
+0000069023 00000 n
+0000074140 00000 n
+0000074337 00000 n
+0000074414 00000 n
+0000074491 00000 n
+0000074568 00000 n
+0000074645 00000 n
+0000074722 00000 n
+0000074799 00000 n
+0000074876 00000 n
+0000074953 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(]\354\235\022\206=\344\316[n\231\003\326o7-) (]\354\235\022\206=\344\316[n\231\003\326o7-)] 
+
+ /Info 56 0 R
+ /Root 55 0 R
+ /Size 92 >>
+startxref
+75000
+%%EOF

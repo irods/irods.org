@@ -1,0 +1,1869 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 19 0 R
+ /F4 20 0 R
+ /F5 21 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+4 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 567.0236
+ 0 ]
+ /Rect [ 62.69291
+ 654.7736
+ 139.9529
+ 666.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 567.0236
+ 0 ]
+ /Rect [ 527.0227
+ 654.7736
+ 532.5827
+ 666.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 366.0236
+ 0 ]
+ /Rect [ 62.69291
+ 636.7736
+ 298.8929
+ 648.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 366.0236
+ 0 ]
+ /Rect [ 527.0227
+ 636.7736
+ 532.5827
+ 648.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 62.69291
+ 618.7736
+ 315.0029
+ 630.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 527.0227
+ 618.7736
+ 532.5827
+ 630.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 242.1339
+ 0 ]
+ /Rect [ 62.69291
+ 600.7736
+ 264.4629
+ 612.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 242.1339
+ 0 ]
+ /Rect [ 527.0227
+ 600.7736
+ 532.5827
+ 612.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 24 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 62.69291
+ 582.7736
+ 252.7929
+ 594.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 24 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 527.0227
+ 582.7736
+ 532.5827
+ 594.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class PDFDictionary 
+14 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.eirods.org/download) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 378.5729
+ 489.7736
+ 518.0729
+ 501.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.irods.org/index.php/iRODS_Introduction) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 159.7736
+ 296.6729
+ 171.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class PDFDictionary 
+16 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.irods.org/index.php/iRODS_Introduction#iRODS_Micro-services) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 138.7736
+ 532.5827
+ 150.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class PDFDictionary 
+17 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.irods.org/index.php/iRODS_Introduction#Extending_iRODS) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 120.7736
+ 532.5827
+ 132.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+18 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R ]
+ /Contents 34 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 33 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F3': class PDFType1Font 
+19 0 obj
+% Font Courier-Oblique
+<< /BaseFont /Courier-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+20 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F5': class PDFType1Font 
+21 0 obj
+% Font Courier-Bold
+<< /BaseFont /Courier-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page2': class PDFPage 
+22 0 obj
+% Page dictionary
+<< /Contents 35 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 33 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+23 0 obj
+% Page dictionary
+<< /Contents 36 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 33 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+24 0 obj
+% Page dictionary
+<< /Contents 37 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 33 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R25': class PDFCatalog 
+25 0 obj
+% Document Root
+<< /Outlines 27 0 R
+ /PageLabels 38 0 R
+ /PageMode /UseNone
+ /Pages 33 0 R
+ /Type /Catalog >>
+endobj
+% 'R26': class PDFInfo 
+26 0 obj
+<< /Author (Renaissance Computing Institute \(RENCI\))
+ /CreationDate (D:20131117211842+05'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+% 'R27': class PDFOutlines 
+27 0 obj
+<< /Count 5
+ /First 28 0 R
+ /Last 32 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+28 0 obj
+<< /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 567.0236
+ 0 ]
+ /Next 29 0 R
+ /Parent 27 0 R
+ /Title (\376\377\0001\000\240\000\240\000\240\000P\000r\000e\000r\000e\000q\000u\000i\000s\000i\000t\000e\000s) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+29 0 obj
+<< /Dest [ 18 0 R
+ /XYZ
+ 62.69291
+ 366.0236
+ 0 ]
+ /Next 30 0 R
+ /Parent 27 0 R
+ /Prev 28 0 R
+ /Title (\376\377\0002\000\240\000\240\000\240\000A\000b\000o\000u\000t\000 \000m\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000s\000 \000a\000n\000d\000 \000m\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000 \000p\000l\000u\000g\000i\000n\000s) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+30 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Next 31 0 R
+ /Parent 27 0 R
+ /Prev 29 0 R
+ /Title (\376\377\0003\000\240\000\240\000\240\000G\000e\000n\000e\000r\000i\000c\000 \000t\000e\000m\000p\000l\000a\000t\000e\000 \000f\000o\000r\000 \000w\000r\000i\000t\000i\000n\000g\000 \000a\000 \000m\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000 \000p\000l\000u\000g\000i\000n) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+31 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 242.1339
+ 0 ]
+ /Next 32 0 R
+ /Parent 27 0 R
+ /Prev 30 0 R
+ /Title (\376\377\0004\000\240\000\240\000\240\000"\000H\000e\000l\000l\000o\000 \000W\000o\000r\000l\000d\000!\000"\000 \000a\000s\000 \000a\000 \000m\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000 \000p\000l\000u\000g\000i\000n) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+32 0 obj
+<< /Dest [ 24 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Parent 27 0 R
+ /Prev 31 0 R
+ /Title (\376\377\0005\000\240\000\240\000\240\000"\000C\000U\000R\000L\000 \000G\000e\000t\000"\000 \000a\000s\000 \000a\000 \000m\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000 \000p\000l\000u\000g\000i\000n) >>
+endobj
+% 'R33': class PDFPages 
+33 0 obj
+% page tree
+<< /Count 4
+ /Kids [ 18 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R ]
+ /Type /Pages >>
+endobj
+% 'R34': class PDFStream 
+34 0 obj
+% page stream
+<< /Length 9373 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 738.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 36.93937 0 Td (Author:) Tj T* -36.93937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Renaissance Computing Institute \(RENCI\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 33.02937 0 Td (Version:) Tj T* -33.02937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0.1) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 48.03937 0 Td (Date:) Tj T* -48.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2013-11-17) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Prerequisites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   About microservices and microservice plugins) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Generic template for writing a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   "Hello World!" as a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   "CURL Get" as a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 546.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (1   Prerequisites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 528.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This tutorial covers two built-in examples: "Hello World!" and "CURL Get".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To run this tutorial:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 504.0236 cm
+Q
+q
+1 0 0 1 62.69291 504.0236 cm
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Download E-iRODS binary package and Development Tools from ) Tj 0 0 .501961 rg (http://www.eirods.org/download) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 486.0236 cm
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Install E-iRODS) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 468.0236 cm
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Install the E-iRODS Development Tools) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 450.0236 cm
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Install package libboost1.xx-dev) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 432.0236 cm
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (5.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If you want to run the curl based example, install the libcurl and libcurl-dev packages) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+Q
+q
+1 0 0 1 62.69291 378.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.354692 Tw (After installing the E-iRODS dev tools, make a test directory on your system and copy the contents of) Tj T* 0 Tw 1.006905 Tw (/usr/share/eirods/examples/microservices into it. This will be our current working directory for the rest of) Tj T* 0 Tw (the tutorial.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (2   About microservices and microservice plugins) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (An iRODS microservice is a C function which takes as parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (One argument of type ruleExecInfo_t* \(required\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Any number of arguments of type msParam_t* \(optional\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+Q
+q
+1 0 0 1 62.69291 273.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Input and output values of a microservice are passed through its msParam_t* arguments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.500651 Tw (A set of helper functions is commonly used in microservices to interface with the generic msParam_t*) Tj T* 0 Tw (type:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (parseMspForXxx\(\) for inputs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (fillXxxInMsParam\(\) for outputs) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Where 'Xxx' varies depending on the type of parameter \('Str', 'Int', 'DataObjInp', etc.. \).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 12.03298 Tw 12 TL /F1 10 Tf 0 0 0 rg (For more information on iRODS microservices and related helper functions see) Tj T* 0 Tw 0 0 .501961 rg (https://www.irods.org/index.php/iRODS_Introduction ) Tj 0 0 0 rg (sections 6 and 8:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://www.irods.org/index.php/iRODS_Introduction#iRODS_Micro-services) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 135.0236 cm
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://www.irods.org/index.php/iRODS_Introduction#Extending_iRODS) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .018651 Tw (E-iRODS allows microservices to be dynamically loaded as plugins, without the need to rebuild the iRODS) Tj T* 0 Tw (server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 101.7599 0 Td (Enterprise iRODS \(E-iRODS\) Microservice Developers Tutorial) Tj T* -101.7599 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (page 1) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R35': class PDFStream 
+35 0 obj
+% page stream
+<< /Length 10058 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Generic template for writing a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 254.1339 cm
+q
+q
+.908526 0 0 .908526 0 0 cm
+q
+1 0 0 1 6.6 7.264512 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 516 516 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 492.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 0 480.75 114 12 re f*
+.960784 .960784 .862745 rg
+n 0 468.75 120 12 re f*
+.960784 .960784 .862745 rg
+n 0 456.75 168 12 re f*
+.960784 .960784 .862745 rg
+n 0 444.75 174 12 re f*
+.960784 .960784 .862745 rg
+n 0 420.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 0 408.75 90 12 re f*
+.960784 .960784 .862745 rg
+n 0 396.75 54 12 re f*
+.960784 .960784 .862745 rg
+n 54 396.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 396.75 48 12 re f*
+.960784 .960784 .862745 rg
+n 108 396.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 396.75 0 12 re f*
+.960784 .960784 .862745 rg
+n 0 372.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 372.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 372.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 348.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 336.75 246 12 re f*
+.960784 .960784 .862745 rg
+n 24 324.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 324.75 90 12 re f*
+.960784 .960784 .862745 rg
+n 138 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 324.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 180 324.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 264 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 324.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 312.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 48 300.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 300.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 300.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 288.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 264.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 252.75 312 12 re f*
+.960784 .960784 .862745 rg
+n 24 240.75 240 12 re f*
+.960784 .960784 .862745 rg
+n 24 228.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 228.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 228.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 156 228.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 228.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 252 228.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 228.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 204.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 192.75 426 12 re f*
+.960784 .960784 .862745 rg
+n 48 180.75 432 12 re f*
+.960784 .960784 .862745 rg
+n 48 168.75 456 12 re f*
+.960784 .960784 .862745 rg
+n 48 156.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 156.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 180 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 156.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 222 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 156.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 258 156.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 294 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 156.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 390 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 426 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 132.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 120.75 390 12 re f*
+.960784 .960784 .862745 rg
+n 48 108.75 408 12 re f*
+.960784 .960784 .862745 rg
+n 48 96.75 384 12 re f*
+.960784 .960784 .862745 rg
+n 48 84.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 84.75 78 12 re f*
+.960784 .960784 .862745 rg
+n 162 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 84.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 276 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 84.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 396 84.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 60.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 48.75 300 12 re f*
+.960784 .960784 .862745 rg
+n 48 36.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 36.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 12 12 re f*
+.960784 .960784 .862745 rg
+n 18 .75 78 12 re f*
+BT 1 0 0 1 0 494 Tm 12 TL /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* (// E-iRODS Includes) Tj T* /F4 10 Tf .737255 .478431 0 rg (#include "msParam.h") Tj T* (#include "reGlobalsExtern.h") Tj T* (#include "eirods_ms_plugin.h") Tj T* 0 0 0 rg  T* /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* (// STL Includes) Tj T* /F4 10 Tf .737255 .478431 0 rg (#include ) Tj (<) Tj (iostream) Tj (>) Tj  T* 0 0 0 rg  T* /F5 10 Tf 0 .501961 0 rg (extern) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("C") Tj 0 0 0 rg ( ) Tj ({) Tj  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 1. Write a standard issue microservice) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj (my_microservice) Tj (\() Tj ( ) Tj (...,) Tj ( ) Tj (ruleExecInfo_t) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (_rei) Tj ( ) Tj (\)) Tj ( ) Tj ({) Tj  T* (        ) Tj ([...]) Tj  T* (        ) Tj /F5 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (;) Tj  T* (    ) Tj (}) Tj  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 2.  Create the plugin factory function which will) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//     return a microservice table entry) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (plugin_factory) Tj (\(\)) Tj ( ) Tj ({) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 3. Allocate a microservice plugin which takes the number of function) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    params as a parameter to the constructor, not including _rei. With) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    N as the total number of arguments of my_microservice\(\) we would have:) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (msvc) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg (new) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj (\() Tj ( ) Tj (N) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg ( ) Tj (\);) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 4. Add the microservice function as an operation to the plugin) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    the first param is the name / key of the operation, the second) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    is the name of the function which will be the microservice) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj (msvc) Tj .4 .4 .4 rg (-) Tj (>) Tj 0 0 0 rg (add_operation) Tj (\() Tj ( ) Tj .729412 .129412 .129412 rg ("my_microservice") Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ("my_microservice") Tj 0 0 0 rg ( ) Tj (\);) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 5. Return the newly created microservice plugin) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F5 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (msvc) Tj (;) Tj  T* (    ) Tj (}) Tj  T*  T* (};) Tj ( ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// extern "C") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 221.1339 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   "Hello World!" as a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 179.1339 cm
+q
+BT 1 0 0 1 0 26 Tm .044987 Tw 12 TL /F1 10 Tf 0 0 0 rg (Given the above template we can write a simple microservice plugin that returns a string to the client. That) Tj T* 0 Tw .775697 Tw (string needs to be passed out via a microservice parameter \(msParam_t*\). A simple microservice plugin) Tj T* 0 Tw (would then look like this \() Tj /F4 10 Tf (eirods_hello.cpp) Tj /F1 10 Tf (\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 97.93386 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 0 36.75 114 12 re f*
+.960784 .960784 .862745 rg
+n 0 24.75 120 12 re f*
+.960784 .960784 .862745 rg
+n 0 12.75 168 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 174 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* (// E-iRODS Includes) Tj T* /F4 10 Tf .737255 .478431 0 rg (#include "msParam.h") Tj T* (#include "reGlobalsExtern.h") Tj T* (#include "eirods_ms_plugin.h") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 101.7599 0 Td (Enterprise iRODS \(E-iRODS\) Microservice Developers Tutorial) Tj T* -101.7599 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (page 2) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R36': class PDFStream 
+36 0 obj
+% page stream
+<< /Length 10689 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 312.068 cm
+q
+q
+.96447 0 0 .96447 0 0 cm
+q
+1 0 0 1 6.6 6.843137 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 486 456 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 420.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 0 408.75 90 12 re f*
+.960784 .960784 .862745 rg
+n 0 396.75 54 12 re f*
+.960784 .960784 .862745 rg
+n 54 396.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 396.75 48 12 re f*
+.960784 .960784 .862745 rg
+n 108 396.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 396.75 0 12 re f*
+.960784 .960784 .862745 rg
+n 0 372.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 372.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 372.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 348.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 336.75 246 12 re f*
+.960784 .960784 .862745 rg
+n 24 324.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 324.75 72 12 re f*
+.960784 .960784 .862745 rg
+n 120 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 324.75 54 12 re f*
+.960784 .960784 .862745 rg
+n 186 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 324.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 222 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 324.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 318 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 324.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 360 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 324.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 312.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 312.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 78 312.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 120 312.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 312.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 312.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 258 312.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 300.75 96 12 re f*
+.960784 .960784 .862745 rg
+n 144 300.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 300.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 180 300.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 300.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 228 300.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 300.75 30 12 re f*
+.960784 .960784 .862745 rg
+n 264 300.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 282 300.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 288.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 288.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 288.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 276.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 252.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 240.75 306 12 re f*
+.960784 .960784 .862745 rg
+n 24 228.75 234 12 re f*
+.960784 .960784 .862745 rg
+n 24 216.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 216.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 216.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 156 216.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 216.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 252 216.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 216.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 192.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 180.75 426 12 re f*
+.960784 .960784 .862745 rg
+n 48 168.75 402 12 re f*
+.960784 .960784 .862745 rg
+n 48 156.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 156.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 180 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 156.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 222 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 156.75 18 12 re f*
+.960784 .960784 .862745 rg
+n 258 156.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 294 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 306 156.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 390 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 156.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 156.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 132.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 120.75 390 12 re f*
+.960784 .960784 .862745 rg
+n 48 108.75 408 12 re f*
+.960784 .960784 .862745 rg
+n 48 96.75 384 12 re f*
+.960784 .960784 .862745 rg
+n 48 84.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 84.75 78 12 re f*
+.960784 .960784 .862745 rg
+n 162 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 84.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 258 84.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 84.75 84 12 re f*
+.960784 .960784 .862745 rg
+n 360 84.75 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 60.75 102 12 re f*
+.960784 .960784 .862745 rg
+n 48 48.75 300 12 re f*
+.960784 .960784 .862745 rg
+n 48 36.75 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 36.75 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 36.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24.75 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 .75 12 12 re f*
+.960784 .960784 .862745 rg
+n 18 .75 78 12 re f*
+BT 1 0 0 1 0 434 Tm 12 TL /F4 10 Tf 0 0 0 rg  T* /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* (// STL Includes) Tj T* /F4 10 Tf .737255 .478431 0 rg (#include ) Tj (<) Tj (iostream) Tj (>) Tj  T* 0 0 0 rg  T* /F5 10 Tf 0 .501961 0 rg (extern) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("C") Tj 0 0 0 rg ( ) Tj ({) Tj  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 1. Write a standard issue microservice) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj .690196 0 .25098 rg (int) Tj 0 0 0 rg ( ) Tj (eirods_hello) Tj (\() Tj ( ) Tj (msParam_t) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (_out) Tj (,) Tj ( ) Tj (ruleExecInfo_t) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (_rei) Tj ( ) Tj (\)) Tj ( ) Tj ({) Tj  T* (        ) Tj (std) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (string) Tj ( ) Tj (my_str) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("Hello World!") Tj 0 0 0 rg (;) Tj  T* (        ) Tj (fillStrInMsParam) Tj (\() Tj ( ) Tj (_out) Tj (,) Tj ( ) Tj (my_str) Tj (.) Tj (c_str) Tj (\(\)) Tj ( ) Tj (\);) Tj  T* (        ) Tj /F5 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (;) Tj  T* (    ) Tj (}) Tj  T*  T* (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 2. Create the plugin factory function which will) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    return a microservice table entry) Tj T* /F4 10 Tf 0 0 0 rg (    ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (plugin_factory) Tj (\(\)) Tj ( ) Tj ({) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 3. Allocate a microservice plugin which takes the number of function) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    params as a parameter to the constructor, not including _rei.) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg ( ) Tj (msvc) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg (new) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (eirods) Tj .4 .4 .4 rg (::) Tj 0 0 0 rg (ms_table_entry) Tj (\() Tj ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( ) Tj (\);) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 4. Add the microservice function as an operation to the plugin) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    the first param is the name / key of the operation, the second) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (//    is the name of the function which will be the microservice) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj (msvc) Tj .4 .4 .4 rg (-) Tj (>) Tj 0 0 0 rg (add_operation) Tj (\() Tj ( ) Tj .729412 .129412 .129412 rg ("eirods_hello") Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ("eirods_hello") Tj 0 0 0 rg ( ) Tj (\);) Tj  T*  T* (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// =-=-=-=-=-=-=-) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// 5. Return the newly created microservice plugin) Tj T* /F4 10 Tf 0 0 0 rg (        ) Tj /F5 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (msvc) Tj (;) Tj  T* (    ) Tj (}) Tj  T*  T* (};) Tj ( ) Tj /F3 10 Tf .25098 .501961 .501961 rg (// extern "C") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 292.068 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To run this example from your test directory type:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 258.868 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ make hello) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 238.868 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (This should create a shared object: ) Tj /F4 10 Tf (libeirods_hello.so) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 220.868 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Copy ) Tj /F4 10 Tf (libeirods_hello.so ) Tj /F1 10 Tf (to the microservices plugin directory \(as eirods\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 188.859 cm
+q
+q
+.952737 0 0 .952737 0 0 cm
+q
+1 0 0 1 6.6 6.927412 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 492 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ sudo -u eirods cp -f libeirods_hello.so /var/lib/eirods/plugins/microservices/) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 168.859 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Now that you have "loaded" your new microservice plugin you can test it with its corresponding rule:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 135.659 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ irule -F eirods_hello.r) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 101.7599 0 Td (Enterprise iRODS \(E-iRODS\) Microservice Developers Tutorial) Tj T* -101.7599 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (page 3) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R37': class PDFStream 
+37 0 obj
+% page stream
+<< /Length 5231 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5   "CURL Get" as a microservice plugin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .89104 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this second example we are using libcurl to make a GET request and write the result to an E-iRODS) Tj T* 0 Tw (object. For the full source see ) Tj /F4 10 Tf (eirods_curl_get.cpp) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+q
+BT 1 0 0 1 0 74 Tm .92229 Tw 12 TL /F1 10 Tf 0 0 0 rg (While the previous example simply returned an arbitrary string, this microservice is manipulating iRODS) Tj T* 0 Tw 1.483555 Tw (content and therefore needs an iRODS connection context. This connection context is provided to our) Tj T* 0 Tw 1.330697 Tw (microservice via its ruleExecInfo_t* parameter and is required when making iRODS API calls to create) Tj T* 0 Tw .657356 Tw (and write to iRODS objects. In our example this is done by the CURL write function that writes blocks of) Tj T* 0 Tw 9.828863 Tw (data to a new iRODS object, using ) Tj /F4 10 Tf (rsDataObjCreate\(\)) Tj /F1 10 Tf (, ) Tj /F4 10 Tf (rsDataObjWrite\(\)) Tj /F1 10 Tf (, and) Tj T* 0 Tw .913984 Tw /F4 10 Tf (rsDataObjClose\(\)) Tj /F1 10 Tf (. For this reason the iRODS connection context needs to be passed all the way to) Tj T* 0 Tw (the CURL write function.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 570.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .054651 Tw 12 TL /F1 10 Tf 0 0 0 rg (To keep our microservice code concise we define an irodsCurl object that maintains an iRODS connection) Tj T* 0 Tw .180651 Tw (context and a \(reusable\) CURL handler. We can then use the ) Tj /F4 10 Tf (irodsCurl::get\(\) ) Tj /F1 10 Tf (method to make one) Tj T* 0 Tw (or more requests to remote objects, e.g:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 502.2621 cm
+q
+q
+.976496 0 0 .976496 0 0 cm
+q
+1 0 0 1 6.6 6.758862 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 480 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL (myCurl.get\("www.example.com/file1.html", "/tempZone/home/example/file1.html"\);) Tj T* (myCurl.get\("www.example.com/file2.html", "/tempZone/home/example/file2.html"\);) Tj T* (myCurl.get\("www.example.com/file3.html", "/tempZone/home/example/file3.html"\);) Tj T* (etc...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 482.2621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To run this example from your test directory type:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.0621 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ make curl_get) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 429.0621 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (This should create a shared object: ) Tj /F4 10 Tf (libeirods_curl_get.so) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 411.0621 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Copy ) Tj /F4 10 Tf (libeirods_curl_get.so ) Tj /F1 10 Tf (to the microservices plugin directory \(as eirods\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.8985 cm
+q
+q
+.91919 0 0 .91919 0 0 cm
+q
+1 0 0 1 6.6 7.180237 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 510 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ sudo -u eirods cp -f libeirods_curl_get.so /var/lib/eirods/plugins/microservices/) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 347.8985 cm
+q
+BT 1 0 0 1 0 14 Tm 1.670751 Tw 12 TL /F1 10 Tf 0 0 0 rg (Edit the rulefile ) Tj /F4 10 Tf (eirods_curl_get.r ) Tj /F1 10 Tf (to make sure that the destination object path \(*dest_object\) is) Tj T* 0 Tw (valid in your environment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 329.8985 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Run the rulefile:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 296.6985 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ irule -F eirods_hello.r) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 276.6985 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Check if the new object is there:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.4985 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL ($ ils -L PATH_OF_DEST_OBJECT) Tj T* ($ iget PATH_OF_DEST_OBJECT -) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 199.4985 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .487132 Tw (Note the - at the end of the iget command. This simply puts the retrieved file into stdout and will print the) Tj T* 0 Tw (file contents to your screen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 101.7599 0 Td (Enterprise iRODS \(E-iRODS\) Microservice Developers Tutorial) Tj T* -101.7599 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.6549 0 Td (page 4) Tj T* -225.6549 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R38': class PDFPageLabels 
+38 0 obj
+% Document Root
+<< /Nums [ 0
+ 39 0 R
+ 1
+ 40 0 R
+ 2
+ 41 0 R
+ 3
+ 42 0 R ] >>
+endobj
+% 'R39': class PDFPageLabel 
+39 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R40': class PDFPageLabel 
+40 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R41': class PDFPageLabel 
+41 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R42': class PDFPageLabel 
+42 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+xref
+0 43
+0000000000 65535 f
+0000000113 00000 n
+0000000260 00000 n
+0000000425 00000 n
+0000000613 00000 n
+0000000854 00000 n
+0000001095 00000 n
+0000001336 00000 n
+0000001577 00000 n
+0000001818 00000 n
+0000002059 00000 n
+0000002301 00000 n
+0000002543 00000 n
+0000002786 00000 n
+0000003028 00000 n
+0000003278 00000 n
+0000003548 00000 n
+0000003839 00000 n
+0000004110 00000 n
+0000004524 00000 n
+0000004702 00000 n
+0000004864 00000 n
+0000005034 00000 n
+0000005314 00000 n
+0000005594 00000 n
+0000005875 00000 n
+0000006034 00000 n
+0000006323 00000 n
+0000006448 00000 n
+0000006711 00000 n
+0000007144 00000 n
+0000007607 00000 n
+0000008015 00000 n
+0000008372 00000 n
+0000008507 00000 n
+0000017979 00000 n
+0000028137 00000 n
+0000038926 00000 n
+0000044260 00000 n
+0000044392 00000 n
+0000044469 00000 n
+0000044546 00000 n
+0000044623 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(A\225T\2625\017L\220\311>\243o\210\306\363w) (A\225T\2625\017L\220\311>\243o\210\306\363w)] 
+
+ /Info 26 0 R
+ /Root 25 0 R
+ /Size 43 >>
+startxref
+44670
+%%EOF

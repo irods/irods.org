@@ -1,0 +1,171 @@
+<title>roadmap</title>
+<html>
+<body>
+<section class="white_bg">
+        <div class="container">
+            <div class="space_half"></div>
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h4 class="green_font"><i class="green_font fa fa-map"></i> Roadmap</h2>
+                </div>
+            </div>
+            <hr class="small_centered_line_green">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+                This Technology Roadmap documents the state of the technical direction chosen for the iRODS data management software. It is the product of community feedback, our collective experience, and the guidance of the iRODS Consortium Technology Working Group.
+                <br/><br/>
+                If you have an opinion about where iRODS should go next, I encourage you to participate in this open software development process. Join the <a href="https://groups.google.com/forum/#!forum/irod-chat" target="_blank">iRODS chat Google Group</a>. Raise issues on <a href="https://github.com/irods/irods" target="_blank">GitHub</a>. And if you are a <a href="consortium-membership.html" target="_blank">Consortium Member</a>, get involved in the Technology Working Group.
+                <br/><br/>
+                &mdash;Jason Coposky<br/>
+                &nbsp;&nbsp;&nbsp;Chief Technologist<br/>
+                &nbsp;&nbsp;&nbsp;The iRODS Consortium<br/>
+                <i>(Last Updated July 9, 2015)</i>
+                <div class="space_half"></div>
+                <hr/>
+                <h1><i class="green_font fa fa-angle-right"></i> Table of Contents</h1>
+                <ul>
+                    <li id="4.2"><a href="#4.2">Upcoming Release: iRODS 4.2</a></li>
+                    <li><a href="#future">Future Direction</a></li>
+                    <li><a href="#4.1">Previous Release: iRODS 4.1</a></li>
+                </ul>
+                <hr />
+                <br/>
+                <h1 ><i class="green_font fa fa-angle-right"></i> Upcoming Release: iRODS 4.2</h1>
+                For iRODS 4.2, our focus has shifted from hardening the core to hardening the software engineering infrastructure and enhancing integration with external services.  We will choose a standard build system and a compiler across all supported platforms, and we will move the system to a dynamic linking strategy, once and for all allowing for the separation of client and server libraries.
+                <br/><br/><div id="messagingframework"></div>
+                For integration with external services, we will work with existing implementations from our collaborators in our membership and community to capture best practices and standardize message formats and payloads.  The resulting <a href="#messagingframework">Messaging Framework</a> will leverage the new <a href="#ruleenginepluginframework">Rule Engine Plugin Framework</a>, which allows for the use of new programming languages as well as special purpose plugins.
+                
+                <br/><br/>
+                <h3 >Messaging Framework</h3>
+                The messaging framework is a means for iRODS to asynchronously reach out to external services via an AMQP message bus.  Several messaging implementations currently exist within the community, namely at iPlant and DFC.  As this technology has become increasingly important, we intend to gather best practices and standardize message formats, serialization technology, topics, and the services expected to be available for those topics.
+                <br/><br/>
+                The message bus is typically reached through iRODS via policy enforcement points in the rule engine.  With the addition of the new Rule Engine Plugin framework, we will have a fine-grained and fast system for message dispatch.                
+                <br/><br/>
+                <h3 >Reference Implementations</h3>
+                The iRODS Consortium plans to provide and support reference implementations across a variety of use cases and vertical integrations.  The first three are auditing, indexing, and metadata storage.
+                <br/><br/>
+                <ul>
+                    <li><strong>Auditing System</strong>: This reference implementation will provide the pieces, as well as the wiring, to handle a full, provably-complete, auditing system of every operation within an iRODS deployment.</li>
+                    <li><strong>Indexing System</strong>: This reference implementation will provide an external service to handle partial and fulltext indexing of the data objects and metadata stored in an iRODS deployment.</li>
+                    <li><strong>Metadata Storage</strong>: This reference implementation will provide an external service to store large numbers of metadata attributes associated with data stored in an iRODS deployment.</li>
+                </ul>
+                <br/><div id="ruleenginepluginframework"></div>
+                Together, these reference implementations provide a glimpse into the power of iRODS as a cohesive system to track every operation and to provide custom search across arbitrarily detailed amounts of metadata and fulltext.
+                
+                <br/><br/>
+                <h3 >Rule Engine Plugin Framework</h3>
+                This new framework allows the definition of rules in languages other than the Rule Language, such as Python or C++.  It also provides the ability to run multiple rule engine plugins and rule bases simultaneously for a given data management operation, which enables the creation of special purpose Rule Engines.  Coupled with the use of dynamic policy enforcement points (PEPs), this creates a powerful and versatile system for a variety of applications.  In concert with the new Messaging Framework, a special rule engine plugin may publish any and all policy enforcement points and associated data to the AMQP message bus for ingest or action.
+                <br/><br/>
+                <h3>Software Engineering Infrastructure</h3>
+                iRODS continues to improve under the hood due to newer software engineering techniques and C++ features being introduced.  With the addition of the Rule Engine Plugin framework, new C++ features are now required, and they need to be included in the infrastructure used to build and deploy iRODS.  The new build system will be rewritten using CMake.  The build system will standardize on a C++14-capable compiler across all supported platforms. All of the setup, upgrade, and control scripts will be standardized on Python.  The dynamic libraries for the server and the client will be separated and versioned, and the C API will be cleanly defined and isolated.  Though this will be a major departure from the existing build system, it will provide unprecedented flexibility, power, and control as new features are added in 4.2+.
+                <div id="future"></div>
+                <div class="space_half"></div>
+                <h1><i class="green_font fa fa-angle-right"></i> Future Direction</h1>
+                The long term vision of the Consortium for iRODS is to create a hardened core broker which invokes services across groups of plugins accessed through a suite of thin and easy-to-use client APIs. <strong>iRODS and its source code should focus on data management.</strong> A hardened core broker will ultimately allow iRODS to grow in any direction the Membership and Community may envision.  To that end, we envision a set of capabilities necessary for iRODS to reach this level of enterprise readiness.
+                <br/><br/>
+                An iRODS Zone should be able to communicate to a client the capabilities of the Zone, and which servers or groups of servers may provide the best service for the given API request and data object or collection in question.  A client may request a transformation on a particular data set, a replication of that data to a computation resource or the refresh of an index of the data.  The iRODS Zone needs to be able to provide the existence and location of these requested capabilities to the clients or federations in order to best service the request.
+                <br/><br/>
+                iRODS, originally designed around POSIX storage semantics, needs to move to a higher level of storage abstraction.  With the emergence of requirements to treat object stores as first class resources, iRODS needs to further encapsulate the underlying storage behavior behind a more abstract storage interface.
+                <br/><br/>
+                <h3>Plugin Registry</h3>
+                As iRODS continues to move further toward a full implementation of the plugin model, the plugins themselves will come to depend on features of other plugins.  In order to fully realize the ability to ship a set of plugins as a new feature, these plugins need the ability to declare their dependencies to the data grid administrator.  Plugins should have the ability to be packaged together as a single unit, and declare to the system both their requirements as well as capabilities.
+                <br/><br/>
+                iRODS plugins, when installed, need a place to record several things: their state, their capabilities, and their dependencies.  We envision a registry within the iCAT catalog where plugins may centralize this information.  This feature will provide the ability for the Zone to introspect and report its capabilities to the client and other Zones.  A plugin may also determine if all dependencies are met and whether it is capable of performing its operations, at which point an administrator may enable or disable the plugin.
+                <br/><br/>
+                <h3>Next Generation API</h3>
+                The existing iRODS API relies heavily on the client for various operations, such as recursive collection manipulation.  This has caused unnecessary network traffic as well as additional burden on the client API developer, which has historically led to various client APIs in differing states of support.  Further, the existing C API is the only client capable of utilizing the binary protocol.  In order to bring the support of the various client APIs into lockstep, we intend to standardize on a single serialization and messaging technology which is supported by all target languages.  From this point we may begin building a new iRODS API alongside the existing API and bring the support for this new API up to date for all client implementations.  We will also be able to reduce the set of exposed storage operations, more in line with object stores, as we push as much code back from the client into the server implementations.
+                <br/><br/>
+                <h3>Data Transport Plugins</h3>
+                During the creation of the next generation API, it is our intention to further abstract the transportation of data within iRODS.  There is a wealth of existing technologies, such as Aspera and other parallel I/O APIs provided by various storage systems, that can benefit iRODS.  One can envision an implementation in which, during a put or get, iRODS simply brokers the operation and selects the best transport mechanism available for the operation.  This would permit HPC clusters storing data in iRODS on high performance parallel file systems to take full advantage of the native speed of their storage technologies.
+                <div id="4.1"></div>
+                <div class="space_half"></div>
+                <h1><i class="green_font fa fa-angle-right"></i> Previous Release: iRODS 4.1</h1>
+                Each release of iRODS begins with a general philosophy which shapes the decisions about the overall goals as well as particular features to include.  As of the iRODS Consortium 4.0 release, marking the merge between Enterprise iRODS and the Community Edition, the Consortium has been focused on making this product a stable, reliable, Enterprise Ready data management system. For the 4.1 release this objective limits our scope to activities around hardening the code, fixing bugs, and building Enterprise quality infrastructure around our core product: the iRODS Server.
+                <br/><br/>
+                <h3>Hardening</h3>
+                <ul>
+                    <li>Resolve static analysis errors
+                <ul>
+                    <li>over 1200 issues discovered by Coverity</li>
+                    <li>continue to keep cppcheck error free</li>
+                    <li>continue to keep STACK error free</li>
+                </ul>
+                </li>
+                    <li>Resolve any bugs discovered by our Membership and Community
+                <ul>
+                    <li>192 issues in total</li>
+                </ul>
+                </li>
+                    <li>General Improvements - minor architecture updates and clean up of partially implemented features
+                <ul>
+                    <li>Push the plugin architecture farther into the API</li>
+                    <li>Move magic numbers to run-time configuration</li>
+                    <li>Remove built-in PostgreSQL DB Vacuum functionality</li>
+                    <li>Remove boot user from install script</li>
+                    <li>Remove "run_server_as_root" option</li>
+                    <li>Remove roles for storageadmin, domainadmin, and rodscurators</li>
+                    <li>Remove obfuscation (SIDKey and DBKey)</li>
+                </ul>
+                </li>
+                </ul>
+                <br/>
+                <h3>Enterprise Readiness</h3>
+                <ul>
+                    <li>Move configuration to validated JSON - unify configuration file formats into an easy to use, programmatically flexible syntax
+                <ul>
+                    <li>New schema-driven validated JSON configuration files include
+                <ul>
+                    <li>server_config.json</li>
+                    <li>database_config.json</li>
+                    <li>irods_environment.json</li>
+                    <li>host_access_control_config.json</li>
+                    <li>hosts_config.json</li>
+                </ul>
+                </li>
+                    <li>Automatically generated on upgrade from 4.0.3</li>
+                </ul>
+                </li>
+                    <li>Zone Introspection - a step toward configuration management for iRODS deployments
+                <ul>
+                    <li>Generates a validated JSON document describing every server in the Zone
+                <ul>
+                    <li>Sanitized snapshots of all JSON configuration files</li>
+                    <li>Listing of all installed plugins with checksums</li>
+                    <li>Listing of all configured resources</li>
+                    <li>Contents of rule files in base64 encoding</li>
+                </ul>
+                </li>
+                    <li>Leveraged by Consortium Continuous Integration for automated deployment and testing of topologies</li>
+                </ul>
+                </li>
+                    <li>Grid-wide control plane - side channel for communication directly with the iRODS Server
+                <ul>
+                    <li>Per-server or grid-wide operations
+                <ul>
+                    <li>Status information - validated JSON containing connections, PIDs, server state</li>
+                    <li>Gracefully Pause and Resume</li>
+                    <li>Gracefully Shutdown</li>
+                </ul>
+                </li>
+                </ul>
+                </li>
+                    <li>New Client-Hints API - communicate Server configuration information to the Client
+                <ul>
+                    <li>Validated JSON document containing
+                <ul>
+                    <li>StrictACL setting</li>
+                    <li>Desired hash-scheme</li>
+                    <li>Match hash-scheme policy</li>
+                    <li>Listing of installed specific queries</li>
+                </ul>
+                </li>
+                    <li>Will track iRODS schema versions and grow over time</li>
+                </ul>
+                </li>
+                </ul>
+
+            </div>
+            <div class="space"></div>
+        </div>
+</section>
+</body>
+</html>

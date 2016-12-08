@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <!-- About Section -->
+    <section class="success">
+        <div class="container centered main_splash_container">
+            <div class="main_logo">
+            </div>
+            <hr class="small_centered_line">
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h4>Open Source Data Management Software</h2>
+                </div>
+            </div>
+            <br><br>
+            <div class="main_splash_container text-center">
+                <div class="splash_box">
+                    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-12 core_competencies_container">
+                        <a href="#virtualization">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6 core_competencies_pic"><img src="{{ SITEURL }}/images/virtualization_splash_icon.png" class="member_logo"></div>
+                                <div class="col-xs-6 core_competencies_text">iRODS allows access to distributed storage assets under a unified namespace and frees organizations from getting locked into single-vendor storage solutions.</div>
+                            </div>
+                        </a>
+                        <a href="#discovery">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6 core_competencies_pic"><img src="{{ SITEURL }}/images/discovery_splash_icon.png" class="member_logo"></div>
+                                <div class="col-xs-6 core_competencies_text">iRODS has a metadata catalog that describes every data object, every collection, every storage resource, and each user in each administrative zone.</div>
+                            </div>
+                        </a>
+                        <a href="#automation">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6 core_competencies_pic"><img src="{{ SITEURL }}/images/automation_splash_icon.png" class="member_logo"></div>
+                                <div class="col-xs-6 core_competencies_text">iRODS automates data workflows, with a rule engine that permits any action to be initiated by any event trigger anywhere in the zone.</div>
+                            </div>
+                        </a>
+                        <a href="#collaboration">
+                            <div class="col-xs-12">
+                                <div class="col-xs-6 core_competencies_pic"><img src="{{ SITEURL }}/images/collaboration_splash_icon.png" class="member_logo"></div>
+                                <div class="col-xs-6 core_competencies_text">iRODS enables secure collaboration, so users only need to log in to the system to access data hosted at remote sites.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="small_centered_line">
+            <div>    
+                <a href="./download"><div class="btn btn-success">Download iRODS</div></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="green_bg">
+        <div class="container centered">
+            <div class="row" >
+                <div class="col-xs-12 text-center">
+                    <h1 class="light_font">What is iRODS?</h1>
+                </div>
+            </div>
+            <hr class="light_small_centered_line">
+            <div class="row">
+                <br>
+                <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    The Integrated Rule-Oriented Data System (iRODS) is open source data management software used by research organizations and government agencies worldwide. <br><br>
+                    iRODS is released as a production-level distribution aimed at deployment in mission critical environments.  It virtualizes data storage resources, so users can take control of their data, regardless of where and on what device the data is stored. <br><br>
+                    The development infrastructure supports exhaustive testing on supported platforms. <br><br>
+                    The plugin architecture supports microservices, storage systems, authentication, networking, databases, rule engines, and an extensible API.<br>
+                </div>
+            </div>
+            <div class="space_half"></div>
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h1 class="light_font">Who Uses iRODS?</h1>
+                </div>
+            </div>
+            <hr class="light_small_centered_line">
+            <div class="row" >
+                <br>
+                <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    iRODS has been deployed in thousands of locations worldwide, across industries as diverse as oil and gas, life sciences, physical sciences, archives and records management, and media and entertainment.
+                </div>
+            </div>
+            <div class="space_half"></div>
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h1 class="light_font">Who Supports iRODS?</h1>
+                </div>
+            </div>
+            <hr class="light_small_centered_line">
+            <div class="phone_hide col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                <a href="{{ SITEURL }}/about/#members"><img src="{{ SITEURL }}/images/member_logos.png" class="members_splash"></a>
+            </div>
+            <div class="space_half phone_hide"></div>
+            <div class="row">
+                <div class="col-lg-offset-2 col-lg-8 text-center">
+                    Find out more about our members <a href="{{ SITEURL }}/about/#members">here</a>.<br>
+                </div>
+            </div>
+            <div class="space_half"></div>
+        </div>
+    </section>
+
+    <section class="white_bg">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h4 id="virtualization" class="green_font">The Four Core Competencies of iRODS</h2>
+                </div>
+            </div>
+            <hr class="small_centered_line_green">
+            <div class="row pillar_section">
+                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-12 text-center">
+                    <img src="{{ SITEURL }}/images/virtualization_big.png" class="core_icon">
+                </div>
+                <div class="col-lg-offset-0 col-lg-6 col-md-offset-0 col-md-6 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    <h1>Data Virtualization</h1>
+                    <br/>
+                    Data stored in iRODS is typically accessed through an iRODS client. iRODS clients present files as Data Objects organized into Collections. For the most part, there is little difference between Data Objects and files, and between Collections and subdirectories. However, there are a couple of important distinctions:<br/><br/>
+                    &nbsp;&nbsp;• Collections make no reference to the physical storage path. It is possible for two Data Objects in a Collection to be stored in different physical locations.<br/><br/>
+                    &nbsp;&nbsp;• A Data Object may refer to multiple Replicas. Replicas are exact copies of a file, located in multiple physical locations.<br/><br/>
+                        Data Objects and Collections are stored in Storage Resources in an iRODS Zone.<br/>
+                        Each Storage Resource has a name (the Resource’s logical representation) and a hostname and path (the physical representation of the Resource, where files are kept). The hostname is the network name of the device that serves the data, and the path<i id="discovery"></i> is the local file system path or object storage bucket that holds the data.
+                </div>
+            </div>
+            <hr>
+            <div class="row pillar_section">
+                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-12 text-center">
+                    <img src="{{ SITEURL }}/images/discovery_big.png" class="core_icon">
+                </div>
+                <div class="col-lg-offset-0 col-lg-6 col-md-offset-0 col-md-6 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    <h1>Data Discovery</h1>
+                    <br/>
+                    This information about data, called metadata, is extremely useful for Data Discovery, locating relevant data within large data sets. Data Object metadata includes rich, user-defined metadata in addition to traditional system metadata, such as filename, file size, and creation date. This rich metadata allows data to be identified by characteristics such as author names, keywords, case ID, and content type.<br/><br/>
+                    Rich metadata can include whatever descriptors you choose to apply to your data. Rich metadata can also be applied to Collections, Users, Resources, and other iRODS Zones. The entire iRODS catalog for a Zone is contained in a relational database.<i id="automation"></i> Currently, that database must be hosted in a PostgreSQL, MySQL, or Oracle database management system.
+                </div>
+            </div>
+            <hr>
+            <div class="row pillar_section">
+                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-12 text-center">
+                    <img src="{{ SITEURL }}/images/automation_big.png" class="core_icon">
+                </div>
+                <div class="col-lg-offset-0 col-lg-6 col-md-offset-0 col-md-6 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    <h1>Workflow Automation</h1>
+                    <br/>
+                    Each iRODS Server runs a Rule Engine that is an event-triggered background process. The Rule Engine is programmed using iRODS Rules, which specify what actions should be triggered when iRODS initiates a particular system activity.<br/>
+                    iRODS event triggers are called Policy Enforcement Points (PEPs). Consider, for example, a rule to transfer ownership of data objects to the project manager when a user is deleted; the trigger — or PEP — is the deletion of the user. Similarly, rules could be written to extract metadata or pre-process data whenever a file is uploaded to an iRODS Resource.<br/><br/>
+                    Chaining rules and PEPs allows you to create powerful, customized workflows that save time and prevent human error. Complex multi-step scientific processes can be tightly managed and automated by keeping thorough records of ongoing status and other lab information, and only alerting humans when necessary.<i id="collaboration"></i> Organizational data management policy can be captured in an automated, auditable fashion using iRODS rules.
+                </div>
+            </div>
+            <hr>
+            <div class="row pillar_section">
+                <div class="col-lg-offset-2 col-lg-2 col-md-offset-2 col-md-2 col-sm-12 text-center">
+                    <img src="{{ SITEURL }}/images/collaboration_big.png" class="core_icon">
+                </div>
+                <div class="col-lg-offset-0 col-lg-6 col-md-offset-0 col-md-6 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 text-left">
+                    <h1>Secure Collaboration</h1>
+                    <br/>
+                    Even in fields where data may not be published, it is usually necessary to share data sets between multiple workgroups. However, as data sets grow beyond several gigabytes, it becomes difficult to impossible to move the data between locations. iRODS provides Secure Collaboration through three technologies:<br/>
+                    Tickets, Permissions, and Federation.<br/><br/>
+                    &nbsp;&nbsp;• iRODS Tickets provide controlled public access to Data Objects and Collections. The owner of a Data Object or Collection can create a Ticket and share it with non-iRODS users to grant them read or write access. Tickets can be revoked, and they can be set to automatically expire upon a specified date and time or a specified number of reads or writes.<br/><br/>
+                    &nbsp;&nbsp;• iRODS Permissions are analogous to UNIX file system permissions. The owner of a Data Object or Collection can assign read or write access for any number of defined iRODS Users and Groups. Group membership is defined by the administrator(s) of a Zone.<br/><br/>
+                    &nbsp;&nbsp;• iRODS Federation extends data sharing and publication beyond a single Zone. In a Federated deployment, once the administrators of two iRODS Zones share a set of keys, the owner of a Data Object or Collection can assign read and write permissions to users from outside Zones. When reading or writing data, the transfer mechanism is analogous to that for a single Zone. Unless the file is very small, iRODS servers broker a connection between the server containing the data and the client requesting it. As a result, Federation enables high performance access to data stored in any other iRODS Zone.
+                </div>
+            </div>
+            <hr>
+            <div class="row " >
+                <div class="col-lg-12 text-center">
+                    <br/>
+                    <h4 class="green_font">See what's new with iRODS</h2>
+                </div>
+            </div>
+            <hr class="small_centered_line_green">
+            <div class="row " >
+                <div class="footer-col col-md-offset-4 col-md-4">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://twitter.com/irods" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC-W0YRkGWJeuPzv1voCOxhA" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/irods/irods" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <hr>
+            <div class="row " >
+                <div class="col-lg-12 text-center">
+                    <br/>
+                    <h4>Learn more, take a look at our <a href="https://docs.irods.org" target="_blank">docs</a></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

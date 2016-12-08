@@ -1,0 +1,346 @@
+<title>download</title>
+<html>
+<body>
+<section class="white_bg">
+        <div class="container">
+            <div class="space_half"></div>
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h4 class="green_font"><i class="green_font fa fa-arrow-down"></i> Download</h2>
+                </div>
+            </div>
+            <hr class="small_centered_line_green">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+                <h3><strong>iRODS 4.2.0 is the newest iRODS release.</strong></h3>
+                <h3>Documentation</h3>
+                Up-to-date iRODS Documentation is at <a href="https://docs.irods.org/" target="_blank">docs.irods.org</a>
+
+                Release notes are available at <a href="https://docs.irods.org/4.2.0/release_notes/">https://docs.irods.org/4.2.0/release_notes/</a>.
+
+                <h3>Source Code</h3>
+                iRODS source code is available on GitHub at <a href="https://github.com/irods/irods">https://github.com/irods/irods</a>
+
+                <h3>Binary Distributions</h3>
+                RPM and DEB formats are available. There are variations available for combinations of platform and operating system.
+
+                More combinations will be made available as our testing matrix continues to mature and increase in scope.
+
+                The latest packages can be downloaded from our APT and YUM repositories hosted at <a href="https://packages.irods.org">https://packages.irods.org</a>.
+
+                <h3>Installation Examples</h3>
+                <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                or
+                <br/>
+                <pre>sudo yum install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                <h3>Upgrade Examples</h3>
+                <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                or
+                <br/>
+                <pre>sudo yum update irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                <h3>4-1-stable Packages</h3>
+                Before the move to APT and YUM repositories, the binary iRODS packages were made available via FTP.
+                <br/>
+                <strong>Please note:</strong>
+                <ul>
+                    <li>Deploying an iCAT server requires the iCAT package and one database plugin package.</li>
+                    <li>Additional resource servers may be deployed using the resource server package.</li>
+                    <li>To deploy iCommands on a client machine, use the iCommands package.</li>
+                </ul>
+                <br/>
+                <h3>x86_64</h3>
+                <div class="dark_section">
+                    <table>
+                    <tbody>
+                    <tr>
+                    <td class="dark_section_header"><strong>iCAT Server</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <ul style="margin-left:0px;">
+                        <li style="list-style:none;">irods-icat-4.1.10</li>
+                        <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-icat-4.1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                        <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-icat-4.1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                        <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-icat-4.1.10-centos6-x86_64.rpm">CentOS 6 rpm*</a></li>
+                        <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-icat-4.1.10-centos7-x86_64.rpm">CentOS 7 rpm*</a></li>
+                        <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-icat-4.1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm*</a></li>
+                    </ul>
+
+
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">*Please see this <a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/RPM_INSTALLATION_HOWTO.txt">rpm installation how-to</a> before installing.</p>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td class="dark_section_header"><strong>Database Plugins</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-database-plugin-postgres-1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-database-plugin-postgres-1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-database-plugin-postgres-1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-database-plugin-postgres-1.10-centos6-x86_64.rpm">CentOS 6, Postgres 8.x rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-database-plugin-postgres93-1.10-centos6-x86_64.rpm">CentOS 6, Postgres 9.3 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-database-plugin-postgres-1.10-centos7-x86_64.rpm">CentOS 7, Postgres 9.x rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-database-plugin-postgres-1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-database-plugin-mysql-1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-database-plugin-mysql-1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-database-plugin-mysql-1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-database-plugin-mysql-1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-database-plugin-mysql-1.10-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    </ul>
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">
+                    Note: <a href="https://github.com/mysqludf/lib_mysqludf_preg">lib_mysqludf_preg</a> functions are required for MySQL. See the <a href="https://docs.irods.org/4.1.10/manual/architecture/#installing-lib_mysqludf_preg">iRODS documentation</a> for details.
+
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-database-plugin-oracle-1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-database-plugin-oracle-1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-database-plugin-oracle-1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-database-plugin-oracle-1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    </ul>
+                    </p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Resource Server</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-resource-4.1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-resource-4.1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-resource-4.1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-resource-4.1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-resource-4.1.10-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-resource-4.1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>iCommands CLI</strong>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">This package installs just the client iCommands.  Install this package if you want to have a system-wide installation of the iCommands (in /usr/bin), but do not want the entire server.  The iCommands are already included in both the iCAT and Resource packages - so installing this package in addition is unnecessary (and will conflict).</p>
+
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-icommands-4.1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-icommands-4.1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-icommands-4.1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-icommands-4.1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-icommands-4.1.10-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-icommands-4.1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Checksums</strong>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    Please confirm any checksum values before installing: <a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/checksums.txt">checksums.txt</a>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <br/><br/>
+
+                <h3>POWER8LE</h3>
+                <div class="dark_section">
+                    <table>
+                    <tbody>
+                    <tr>
+                    <td class="dark_section_header"><strong>Ubuntu 14</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+
+                    <br/>
+                    <ul>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-icat-4.1.10-1~Ubuntu~trusty-ppc64el.deb">irods-icat</a></li>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-database-plugin-postgres-1.10-4.1.10~Ubuntu~trusty-ppc64el.deb">irods-database-plugin-postgres</a></li>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-resource-4.1.10-1~Ubuntu~trusty-ppc64el.deb">irods-resource</a></li>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-icommands-4.1.10-1~Ubuntu~trusty-ppc64el.deb">irods-icommands</a></li>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-dev-4.1.10-1~Ubuntu~trusty-ppc64el.deb">irods-dev</a></li>
+                    <li><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/power8/irods-runtime-4.1.10-1~Ubuntu~trusty-ppc64el.deb">irods-runtime</a></li>
+                    </ul>
+
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <br/><br/>
+
+
+                <h3>Installation Examples</h3>
+                With .deb packages:<br/><br/>
+                <pre>sudo dpkg -i irods-icat-4.1.10-ubuntu14-x86_64.deb irods-database-plugin-postgres-1.10-ubuntu14-x86_64.deb<br/>sudo apt-get -f install
+                </pre>
+                <br/>
+                With .rpm packages:
+                <br/>
+                Read and follow the RPM_INSTALLATION_HOWTO.txt instructions before installing an RPM.
+                <br/><br/>
+                <pre>sudo rpm -i irods-icat-4.1.10-centos6-x86_64.rpm irods-database-plugin-postgres93-1.10-centos6-x86_64.rpm</pre>
+                <br/>
+
+                <h3>Upgrade Examples</h3>
+                With .deb package:<br/><br/>
+                <pre>sudo dpkg -i irods-icat-4.1.10-ubuntu14-x86_64.deb irods-database-plugin-postgres-1.10-ubuntu14-x86_64.deb</pre>
+                <br/>
+                Note, the database plugin should be upgraded at the same time as the iCAT plugin.
+                <br/><br/>
+                With .rpm package:<br/><br/>
+                <pre>sudo rpm -U irods-database-plugin-postgres93-1.10-centos6-x86_64.rpm<br/>sudo rpm -U irods-icat-4.1.10-centos6-x86_64.rpm
+                </pre>
+                <br/>
+                Note, the database plugin *must* be upgraded first, then the main iCAT plugin may be upgraded.
+                <br/><br/>
+                <div class="dark_section">
+                    <table>
+                    <tbody>
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Development Tools</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">This package installs all the relevant header files necessary for development of iRODS plugins (microservices, resources, etc.).  The development package requires the runtime package.</p>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-dev-4.1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-dev-4.1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-dev-4.1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-dev-4.1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-dev-4.1.10-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-dev-4.1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Runtime Libraries</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">This package installs precompiled shared object (.so) files.  The runtime package is a dependency of the development package.</p>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-runtime-4.1.10</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu12/irods-runtime-4.1.10-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-runtime-4.1.10-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos6/irods-runtime-4.1.10-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/centos7/irods-runtime-4.1.10-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/releases/4.1.10/opensuse13/irods-runtime-4.1.10-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Authentication Plugins</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-auth-plugin-gsi-1.4</li>
+                    <li style="margin-left:17px;"><a href="https://github.com/irods/irods_auth_plugin_gsi">source and usage</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_gsi/1.4/irods-auth-plugin-gsi-1.4-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_gsi/1.4/irods-auth-plugin-gsi-1.4-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_gsi/1.4/irods-auth-plugin-gsi-1.4-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_gsi/1.4/irods-auth-plugin-gsi-1.4-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    </ul>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-auth-plugin-krb-1.4</li>
+                    <li style="margin-left:17px;"><a href="https://github.com/irods/irods_auth_plugin_kerberos">source and usage</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_krb/1.4/irods-auth-plugin-krb-1.4-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_krb/1.4/irods-auth-plugin-krb-1.4-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_krb/1.4/irods-auth-plugin-krb-1.4-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_auth_plugin_krb/1.4/irods-auth-plugin-krb-1.4-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    </ul>
+
+                    </td>
+                    </tr>
+                    <tr>
+
+                    <td colspan="2" class="dark_section_header"><strong>Resource Plugins</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-resource-plugin-s3-1.5</li>
+                    <li style="margin-left:17px;"><a href="https://github.com/irods/irods_resource_plugin_s3">source and usage</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_s3/1.5/irods-resource-plugin-s3-1.5-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_s3/1.5/irods-resource-plugin-s3-1.5-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_s3/1.5/irods-resource-plugin-s3-1.5-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_s3/1.5/irods-resource-plugin-s3-1.5-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_s3/1.5/irods-resource-plugin-s3-1.5-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-resource-plugin-hpss-1.4</li>
+                    <li style="margin-left:17px;"><a href="https://github.com/irods/irods_resource_plugin_hpss">source and usage</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_hpss/1.4/irods-resource-plugin-hpss-1.4-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    </ul>
+
+                    <!--
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-resource-plugin-wos-1.1</li>
+                    <li style="margin-left:17px;"><a href="https://github.com/irods/irods_resource_plugin_wos">source and usage</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_wos/1.1/irods-resource-plugin-wos-1.1.deb">deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_wos/1.1/irods-resource-plugin-wos-1.1-centos5.rpm">CentOS 5 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_wos/1.1/irods-resource-plugin-wos-1.1-centos6.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_wos/1.1/irods-resource-plugin-wos-1.1-suse.rpm">SUSE rpm</a>
+                    </ul>
+
+                    <p style="font-size: 1.15rem; font-family: Helvetica, Arial, sans-serif;">irods-resource-plugin-directaccess-1.0b1&nbsp;&nbsp;&nbsp;[<a href="https://github.com/irods/irods_resource_plugin_directaccess">source and usage</a>]  [<a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_directaccess/1.0b1/irods-resource-plugin-directaccess-1.0b1.deb">deb</a>]  [<a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_directaccess/1.0b1/irods-resource-plugin-directaccess-1.0b1-redhat.rpm">RedHat&nbsp;rpm</a>]  [<a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_directaccess/1.0b1/irods-resource-plugin-directaccess-1.0b1-centos6.rpm">CentOS6&nbsp;rpm</a>]  [<a href="ftp://ftp.renci.org/pub/irods/plugins/irods_resource_plugin_directaccess/1.0b1/irods-resource-plugin-directaccess-1.0b1-suse.rpm">SUSE&nbsp;rpm</a>]</p>
+                    -->
+
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="2" class="dark_section_header"><strong>Microservice Plugins</strong></td>
+                    </tr>
+                    <tr>
+                    <td>
+                    <ul style="margin-left:0px;">
+                    <li style="list-style:none;">irods-microservice-plugins-curl-1.4</li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_microservice_plugins_curl/1.4/irods-microservice-plugins-curl-1.4-ubuntu12-x86_64.deb">Ubuntu 12 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_microservice_plugins_curl/1.4/irods-microservice-plugins-curl-1.4-ubuntu14-x86_64.deb">Ubuntu 14 deb</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_microservice_plugins_curl/1.4/irods-microservice-plugins-curl-1.4-centos6-x86_64.rpm">CentOS 6 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_microservice_plugins_curl/1.4/irods-microservice-plugins-curl-1.4-centos7-x86_64.rpm">CentOS 7 rpm</a></li>
+                    <li style="margin-left:17px;"><a href="ftp://ftp.renci.org/pub/irods/plugins/irods_microservice_plugins_curl/1.4/irods-microservice-plugins-curl-1.4-opensuse13-x86_64.rpm">OpenSUSE 13 rpm</a></li>
+                    </ul>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <br/><br/>
+                <a id="legacy"></a><h3>Earlier versions:</h3>
+
+                <a href="ftp://ftp.renci.org/pub/irods/releases/4.0.3/">Binaries for iRODS 4.0.3</a> | 
+                <a href="ftp://ftp.renci.org/pub/irods/releases/4.0.3/irods-manual-4.0.3.pdf">iRODS 4.0.3 Manual</a> | 
+
+                <a href="https://github.com/irods/irods-legacy" target="_blank">Source code for iRODS 3.3.1 and earlier</a>
+
+            </div> 
+            <div class="space"></div>         
+        </div>
+</section>
+</body>
+</html>

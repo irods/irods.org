@@ -1,0 +1,5656 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 70 0 R
+ /F5 73 0 R
+ /F6 86 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 131.0236
+ 0 ]
+ /Rect [ 62.69291
+ 632.7736
+ 144.9529
+ 644.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 131.0236
+ 0 ]
+ /Rect [ 527.0227
+ 632.7736
+ 532.5827
+ 644.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Rect [ 62.69291
+ 614.7736
+ 113.8329
+ 626.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Rect [ 527.0227
+ 614.7736
+ 532.5827
+ 626.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 404.0236
+ 0 ]
+ /Rect [ 62.69291
+ 596.7736
+ 121.0629
+ 608.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 404.0236
+ 0 ]
+ /Rect [ 527.0227
+ 596.7736
+ 532.5827
+ 608.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 167.0236
+ 0 ]
+ /Rect [ 62.69291
+ 578.7736
+ 124.3729
+ 590.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 167.0236
+ 0 ]
+ /Rect [ 527.0227
+ 578.7736
+ 532.5827
+ 590.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 711.0236
+ 0 ]
+ /Rect [ 62.69291
+ 560.7736
+ 129.3829
+ 572.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 711.0236
+ 0 ]
+ /Rect [ 527.0227
+ 560.7736
+ 532.5827
+ 572.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 233.1176
+ 0 ]
+ /Rect [ 62.69291
+ 542.7736
+ 126.0529
+ 554.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 233.1176
+ 0 ]
+ /Rect [ 527.0227
+ 542.7736
+ 532.5827
+ 554.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 82.69291
+ 524.7736
+ 308.3529
+ 536.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 524.7736
+ 532.5827
+ 536.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 582.6236
+ 0 ]
+ /Rect [ 82.69291
+ 506.7736
+ 217.7729
+ 518.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 582.6236
+ 0 ]
+ /Rect [ 527.0227
+ 506.7736
+ 532.5827
+ 518.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 82.69291
+ 488.7736
+ 221.6429
+ 500.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 488.7736
+ 532.5827
+ 500.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 464.0605
+ 0 ]
+ /Rect [ 82.69291
+ 470.7736
+ 202.1929
+ 482.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 464.0605
+ 0 ]
+ /Rect [ 527.0227
+ 470.7736
+ 532.5827
+ 482.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 134.8605
+ 0 ]
+ /Rect [ 62.69291
+ 452.7736
+ 126.5929
+ 464.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 134.8605
+ 0 ]
+ /Rect [ 527.0227
+ 452.7736
+ 532.5827
+ 464.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 434.7736
+ 238.8229
+ 446.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 434.7736
+ 532.5827
+ 446.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 684.0236
+ 0 ]
+ /Rect [ 62.69291
+ 416.7736
+ 131.6029
+ 428.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 684.0236
+ 0 ]
+ /Rect [ 527.0227
+ 416.7736
+ 532.5827
+ 428.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Rect [ 62.69291
+ 398.7736
+ 145.4929
+ 410.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Rect [ 527.0227
+ 398.7736
+ 532.5827
+ 410.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+33 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Rect [ 62.69291
+ 380.7736
+ 141.0529
+ 392.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class LinkAnnotation 
+34 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Rect [ 527.0227
+ 380.7736
+ 532.5827
+ 392.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class LinkAnnotation 
+35 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 657.0236
+ 0 ]
+ /Rect [ 62.69291
+ 362.7736
+ 199.4229
+ 374.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+36 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 657.0236
+ 0 ]
+ /Rect [ 527.0227
+ 362.7736
+ 532.5827
+ 374.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class LinkAnnotation 
+37 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Rect [ 62.69291
+ 344.7736
+ 196.0729
+ 356.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Rect [ 527.0227
+ 344.7736
+ 532.5827
+ 356.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class LinkAnnotation 
+39 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 459.0236
+ 0 ]
+ /Rect [ 82.69291
+ 326.7736
+ 176.0729
+ 338.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 459.0236
+ 0 ]
+ /Rect [ 527.0227
+ 326.7736
+ 532.5827
+ 338.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class LinkAnnotation 
+41 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 231.0236
+ 0 ]
+ /Rect [ 82.69291
+ 308.7736
+ 167.7329
+ 320.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+42 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 231.0236
+ 0 ]
+ /Rect [ 527.0227
+ 308.7736
+ 532.5827
+ 320.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class LinkAnnotation 
+43 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 483.0236
+ 0 ]
+ /Rect [ 82.69291
+ 290.7736
+ 217.7529
+ 302.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class LinkAnnotation 
+44 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 483.0236
+ 0 ]
+ /Rect [ 527.0227
+ 290.7736
+ 532.5827
+ 302.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class LinkAnnotation 
+45 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 300.0236
+ 0 ]
+ /Rect [ 82.69291
+ 272.7736
+ 196.0829
+ 284.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class LinkAnnotation 
+46 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 300.0236
+ 0 ]
+ /Rect [ 527.0227
+ 272.7736
+ 532.5827
+ 284.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class LinkAnnotation 
+47 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 132.0236
+ 0 ]
+ /Rect [ 82.69291
+ 254.7736
+ 230.5329
+ 266.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class LinkAnnotation 
+48 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 132.0236
+ 0 ]
+ /Rect [ 527.0227
+ 254.7736
+ 532.5827
+ 266.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class LinkAnnotation 
+49 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 506.6236
+ 0 ]
+ /Rect [ 82.69291
+ 236.7736
+ 181.0729
+ 248.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER46': class LinkAnnotation 
+50 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 506.6236
+ 0 ]
+ /Rect [ 527.0227
+ 236.7736
+ 532.5827
+ 248.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class LinkAnnotation 
+51 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 446.6236
+ 0 ]
+ /Rect [ 102.6929
+ 218.7736
+ 186.0729
+ 230.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER48': class LinkAnnotation 
+52 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 446.6236
+ 0 ]
+ /Rect [ 527.0227
+ 218.7736
+ 532.5827
+ 230.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class LinkAnnotation 
+53 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 169.4634
+ 0 ]
+ /Rect [ 62.69291
+ 200.7736
+ 147.7029
+ 212.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class LinkAnnotation 
+54 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 169.4634
+ 0 ]
+ /Rect [ 527.0227
+ 200.7736
+ 532.5827
+ 212.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER51': class LinkAnnotation 
+55 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 509.0236
+ 0 ]
+ /Rect [ 62.69291
+ 182.7736
+ 124.9529
+ 194.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER52': class LinkAnnotation 
+56 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 509.0236
+ 0 ]
+ /Rect [ 521.4627
+ 182.7736
+ 532.5827
+ 194.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER53': class LinkAnnotation 
+57 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 577.0236
+ 0 ]
+ /Rect [ 62.69291
+ 164.7736
+ 149.3929
+ 176.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER54': class LinkAnnotation 
+58 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 577.0236
+ 0 ]
+ /Rect [ 521.4627
+ 164.7736
+ 532.5827
+ 176.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER55': class LinkAnnotation 
+59 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 184.3691
+ 0 ]
+ /Rect [ 62.69291
+ 146.7736
+ 174.9629
+ 158.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER56': class LinkAnnotation 
+60 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 184.3691
+ 0 ]
+ /Rect [ 521.4627
+ 146.7736
+ 532.5827
+ 158.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+61 0 obj
+% Page dictionary
+<< /Annots [ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R
+ 38 0 R
+ 39 0 R
+ 40 0 R
+ 41 0 R
+ 42 0 R
+ 43 0 R
+ 44 0 R
+ 45 0 R
+ 46 0 R
+ 47 0 R
+ 48 0 R
+ 49 0 R
+ 50 0 R
+ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R
+ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
+ 60 0 R ]
+ /Contents 128 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER57': class PDFDictionary 
+62 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 332.7736
+ 529.5827
+ 344.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER58': class PDFDictionary 
+63 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (file:///var/lib/eirods/iRODS/doc/html/index.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 314.7736
+ 529.5827
+ 326.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER59': class PDFDictionary 
+64 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 260.7736
+ 529.5827
+ 272.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER60': class PDFDictionary 
+65 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org/doxygen) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 242.7736
+ 529.5827
+ 254.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER61': class PDFDictionary 
+66 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.amazon.com/dp/1608453332) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 242.4129
+ 212.7736
+ 421.3929
+ 224.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER62': class PDFDictionary 
+67 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.amazon.com/dp/1466469129) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 182.7736
+ 264.6729
+ 194.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+68 0 obj
+% Page dictionary
+<< /Annots [ 62 0 R
+ 63 0 R
+ 64 0 R
+ 65 0 R
+ 66 0 R
+ 67 0 R ]
+ /Contents 129 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER63': class PDFDictionary 
+69 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/download) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 242.2229
+ 723.7736
+ 357.2829
+ 735.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F4': class PDFType1Font 
+70 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page3': class PDFPage 
+71 0 obj
+% Page dictionary
+<< /Annots [ 69 0 R ]
+ /Contents 130 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+72 0 obj
+% Page dictionary
+<< /Contents 131 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F5': class PDFType1Font 
+73 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page5': class PDFPage 
+74 0 obj
+% Page dictionary
+<< /Contents 132 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER64': class PDFDictionary 
+75 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (file:///var/lib/eirods/iRODS/doc/html/sys_backup_m_s_8c_abab044dfcae659a200741d4f69999c29.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 131.7529
+ 579.7736
+ 214.2328
+ 591.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER65': class PDFDictionary 
+76 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.postgresql.org/docs/8.4/static/warm-standby.html#WARM-STANDBY-RECORD) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 115.1822
+ 489.7736
+ 247.4107
+ 501.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER66': class PDFDictionary 
+77 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.postgresql.org/docs/9.0/static/warm-standby.html#STREAMING-REPLICATION) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 160.9445
+ 453.7736
+ 274.9662
+ 465.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+78 0 obj
+% Page dictionary
+<< /Annots [ 75 0 R
+ 76 0 R
+ 77 0 R ]
+ /Contents 133 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER67': class PDFDictionary 
+79 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/download) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 333.1291
+ 558.7736
+ 448.1891
+ 570.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page7': class PDFPage 
+80 0 obj
+% Page dictionary
+<< /Annots [ 79 0 R ]
+ /Contents 134 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER68': class PDFDictionary 
+81 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/release/e-irods-composable-resources/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 126.0529
+ 543.7736
+ 371.6929
+ 555.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER69': class PDFDictionary 
+82 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/dev/wp-content/uploads/2013/02/eirods-composable-resources.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 528.7736
+ 529.5827
+ 540.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER70': class PDFDictionary 
+83 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/dev/wp-content/uploads/2013/02/eirods-cr-slides.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 513.7736
+ 529.5827
+ 525.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER71': class PDFDictionary 
+84 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://eirods.org/dev/wp-content/uploads/2013/02/eirods-composable-resources-poster.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 498.7736
+ 529.5827
+ 510.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+85 0 obj
+% Page dictionary
+<< /Annots [ 81 0 R
+ 82 0 R
+ 83 0 R
+ 84 0 R ]
+ /Contents 135 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F6': class PDFType1Font 
+86 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F6
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'FormXob.7a3bd19666ee9a405e1aad925c8d21ce': class PDFImageXObject 
+87 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceRGB
+ /Filter [ /ASCII85Decode
+ /DCTDecode ]
+ /Height 322
+ /Length 44705
+ /Subtype /Image
+ /Type /XObject
+ /Width 738 >>
+stream
+s4IA0!"_al8O`[\!<E0k!([(is5<s.7<iNY!!#_f!%IsK!!iQ.!>5A7!!!!"!!*'"!?(qA!!!!"!!!!k!?2"B!!!!"!!!!s!@RpM!!!!"!!3-#LM6_k!!!!"!!!"&z!!!!i!!!!"!!!!i!!!!"!!8ep!!E9%!!*'"!ofjT!!E9%!!*'"!C?bd!!*&X!H)RmFDs8o05bh`@:X:cAM.J2D(g-BE%`pu0J<DgGWL(dE,B0.@3Bf3Ci4;TGWd6ZA8bpg3c9""D.Rft0-VN`3d>L\FDF#`=A;U76Z7!V+>b]-/heJ5$6UH64E=tE3`8@8+F%a>DK@jZA7dtKBQS?83\N.1GBYZ`1G3TdB.ku"3B8`H1+tC</TPB6/TZ2TFCBDGDK@$H4piDT+<VdL4E=tE3^dP#@rc:&FD5Z2+ED")3alK9F`]bj+poG8+<VdL+<VdL+<YoGCi4;TG\qC_,%u(?E&oX*DK@F=A8bpg/n8g:06goE0/5(50-WRe+<VdL+<VdL+?XmcE&p@,ART\!E`?sqCd(-qDdm9#8SqmKAQ!)JA9g9jG\qC\6ZQaHFDl2!Df9GU$6UH6+<Vdh061T83^dP#@rc:&FD5Z24piDT+?V;tA7dl#6q0?I4>1q?G\qD:ATV?E$3:+\!(-_f!<E6&!<N<'!WiE)!WrT.!s8W-"p>&2"U>5:#6tG;"pYDA#mU_C#R1J>%1*@L$OdFP#71hL%1E^S$k*ODgAjSA!WiE*!WrT.!sK&<"pbSE$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=M$O[=Ms1eUH#Q[6niWB3*!!3`5!tbS6_uLkZ!!*6(!<E3%!<<*"z!!*-'"9eu7#RLhGs24oF&-)b4!s8T-!sJi2"98E&I/sBO!!El;&g8tq"qsjB#9n.%14bR]#U;[@_%fkqn0Bf!Ee4T)()If*)C6^X-n-W&2)[BQ3BBMq77Kd<8P2o\<E<1'=^#<GAS,RgBkh^2F`qtRH$Y*rKnbA=M2II[Pa.Q$R$jD;USO``Vl6SpZEppG[^WcW]#)A'`Q#s>ai`&\eCE.%f\,!;ioB+]k3(smlLFH:o_%qPq"add_uLk[!!<6&!<E3%!<E3$z!!*-'"9eu7#RLhGs24oF&HDk5!X&W.":#)5"98H(G5qXF!tbY>+Ya065u@kqE>'NOJHurVOeK%r#pV6(n.fDQd0^X71uTbN(Dn#.-7:2j.Q'+C3&s#e6q'R884cEP<)lt#=BSg;A7]@cBPD4&FEMbNG^4UeK7nr5LPUeEP*;,qQC!u,R\HRQV5C/hWN*81['d?O\@K2f_o0O6a2lBFdaQ^rf%8R-g>_/RjlYail0@j2o_%qPq"addg&MN`!<<05!tbMt!<)hiMC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J.S%mm\^U30]^LY[DRL^,1+-t%i>"rbg`3n.*SNNg1AoEp*\W(m<Uheu9pb+;uR16@uN7NLT.cS(Ga@<<bPU<Q&7uP;cl=%!B79WT(8hHpL8&P(Nn6UU(Fq^7H[GM2+.-ct0Yq$@#[7C5s&+oY?rr>D.Jq*7k+9!n--@]e!q(8%rrGmPj!(AJb`Huj2IMWMuFI![qQ*p@6O/h0B#-k`<;hWAkSQ1TM:(uaN]t'l.YKj=empl(#rZCCpQi;_("TJJ["@)fi+7T:1:Q3'\1&*-r!!"2B!93>78rDg2e\cm`,_*"[mJd1)"NCB@d.X[B!WN/ST=)H'rr>iR^[s8U-iX/H+o_Q%kl1X<qKulS!25Ii5PP6irr<jBMH!IOX+pWSTLf(_?Qf@KL^B">!28dequcs![m+YXiVoGeJ*:D3:]:>]rrC$crr<T%pri[;6Q^o0n,a^20#&+!U\e+%rr><Hrk:\u!"]e[rr>F?^\A'6!,d8:rrBt84u3-<d)Y(:quDNP!/mWO+6i<^re<W?rrCs[5Q"f9.8`V/XrI@k,Q3"BrZEO@reIn2n.5NRrN6)"L\cC0rrAaR_*@\q&,uVG8,PU#j"L?>IL6#S^^,Gb])5I#O6p12r;oLcq$6g_9OI`/CB":l+8rbI>Q4[6o_?W0!(.i[J+*L]r[s9,J#C:nqAB,Drr@Q\rrDS3pn^D$g:2(t"HW6H&,:[B^\T#%rrBi!qfDJ?rZCCpQi;_("TJJ["@)fi+7T:1:Q3'\1&*-r!!"2B!93>78r>j@E8U9o+7%u0nGt@ooKB8T!.]RmkO!3c5L\XGr=",]rrBh?J,$T>iVoGeJ*:D3:]:>]rrC$iift4-C>lqk&jP!h5N2`RrrD80=8r7#rrDH4g>D[TVoE*?)#P'I!.YX\!:b/\_u2bSrrCEdi1KoIL]7@4YJht>rmeo9cm4+EOFP1O`W#qbp94GrrrCfG[D252!)JQgoJ-+grr<$BrrD'Brr@iNHtE<XTo[#Sp]1p*!#K""<)NUpLAq7H8H/Zs+TDFt$&ef`U$Z4b"9/A15APc-rgt'Xk[X*XrW#=c!6*@c!"\_sbPqQ0++f"3![%Co^D*WAqc=7,!'l\G^-Vc!&/,l[!(5JTp]pg!DLU8AJ&-Co2JQ09H@EE_l/]j-a/6eq*k2YdVgn21^Y/e.?aT:gQ(`HCihVm'lWT"egf$);!Z9)#E:L(BFSSm;o$dIUrrC/FPQ&DhrrD7S?df8X&RYN7n)7(=rR=((Y$09rlnKB(`)EJ)q5pQi5;^C@=KW7qRH4$\Z`aO$:@ck8,dt>>^&"@%d7"fA8'hDR;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y;4=oSI*jo5=E+gq=MZ's#=!(C-og3)pur"k_!9SV0u`bRg;'ldQ?;?$GceK,58rrC-<'E/bs2SZYDr0GStrjb>p!2>dlik6H-Y5\Kbfr4oNf-ilU;V.F;bl7\"lMgj@rb(mOLL9UFARG,iQi<(uMC>V@m"1*CTE:#JrrE$),Oc(/KD&ICcgdo0ep\CuShKTHhOEK]$L3*P+a]1^_tQ)@cSb%(/aaBIJJtOS^*Zj.`.Pk.KD*IX[XmHLfUCu0puh1:i+Ku8O8]OW23%V9Klt]D7e,bFg3XBpg>7HjCE0&r&PX3"])\qC!0G%U:HD,_nF3=/;Gh@<g.uTe\Q.27P&">A8*:$jqZEa@#N>-2IqQAXpaA%onDt`rd(DRh[J,4rdR8C6VrDA:MT.5b,@?f73#D0t70!Xf`o_.!r58C@CHi[Zpg`?6M`)Xg^(u);n7Jrb?(.sVHr8kg9=ql5;IjL5b>+$JDD!":raS;&,[_\,74XKn4neO235WrM7G[pSlP4*T]6?nPl.4`%;.$H?)h&=m'2ec0Jt%5,^,>CXpd\XdMXfqT?6Ho.ZkK9M*[A4QqoO34Vootq>$shl0rQC>\!*50A'`jI0A9q8$KpDefn89+J\2$`!"'[`R]hPF4MDW@cu#I7!lc24U:lT\37d0I1YWPkR5:7uW*QC,\V.JP\h:?<h*qlp]<b*]W?eUHpKat<os6k-BWoi+fR*=U]`.t`KQq:mkJFuo^)6>rIL*7SD6<T:_KHi)LMZ<QK(#dA2n!KNTo!>2["No`fq\r_0eE4m^)$WHZMg4Vi.i?ln`POP-/fk7iYBMQI7$NQp!$i7K2I%4-I^q>8RdR!BV&SdWZdKE7O4+\"sJP=Wd2QUEce-Jhr]l7c)84D:A3pbF`0pFSosZqr"RWR8atp0A+BFbn?9_+h/<5m:Xjb<UheE#Wm)6a/GF>)=VXV-7_8aB-n7b.8aB^EnLqqXrX'&5!!JYYYJebI3_"ZB`BStr/(3c_`>X2jD5PY=*BO*T@b0d\j$]>,STfkC#Z*UL/bD9HDqU2h5IFkr(A$LVL[gc`Y'_aoHn!K+7B'GGaRR*F-(^92=Cl"HKP_imIK;W7Duh4]F,m\Q.TM_uV\Mp+kDFJqMM"rQ=418c\((>)YGXVCSc8]Z9A^E_!5V"76PMQlMu4+DSM&q#oUB'UF&GH<eF-EM0t+En6>)k?1*gJcW2mGraP1'8kT2e3^+AO*2"8iYjmi*=7I_J;*G7aRLIKV'.:XZpf7U:)ZIVq<,rCu-23(+b)&cs)$/`DV2p*635qi%,Vnm<K$!mQ2l+ZG@QX;YS>6Tk_8TIRr>a)L.kh_iP3pC:P9?u_B^*1oD_qP(^K[-kdNPq.Ll7a'M'dS6.::C-JrrC/2nH]#GY(-(Z<[BQd+R^#s;+205'N%:!HGAffrr=?_:\tC?rrA`=InUsR7=Y,'^P+o<pJCkid^a/hTDae"jK6Q(!+>VPoH^X)KDl.[rr=JAn>H56l6#k(/UOlijA-lfrf$hNnI,=k%8Zj*O8bAl>=B6-cPV?M;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y;4=oSI*jo5=E+gq=MZ's#=!(C-og3)pur"k_!9SV0u`bRg;'ldQ?;?$GceK,58rrC-<'E/bs2SZYDr0GStrjb>p!2>dlik6H-Y5\Kbfr4oNf-ilU;V.F;bl7\"lMgj@rb(mOLL9UFARG,iQi<(uMC>V@m"1*CTFZ;GMna-IIq<IE`nhI#kCdrlLu/Vi-!A3"ibo4i(G]/%UC3JAmVT+:"g+pOFsUZ+fZEr0'p]r#*u9;+CR."=YJD<5Shfg1K3!a$<P6iZGVAK'/Cdiq@r<(%38iRp8=boE)].VP@!jki%QAp5m9O:G-bZ?%SsHu[UtrDk\h;)$;W%H]6/k$dp<Ku=JYMou9Xa_)@H#VlGlAQY\A",R2s'CS25N$Tbf;K,g+n'"&uA(?_=2+8'G'/na6_W3n;H=f_9HW2Sc[@<<HI0'#=i@c1T0MA!M""R3UXW$lZWq;1?KiuJk&\IjI.JW^Th`l,oBh:g/:`&]q*Wcom6&TBsrGZj,`scIBSPm3W@;F0@9\5l(/p"rLLAaAYNo8e=UC'XeNH!To!<G(QoP9eK\cJbg+&#4L&)Krr?W6paCXi1KXJgb^Rrhn;)R2@p@NlTD1pk[=6C#!$N1siq!*#j?NLU[V'fLo6GStm`>4(M@,A>KT.ui;"nN;(TZ+BD7+`J<o1IS\a@/9fBnLr!"<5p0-"a,!:Z"u_Fsn/$($6d?O(j`Du1X/rnN=%C#.lB^Lk^cG[9#"b?nJ$-MY^A5D;>k5`ZF[r,MLYAap_W3r]3"$i=.d(=]//05RFi1-$SiZFiST,%W6'QB"CEOjp?>a6)Ju9B2"LIg8F$g%C>%r',+ADkb]!mR(V-_-Me,LH>WmIT#*:*+jdWfhFS>UHP5+>LfVH;mi^WT"CcT^M-KuX$H3am,b*l)Z>pb++M/7ph=HCSUXR2X^/>_?c9O+N5Ze2[mhd1,"?OU`u:\8:F?9`HqOD=K!>$F=T,c-&+S90k(R[29ma\p(7h/<@<Ha9.r4qIX\H1'4sPlNkDc$8"q$+DncKDdkb-Ke:),9=?V)hRGNZFmme+8Zp[!s<IP1WJJ$XWcoUc`\4q%=[Fmfb6[pHPR>BI@EqmM3Qh+4G\c+TLM=]nVVHJ>gC"p3kh'uKsd5IG/%0aI)gi3/$1fK\khrrBnXF#D#3?e^%Kp:iB>=E3O"Ebrdc]/prnESi"^.%nt!oMldfh:s9EC!'4@X_YB!e$C]PRp#akKT!cpL8!`)5An#pj3-8jB(dg8i+EqIE%6h]:j+-rA/%m0!t$HNJ3@953WB)B[jV-,jo5>-P/!k)p`dKNUYiq\p%t\;l!1Xoci1sLnlFiO!3gjcq@Zm%_>aK<=8r8bHh^P=^NC(c/!dm&TCO@jq#:=`IjXrErr=DNVu;6<rr>YTXeL\'kDV`b.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gX!.%gXU/H5^%o)A^3OP9^7fZe(/!2?VHm5k$KrX6pL!%('Krr?OdTDj_XY=C#@!.C^/NsCPljAUp8!"2!l4u%N12u`jk4F;4Of]ncgdG-!^,Ear92P=BOl!2"$0d`t$!(":_rr"uKqaZ$:nL'#S/72P)G?DMb[#R,'`>\fW9PR@A;d;!R0@(Mcd)2f3ha@;lgW%jg@u.(`;NmC%p$;@EU%!e2i[nu-"$?d#651Fg3(?`V;<;&^^Llo^hcK)errDQ,R]lYoo`"pgo^mXN&o,2R)q4fen'fkhrr<Gu`aA?ll6#cIrr<BjiI6$pre;F\rq[_q>eaC`J*5%irrDgAdJj2SpnRih6Yo!d$i^4pB7Kp]$q[K!!75X[rrBf08,P(gX8`/c]g)Mp4`DM4^H?*-!(.6irr@HXn>#t!kD[1>@FRO1U&GaS@k%EXT/-<D!8rY+%uNUD2T,Opi4o9RGQ.[4`1!n.#5%oqqt0N1_\-_!oGc9Z!:SCg!WN--o>Y/00^9bSd/O(Q5N.'9bPm5:6iQp(iCDHSTDA(3^]"Lg@/-Ms!(1QerX8`+mUq%L!";H!rrCDa:]CF0:Ik=;-EI.H6+oM^rB5*An@q(srr>CrU&P+@&+H@n([$alk[Dt*n"K^pI:F`+!1u%DrrCu4p(*$FoJXVe!8tWkk'-h*nALd!r<Doo!;lE\J&;n6^[rJorrDN:f)bmO$hMAFoJ#PPpX&p?$:!KuGg$)@*CKi&+5o`@18"C60>IJlIpi&Hrr>E&5Q2&j!:FKLrr<I!WrE(GDbpB5^J@At0d`t$!(":_rr#!!+7R$-AcD`t%\`n&I1PhBrYOaV^Z]+U5OY<F'RaI?rrAZHqu6ZSL\;795P-kOrrCulroSG)!:[pqYPe[trrDrgoRFakC;9B[e,KF:e(4X#!"8D<?h?&;+8=.^!"(sLIX''8L)iY\qB+ZdehWlno.RlX#_-7WU]1<]Cd7n,rrDJ"J,]KW8ZMdjcu2_[!5D<"r%TP!rr>?u5Q:UEE$+Sa4D"Nm6Oogi!.>CIU])(mN5+Rbe3EDqrY0cj.K9C?1Ah(Oi.q":MEg_k_uB_p^]*A>rrDQ,R]lYoo`"pgo^mXN&o,2R)q4fen'fkhrr<Gu`aA?ll6#cIrr<BjiI6$pre;F\rq[_q8(KGfq=?8SrWn!]pnRih6Yo!d$i^4pB7Kp]$q[K!!75X[rrBf08,P(gX8`/c]g)Mp4`DM4^H?*-!(.6irr@HXn>#t!kD[1>@FRO1U&GaS@k%EXT/-<D!8rY+%uNUD2T,Opi4o9RGQ.[4`1!n.#5%oqqt0N1_\-_!oGc9Z!:SCg!WN--o>Y/00^9bSd/O(Q5N.'9bPm5:6iQp(iCDHSTDA(3^]"Lg@/-Ms!(1QerX8`+mUs%W&,i!d^(g@e[7s.h[C_F#SdggW.E`GdkPa-6L-OURrrDVNIgU\Wm\0X\V/k2ZHi#ID;Xk9VIO.R"idG"up=NM>+HAbog_helH^aqq^Yk"L!:l2#$@g[qU&P+hEn<cEF=3?miSr@4p3qtu@lM9fGYU&c4T;uCi]VnfTXeRUbcIp[lF#i(>=B6-b+AB*72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`!72,`'`LlX+?hlGr?i(_BrrD[k`I4Xk(4X/GJ)n[fJ*^dRrrCGJ($Oa$n$Kc*i:0V@MK(l>BCfp9=+A>.e:6eK+8RF%c7@<B!,Cuu/Xhb!EeFAl74if(4O<uoYP=aPIo:N6rr==Q<W<&*.=^Rf.&)UX50,.HM?#'.d?"&NVsGAl45bVUErQ-G?gOhfGcP$C[GnA%kr,trXo>>MZ[=J:i.oI]0l>`emZT3m9_]4$MQ<;LCVJ94i0@UL5I=nt&=`B0rM=)QjjZNR*^:P'[_G?X]e/=T6#6^kffufjmW-b=ao11_;RuDVlRj",6F2WQ--WQ'q/lA4jL!N,^#s$=eu.V((&)X_rrC[fiEsL+fi-qWN;iloTD2"GFg$AR&E<2[fk<<[D^N!:AV$r1jAneRcDp7l7q@W=$B2o(*iJm!r"f78IptX!*tc7ucO0H.iMV_8$n[b4\)H)dI-Yr:m[%oHOOm<%,Uk![7/1t)nnlYWbQ>DI?e\ObRSf9+P)GTl.WVr.hTqU)P=k](na@KJ_*:&3i4fp&(X['6Yr1?Mj3EWoXS?,J:V1#rD^I0S"iF)tUiMf,*&A_Yq>0-pIOY1Mf)?&)9%WtanLD`Z42a<"e0i];.pk.[q_c;EA!&^ib`.?T18KP_%=WtZe:.q7hi-G1^YkVg&+Q"?J$JoQi,8p8pYTSM_`*]tWgI>fj;aq3G/FfF#/'9>hsaFfLUKFS=7&rGDiPXj,I$qfq`+A:pIop>3co4K?Cga\m.C/\VjJ2&r/tWYL+3CNr7dKAj20t[JsCQ-]-XM,dD@>J]?sg:lZ;%M/(sn^Hrp(jnGtHlpatuj`*X%(a/En*j;p.+?1f-h5"-,gW/?&=]GXEC!6[G#?f?5,'(<_f[D0Q(*6k.*bs*%o#(L+WB(KC!a,Dn#H<]-0?>Ff``4!Ch\@$tmR0.;l!!8[=iROL/XPTNQ&ZLS=MLF8:fDJhP!8Fu+k^HqD/.#-D;3UBQk,%r1GhYdfS$_(2RYHg.iVos^8`@9e;sdDR1ArCQ1gW_&1jk2$Gtl%&)9r9[ch;k`NUUSuhs`r1G5hR%5JdkF`)`1R'C7RS@LIZ'[=m8IrrDb6\m?Z!c-<n9N)T)qEKXONc7A(;Dt[0"riuJ'"LITI`4lH.C@C1Y')YkCn=19/D/!k3Z*Hr1N?TJuRU9Nl3$\JP0nsTrPAtP\8uEukSb0X^QCb8Z!'P2i[2&F[a1m=XZKLQTnVRj0^E's!j3NU3.+'6ILW9<Cdem"S>ZtFoZ)!Q%UtLPEB+QVOUtdp^lJpqB,Gt6Err<1]n/e/#!!PF8^(YlenJ8%'Ho8Y-($CSS2<#R)QKCgVZhm1nb_UcU)Df#]/d-nRJ>%Js`q/OZBtCX0P^-N_\&B(t[:arfg"Eb+5<A#3\ip>r$iQXr!,euqIhmDdn,pKJ3q*B74ref3;":05p!$.JbGl'd6XgVMD1?@RdOTS`)fh<:<@gFJ#R$b-d!+GgZ,K=Sj`-N%FR=KVe'YR9lfo0]70d3t72,dfrrB=Mr0=fWllRn[KU)KiJ&)m"!9G:$'`S0:h*_2B9'*8=J+bo&!0Xf=rIa53!76nDV@WGG^\jka_OpMuW.4&:[I2QE!0KBna8.Uf2oIBF3&Nqe)F+'qokbC??T_d3;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I"nRqb9Qi9[5fD`d*5Q)=:?YS-2TC?/oq(`mrq\cL8!;':1H9"Lmm4VF`4B)7[,+MI(=o@"Qe_fq%2';\V#QBTao8<0ig:R>WAu#A+>bM)sd7[ec:G`"NH`R,nq4H0.*Il0_Q%.DC?i!(r.&+4IZ3i"SJ3MTb!.p&Vh]<chrrCub\u4otq^^qdGcO*X[ClZGd\iDbHT:[#ART&2`6lmL8r@/gQ82&7N006SHXGJ3`P2b0B^^nkkJU_\J$p_\^)QiW`HRJ[pRW/Po^-sA?c1>f`^qai>9nQBR+=`7Kk4)\<&*ESIX0=5a,7/p<8g;'k0p4C"T?p,<NUVeX6Fu,](FAJ+T7)&mfRr)rr@X3IaHZ\[.fKdXTqJL4s=VD4A--Al7Zq!@s<sml2][WYr`.&D;??+2ZUd(q5qu^08.*Ehs=)-8&1_tIO%5LF5fF(aK0Ks6W):=Mp4IWnCEd+he7+5]o"g_\=DqQ!c:5nONWCSe&)+b[9ndg-2T7gVr7iF*gV1$ir*K<?+tS,@s0IVPcS=S2rR[<j:s]J($:_ud`LT#[:NBWP#G7U<jUmb[Ih3'ffM8K48nF(TA)lpVQp"eI_jb+S`4!49)(-8GZrG5;uZi1h%/jtCpcPlb3^p$T4D:e@1ie.Un0()KKj>BKO-b8j835355=HHC79Xh5M@p4G?Wj_ip.%+>FBS+Qo/*+],Ses+XVFS-6?]Bo.Uo&W@UR&ob:NUjB-UI?>48O]"3:el)cmBgS[N/onUEQ%f@1BM*G`>KcW7cpoWMYNI!dFii?;^>=m4a*D5,AfZ(bYiS+,6OlQWLncnM`$ueph4n,ZKNVEtP;tf5GSagXXL[?[=nN,jRg+L.<k^H<^ojDm[^4Jh4mI*.[a1(0>81iC]"iE,aM1bV67587l8E0+*CItuV<rLiSn,0bEXa[`Cc2EfS.JtsrPQ(UcdeJUe0B6EX>s%#"]5ck80,j(9SuJSnhUp`+*NNDh!W*ilaH!8Z%'RlW!M4:f0C<!&Nt6`V-[Z0W*sl`*4sfu2ioL(kqZkcO`"msD@uB<kB`+1pl@H9eDWPl_I%*P/mjY'q.ChN#WS:'PepT2aeMl`&n))inkOrTh!.ot'H%1gBa2Y=X<)`Rs+M70AKJa8Kl5G\XAU9IaEuclKGhrgmR)VboP"&9=c4h;"dJPp&!.q!D3Uqn&'[+GP&A2!:?3g7<VYi6bn.10p]=+0rju[8C%DA9Q$[%Pf-$&ELh+dYq6LI(-oMBUY?r<1RANGuo;/hNKpL<NuR_9?HY3`gWrhKJnJlDZrILZ7F4sg,*e35a*+5"#n,ktU'%h<=%I?JrLZsVWX)Sln,7k;*K)qY91jb8)m72-fF4>^d'SRgR<C\H3M\)%fr70c(T72,dfrrB=Mr0=fWllRn[KU)KiJ&)m"!9G:$'`S0:h*_2B9'*8=J+bo&!0Xf=rIa53!76nDV@WGG^\jka_OpMuW.4&:[I2QE!0KBna8.Uf2oIBF3&Nqe)F+'qokbC??T_d3;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I"nRqb9Qi9[5fD`d*5Q)=:?YS,Srn=!M5+VRbr#Up8r[?=cFA$<?(psrqCD+_MUKJ9`)iPjmr`.X<erCgc:8Ha'h4@AgKW1!Tlf%'.b#)l!T?@K,*UoQ:Sh'T@I='r/*qJaI8E(".C'q3XW'1)JE51n8r+5m.6M@,Q!.9jtYNVb\+m/94r=i$@rrCsc+6,lh6d=QHqC%p_rrBhO5K:C<8+ot-XK'FMY2/g?ni^6=`-sJ_ZKsbZ7fc&qPTp=dS_Arm2ef+:&*I=!'H`:Kk[)b'mudT+J&6j.Qi.<GL]-d.`kS7/pkP?T^[tAc:]CEF0Ro'(nIIR2J*<VOTDnlk@/g3FbLko@oD2g<qubLL!/S8,ht/Oprr@UCrrA?,cG09*58est]r6G<,Q)6T!/1[<0DZKm&,YF;NIOA=nIIR2J*<VOTDnlk@/g3F5N3`&#6+\N7.EM@!5\XkHQ8s_InT50!.Z0](O4^6L"&?V.=^p+q:GWHKa6WkqA6OMqrE6d+7Ps$AcD`sp7_KdI#mg$kbJ,#k4!<f'MfDB!8n8-j%'#7c/@LU.%Vgd!5KF9`fFVorrCC0IGaMrrZ^eMJ'bc^rWOtS=FWC3!:ZZZAcD`sp7_KdI#mfmrY-H5^Z]"R5OXa62>n5=`&ulcrrAdMid^k,KD]E_!/Pp5)ufn,'?'nNp]CcrdHknGq>DtYrW%Gd?/ol"(Jt,3^nq&2b7EcCrY-H5^Z]"R5OXa61k3ApnX'1^g5#Xt5K:I4O8+L"_8#V>4AYtWJ1uJ4H,&`(rr<1urL\RL:B<\:^M7,:ces3gA4JPV[a@Zg_l?!.-;!*bm#>/Qg5fa.rrCC0IGaMrrZ^eMJ'bc^rWOtS=FLe\!5aBYQi.<GL]-d.`fKmkIPUp'TmKW9!5:tuf@jOJrOdVgXafB$Seonj+ae"PHo8E((Q7^o/T,[p)ipB&*0#-(o>;DhE,qUm?_j:qrrCu:^BD;ccN)^EVtPB1k:_gB4a"VKkiU=]&D5)o.*#hVnr8AE#S_V*VuD0=mf*9;+7U.lg\uoV5O^+Oo#'rErY-H5^Z]"R5OXa61k3ApnX'1^g5#Xt5K:I4O8+L"_8#V>4AYtWJ1uJ4+7Tk#K7E*ZGb>!9!+>g,)Ej*Zrr>9[pOBshpkue%rr>CN+8?Pbq-j3errBognX'1^g5#Xt5K8cZ:jt2"!24a9rrBc'pt,.8rr<W%GW5VZ-].j'n-0EnU])G!n8J7>:D<a.i!^^f8$U3dkOcLWp]:Bp&U05LkZpRU!!8Me!%^@*J+uih1B.?JHVj_B^.7tGrr<B:`aA?kC*32krr<u:MEg)AD[-4Ad7!LhrW'e61k3G+h@9JbU5@lZquMHJB_FG^r;N&=rr<$`i\'c1r<oQRi)9RTjbNH2rr<B:`aA?kC*32krr<s%iBd7^re9`,rqRYr?dVCA6d=QHqC%p_rrBhO5K8cZLRZ,poMI_Hrr@R'IuPMi.K9C?degf;#Q.$I2ZEcNFV"BW?i7/-FoMI#628Y&L$_8,q&eWer$XcIJ'bm-J);LKC\fIZ!/Pp5)ufn,'?'nNp]CcrdJj1Xo6<4nMC48\!:U1'nY=au5P+_YGPhI@!/S8,ht/Oprr@UCrrA?,K>4_d_XA'245s5+IOEQ]m&c83Obk=`%E4M5YHb:q$iUF8rr=JAn>H56l6#k(/U79qr'S`ehteam-iX1^(dH$S_>TLGAr@ba)rP=ri,9*?GC$s"R5FLee]_ck3L3^-JesFTA+666M8@48Yh3[!mpB)Ur/Z`7N6\qkLh3,hZlr/T>aC#RdAFBipH:9h.'K4+KIERP!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!%=_f._uci4";EUbfk#?%]#]Hq<e'(rrBmZJ$VB+?%">Vi;J,bit%1Jca1TaGV#]XCGEV(Reo98P/h9=g0"I7a$:`?Fn6F:hu<Z[MuB4H!8sB9I-^Z'r']!#]KmNaipbNbJ$_)FK7['NQ7SDU@"BTC3:m&W^H9ETr"RWZ$VXCNXf(Mqn7,=5=IGlQ(#?Fg3*XKHCN9@S*\fYBE%C2!fL,WIPPpr"@r4OC&UZjkDS@q%rrC:?9`"4:_VN']#n56L@?2^0n[p]QBbZd.aoM7/li%7_qf.,%?EPU&rrCu=*sH$12oE8J0e^Ip)6.V"Z:C;rb(e_I#RqachE'R+_S$WVB)_j`<]h>%q"XbTrr@YQr(?L/m2tj*m=_gbI=H6TV'5"-b[`Xk$E"h/OsofXR'FVZZ!5u'Bl9&:,"32<&J5^,U4Igp*<7+ZoE"_qi"+J(i:i0pi9DtQh[2J9nAE&.*t;]S;#lBh5M2:dVHY.KBk0>&.Kt\p=dVa10Oe,qH*:6CmJd.j\BjY3a4GeQ5N%Ga)E_<p'?2<nUI;ZB/hStr]Fn6Y3g2Tnai_i:8ooub)NWh6r2rW]BE$"P+8S^-fB`)0IP,=6!:X;Zg9^bbD62LeGQ%u&n-`1GHo@.GGlAo^1)RZnOe*TD&(ouegpfWCXJ;k-nR&+WYtt93n).">'JmYDp\%;UO.^`dm3;.>FFu$Mea,eI22o@`<<jatdY*7\QucTmXlu'W-.4Dfrr<Yag?KFiOdL#<Y$tOBSI!&57KbCiW$<&QZ28>:!5Yd%!'b.8&AO/'!+h#[T@r8a27rgab>n%Y'[red+*L-&_]Y!\^<It=4Ihr&"8'Tjr)5heO8K]erWp3%rM[@VBDYq]*7FoDiZ0'#QWgZ'>\3#^,Pt)pR:gl6-X?ZObBs_jZ2Xf3&,8,:p141'Jq;$TV"dm.9AiSbh-iP,)=_mp2XX.]"YJjf@(@S?$F.Z_+Cq4n#Mc[`70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$!70"$'Oabn(\$s3"fLNcU?2^mS+o#ul2N8T?#VRehhd6A&Ia)LBC$l9!M&;9Gq2+-Mpc-IWO8K\6`L$Q2rr@Warm0FDnMlO-bs.6d<GWk`Y[VQV7D)jA5U"M0:0E?S%LA^<f8kdg!#>Dbn4UT!^*NKoi]RghSfZ@B^"0$\haM*jDR_&I/?BP-4\^B4Iad3DFZ4m?I!C)\rrBkc4rj@4p6,31Fr`0[R:1(FPoBgWi!@TPb+[pS`fZP&'4[0IHnYL"K4o]XIbA$bZ17Sd(J!NKMEWHRl?r6nNe;TGBiYCt9L<d"Z)>g^UU>gV&)E>-^SjB'#OHI"Zh?!?)Ye+A<q%2c]FCWt^2/+$R`@#?.):1tc=OM)%QDPUf^D'IPL+fq-%Bg9pad@QW;ck6?%+U0!5bB'F*i`S_lj;]o-B9bq/aRiQj<,d]u7C#/k@J*#O#O])?0[>D#Kq)!8sA*0M2.!r&rM<nJ#Y;:D7KYC)YmGN"Rb=)2&U<847-2pM9%4-ig!!-ig!!-j0#Fi8=I88b$Hma]'AY9r-D,omT1()ufo'aZ_9U!8/iSrr>WtRf.].!fAD!!kpVl^OP0o+1"K8'NK'ir\/R,gHb:_i+>/%nBT97<AGQnnn(lV>ddF2j,iak=4n9a#ND-LKYQH>TC><T>lMN'&oE,4c\.a+,^:u\b$.]JKP0@t).h[)X7o&Zb3i_1[lacZ^TmP2*D,a9i`D%&i<B1nHop=pfsfsHPDa5B%hm\jrL4f%j\<jV,doZM,3C;=G6,CgT@A2WYM0Te$1%(bpA=?Bkl1XjcbmL-ps'^d0j@r=_ID"G'V(;&HP'E=alJ9661,0^HCojQAYa]>nBIQ4i%8#)f/.>65<@6m!)L-uRqnha\iF7H>]=rkMUJ]J:D\Ms]O/#^r"GjDpHC50!.kr7d!G,@B%%]gNrf$ej^,sri+5:BCMDGlX62a,U]+J1Ra_%)rr<9`Gg#eTn]d-4n+\MJ^lK4X+Rol$jKFFtCDe`]Hb_<DhEbd-)!<YXbAmnK#UffK,)YuqfrOhVpgs>3p^05!rl`#:nCN\B<su`j.eP-(Ag8K[im4"qQlqdW<FOYioND5CU5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U9!S5[B>.Z>[H`_2YL0pOgNTm:EYZG;+=]ZfRTUp8LK'S(+?B2DqfpD%ZUFY5A"bH]IWk>8ZDW:pk_,QcI5;QE:^/;i0"Zo:tj"fRt:9E\87;uf?]HG:]:],rr<4ugjVA1MV%P`pc#.CFDWor@Fss"c?PX4EH]:$'R8f0eJnL4j,*j6^\7[,!.sE`c(FK#3:AE43V`="<Uk4/=8ie=%Y`F*NT9d[N>NtHn,AF="5>1'r#gLIU-J-DTD0t2HZ/[+cbfQdg"51Wrr<Z+kJ_:rbIC-`ph#g:OMEgQHJ?S=S9_p.f@QY!2uFV]q_A)dO)(duGX-XHn[pD"D\@<5-DNUo3T"am<'^Nn8IVT\%PmF1fA72Bq.':IJ&//b!""#fj"L1'J)I#l/b)p0.IenXf&H8d`)fj6QI::;=p$"oE_"s0o/\Q-pIirL:4*`5>nc1pKl"+LLDi@AiVaE`Ld>[Ol*c`.>1uG,,]Q9T,*+thX]d+QU5C?!U5C?!U5C?!U5C?$nd"+1r2rW]BE$"P+8S^-fB`*Y5l;T$!0tYi/H5_'.YIa$8[OrbI\6b".%gX!.%gX!.%gXP^Pa0=HmeII^t5.pptObu#K>O?e-7OIc!n[CgKD2t74OQJADlJm[<.X0#NWA]/,oSRXa"'f?9OM30DlGeidZmd!,!s@<op00g=#u[I3N:KmjL6,\@4qE]8$-Vg,=b,`HhEcr"^CJh#@A+7,AA+rX0\7:1&lC%rEUp8&Tl],[g!&,a"g$[pjNOZ-JYU*_@`:rMca`m39<QQ4)oORL,(r,]Y;DO\!;h#D*4@_4V=.5@I@_/+;itrr<3@e)MOV#K0mprr?=R\mGs4#Q$_hK)h5;!(<:e.]=?"?=FH6=46d;ebaQ?_6Mn(BC1DO:#[g\3^qZ:59K]nBS0RZ@]cK;QlLmM^g[ptQ7Wo:+X\S\I*?a5!;J"Hr"3O"4s@A@rNgq^l,+iYBrCJ1PQR(A!,km6jKQ@X'md&k&)-;!oB5fSrr@\;rr?YLgMZ9c&&`oAQf0$Hft<_p%iLV:=-t#)+MB/DORDp21IisFcT\l;"H$3hM.D1&dD0=)3=HEb%se4u'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N%+!'N]s:g;!,U:P#/-:L=R#rrCd!i\#lBMhd,5D5DN4k>o;:j2nT_1sVnr?2HqjpR"b^]@S4r\)[JgJc>^^^B*-bU\9<0GDA9siTif,bsPX`,-lh\i>&.s\^*O!Q=GFG-GLdQ7K3>kl2@Tri2?G-f7s;*i.euHoij'[R9J<OLqYTq-+C>!+M;J7I?#[O2f*al?%tV"4<BRAQi%cdJ+<O=a4?jp5N&t7)a%9ngVt']F=S@uH[QgY-S5\\2VFN?KHpk;!?DI2!GCHMr#IY1nScJ=r&aoYJi*BInUKp0j,$OPogs8kMesBiVBte4$]-)FD9X`e<H4Sj=!=Ah_%-JFCX;c*Y,?'<J&,uN4C<>?_=C2N=5h2P-&a*BO@4,Va4V\[`tAu/q#2s=YL_T]?aFC_rrC_Z^^t`pp2BG=LHH7/lZ9UQFF+kl@s7;2C]MQ>]<No6P?kj%I/!LKJ&*Xa!e8$IZm<*YP^XWdRLZ(>GukpFk\i>Jcp6A4^705V8K%*LQ7u+WME%f5.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!.&)5V+FXe"!6XAp(4Y\962pq\g.d%2=6'n.^\M,uim7RdW'BpD8[$b2!%=S!!%=S!!%=S!!%=S!!%=S!!%=S!!;U:$pAY,E0Rh;sn59X0MiZR^iU34`:GQ`^'PRLHnLiE;+CRoJ`]nndE2bn@K01`7I9_9<.Xu@9!;Iegc)CXB_'].8O,[KTX:L[^*dG?$T+jr?MAYGp&K!g"[[,K6-OUg\qc?2dISg$eTC?tfJ4GXKiSXPJ+5usP^Llqjp:-"I[7_D"dN2*L$qZC_>:Zp'Di*LN#r<,JIo(S5Hr'7``a8mOpljYILbqmApj5t92U>@N0;?.d\mCl$RO2QbSiA(,n(Nir0)/<@C\Sp_3Vuj%#K'k.dXndC\s8q6m)oeQ\%#[9DYX2jSK$G#0>8_3!5Z%W'7XJ`)W(8\rWlNorrC!P%5h9*br:;<7<[/E=8;"tQm8Da!5cd!"Pf)4X,PC1m!TWDe)2nS3:l0+lkACU*sI/1G(4/N&U5p"AG\JQ2Xn\hSYk8+r-i"?n5"R6]3AMp)*!El/Uj:?a^;N,_>aMiYJFT#rrB?3`#fJ6g;Oa``-,3$D_,tV>hV^aCN=b.&P;7I1]coA;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!<e$">=f$?V_j@s\NV,G!7aa-GRX;[4l\)aU[>fGb,d'J.NoZ9*IV+&^+7OCp_,#a@/j9L<L9rTGrmF"DY,+%bG!6[n6`%Ho2@HaLpEuXVAVt&-OhFHhI\GB2rrDOb&,8+kp1++&JpX?fS)\u;7H7_n=ouJ.N;-)DV0\:5I$YHM&6fa.8<u\lEYZ/e`^f_Grr@Y0rrBlIMp;-CHpk@?Qi7T^/X,-(%\Xf+g]VSZ_\BgpK7UO<h!j2TK=--FqZ),^"9/@5Dtk\Qg$4%m]Enh!]Ob[iQc2-:/#m?@,4q$"as"01^GWZDOq%dT!V#@PW5%8dhsaf/h@J:,_3TSV=2F8p@!Il=Gp:hC?uGJZnbo-BIUme0GX*C(4p\?<rJJAJeusV]!;oMQBDYoiCL=GE`/C#ee`Njjk@`9)\Do>mKY.'5_>aLrR4%=QJR>:=:^'&opj0ipH6&lNiEI6a1JP*1@(!AKKjfSe2&K;Q2$$Q>!!!!#Y#.Uf'N%:!'N%:!'N%:!'N%:!'N%:!'N%:!'N%:!'N&5)Q65U9[t_Y/rrDgB&&]"3hu3t.V8;[$!)_*#[u\G`1U)U7d<.T1IBqM=jCGohdMO9d4K;^>i_@E8VLUf#i8=I88b$Hma]'AY9r-D,omSN@/bmNJ%3PQZdeLH7SQj'>*4G?9?O(H@(Y@`tTj9BiI`nOL3P$g(q04%Nh2Zg5[Wi>^%OTSQD9qu+%t[#Yn+\6$KboY(g%?/mnRml)GbpHr[aOP/QKVFTWECK\'gse386$Es:l+42)Lt%Hkb<q7.&)S!.&)S!.&)S!.&)S!.&)S!.&)S!.&)S!aRS/<1`qT]'>;bA-KpmgM"E8j4KH.W<3qVUdciQYZ9p++EKE.&fB+IJA,cN5XF)Sh-]Jq_rrDO`*uOdRp2'Mh@j>73gh8X18Yuf?r36PDCM],l_^_C4IrsHQrDKA?58;`K$;(6t"Tn](Ji2r%rr@Y?r$o2STfs4Uk@8c2_Irg&ee*u":Fo?Hg8Y\]I9XM4a-k4o?[@1:^[PK8fsgqf2fEDGn0?!I>'Gkl6A+68&8flRQ#[,O*%ou`8BAo^GuT+Af'\,Y.c<(d_$"9epac(9rr@[irr?XqgWE16@W)RFL42.m@l!hC_4`^]A="UOgffCio9.-FjtSB0Oa>@ZhUGWdRsZU`!.pSf_&%;S_7am8p;QecVOXfYW$J]bp/^M!&iOfSXc*ESA\1CH5$/[;oLJ76rr<9krm$#$%^`qdq"o-2quc_J'W0UM8+E5>/<XsCA5,Il`4Kshq`qW":'-jar?S,2e+FZ.?G[)`.X5j5DPL@.RMQJSaMTLM_hJ:*5o^GNC&fZVM?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#'!M?#.;ia9X=&,[CAJ#mmuii]Papj^21+1.4.;:KN]&DPmRK.QHRJ,g[P6-W3cT,d(P%(mOZG`1Q.WF;N73[Lko\qZo*3l,ZE"DV*#P"$QDWe*ei[=9^An6]Pt0"/=j!!R$1a_C7Np0Y>Z[*O?X?D<b::bcW0nV-G!'e_1L^h&0R*_\0,rr?0Z3=?B'og.LH*GJjpHj?BjS&!WFpI+NdKGpGSE+4'O`Ot`BYs-8E>rO"-g<(7F"9ZVYf?4*n[=A)h+80aT!.n0t2UaK9g)o<,Of%%">&4t??6-=i\*J5M`tG1mZ\rmt@&"?-YruF.5OQ;EZTkn%r"[6A[%I+<8&5MG)Yag,bUr?0`ebXO>`n/:A5d5sE)iZiDd76Ng&V(`rM4pY%u.j(pOHfE8*rP$Nt(k+6X@M\F_fKWgoqYF"D$tm9G-hbXN.QKbJ/tmn8l'rrr?e`*o)-,rr@WjHj]CF`a9>Hnt3k3]nFu54dL+(<e(lpLlsuJFY0Np@&_CfrltHCn7qt'LO<UlaSmB5_-Oc(Ge`s1pjk.125S<fEs@a:%hY3IrmNn\"or<]a3%j8^JR0+Hkl.#m/>j857@Asn@jJ3rr<O2&+k9/8$Ilneg#\Q#ie`?*"982HBMqDngD;Hn8Dt,(&n7;,k2>9MgsZrT<oBCI:0B5h7pkr#gS9>A_\NO&6cs9$V&,QAS+l55<RQ^VsJR+!!MZ`.Jj/@;u7s99)*PfhZtcqLotZhK?huMJH#VAMqLa!2a$'SJ_1>'ROA01MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J!MC8J.^u+oM>P8pNH8!0Cg*=HMMrn0Qn7RRu'P3E>bDR6B*L2?6AWD6;/"QaEh^\.,paITWJReS'I_u*b'7LV\9,X)8g*EoedQTSDC(]H@3KAG4bYYS/O9iqQBES$P(D824=WAqE_?1bmcKos7!QV<l7R-BRQg?b\(%=TM+70*glReI[27XbDnFX"0$nO!#8Tu@;nKbS-<+jU[9n,7])t8<Oim/KEBGrJ(Z>06,m!=$p`CP0D7hMb2W&oePYO63"/,bh,J(V+$:AB8,X2(<2C#0'A/bI@L'5-&H<Qt1@HSi&cZFB^/)?BF+.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!.&)5!q;:o)rr@XKHij<JJr/]s62OXZ3RK^t:nU@%gLU0sZYP'mm(J0jV+(^XfWlK;UiBa0;*Z4])NXe.(\YfI!.n#3=$#OB&PM/dhi0`9$Q7^X^PsOu$&3J1Mp0/0]+R]#I`2$AE?h(0p3Zf>K;Q$EL;+:.piHH8"cE(Dir9#3j2Z.n8Mq0ZgeX^#S:rbE9YY7q-7::bp67)RR>beO`jegu(\V;4H2C`l5+f^,['tYb3TGT"g]O$/?H"Nt-6jJhAfIJ+G**-9l3K3IHf2*JY6=jQ*Wib>:V\%fG^IGZ*PEQ+e9#L$mk)Ys,n!2\.tC)ciKp5<f3;UD*u_oPfBm)AF81</nJD01NUaKsIfm>c6%AZ"oaO6'SJq);+qlrl-^Be.-,Nq:4RpEOmgT3r_1"U_chJhN[q4NJpb%WC%:WTVGd`Ce08#pWXmZccdNUX&k)k_K<]P$M=!+ptida7!^,Gn*n@.cEn>fa_^W*rn*<X0m*IqD[>)^kAOkN77=*k5'RfK\7!8qmB"P5r6CR/9Rd;8J/%Gk:R)KqeU>h\"<9!Z?U'<#H)2c<Z+P_'_b#U#$"X5_Im^$n,_$ISkR"NU<#V1-NN&@<Mph!708Ff8M<8WC0ZVomRH#gE!?m$]UR$\HR,[d[FF5E5[Cn87(\*'sT)$rs6?hZH)[D,P(s'5CT11`_&-<ft$81k^>C>a,/=c-IKs=dcfiD1E_WI2*6aW8$V2&7+O!_f]a;)U/];\9R.*)-0cX0HbrQi.Fs)!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!C[]!!F-0&0DeUo5Q-VV&*eU,rMFs@V>*EpRQqpBp$7\Wa?*jg2$N--Y]du(ZaMgt\W>K8p6tMAm-!m"V>(MhX2\K_r,ns5-BY!8n;DW_OFJ;=V)Bpm+p<km@j>XI7KJDG,Q?/An3V'g."D.1/)pIj1&\gK;t07kFta[mIu!GL\%&g7oM:FdB5(h]`*\3,ml'po2b;R&J3Hp3!.s_?!5ZT[-N='tVWp[e56C5[:BgY.dk3c/Yg"S#mhEp(R-lWE*N9t98m;L2$obLK";1WIC"eQdOf1QiUsCp#eZ=Zc1IC1KL",3e=E:JK";/^!^S/u+5O`1oKIeZArm9OD4@uSY\B0ND\dTL'6@CuNM'k',FskbLp"LS`1:Qs[[s2*Ja+#/u$5G1k>LJc^a&.Daj9+ain(rRY@K-=[B7:MC_4S*:jcT>_Vd4PJp6oIB2gT\dHaLMne0aJPkqJB,H]W^Uajs[\.a/CM]`.suei#5HQ;H=MYf1O!DMo3+7"Gsr;1P[AJ,fQL3`kFHL&V/2cd19#_O_pWeEh,Q0>5>`U3M1IViDsa0.Q8W>9g1!@=_G^&1dD!iNIgaiMV3JNt9..l^HgI(<L=#qT\>4l5)`U"5HZ/1pR_DgQU.Jo0=7Z;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1I!;+1J7/,oSR^Yka(a8QRsrr@aY/W!1P5kq$oj!92>pMfBe.r1Hnj,d*Vp3?Dl[t4HWrD6S64r+(tJq'=ArXK#"?gS!MH#4c&i?b(_QRrsaC<q:S\IIBGb/Pb-!-Vl>?Z/aA72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!72/Q!<4k`[]fX4P(#G;:gC#T39YZFX\[9##B7f8$0N(Hs'kKPE"BF195A2-jQ@H8;_C]E:^*2)*;rRT_Fs.%6kD+1Mdkql$E%J9La7I:f%BNN\<0<bc"8Tt:!/$>[(&JO@bMNroKD#<a^P4sd>8s[$>PJ;!(>^(Z8Stbk[/lR"_J__YB$kHUo2Tf5IQ,mO8Z7-TSDUV0p%6^'H1>q19'+!2pl5ETT"r%?1&OU,ou^V@!5Xp"!4)NgOtN<q$fg#@Pp//N=OL_KDT&L%e<0-\oq2hG5N%*bn8ef-qZCOnDo*UNAEplSpdC:H>"5b4l]"9JW,n@(]GA&a"G>g8h[nW*LDs_FdeCU3N#ic0qs`K7nV=qV&8=<Wn@lL7\?OKTgQf:W\kJ2X\t!:B<2nt]'d+&VIN<fRrr@ZnoK/mp^LmKGO'8ZD.f>T]-1LhV@Rg+&[[&Ltrn+VfI`1.58T4APrrDs/-fRO_YO%T7J:90H,5U4jXS=j&`83qKY*]6c&aB[?/Zs8sJM^&)j\XfC!e^[P"JWQlp0ROcW.**C$n_.5)gDn557N!+&J45R#DfKE\ZBGZ/0_St_fln]/?pu43e_CKoP+@SU5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5Aq!U5AsMCA_rK!$e)=rr?E4J*=nR]%$8Zr/Q*<rI3#k!2CI<lh3=)O6%j`'+-.^R/o_j:]X!!:]X!!:]X",g'>IO&br!WNkaU+%o2`o2rT%amI`QeZp_Z@P2V;84LSYd\:QK95jsTmC/gG#PM!EEPS/"2?!V`XY.Up+q#qI0<'X;L'ED!!'ED!2oc4867tT;t?HV]e/(jdcGFB:9SNjc?O-tF:'iK_RYhEk^'N%:#$7MX!$N?.$$@g/9n<a*)D#XM-6<Ec*?d]b,:\c5A')qs9/YE#u9)/rKpaLO(d/?bX+6):.,Pe[CU5CJ\O4Q^U.%gXPT8e?k7_Dt*!+9$Wr=JYN=#9BMr^bY!J*[PgrrAc7Y+N_I9X,\VT;2=Fk4XZ\YLlY45ba,a!2>?!!2>?!!2>?!!2@&Spf!b0rr@a1rr<E/q`Fd++769,8&!mSLqi!IaSSJkj_jZSeU6-FmHqMJ=#!UKV0au\:/pW)R_$*&n)tH_78X(S'Mng!'k^(bY<5+L7qnXM>i+:0_F&5T8L*ug<"`k^_b%=J<hcr`:#R[*_-3mAprc@\1n3PFRbmbomH%3.1/YhM61*C4kpE"#,o7A0[0e=VR"C2DTFF["rrC.'Ujq"_5Pd*MqGaZ\YJEHo3U%XYq[`[b>5jd;j#FMo5PFj8I^e9k_2@o@rnJ2b7=9+OW)5tt!*9^.:!1h3c/0)(#%ViFetgI2E)_`u0L;l$\8U)Rr_9<M-iJraQi</k>1!6oI8S=KrWQ(fq&dp1r$L.Lr<;jir!JYcB`A'cgKOUWTY@E*!.e$tNFgLEYB$edo%178G%uNDD68<7?W@%*^o9Q<O8)GWYPJXlTD0-Kpsr^bEj!7G-/G#^n=+3#oG?%Bn1%6(U](pDC]8q^Vu?ikr\^$2*36;j8U"dEr$L.Lr<;jir!JYcB`A'cgKOUWTY@E*!.e$tNFgL-.dS5)?.l4W!"$*Arr>?5;uZh!V#LE55N+NO^Z[>NJ)F:uj&pJ$b.@ncQZd+n_JQE)csKcP!5PQu`fKmh[BKE7lC[hd-hu6XT7n=0[.mpDj'/'0<Ud]aU=r:"qpT'2/:M(t[s%+kk;^MqF1!N]>?IjcOLI*tp$9).;uRGIC]8q^Vu?ikr\T,AD68<7?W@%*^o9Q<ZKS=M?&A9<m`eQ&9sq2$$gOAZ'dre(rr<A6[Jp4mI8g.G!i5hr)U"k8<S0I1]<bH8'5_OaK)2DE"\J\MJ&6')J'_P%rrBj65K:"oD*Le*eZU4,dbpSVi_tMf,VJM5P]CJYa07#;kaO5T_JQE)csKcP!5PQu`fKmh[BKE7lC[hd-hu4T;bFXK0BBOlXfa5CTfZe>Gg(1OoI@a&X3o*,clD2TD47*dRqlC'(Y(b>.SoT0rY'-ardt!ErWPmm24$`q<S0I1]<bH8'5_OaK)2DE"\J\MJ&6')J'_P%rrBj65K:"mUQp!5BeJc?ILLJI=I8%aK[rk%;Is]WbReZ^Jir]"YNW^8S*ts$nl^>drr?K.5Q)Xgr?0_2EFMO^XkE]/l^etcb*FCCXFDQ2;+5khqM8!;'ES-^ptPd<4^\3'B)_kYNELD'j)=`5omci:S,WIX2.bD+ES2GV<B_`D;+35AMC>,.V1'0YaBoJ=rKo]1nRM9CnXd(\kVr@7k*:!tVV.fbmF9PMnmf(.+:PHDmdK_FN"3!@T(#hJn_em!r"JT"!0;VEX`MGSG.o`#i]RN8nEm#,?X5r"Lul7;>DELn@IgG.Ao]X\1.InSNuI66hsa?)L>!*&YGP$s=ST@)\[g1Pko0!H-]LG`n:SDSO%(5og:a!7O6nmcc\^Pb2h4"Tq_\4RdlniJcbPZ=V.uG7VlE+\`N;DR(Upr`SpX#qW_,*ZJa.I[DXhI@Y8Ffk4#s\E=Y&624't^!pMPD%$pG/seNQEE8hsGtb&<UB3CPikg5X]cB<gS_*;tE[T+q:S57@BHiVrll?Jfu8im!\P3^0jXM\Y;MUiMkHRM*S?B]OuE!6hqqK?aUL&&2\ZK75cSUDLfMnK5]sq"!k9q_I&1>p9s@fl[^fq`5BDg)V)+Z)koGET^p>Y>"n_r,;*-`1QNtDhHU_Zj4MY-cbtmH+B@M[,#%/;@Pk8\$uqV9b5A.Id("#94/Lt3<PB<Hi#F?B>?a=oq.7l;=S#PdsO1Fm^Tj_?:V&ieLmVOIlV@8S,WI1$ZOi%Ppq9I6#6OBQ6N&@1T9cbR^T\LQ+C_sQC;0cZnPU-7PuW'dnZZs\XfiD=?#r\8\&V\bGElniVrn12%PHan5%Ba=2WlGKNm`1(Q%cI54Th:,FU-n@rMs+17i:C)Z&2jrLpT*M]]89m6.Ia)MXf[C>M&BI[@*L\kMiqV<$!ma^cST[r.DQ7U<u!"0&JeCVKttHEM#-aa`P04A=__[N79%Gc3I6n7>7"j^Znl@_^T^0A=b4"kSFjeBX7#dB@[#H-XckBOfhU,<#s`Z+7ITRd)^_fiu66'>>m[<o442EN;[h*s?h:[;Qh*T2<u0"d1lK(g1&I%,tO-,"H%ZZfgc9Sc8ZmcLJ&si'3:6e`Vs8I5=<uQblq>Z;5slQI3@KCdLT/a9@t#(TBPJ=8iN0qaK4d*n5RciLNc`LVO]i4jh^09^si8A(#:hOM!c#!@niPFD&GEOkV-kMOf"7UoChtNL-\iHTd_n1HRAW3'#I*`jAb-.G_J:\s&$-,b&so[Hb4]rr<[\cJK03,Q&&A:Q7SMI<3AkbMXU`-F]dqP1&2;R;HQ"b$1oZ[rtXab(kte:ij/:SNhrQZKK,dg%XI/Kq%+o^#QTlDiOZR(Pq_HdIaJb1j_ZZ$UY>cb::0lpNNuh$+OA%IZ*oYplFt&:A@Pb6h,6XGD1E7T\ld(5+AJF[`_R<<JfK?dDGut1%Dc[D874*=*sfnlW=)d%t5KFM>LM)624mJT7GC(e(dTkafa@_3gHMeDU0;+His<o)l/a\'`]H>aQF"79!r>2kNBFjaka@9U3sPaoX;A:m&,NReZS.`-Q+nGA??R6rT>5GACcarg=K3On/m?KZT!VU^'(XXn(MEm>.0(BNC*V=1IT^aHR-2Pp"?)XQ)!pk@u;\V!6E+>jC:1*aQm.cn;kI/Mn2s$q`@<ICH?(!WH,H(0@Od7.rgjY,`4Nok!1gY@uR"Z0oG[S%S*2kf0?MNJU@c6im/&.?cScGFWF"Uf^%7CC"E.BQ2Jf](iCY<IWER4LtRMJ-b-@P^+K74](eAHGk@P:=7FeGEq\g=,NtSt>*KR6/3Ki!&l[!nGu.6k3Tdq%:YO*6W@*&#bL530DRI6'A'2eh=F*rELP"Wp?U!qIf91IEBjFos,l6<m0E);[nH2kfX72bTIdn580)j\.CAnj7ip)"F,8*#JDMWfmMuWiS!!A,S1;8PBZTN#uGba1=m/:SUSR5(?D_tf-95UUnCNPb3@k"rt,FMMp)e5G@K8TKa[(o1pMN+a>^\"C5SlGF9a\BCV(i-juOgn7W("ddT72/Q!?d]b,:\c5A')qs9/YE#u9)`aEqEjs+rr=<[_I*!?Zi:$Q$""jp^BH8lqB)^3A,KS-Ujk:Ee58Y^;>TKR72,`'1\%[J8CrcLljJ+=!2:OGC?Bt&rrC.ZnSeAWDa3k]e^O<FWKne(;tPR%r8,gi(&J=8W"`)t!#/:!!.?AEq]U>OpjN#mpcmb.`ZH)a2K.Vm,4Y<=,/VSN\@U06Q<:rX`sHRO@59S5M3nJ2=mu5Ir&"0ri=?:?qcJ*(`_cGg`d20!c+]P']ft:[lt\Vfj@shDnh0ZU2u+j&$e9eQ/,NBBf1,9Hm#1a%l+S7ioZR2'7+-3koc%+^Um??4HdKj?U6<oi?9hmR3>M0.MZ3Zk08L\lquP`XC\CEre"ZV0il=Bode3V?$>Q$s[Z<;*h7@ELL^hI+RMceiAQY5<4H^MuQ!3H&:/9)4^Ioj+9)PjDme?-tNBBB3F-ImQbnsAn--YH3(qI7=`pG^#-_bJ49<T9'BD`EoFjJco`BOkjNttp<@q4IHr)]V.b8ErY6JTO"QI<nc=uaTipR'`8ULSHJ2*Me)b'sbJBh_5tn:0fnj)5c1nI"!uH`\lBSK\GY42e60Ak.U2,g@SC<?u-2BB:+`5m,Y%@m:Ojh[mP=mthh;[!.S4Hr2c9_ei;go>EO'9<$Z5Cgr7R`?[\TKL/fs(HH&7$/hCFp/1ThTmk!'(uk=onQXup_p)OXn:eR+cAuP1CQVu]G`LnQhDf#*h%,n\k"o3W$+,3g_'DFR'ph$g:OP\a,d_EdjfSDor`W48iFM1F1fpuIk,.54N"]RTd`K*aDUM_Tq6gHVi/PZ/+HMKV+SPg8M&guc?Uj<F&N$UgrWujoMfl)bB>iCD(RnKS0O2UN50V_M_f=aMJ!K.:S+3t3)9mQj?ChT`m4\C`oKIa^P*`E7GQ$<H;qh6O@isB!_tL"An[(J&nIkV/%gcnYY!)-VLOpr&B\$7PFkDhhO+lZ]!-PDn%0"KN!"V2;Y5$bihAl&uM(H@Op^5U"YB=Wo1,d[*)l`=`D/F)0;fn0RRnGF@J/>1L@;d(Jh@]5fa,#+GX6H'Xg;h+SgFEE=\k!b9iM;:20S^dm+TRU^P&PZK\,H^$qa[7_Hl`!=nFK'<j<"eX:Z=BOF\`N`pJQ8p7cGDE/T,/CLfR'f`/!FW*1YtlP7^^*AQDWFai,Rem<>o8D:nKb'QA1<LP8j2a\B7p[EZl:MCQm*WkOASi'&Fcc5mMd&&?flNVbAE>5dlIVJ=KA]%35-(a4Y29Tis6$,hq1N_!EUY"mEH!5TNt?hUMuR6DR=b1E)cJp^:rGkUag?B].-m5jJC7A3u.+sWK8/ME\l.khWEK$&O>>(<q-NkRC+r&%1rj57ie%/?Geeh?!kD'mTJ2L:mQN6%=u-+RqH'e$gY&^)d-k8p%2i[aI.I`icnnCR'2j6q_o54JN+LZF*'D5Z]C]"YK\V@'H3>0.7d94<Dto<EhGTE2P>p=3QE-TeBqS_I=jjjr/ABr>5Gri(XPlG>BJA]hEDZ;/i^SF;f6909aCCK[5VU]/Ko#P_<gGJcTurN,oci_(`uD$sZ`Sf[CgPVZZ<B!&FG>YR;]E2/M<-k'3cqLQQ<Hu6Um)<0Nd7JeG,YJlr"Krr<7\(`3.YghihD/tdV*PB$V\:3iE?j9@4(%+:#Ho[u$h#@?WrYB7`%_Q0,m2s?>"7X"=K=-1>le99<<3o#,A2%9Ba`(9@K-RpG)_8_jCRtEg^LSDjplj`5\HhL:nIsmKYD<#m,+;_\HrF_dpmu(n0l=$F?.B@/)^LhCgRKoEEp3r$:n4d"[]ar1D03(mV4V&l3U5P&3jbmEU6Jrc2!j&Ymp9)EXjsedXaTpB0_j7'n[JE/n%tNKm1"PhXSA+M`mZSomklOtD*dfmm<7:E=3EJ2S>(O*q1A;A^/(r.^M^.u`;VsM5N+6bO,H17:S_]=(71e@F2GX?Zb@>8Qm>01(=9MLMq+F>PEUQJ5&IHm!_Sqsg:$@V=6][+3&@PV=G7W"h259\b0&=b]fR_sJOL8SC#fF3;*Z%k$3(!fcUe'9YLn?s@b:7O?d2r0J)k\!5O8"br>;s@.TaW0DY/GGn'M#O_[hA7lOWs(.&)Uoj7Q6CMC8J-)tos)!0_-lM>mQbcDCO@UpATn>W;%9rr=CpnIto@SP/t_8S,#;IhFrDkJdH$!iMgkO68ie.'M7Kj`$rO-ig!!-j/]U'n4.$&,9T13I#>[rr<crI;rfs2=TD1qA,95Vg5`fRYpona^u!<mFN-NV/-cV^`P!_SIb)'nG`LI2hQK2GPbM;cbs!>\)UaT4]]Hmcu`sihb1;?OTj#$b<0/;$=#q8BA8#W:'Jtu:W45a^\^6EcSjJmULSXlVKbF00-Z#,,^W*Hd`5muUm,\:L;C'dHu&UFHqF:0r!2/>HhK/`rr@ai%CUh'VJG$(e1UBo/+"\Sh)7hSICq5&DW!#q/"C#:%RBOF>.e8]3U#8$h3(fU-%8p2pNuYuI>fkI.FkC'e%:QHdRhR&aX8HRGhoFSalo;^m;p0m)?0[>hS&Fqm5a0uLDlM:[-/<!n@\`JdIjaV(0[iTQQ2=^53&#?Fd-f/0g`!mfZAp-a6\6DhtD`6eN>M^3W)G"2/e:SIAHU\2O^7nQHI+`L)BZt<`0<\OWS>K?SrP%+*C%Dp#"En`-s01RJUZF7C)lh]OdpSg4cHB4\n__enes-]X4uQ0gs&tg(,f3-qsMiB+1lSijg/a(Z;B%Z%p?O4tM)!nTTPV_d3e]]=QGB8+@=sTlK(Kg>5ApL=-oDa8p!@@j7es3P``K/59^"SPOZ'/L6UWg@WtpZo"VGiFM2q1d?15bt6$ai=smX=`UD4GIpF^WdM"-J)q8k(&n9>Rs4l4VX\"Kf@!tan\'[brr<2:ctk#XFS=;Ci`5+<egWZYTd+n,4MqqY">!(P7Pi&"k1]IsBr*ok!&VGHkOW;UWEK6$bIE!k[Jn5hZ905:/t(ahNCUq<hA:s`>&67$pK''EO=UTDZcO@!#SG&<8VI;P:ns4X4rjNe]G'<G?cO37dQDHIg3b"334+]?HKRm"!/Z`8F$+6Hg=jl!K-?@hqp#6eX"ibD5@VqQBpoS!rVJrdCV#LbQ-Q;d#b\M]H\@CHjSMQ?OXguKZ-F.4]._eQj6ajSq`&ihiP0qkAYSr)`qS2`^:g2slK/B=[6h.o;cu[L_R+;C:k]9e/9-b-SkMRVnWd6CkaYQA:=jhOq:f0c:BQ?fe:o"Z,-NE?:#4X4jJ*Z87;Jce:$@dHI*^eJm'E@"T*hrt*raAI,1QNXiOf&.4?%P"X]\/&W9G,(-MU!&-$Z"1'JU4N!!q;(c7XRq5I4/'YM#r=?LWsKNI4[(HqNndKC'52&#;6Le;r^XMCI8/1i,Zo&i=rBBY`cA0A:?`Ii[_A-'*f\!,17/peg[sF&RfJVST?Io")mt;W;W"&n?c>b`"e)($V;Qe@"%lfe^Y%Du::S=RZQOXu*75./X7Kg?SAMQ\[$$&n)P)D.I?k[4Al5Bt;5Ep4ZhS3?4ob^<*8/Wo%Aog>:E0>MRoinC;ro@7A1..Gdp:0kj4m3SuJJN\.eWV35JIC#?5:K0C*!/+CT:IqqgsCK_b!N@dVrUNh8RdSg)F;3o/*<4e^`ROFk",:G=dQR#sj##E'`HcCLUpp[F$?hPH/G-)0Z+^Zi`kq4Qp$`gc]<g2[7=b*t+0>bpl@![>dA)jK)f`(qhmtZB%Hs,qd?LY;rMo37CZLGTCiOq`b[aQl]-+"-c`$4J78Ki4&\7/MAWQ8E[n<`L"iZB08T>Xn\L@rjmbH(D]=CF,9Gc&ImWAK1@j3D?a&P`n9<[%5jURlJ-.^>rZ3n%0]l(qsoRV;)s\(>\f&Vch`eCG7rjO2M8I+%b3['`K=DN`IaDgua+!.pBCM**N^-fGSjIq_L9f7#,Na*W/WXYR9$lk6T@/WK2S[uR@3ZEo3HDEG.Q4Kk`u4&'GY=7udE4r4&]nJ6i<0-!XEk1?92dkrP],k/d>fo0bUgd97(4L2Eq!$rJ@*QObd/CrKpjeH`QY0$!VV9sJb:0dX#pn]@MN,G,s<f0qAlRau?DmJ"DU5JD%:nigq"/koCrr=@3_I*!TZi:$Ql!MjJIlH6g5NK-F9E)h0J,2;YqE_<Binoc_U\t_T]J9C$-e:MG$7MX_5lF5%U5AsMCA_rK!$e)=rr?E4J*=nR]%$8Zr/Q*<rI3#k!2CI<lh3=)O6%j`'+-.^R/o_j:]X!!:^;LI/pqo5p13smiQiOsl*9OEpj-X$><+#aXS\`:n6@Ce*bK^>Q,MuLM:M9GX0tiZl=ZK_3SV*$`d\o/77*me2`kd)^.SD*k071W\k7m0l><B[dSKF@E;Oq7f&7p1DYVj>mSLeDkE'pQ6XID)!"IKK&(eV3pd&RXr.A<?74HW<?]HT3X-H0i>7H'n2]MI-IRdW4=6"25nY5$c?QG[K^7MKhrr?\F<]X@#&5Mb0$t<#D0O$O"(s/pQMCPA,_/dLt):YWHdW;B7gZnH?72/`5'N%:!'N%:!'N%:!'N%:!(&];''`S/r2;p4c!nmSRk_-/%p:mCVJtMU']I!RX?s>ko&=)f+>OYP`J"c_2L-NYqqFC-i9goat`?27:'N%+!F$CTC!9B,a\,O1PTDB_sVQORl?i6%i(B4Be(A%P+6p4g?NI%"%5D;<lq&dlK'N&5AT?;^R'Mng!'Mng!'Mo%1Ia%flZp`fXIu&JFW**h3C<ba&%GuDQOlnES(?ngmTS5IbmJFP/e5r-e77*mhaiuDDrr=9H=.JNpPb5Q,gZQ?4>k%I!ET)=pa&CDKO1"6(&`#b9gW+:LoO,kV.2A"7a;IKGX>h>S7=(m02cmp^?NU6-i<>nS!:gSDr=l/!SR#kBrD@ZVFn"Xq<?,r1[J:gj`=IkFcc.Pc*Da]tfd?+pFgY$3r?B]aMdU.*R&qQl)7&Z$Pq5B*2ujG+MCRX$"_aq].FaVc3R-BoX=0g#A-EZE5Qqj!5Qqj!5Qqj!5T64#rrA2-8H/[nfRNO&fCZ%Lc!Q'PjE&a6lh2G!(q';l=2o5toRH8sd/@n#%tbV_&,j!dU5Ja+oh_B?-igChp7VEcPA0fKrr?NRV>gOkZIa/&2sip2!%-1b'E5tA9E+u`AZ]Wq&jE8W`W#o>Vka0Nk<b%SYLh+^E2&4<!2>?!!2>?!"4Ma2hqBa_)7.81-e(AcrrBLBi?[p3rr@g:^U=$0m/I'#7:/,<+*QJNfn#[liEg(a'agI@-T&5Xr/IU\F/KpSIdCukT)SeQJ&;1.Qbn1rZIJ66Ye$:?AXt!X[#XS.6DlnUL/:c:4k5)g\?Ad0!/AtSrrD7ZpcncYL@7V3!9@>RqC,0u._EtTPt)Wp%[s4PQ]jHPM4YD5r[IW%FZjA5nFi8*_Q\;H2N_jQgCOZO0\[cpDk!'4:'OJq\`tTDN)Wf?d)L-l8NBAuYbI"(Oq^b^!#/:!!#/:!!#/:!!-J5@"[D(Rpe1V(<e's//,DQ8k54)7r0C[rJ(SM^rr>QcIn2He>[-aHoRES2pP(oL`;7OF@7:l3a<.Ab'N%+;2.(jL+Fe$07eUVUhhR]`S_?XSqg26\R%0@kFcN>nrr@g8rm!b#:;?A7WdjS>I5OH:Iq[jA!9a!hn0e3JPPp-"5P^#2rr@R>r/[7qiQf3EO8T`qr3,CXr09eM3S3tErrAd9rrA>_;uZi\X6HW5rr?`lrrD6S^[NWM@JthEJ']c3quT+DI*;Ni%X%`?J*<GQjaU80!9C.EiQf3EO8T`qr3,CXr0:SkU%hu$puVMU"bZU/+,g&<nK#7gn7+fSIu(I-#O,FZ`MT,QW80nA0mTLQLR>j?3:];a8CJ?:>bkq[B)RMX&)(7]P40j8T8pYsHl_`0pVpMinI:eliboK:r)\JG$u/rkf8R38C3Xa$bSJSnDUKe'*P,#df'(=NmgO\Zir9#AoY9lCraGbXQ@I755PtRIjF,_]!"O/MS:BanJ)u/ZrrD,[5N0o&Z]G%uYPbThTDXs],KoSc?N$P3B4'Cdi[9`b/,X"fnOLGl*dH*d!^;t2D+@C/n@Il2$`e64OA)oaYF+[1/lkp`@Q;pnSG/Wd4DCns!5V6VC**J$$hfAG?]-`O$/0b9nFskZN=WoFp#h)UnU@C98M#'%'4"^5'uO5/q(\nc*/^>!aCj=^!<1BbrrCC0J)F-#_tsZirrA]qJ+s.raRkPgG?=.9rr<K=rr<DLrY9p=5N*ab!/,Rq&q@:eUKd`?q_-ZPc/no=cgj9I^Rla#RBu)2\!l\KiQf3EO8T`qr3,CXr0:Nr_e7Ku(&n9M?8Sj?4s'5IN%[:*UO3>ObC)0HfC(RBH^33qO``Hbb3_(,Q2A<[6IHSc/4Fh3mH*Bc*diD9!.pGrK\dR8LVthdGS@u%%IF!o*fJu1Lu7]T5,3CKW*MZ,V7_]NhJ9'_91Y0h=#$e?1HL\/U\dOtrr>9[rr@U7o+11-Zi5MirrCshrr=;-:\]"7m,S*G7-jjQ/,H1D!$tMB!"O/MS:BanJ)u/ZrrD,[q#f[?`Xgcbp(RCarX&KnnbrIfM06"_4rVtZ?OE^K>FfoEEUc+]GIWqC\VeV<:T2t!gV\3dW1f993\u6\;S1+hHc&#qrK;YCrr<7<IPLW(qaC5Bj/V#3^;f2!pjoC=@bY74Ke@<,T(3i!T#470CT&J8`\MqM0d)1<A0Cm!`W#qal$qVer58C:/H5^C>(?;MJ&qHsrZ(8$3<'!+3r]3&ri,nta]*c-SUY8oqBoYG?e%C:._ZSc:W:)+^,,_ZrYPJnnNXrV+*_,X9)Yl7%u#5:g1Q<j^"(k(9eTM2l-nqAM'_+T_DSic"G";sK5@ffYHE6qrJG"XU&/n[dD#g,Iu7SRXhG[#4jj0hXnZC![ePi`-,u'sXM]>Hci'R2T=.uU:SjkL5s3R^YAlW@fTdq9B]B$lkOcOY-iRQQK9h#6/O0.75NI59rr<OOrLAB$SU]aN<;usZWq1_oj7X2cPeU]]g$cj$'##cA0%M]J0+IlLm4`7#eblmsH1s$t-^M'q7Y_L8':0dh36As#4FAXRlgY)NanTTM!!M<1^*NVSnXkP;it$ofq#"bgKriIoh>"&;H>G@:4OH3q9d<l.1Im:$8N2m]QJB-fr"MXs^AXTb"8c@$&+DN84Bpg[L:V;UHkYNZ$\&_'pKH\!K<O_@6IsTLl$%=sQOOYVfu8!2/<!PogVZneUPo-PT@3`>^n:FXp't7*!'mpk!:U9o!0R#jr&NC&EW6$5FoMH,rDW^rP,SB\LH>F[5P.^co"V2Snl:(DqbQP8'E8&IrrDgB\&U-(B`8J9[Gnq3r$Knb)a=g"i89DBi.]R]YA=[.lI$m46J'[(,r!>M&ji4#FU1XSIZa/%`t+-DZ[_lb_cuZ?a%J!Ir]U#uiI1F%W8#?<=#!FL=kPfNJg)Kd;Ws:TVp"ZH(^*_7UPo-PT@3`>^n:FXp't7*!'mpk!:U9o!0O>^!"O/MS:BanJ)u/ZrrD,[5N0o&Z]G%uYPbThTDXs]2ge6mEH1jlHm/HZ^+t'TppKWV`I9i;c]%cJU205!ps/b:e%R*^lOu\r_@8E_B=#'YL1tNJCKR>%<ZDOFlLX05Mt%>:J*^nHAU`#"h\(A\COS84-]`Xri9ps+l8llX3]D\u`RifU4E_.Q.A#<V9!9X[O^#d3"cYFFrM,;N!2%^>!5P6&L\;3\rr><krrDNorrA2TQi&kqp2U*4U36J9Q2OY]!0X;\!/EW7c9Lqr^[f.>J+?TerrDRVi-iB,?2I_&a4>_BIP?.SeSRJpGgba/`-.U$`#V3LK>s%mT\n#fl!h2oe7)3"R;Kl]0p3a.P)tq,)Pd1"(]OJ"V>gOH5P#EP*4,WqC&\1k&cVhUk$Rn)YO(<L!(?/Q!%[oDrr=?Brr<OOrLAB$SU]aN<;usZWqpIf5I>E[oD2hh'E8%drkZcBkSBfi!?^krAcDac3r[DhoM30l^T)eS<IH$bB\)#\dB,8()F#Ro`Y>n64iOj!MA8TP,iAYX8Mt7?`jR5&,2Umg<pn`?cE&X*Ktt.de7/mTb7q/GA/%m0@!2\f;*Y:bf(<`r&STdBI^:,eB7C<DcQ;)Xj)lih+G)?T)$Ckc72N1s9j+)DrrBs-IqKl"-XZ[VeN`jZO8*e"m,S*G7-jjQ/,H1D!$t^q<Ucp+rr@ciJ$hN=(+[<f%/qJrkMfO5nD;4D[Z08OnE5S>=+-cH?"u$plPALAjKb(3<J5+[W]I593.0*rM$!DN!,1Bl!9a!hn0e3JQ2Q?$J']c3quT+DHB7tafCj4a!2=W9!1!L]rrA4\rr@g8rm!b#:;?A7WdjS>HkYH.j'N7F_(%PjqbHH!(HsJ;h\EdCnJ9G;\%'pM>Bnk5mZh_N./Z'U2gT40[[.&2=Nn(s,Y`8(cH^"[6MDSk<POF#IO4LXm0iGCp-=Dm_K`9XHNH:T)1TNJ^<q<miVc[&dba7^)_DA-H[S9U;VR+_T%R"K[(;)cqks.J0E-Gorr<+Mjr`59BDhn\rrBhZr^YStnE403a8UqIr`Abgr^rsb*:*J]rrCG-rrC4@WW)t?<UtY;'kd6Snc&UUMt)Qff00@c6I[Q\ptal</\GYmh8sl?fmG6T>FSi*j"!c1=B``N^Qp7+H#_.S`?T9kARXBhX5ML"&:`W:*XMNQXScB!Y<To&1Z2MAh8YohNjT-G]O,^iXObR;Ff<2s[namih^cYi1mj,&]WpS'rM,;N!2%^>!5P6&L\;3\rr><krrDNorrA25rmK].VsL8W/82a0^\EHN]3)_$`h"m3r"Wa!m:uViMXscX93<I+be?=c=-+50/AZ@,=Rf^[rr<OOrLAB$SU]aN<;usZWq^Yp+,Deh%S*IF.F^IWiZB089Ap-CH1:,knA_r?C/SeJdG%pNV-clm96Vg?:2K('Os'<O8[Xgcr1^R5i1iLV0CAD8MI.AgA".CoYi#@!n_L'rJ)^u2ibeXkL2SZO.n_tk0%7^-=Y6eY2p1j^A;1QA1lRIl6S\P7MuNdLdf0<_TD=99%U&f35d^Okn-K$oOnOk63S3tErrAd9rrA>_;uZi\W;cjQ3r[DhoM30l^T)eS<I"M.n35n+ec,W$OoElP&GXTA$f]^?K=hd4KoU_Ypij`HNe;8Hgtla=o%bIpRQ"gh$9H,L@GY;D2eL/$rrC`Ip4MnumB?$.p+Z8In^lb*M_ptTi^\d:;lP#:=jcn6FH'eMZY3E;g0<3X^>4rc9TcsC>Sp`lO?uFu;Y`PaEI[TV?hb<7!&4Dgb<P2+TDej5nic$mBC%)E.=<WDTfs=k2=V3om:'pVikP2jp-eWNeb`NSrr?\9/^3*dB"h>PaP\D`I("+'F'b"/!"O/MS:BanJ)u/ZrrD,[q(r!WS##hSp'CH@q_8$M_[6*>`BOsI;kR9<rp)ku24kH9l^'*gUdEAHj&*@&Mhp>!1.AVamuX9_),fCR[D1XhpV%QqIq(\GCVL?C-?u$>cCNt\F/toJG_]4\lLS)fS<fNJjDlg%,Zfq-7MR':b^4Oa&q=TSrrD6S^[NWM@JthEJ']c3quT+DF._sb?eNL!M:_`.ohYQZU])8!q`+TUd5q:-b5SC?!6J71=2>>qp6kl]]E97qT7Yo(pn<-+3oe7>F4ol"HrbjF_\RQ@VRIfaBQJE4Y(S;,g-I$sQ\Xr4?tL#Q7<^u)a2a5ZHmJ^lJr&]A!PB6=F2]&9_Z'Uq]&&-`ih$k`!,5b6W-f`!]Jfk5Wse9dY`3/Z0h6,Xe64]7\fuu?ao.umrrA\>rrBj,q1nYR=oSIe[/U-q#lamep#l65fCj4a!2=W9!1!L]rrA4\rr@g8rm!b#:;?A7WdjS>I!>Sj"\SQNEN+1Ej7gJff\S9>^[RHdc>b/<c]':HVl8j+*eUHF=^,.EQ)9LPQ5r\Y;Hs*q>hat"gq*=*hfmYS^)l22gct:,5D]:JppK.sM:u<f/:J=Y:LAmphAYp,reG81UNLRW.CrTfQ8qs0+Sc+qj=:h-,V[3ArmA^b!70nZi(s9gqZe\P!2*MFp]Q)fp9474YO(<L!(?/Q!%[oDrr=?Brr<OOrLAB$SU]aN<;usZWq\s?($CR`:\Z:Bm.pNPC]=ALr[VdA'rLb[T]d;R`W#pqD];=!FI>6VRO"1Tkt</*@.qaK]]Lk1k:J2T8H=+H_7tM;qf@5=J$mjen_`?@`O4)U#NL/(*t;nP#EEpI%!Z%%U$;-;aGl_Rc'^L-ig5))3_nuYBk/LgdDc+ccfor;:]/--#;#lTTNZj?"FnMZINX*VT<ag$O4mt"a25N2iHDIZLjg`9qTbq6>X>K![?\CN>1tjL\9>RrXMXfSJJ#`Pqhj<LoT/cgYO(<L!(?/Q!%[oDrr=?Ha'Z+7a57X0G5/cJ!Vk"#ea38bnK@<s`Ci3K'N+#fL-$?f1="bJJV*VMg;>g="O3NRR/Mg5&)(7]P40j8T8pYsHl_`0pVpMinI:eliboK:r)\JG$u/rkf8R38C3Xa$bSJSnDUKe'*P,#df'(=NmgO\Zir9#AoY9lCraGbXQ@I755PtRIjF,_]!"O/MS:BanJ)u/ZrrD,[5N0o&Z]G%uYPbThTDXsZp\Y_D`d5[a5A2.lcf"MbiiR:<rXJY/i_<V6`;6'XWBQlOh8cGXP24*R_g<%'D19k^I-hRmV''k\;T?FXrNX"@ic!Iu+55c6Ds[#a#N?0k'[hF2T84CQC*"k=eMU,'C>OBpYErt&ge@H^V")BeXD]m/G[6E2^*s!.`W#qal$qVer58C:/H5^C>(?;MJ&qKlrZ(8$3<'!+3r]3&ri,nta]*c-SUY8oqBoYG?e%C:._^<*Qgh%Tn@uo6fot?\M#Jk$;1B)RHG8"D?/sadr)IlRX*Bg,dn@#loXenKUfZ$I-YXW/ZItV07r%7W6SUb(!;mM=`qSGYr"PXoW;'l!q"r)1/b!D(1g^C-TkSs"nL`%rhAU1NonfSu3Ncn<EnH)T9$JeN$F;M.(^Kbp0E-Gorr<+Mjr`59BDhn\rrBhZr^Wd;J&*7WB3dRl)iHq9RjN^;8DF#g;`e)$K7e<,U:uneMSceGXs2`RDH?2[r6Dr-!tBgreYu"Shj,]uf#\(0;-9At72/Q!=hZZ\Xf%3W+faaT+;-PdZY).Ta@=n'.8ZdiHQB25XXYcse%-6fUmcWdj8T,SEQ>k5q?Qefrr<97rY0k"N]mPpcp,JK!;JO'n?9&EY5\Lh>\F!6Qep%)rE@@YkS>98$9g]S!/DPA#6+[rIu41*n8SC-iCEf*j5;lp"8ksp!/$(,!"/T)MEeLgTC_ndHOodb.fTLA=F]6Wq#:?n*-(Herdk%rrrBmQrr@`pnDfR[ht.HL5Q2-7r$qmK$I</N)aa)0K03YMingg,(W..\V`0RAhhBo5I0[^!2joBeod;K=%(FfL_]@15XAZ*:O@W8G]14aJa&5.k;IA03`]>01nT3]=Omo^9Q[udqWVAq9$M]eM6FcPMp<B]5@p6RVLLf"HA2(ra\M3GS\&MO=5IGL'oD2g@&+s]frrA]oJ)D`!m*kt7"O?t5rr?f[L\KXOpgL%Ei]TA!f6'k"8h[Rs'VB*gmj5<1Ki5^[Q3Z,bP.2bIQ0;TEj,\`JoFLIVrXL%J/*-^1fmD]H`W#oLJ&*NiRr?ul<q1ZuUX;7`GcKrHnb?<oLVphQnW&YO[Ap%?:;9hi4*dE@\%$"/iA)T>EQXc$DbSN-BM1SDdou^<4qN1hIhDZ4pfHFhO7_lUC>/*VWG:$#hD`-Xd;EBDoGMchMd/P)<u3Y1SK,j_ZquqQF!3cUEM)k!?[E=VCF]>aTNH^%./$I3EQ>k5q?Qefrr<97rY0k"N]mPpcp,JK!;JO'n?6B6nEPJ@hm-%9Y'^h.j$+HkK=#Jg>d[oNl^)qcV0MMt,jT>cY$L4P&qL`Q&cod*q>UHl$L;'+muI'*g$dpULV,#)o2bkkK\B]r;YZ$LGam\FK6uP4B1K_DB:@jUd@o(NCCpu<_)8gYgW(It1E<+32':P^ch[Mm]ncHlQ%..35O]A83WB'h3;<s_!'pPa'E8'jiVrnpO8*_8^i0&Spn.Qd#7peKo8gfXg'bs4Qi%Q/5M7hrpp7,!nFJs9L$siar+[nQ='=..(=r>5n3^pj&G',6l'?$Gh_hLpN\?[lmEba*rr?aBF&)L]iVrn<?a9=&n_W`OUZ2iTiCu[Ff6hYO_E.A&qV(18p,5)UH!+>,*Tr,/6kIGF>DH:B6"W?hEM)k!?[E=VCF]>aTNH^%./J;i*-(Herdk%rrrBmQrr@`pnDfR[ht.HL5Q2-7r%$t!MRjUaIQ:."G5-slj$1NO%Ca.?B'/9lp-'Pf*4g!aOZYfFYeJ>\(-^CZ98qV$^(IqSW#euSg%]9\pugTX`6[)>i`6!Y`D;=3-e,nER8&a&1jr_7P'mPuhKXM8<CnaKh"_k6\"3^n`!W<\o#P?%Edqia5Nh[Qp)iSN<W<%aYl=^=;=,Ipj,\`JoFLIVrXL%J/'i&3!8s:&ZQ8f-=fD6=LJ76Yr$Ap]K^F.u1S$r4N7col>hR+49]X=XfuoZ8J@eQOE'1>_(P'/>qaQ%O*ut84ps\qopq*6p^Z!e%4ELN&#dq[Aie]4ncOIdgl;u;M(%n#f-W#lu@sGUg!4O]&JhWmW(VdCkMS)%@PK0:;dmZ^q["#=sL\u5lRH1]n#,'Ro`TNQO_=H#Tq1heHe:25n5Nh[Qp)iSN<W<%aYl=^=;=s>T39/pUr<)snrr@\,rr<BjiQ!#@^ZZd!J,C9NpfE7M_\u><+f>0apc%2:IgH&#(EO7[24VGNZ?:X<Hq2Pk]ba\+CBg(66VXemeE8_"0,>S5>!X-?)4=WP$pCffW5%j-m2,d&"XWYN^jFBGGf.=g!KZ4-U#WgOpfgdc7FaLnG++,uN)nii&/D^0(`$_Oed%2&V2K=C0h:r?1]DksmpZ3tARG';&,ZSDrrBrs4p-;]5K*R%pc*cmU])6Qn/M@Xr[7^G_8H9QKm^B"lf70IItF:&r]GQUpgN]"`Rf/.1&/TSrr>RY^Pm:COajFb>&/=CFL15@PHb&e9b82<;C:2f'^ChsY@c>a%dP/\rO[G'q_Dnn(Oe0or''UO_`>AT2=u>R]!h,fN:e.'C3VYmlL;)a[Cr<.+rFK@!p0YN]1#=V[;hi1qHnR[okQ&W!2*GDi$e'/iQ!#@^ZZd!J,C9Npeh%k%QO4mrr>=a!#,A4i8O\9_OLQ*"G6/VM=kY&g-<L4')[%75DX%Cqr9T2iE[O'f'\jdmL'D>-V,uH]:]L6)Hh9G!GNHB@C_i@_P@!0)?0\$V>%4o!*6D/q?;ZR!frEB!9(s?!Pdh?id^kG5PS+U!"M!`%K?Dnrr<`4!8ui9!5cIcU6"\HBDhaqhS]:qb.m-U+8?1,9CV]R&Qdn/L-.b3WTdG),SsX,`-5%DeX_pc0P/>G,9U(=PYk]9nPuhPF_9`QkB7@g_WC$`2'iY!ASZu6;-4j472/Q!72/Q!72/Q'/)d[`IMVF&`K(`.kJMU62SL^3XgNkS\#:j<?N)Ge0XXAJ`E15!;r_Noq1guGa-h0JrX#FjB>?_LAb"Z.]J6F">3,OTlZ1bE^*_BI1jLaF\%Tt!0jQAfQ(2`(0P-`;PKeHf'EQ!_rrB@nJ@#giq!Z+h7u&[hd68o7C)WFqm6oBfeZLRc&`(Oh^?%*m!/)g,?n794^&J'8i:o+ubJTnXdsQT&#uH"/Z!B0'2nDblW+anVNG'P-^<[:_@rW7)Lno$F6QoLa$NbUWE2%kFX%3,F4r@ssq:<7to<(lBAFLPn?0X@mF3C<".n]Mu9/Na@#'OT60f!hEX-3!;r"@?6:Q#,kGRMBt?4*<#ds`+c*@o"Y)FhK@krP]$BZ_'lj4(1`A%OJ*<SWQa#9Xf(k.ZGAJ3;#k5I&hXT828Yn?7Xq4lQ2^f/sY@>j-JKp&:e3W)';Egdia$#hLiB1.]R"juJ]k"YNb`\A&`-_(C*=pp7i+<f;1[B%-*g%<haO`0s9G28)LO\C'cKR'ku-gfdrQ/[TR7@dleM'5fg*9mm+4!-lh@J)Hoj#!NoLG<sY@+8>q/dPT8YGcZ/M9=D6kA<+u>(9MBGeH,Je%$%,'WSCU-a#2^uCZ(h=]H?ZR`BH<OhN88NMYq7,@:u_-$R;"QMSr1?;3\=co#9,Rg&XBGc>YMg;*Z3>I"2.rJk1,Ri]kArfqUh%O+jr&ItI\#"tfNFCV:Un$^e)5f'^g/Z[4-$]]GG@M#>(;PpD<BAScpY?1>&q'3!hUK>%b=X2#WTJ`<<>?9,WPrrBu(rr?$3^VAB5Kqimg]@8G\H`>.)@b\UqZn;O`+T%uL!TQDO&,[+4iBQ]knI!1Qh\J=9W/h\X[Y%A6>1#H"WH`nhP12LR>>919gqb9*LLss/N5uln!"s'RfCgupB5@$%_]CW6!/+P4IhR&g_X_q-8\V^G\=KboM)K:[FHStS#4gA!+F!_?2pBtIqBuH]4q7Ml_(InRquQS`VYIpb=+F_`eheI-q\:L/Dm*t>46ERpT@nB('>:iF\R!_`Q70&?_kA9dLqWlQ?O?]DGl(,.(#]Z6gt[.cj&aj8FF@'L7FS[#<rC&jrr?hX=c,Xf1Qa$:ga]pF1-SY#oM>eU0C6UV!!Kd\D>sTO089B^^A&T8n)-]i4qh5YlI"@#hCuJ05-(gBb@Ni-]sJD7&Z(MY$Jj#ePcQgbYn&9`8O&tL;*Y:!;*Y:!;*Y:!;*Y:!;*Y:!;*Y;*[f6=1r%2^S[dW3<)FQ+9>O;n2%F;&"O60$3_f7QP<ol8V_Td'Vj=]f0"Q08@W[Itm5N.Iu(B4BP4b(>Jrr@^Aci+[Rp7M'!p,C\Qo"N`SVu<[Yn+/ZcrO_h!h2Ll`^FaGt(OtA-hZ,i&HpmL+MEWTh5(cte]Q!q(`"9AZIhnTV&HIA/\C9KJ>?NQk0VL*m??-c]=&r-fd*tksSCi;3rr<N[4A"Qb>^0%>\^Weckna7?nH?=<-.hjNSHLSS<c#(J.R4VL6&>ZD)&\eW,bLNQ>Q4[+H16$;rr?m8!"<W]p435=:#N4/0_d09n65UB;7"i\9A$X!RPS`)%&n@X@b'<el#7K?(s"+F?Z&_+*^AUZfG!3C!.k+_pijOQ(%=DXC#PZlG`LOtqL,<6G*-p*H]`Fcr6r$->D^;@*5'SYa;_Su/!BGSr";s%HMEieY7c)8a'T=Yoc)d)hjmtP[ZaeB#+Kgc5R.,_4`1G'?'(g?.2'dQ^WE[SBV5i:_LD^d/`:Q(^+JlAKf"U%r(Z4dZ2XfB?S%5`W;Vl(%DLq9._?p7UM(Ok3Aot@/cPg&D>Y(;^VEVTr%cn%$Z#bB#_.L\>>igbmBm>69>(u&Uln3=cMAEElJ=kV9:(Z=3-$g8/)4g2%k%-tq[e-2pg8C+X1o&+=7]es4I5tb&)V,jm\-Z;=M=?9/%.AQQP)k=OVB89=n.Q>'p*q'S,WHl"6l[9!a3J`NT7kF2SoagY2b,W`*Yb*Hr-o\&W)Y&`"YUB[hL3YpA-0>_C,?`Jn]TMDiQb`&Tl>-C77YM2%<hKqpV?cRoRoorBjCN7i-A1D7.epcS9+\RRnZ7Al)Tnc#7A^Yd_Jf&c=feM;`@bpa](g1d?mZMsC9nK'HL9I;\G*?qVcjk!`hO+nG=^LqL+c_JL._ROA:$08X'*8RL0Bit%*]7BZP_pjBZlmu+9qb?]jNDc-BAZ4bqsa$%t?\JFelUe7=uShiEm<`oM)_q08fn-?fO$2C3nGgjO`,Slt!eb"bO#4h_(Oe-n=2O1D<.TiV][D]up!B\Ru^rKkP!-r.Rlqd,Z_r+:FnBTM"2JM)V%I/-5`g`c^M>Xti\1`<g'VYHLjK6f#E*/(g5o`tO^)-eLJi\-4i`GLfnb^=U[=<tieKajMiokM:)LW^G>)nqjEM\XA_U\$2'4i^!GYIh[\(RT5`J<9.ZO6SQM?)RVn(DpDrf,oe!:(OFKlk!lqr)^bFe\Y-g+-CHU"N\H&^LRkTb2rg['j3S4%*Rr3R8/n5PQRl_4L`*AXCGd!q=4/TkfkWO0-TDVYHW\[*dsKG2DsFUr@Ga-<>,sR),)+:/<b8oM>dIhZ!Sl2?!jG57K_Ji>^[0qK(ja/b*u(O*);Rf5`2Vo^!Jj9&AK!k?;,$I'3XmYS%U_,T/]Vrr<2^pb2.2i6RCq"6&,@743jS,fK3IX6obSm\-S(KcW#^(Rg'%cZ_8YQ!Mh/JWAMrf=+UB+$P/2rr<'Air9"o9cLu2&&HQtr*n-V2*6)Q7FliX-@n(FON-91Wscjt<_Jh;b>:PoG!)B]n@&l,!!L%7K=*qsA&dCA4F,t:$2?U@p7q.EI4jC2_VQ6]B%8$P/2[-7&N/,2Z,YC>ZVPpp/@'*4c@^J*>/%YDJ-m^!J-m^!J-m^!J-m^!J-m^!J-m^!J37oHSGe-="oDS4_*>q"]QCE\PNd:7RO=);N=O98Z?!qODf)RnU5J(kgq\a]M$0u#8??0VJ+-.8KARM.8`?d\rr>C:]JHS_=%87g2KsT^nK+IaRAA6Z"a%<4::Pu'BJtf9q$YL(]:2"]70%QXrrDO_5D8_p#4+GWnD;(%T+Ci_V!BtNrIT8Q`Yu=AkH__4Q<A*!F'7<gi\tT6*^M+u%>7.W]34-3pa-Nf0+rX:n<_%KHm:h9iVrlXhS,oHRuJXq^=2b'$M$ZKjgqnMiLOl;Bc^tl8IVE;?&Y9E?N!:mGb9T&i1F?c]G'=$LYa=ZHsa#NO5Yu]K0n+2mhb9#`S)>)1lh(\8U#5!\_`II!aXeJIdAEsS+')M$)-jpp2]qZCTdRM:EB4ZcVC(klVI$+[uPU-nA^qKi^#)!keCp1'O^abOFf'?>a/52&b"4G#DlW6_)_K(=SsGk]Fer;m@"iGr(oLmVa'm_p\'OahqB.4l6fI#rmpfQ,dM<Mj^RNB)eB=ZjIcDWrrDNuj2I@RV>#[d]:4/>&LWL=oP$EhX++Sm3kF0"l+XFO7F8KNRI1VJ1f:F6cPc]:OsBo_70%VO+0nDSgMK17NN>;cgBY`DAY6t8p?Rq@Yjtpe@-9^k@*Q&5a,#,I2XVYA/4ojAA<2MT3e,$4=hHu1%tbM65D*&)f0AdQGjM616_?:ninA)k`84l`[iDU\4W]I\p^d'urr@WrpaLY3pmN;Yj$hLre9jpLT+L>B[Z@9[^J_Me]ME<aXBaR`*EQ%F\;o;9OpN9KRPm-&)fAX_5/;*iPJD3d?IX@F2hrsGnLh$(G^L<Q4HC`Ac_JB7o>bIoV7_e>9<$3a]u3+_8q7.l70%Qkm.pY]"Q&odq_*2S$dXHGHpY'dX<<\\9[GCSH`c.LIn#;aATY9,kIbS47NJpkO8!qq2HEu\!.n)G'"@W`i'.8;J&D-VLSoMPqcE\>>+Ur;NDdf'nG`LBSY"nHC=(b<g8q-roJ2Y='hXRf#LTnT#Di/!rX$p?F2K(%mJ\-j^(;mTLjVR*ilP)8<q]b@rEe@G/%Ddcmoj4@FYK6i=L>@ti/4Y$)f(*+!.p@4c`Q`4>4=EB\%k"Q0APb#FY1>.V0M[G+0G<]7hM[j/u"LH?3utBo20-&pMo=Sc<';2-j/TBpa$aC?)[bAT)uZ.C#^c]_gWBP4s>0o;"9h&L\(tP]@6[?Zc@!$DeC*7LlHH>D.RSH9sJobd]`ipa6EFKTE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TE:!!TF_(U~>endstream
+endobj
+% 'Page9': class PDFPage 
+88 0 obj
+% Page dictionary
+<< /Contents 136 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ]
+ /XObject << /FormXob.7a3bd19666ee9a405e1aad925c8d21ce 87 0 R >> >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER72': class PDFDictionary 
+89 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://irods.org) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 296.1229
+ 458.7736
+ 360.0429
+ 470.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page10': class PDFPage 
+90 0 obj
+% Page dictionary
+<< /Annots [ 89 0 R ]
+ /Contents 137 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER73': class PDFDictionary 
+91 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://www.irods.org/index.php/Jargon) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 249.9829
+ 481.7736
+ 422.8329
+ 493.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page11': class PDFPage 
+92 0 obj
+% Page dictionary
+<< /Annots [ 91 0 R ]
+ /Contents 138 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page12': class PDFPage 
+93 0 obj
+% Page dictionary
+<< /Contents 139 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page13': class PDFPage 
+94 0 obj
+% Page dictionary
+<< /Contents 140 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page14': class PDFPage 
+95 0 obj
+% Page dictionary
+<< /Contents 141 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 127 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R96': class PDFCatalog 
+96 0 obj
+% Document Root
+<< /Outlines 98 0 R
+ /PageMode /UseNone
+ /Pages 127 0 R
+ /Type /Catalog >>
+endobj
+% 'R97': class PDFInfo 
+97 0 obj
+<< /Author (Renaissance Computing Institute \(RENCI\))
+ /CreationDate (D:20130315134020+05'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Enterprise iRODS \(E-iRODS\) Manual) >>
+endobj
+% 'R98': class PDFOutlines 
+98 0 obj
+<< /Count 31
+ /First 99 0 R
+ /Last 126 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+99 0 obj
+<< /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 131.0236
+ 0 ]
+ /Next 100 0 R
+ /Parent 98 0 R
+ /Title (\376\377\0001\000\240\000\240\000\240\000R\000e\000l\000e\000a\000s\000e\000 \000N\000o\000t\000e\000s) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+100 0 obj
+<< /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 101 0 R
+ /Parent 98 0 R
+ /Prev 99 0 R
+ /Title (\376\377\0002\000\240\000\240\000\240\000L\000i\000c\000e\000n\000s\000e) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+101 0 obj
+<< /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 404.0236
+ 0 ]
+ /Next 102 0 R
+ /Parent 98 0 R
+ /Prev 100 0 R
+ /Title (\376\377\0003\000\240\000\240\000\240\000O\000v\000e\000r\000v\000i\000e\000w) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+102 0 obj
+<< /Dest [ 68 0 R
+ /XYZ
+ 62.69291
+ 167.0236
+ 0 ]
+ /Next 103 0 R
+ /Parent 98 0 R
+ /Prev 101 0 R
+ /Title (\376\377\0004\000\240\000\240\000\240\000D\000o\000w\000n\000l\000o\000a\000d) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+103 0 obj
+<< /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 711.0236
+ 0 ]
+ /Next 104 0 R
+ /Parent 98 0 R
+ /Prev 102 0 R
+ /Title (\376\377\0005\000\240\000\240\000\240\000I\000n\000s\000t\000a\000l\000l\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+104 0 obj
+<< /Count 4
+ /Dest [ 71 0 R
+ /XYZ
+ 62.69291
+ 233.1176
+ 0 ]
+ /First 105 0 R
+ /Last 108 0 R
+ /Next 109 0 R
+ /Parent 98 0 R
+ /Prev 103 0 R
+ /Title (\376\377\0006\000\240\000\240\000\240\000Q\000u\000i\000c\000k\000s\000t\000a\000r\000t) >>
+endobj
+% 'Outline.29.0': class OutlineEntryObject 
+105 0 obj
+<< /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 106 0 R
+ /Parent 104 0 R
+ /Title (\376\377\0006\000.\0001\000\240\000\240\000\240\000C\000h\000a\000n\000g\000i\000n\000g\000 \000t\000h\000e\000 \000a\000d\000m\000i\000n\000i\000s\000t\000r\000a\000t\000o\000r\000 \000a\000c\000c\000o\000u\000n\000t\000 \000p\000a\000s\000s\000w\000o\000r\000d) >>
+endobj
+% 'Outline.29.1': class OutlineEntryObject 
+106 0 obj
+<< /Dest [ 72 0 R
+ /XYZ
+ 62.69291
+ 582.6236
+ 0 ]
+ /Next 107 0 R
+ /Parent 104 0 R
+ /Prev 105 0 R
+ /Title (\376\377\0006\000.\0002\000\240\000\240\000\240\000C\000h\000a\000n\000g\000i\000n\000g\000 \000t\000h\000e\000 \000Z\000o\000n\000e\000 \000n\000a\000m\000e) >>
+endobj
+% 'Outline.29.2': class OutlineEntryObject 
+107 0 obj
+<< /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 108 0 R
+ /Parent 104 0 R
+ /Prev 106 0 R
+ /Title (\376\377\0006\000.\0003\000\240\000\240\000\240\000A\000d\000d\000 \000a\000d\000d\000i\000t\000i\000o\000n\000a\000l\000 \000r\000e\000s\000o\000u\000r\000c\000e\000\(\000s\000\)) >>
+endobj
+% 'Outline.29.3': class OutlineEntryObject 
+108 0 obj
+<< /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 464.0605
+ 0 ]
+ /Parent 104 0 R
+ /Prev 107 0 R
+ /Title (\376\377\0006\000.\0004\000\240\000\240\000\240\000A\000d\000d\000 \000a\000d\000d\000i\000t\000i\000o\000n\000a\000l\000 \000u\000s\000e\000r\000\(\000s\000\)) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+109 0 obj
+<< /Dest [ 74 0 R
+ /XYZ
+ 62.69291
+ 134.8605
+ 0 ]
+ /Next 110 0 R
+ /Parent 98 0 R
+ /Prev 104 0 R
+ /Title (\376\377\0007\000\240\000\240\000\240\000U\000p\000g\000r\000a\000d\000i\000n\000g) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+110 0 obj
+<< /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 111 0 R
+ /Parent 98 0 R
+ /Prev 109 0 R
+ /Title (\376\377\0008\000\240\000\240\000\240\000M\000i\000g\000r\000a\000t\000i\000o\000n\000 \000f\000r\000o\000m\000 \000C\000o\000m\000m\000u\000n\000i\000t\000y\000 \000i\000R\000O\000D\000S) >>
+endobj
+% 'Outline.8': class OutlineEntryObject 
+111 0 obj
+<< /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 684.0236
+ 0 ]
+ /Next 112 0 R
+ /Parent 98 0 R
+ /Prev 110 0 R
+ /Title (\376\377\0009\000\240\000\240\000\240\000B\000a\000c\000k\000i\000n\000g\000 \000U\000p) >>
+endobj
+% 'Outline.9': class OutlineEntryObject 
+112 0 obj
+<< /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Next 113 0 R
+ /Parent 98 0 R
+ /Prev 111 0 R
+ /Title (\376\377\0001\0000\000\240\000\240\000\240\000A\000s\000s\000u\000m\000p\000t\000i\000o\000n\000s) >>
+endobj
+% 'Outline.10': class OutlineEntryObject 
+113 0 obj
+<< /Dest [ 78 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Next 114 0 R
+ /Parent 98 0 R
+ /Prev 112 0 R
+ /Title (\376\377\0001\0001\000\240\000\240\000\240\000A\000r\000c\000h\000i\000t\000e\000c\000t\000u\000r\000e) >>
+endobj
+% 'Outline.11': class OutlineEntryObject 
+114 0 obj
+<< /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 657.0236
+ 0 ]
+ /Next 115 0 R
+ /Parent 98 0 R
+ /Prev 113 0 R
+ /Title (\376\377\0001\0002\000\240\000\240\000\240\000P\000l\000u\000g\000g\000a\000b\000l\000e\000 \000M\000i\000c\000r\000o\000s\000e\000r\000v\000i\000c\000e\000s) >>
+endobj
+% 'Outline.12': class OutlineEntryObject 
+115 0 obj
+<< /Count 7
+ /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /First 116 0 R
+ /Last 121 0 R
+ /Next 123 0 R
+ /Parent 98 0 R
+ /Prev 114 0 R
+ /Title (\376\377\0001\0003\000\240\000\240\000\240\000C\000o\000m\000p\000o\000s\000a\000b\000l\000e\000 \000R\000e\000s\000o\000u\000r\000c\000e\000s) >>
+endobj
+% 'Outline.30.0': class OutlineEntryObject 
+116 0 obj
+<< /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 459.0236
+ 0 ]
+ /Next 117 0 R
+ /Parent 115 0 R
+ /Title (\376\377\0001\0003\000.\0001\000\240\000\240\000\240\000T\000r\000e\000e\000 \000M\000e\000t\000a\000p\000h\000o\000r) >>
+endobj
+% 'Outline.30.1': class OutlineEntryObject 
+117 0 obj
+<< /Dest [ 80 0 R
+ /XYZ
+ 62.69291
+ 231.0236
+ 0 ]
+ /Next 118 0 R
+ /Parent 115 0 R
+ /Prev 116 0 R
+ /Title (\376\377\0001\0003\000.\0002\000\240\000\240\000\240\000V\000i\000r\000t\000u\000a\000l\000i\000z\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.30.2': class OutlineEntryObject 
+118 0 obj
+<< /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 483.0236
+ 0 ]
+ /Next 119 0 R
+ /Parent 115 0 R
+ /Prev 117 0 R
+ /Title (\376\377\0001\0003\000.\0003\000\240\000\240\000\240\000C\000o\000o\000r\000d\000i\000n\000a\000t\000i\000n\000g\000 \000R\000e\000s\000o\000u\000r\000c\000e\000s) >>
+endobj
+% 'Outline.30.3': class OutlineEntryObject 
+119 0 obj
+<< /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 300.0236
+ 0 ]
+ /Next 120 0 R
+ /Parent 115 0 R
+ /Prev 118 0 R
+ /Title (\376\377\0001\0003\000.\0004\000\240\000\240\000\240\000S\000t\000o\000r\000a\000g\000e\000 \000R\000e\000s\000o\000u\000r\000c\000e\000s) >>
+endobj
+% 'Outline.30.4': class OutlineEntryObject 
+120 0 obj
+<< /Dest [ 85 0 R
+ /XYZ
+ 62.69291
+ 132.0236
+ 0 ]
+ /Next 121 0 R
+ /Parent 115 0 R
+ /Prev 119 0 R
+ /Title (\376\377\0001\0003\000.\0005\000\240\000\240\000\240\000M\000a\000n\000a\000g\000i\000n\000g\000 \000C\000h\000i\000l\000d\000 \000R\000e\000s\000o\000u\000r\000c\000e\000s) >>
+endobj
+% 'Outline.30.5': class OutlineEntryObject 
+121 0 obj
+<< /Count 1
+ /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 506.6236
+ 0 ]
+ /First 122 0 R
+ /Last 122 0 R
+ /Parent 115 0 R
+ /Prev 120 0 R
+ /Title (\376\377\0001\0003\000.\0006\000\240\000\240\000\240\000E\000x\000a\000m\000p\000l\000e\000 \000U\000s\000a\000g\000e) >>
+endobj
+% 'Outline.31.0': class OutlineEntryObject 
+122 0 obj
+<< /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 446.6236
+ 0 ]
+ /Parent 121 0 R
+ /Title (\376\377\0001\0003\000.\0006\000.\0001\000\240\000\240\000\240\000E\000x\000a\000m\000p\000l\000e\000 \0001) >>
+endobj
+% 'Outline.13': class OutlineEntryObject 
+123 0 obj
+<< /Dest [ 88 0 R
+ /XYZ
+ 62.69291
+ 169.4634
+ 0 ]
+ /Next 124 0 R
+ /Parent 98 0 R
+ /Prev 115 0 R
+ /Title (\376\377\0001\0004\000\240\000\240\000\240\000C\000o\000n\000f\000i\000g\000u\000r\000a\000t\000i\000o\000n) >>
+endobj
+% 'Outline.14': class OutlineEntryObject 
+124 0 obj
+<< /Dest [ 90 0 R
+ /XYZ
+ 62.69291
+ 509.0236
+ 0 ]
+ /Next 125 0 R
+ /Parent 98 0 R
+ /Prev 123 0 R
+ /Title (\376\377\0001\0005\000\240\000\240\000\240\000G\000l\000o\000s\000s\000a\000r\000y) >>
+endobj
+% 'Outline.15': class OutlineEntryObject 
+125 0 obj
+<< /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 577.0236
+ 0 ]
+ /Next 126 0 R
+ /Parent 98 0 R
+ /Prev 124 0 R
+ /Title (\376\377\0001\0006\000\240\000\240\000\240\000K\000n\000o\000w\000n\000 \000I\000s\000s\000u\000e\000s) >>
+endobj
+% 'Outline.16': class OutlineEntryObject 
+126 0 obj
+<< /Dest [ 94 0 R
+ /XYZ
+ 62.69291
+ 184.3691
+ 0 ]
+ /Parent 98 0 R
+ /Prev 125 0 R
+ /Title (\376\377\0001\0007\000\240\000\240\000\240\000H\000i\000s\000t\000o\000r\000y\000 \000o\000f\000 \000R\000e\000l\000e\000a\000s\000e\000s) >>
+endobj
+% 'R127': class PDFPages 
+127 0 obj
+% page tree
+<< /Count 14
+ /Kids [ 61 0 R
+ 68 0 R
+ 71 0 R
+ 72 0 R
+ 74 0 R
+ 78 0 R
+ 80 0 R
+ 85 0 R
+ 88 0 R
+ 90 0 R
+ 92 0 R
+ 93 0 R
+ 94 0 R
+ 95 0 R ]
+ /Type /Pages >>
+endobj
+% 'R128': class PDFStream 
+128 0 obj
+% page stream
+<< /Length 8739 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 4 Tm 62.69488 0 Td 24 TL /F2 20 Tf 0 0 0 rg (Enterprise iRODS \(E-iRODS\) Manual) Tj T* -62.69488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 716.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 36.93937 0 Td (Author:) Tj T* -36.93937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Renaissance Computing Institute \(RENCI\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 701.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 33.02937 0 Td (Version:) Tj T* -33.02937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0beta3) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 686.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 48.03937 0 Td (Date:) Tj T* -48.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2013-03-15) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 143.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 0 489 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (1   Release Notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 489 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 471 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (2   License) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 471 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 453 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (3   Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 453 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 435 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (4   Download) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 435 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 417 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (5   Installation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 417 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 399 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (6   Quickstart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 399 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 381 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.1   Changing the administrator account password) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 381 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 363 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.2   Changing the Zone name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 363 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 345 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.3   Add additional resource\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 345 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 327 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (6.4   Add additional user\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 327 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 309 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (7   Upgrading) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 309 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 291 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (8   Migration from Community iRODS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 291 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 273 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (9   Backing Up) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 273 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 255 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (10   Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 255 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 237 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (11   Architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 237 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 219 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (12   Pluggable Microservices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 219 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 201 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (13   Composable Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 201 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 183 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.1   Tree Metaphor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 183 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 165 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.2   Virtualization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 165 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 147 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.3   Coordinating Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 147 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 129 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.4   Storage Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 129 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 111 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.5   Managing Child Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 111 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 93 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.6   Example Usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 93 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (13.6.1   Example 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (14   Configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (15   Glossary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (16   Known Issues) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (17   History of Releases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (13) Tj T* -60.88 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 110.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (1   Release Notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 92.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This is the third beta release of the Enterprise integrated Rule-Oriented Data System \(E-iRODS\).) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R129': class PDFStream 
+129 0 obj
+% page stream
+<< /Length 6563 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .239984 Tw (E-iRODS is developed under the auspices of the E-iRODS Consortium. This release was prepared by the) Tj T* 0 Tw (Renaissance Computing Institute \(RENCI\) and released under the New BSD \(BSD-3\) License.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (2   License) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.361412 Tw (Copyright \(c\) 2005-2013, Regents of the University of California, the University of North Carolina at) Tj T* 0 Tw (Chapel Hill, and the Data Intensive Cyberinfrastructure Foundation All rights reserved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 650.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL (Redistribution and use in source and binary forms, with or without modification, are permitted) Tj T* (provided that the following conditions are met:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 650.0236 cm
+Q
+q
+1 0 0 1 72.69291 620.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .938555 Tw (Redistributions of source code must retain the above copyright notice, this list of conditions and) Tj T* 0 Tw (the following disclaimer.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 620.0236 cm
+Q
+q
+1 0 0 1 72.69291 623.0236 cm
+Q
+q
+1 0 0 1 72.69291 581.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.354597 Tw (Redistributions in binary form must reproduce the above copyright notice, this list of conditions) Tj T* 0 Tw 3.08748 Tw (and the following disclaimer in the documentation and/or other materials provided with the) Tj T* 0 Tw (distribution.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 581.0236 cm
+Q
+q
+1 0 0 1 72.69291 584.0236 cm
+Q
+q
+1 0 0 1 72.69291 542.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.292126 Tw (Neither the name of the University of California, San Diego \(UCSD\), the University of North) Tj T* 0 Tw 1.72561 Tw (Carolina at Chapel Hill nor the names of its contributors may be used to endorse or promote) Tj T* 0 Tw (products derived from this software without specific prior written permission.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 542.0236 cm
+Q
+q
+1 0 0 1 62.69291 416.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .17998 Tw (THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND) Tj T* 0 Tw 2.911797 Tw (ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED) Tj T* 0 Tw 5.165529 Tw (WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE) Tj T* 0 Tw .12248 Tw (DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR) Tj T* 0 Tw 1.91872 Tw (ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES) Tj T* 0 Tw 2.371976 Tw (\(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;) Tj T* 0 Tw .72498 Tw (LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION\) HOWEVER CAUSED AND ON) Tj T* 0 Tw .993615 Tw (ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT \(INCLUDING) Tj T* 0 Tw 1.780751 Tw (NEGLIGENCE OR OTHERWISE\) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,) Tj T* 0 Tw (EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 383.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3   Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 353.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.97498 Tw (This manual attempts to provide standalone documentation for E-iRODS as packaged by the) Tj T* 0 Tw (Renaissance Computing Institute \(RENCI\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 347.0236 cm
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://eirods.org) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (file:///var/lib/eirods/iRODS/doc/html/index.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 311.0236 cm
+Q
+q
+1 0 0 1 62.69291 281.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.09186 Tw (Additional documentation is available on the iRODS wiki and in the two books published by the iRODS) Tj T* 0 Tw (team:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 275.0236 cm
+Q
+q
+1 0 0 1 62.69291 179.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 81 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://irods.org) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 63 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://irods.org/doxygen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 33 cm
+q
+BT 1 0 0 1 0 14 Tm 1.651976 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(2010\) iRODS Primer: integrated Rule-Oriented Data System \(Synthesis Lectures on Information) Tj T* 0 Tw (Concepts, Retrieval, and Services\) ) Tj 0 0 .501961 rg (http://www.amazon.com/dp/1608453332) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 6.161085 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(2011\) The integrated Rule-Oriented Data System \(iRODS 3.0\) Micro-service Workbook) Tj T* 0 Tw 0 0 .501961 rg (http://www.amazon.com/dp/1466469129) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 179.0236 cm
+Q
+q
+1 0 0 1 62.69291 146.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (4   Download) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .575984 Tw (E-iRODS is currently released in binary form. Full open source repositories and trackers will be available) Tj T* 0 Tw (after the first major release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 86.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .417126 Tw (RPM and DEB formats are available for both iCAT-enabled servers and resource-only servers. There are) Tj T* 0 Tw (variations available for combinations of platform and operating system.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R130': class PDFStream 
+130 0 obj
+% page stream
+<< /Length 6150 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.055318 Tw (More combinations will be made available as our testing matrix continues to mature and increase in) Tj T* 0 Tw (scope.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The latest files can be downloaded from ) Tj 0 0 .501961 rg (http://eirods.org/download) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5   Installation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Installation of the Postgres iCAT DEB:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL ($ \(sudo\) dpkg -i eirods-3.0b3-64bit-icat-postgres.deb) Tj T* ($ \(sudo\) apt-get -f install) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 606.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Installation of the Resource RPM:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 570.3176 cm
+q
+q
+.766291 0 0 .766291 0 0 cm
+q
+1 0 0 1 6.6 8.612914 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 612 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (- Make sure to read ./packaging/RPM_INSTALLATION_HOWTO.txt before trying to install the RPM package.) Tj T* ($ \(sudo\) rpm -i eirods-3.0b3-64bit-resource.rpm) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 526.3176 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.199983 Tw (These packages declare the dependencies necessary to run E-iRODS and if satisfied, they install a) Tj T* 0 Tw 1.139147 Tw (service account and group named 'eirods', the E-iRODS binaries, microservice documentation, and this) Tj T* 0 Tw (manual.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 496.3176 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.838314 Tw (For the iCAT-enabled server packages, the E-iRODS server and EICAT database are started) Tj T* 0 Tw (automatically with default values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 367.1176 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F4 10 Tf 12 TL (eirods@hostname:~/ $ ienv) Tj T* (NOTICE: Release Version = rods3.0, API Version = d) Tj T* (NOTICE: irodsHost=hostname) Tj T* (NOTICE: irodsPort=1247) Tj T* (NOTICE: irodsDefResource=demoResc) Tj T* (NOTICE: irodsHome=/tempZone/home/rods) Tj T* (NOTICE: irodsCwd=/tempZone/home/rods) Tj T* (NOTICE: irodsUserName=rods) Tj T* (NOTICE: irodsZone=tempZone) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 323.1176 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .313984 Tw (For the resource-only packages, the server is not started automatically. The administrator will need to run) Tj T* 0 Tw 2.950888 Tw (the ./packaging/setup_resource.sh script and provide the following five pieces of information before) Tj T* 0 Tw (E-iRODS can start and connect to its configured iCAT Zone:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 323.1176 cm
+Q
+q
+1 0 0 1 62.69291 305.1176 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Hostname or IP) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 305.1176 cm
+Q
+q
+1 0 0 1 62.69291 308.1176 cm
+Q
+q
+1 0 0 1 62.69291 290.1176 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iCAT Port) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 290.1176 cm
+Q
+q
+1 0 0 1 62.69291 293.1176 cm
+Q
+q
+1 0 0 1 62.69291 275.1176 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (iCAT Zone) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 275.1176 cm
+Q
+q
+1 0 0 1 62.69291 278.1176 cm
+Q
+q
+1 0 0 1 62.69291 260.1176 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (E-iRODS administrator username) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 260.1176 cm
+Q
+q
+1 0 0 1 62.69291 263.1176 cm
+Q
+q
+1 0 0 1 62.69291 245.1176 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (5.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (E-iRODS administrator password) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 245.1176 cm
+Q
+q
+1 0 0 1 62.69291 212.1176 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6   Quickstart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 158.1176 cm
+q
+BT 1 0 0 1 0 38 Tm 4.85152 Tw 12 TL /F1 10 Tf 0 0 0 rg (Successful installation will complete and leave a running E-iRODS server. If you installed an) Tj T* 0 Tw .831318 Tw (iCAT-enabled E-iRODS server, a database of your choice will also have been created and running. The) Tj T* 0 Tw 2.262126 Tw (iCommand ) Tj /F4 10 Tf (ils ) Tj /F1 10 Tf (will list your new iRODS administrator's empty home directory in the iRODS virtual) Tj T* 0 Tw (filesystem:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 112.9176 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F4 10 Tf 12 TL (eirods@hostname:~/ $ ils) Tj T* (/tempZone/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 92.91759 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (When moving into production, you will probably want to cover the next few basic steps:) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R131': class PDFStream 
+131 0 obj
+% page stream
+<< /Length 4366 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.1   Changing the administrator account password) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .577318 Tw (The default installation of E-iRODS comes with a single account 'rods' that has rodsadmin privileges and) Tj T* 0 Tw (password 'rods'. You should change the password before letting anyone else onto the system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ iadmin moduser rods password ) Tj (<) Tj (newpassword) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 663.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (To make sure everything succeeded, you'll need to reauthenticate and check the new connection:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 594.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F4 10 Tf 12 TL (eirods@hostname:~/ $ iinit) Tj T* (Enter your current iRODS password:) Tj T* (eirods@hostname:~/ $ ils) Tj T* (/tempZone/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 564.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.2   Changing the Zone name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 534.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .538651 Tw (The default installation of E-iRODS comes with a Zone named 'tempZone'. You probably want to change) Tj T* 0 Tw (the Zone name to something more domain-specific:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 418.6439 cm
+q
+q
+.988825 0 0 .988825 0 0 cm
+q
+1 0 0 1 6.6 6.674587 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 474 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ iadmin modzone tempZone name ) Tj (<) Tj (newzonename) Tj (>) Tj  T* (If you modify the local zone name, you and other users will need to) Tj T* (change your .irodsEnv files to use it, you may need to update) Tj T* (irods.config and, if rules use the zone name, you'll need to update) Tj T* (core.re.  This command will update various tables with the new name) Tj T* (and rename the top-level collection.) Tj T* (Do you really want to modify the local zone name? \(enter y or yes to do so\):y) Tj T* (OK, performing the local zone rename) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 386.6439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .215251 Tw (The Zone has been renamed, but now you will need to update your .irodsEnv file to match \(note the three) Tj T* 0 Tw (places where the updated zone name is located\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 185.4439 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 192 re B*
+Q
+q
+BT 1 0 0 1 0 170 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ cat .irods/.irodsEnv) Tj T* (# iRODS server host name:) Tj T* (irodsHost ') Tj (<) Tj (hostname) Tj (>) Tj (') Tj T* (# iRODS server port number:) Tj T* (irodsPort 1247) Tj T* (# Default storage resource name:) Tj T* (irodsDefResource 'demoResc') Tj T* (# Home directory in iRODS:) Tj T* (irodsHome '/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods') Tj T* (# Current directory in iRODS:) Tj T* (irodsCwd '/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods') Tj T* (# Account name:) Tj T* (irodsUserName 'rods') Tj T* (# Zone:) Tj T* (irodsZone ') Tj (<) Tj (newzonename) Tj (>) Tj (') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 165.4439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Now, the connection should be reset and you should be able to list your empty iRODS collection again:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 96.2439 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ iinit) Tj T* (Enter your current iRODS password:) Tj T* (eirods@hostname:~/ $ ils) Tj T* (/) Tj (<) Tj (newzonename) Tj (>) Tj (/home/rods:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R132': class PDFStream 
+132 0 obj
+% page stream
+<< /Length 4658 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.3   Add additional resource\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .245984 Tw 12 TL /F1 10 Tf 0 0 0 rg (The default installation of E-iRODS comes with a single resource named 'demoResc' which stores its files) Tj T* 0 Tw .833059 Tw (in the ) Tj /F5 10 Tf (/var/lib/eirods/iRODS/Vault ) Tj /F1 10 Tf (directory. You will want to create additional resources at disk locations) Tj T* 0 Tw .99311 Tw (of your choosing. The following command will create a basic 'unix file system' resource at a designated) Tj T* 0 Tw (host at the designated fullpath:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 669.2605 cm
+q
+q
+.625519 0 0 .625519 0 0 cm
+q
+1 0 0 1 6.6 10.55124 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 750 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ iadmin mkresc ) Tj (<) Tj (newrescname) Tj (>) Tj ( 'unix file system' ) Tj (<) Tj (fully.qualified.domain.name) Tj (>) Tj (:) Tj (<) Tj (/full/path/to/new/vault) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 649.2605 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Additional information about creating resources can be found with:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 508.0605 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 132 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F4 10 Tf 12 TL (eirods@hostname:~/ $ iadmin help mkresc) Tj T* ( mkresc Name Type [Host:Path] [ContextString] \(make Resource\)) Tj T* (Create \(register\) a new storage or database resource.) Tj T*  T* (Name is the name of the new resource.) Tj T* (Type is the resource type.) Tj T* (Host is the DNS host name.) Tj T* (And Path is the defaultPath for the vault.) Tj T* (ContextString is any contextual information relevant to this resource.) Tj T* (  \(semi-colon separated key=value pairs e.g. "a=b;c=d"\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 476.0605 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .260542 Tw (Creating new resources does not make them default for any existing or new users. You will need to make) Tj T* 0 Tw (sure that default resources are properly set for newly ingested files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 446.0605 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (6.4   Add additional user\(s\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 404.0605 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .198735 Tw (The default installation of E-iRODS comes with a single user 'rods' which is a designated 'rodsadmin' type) Tj T* 0 Tw 1.391318 Tw (user account. You will want to create additional 'rodsuser' type user accounts and set their passwords) Tj T* 0 Tw (before allowing connections to your new grid:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 190.8605 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 204 re B*
+Q
+q
+BT 1 0 0 1 0 182 Tm 12 TL /F4 10 Tf 0 0 0 rg (eirods@hostname:~/ $ iadmin mkuser ) Tj (<) Tj (newusername) Tj (>) Tj ( rodsuser) Tj T*  T* (eirods@hostname:~/ $ iadmin lu) Tj T* (rods#tempZone) Tj T* (<) Tj (newusername) Tj (>) Tj (#tempZone) Tj T*  T* (eirods@hostname:~/ $ iadmin help mkuser) Tj T* ( mkuser Name[#Zone] Type \(make user\)) Tj T* (Create a new iRODS user in the ICAT database) Tj T*  T* (Name is the user name to create) Tj T* (Type is the user type \(see 'lt user_type' for a list\)) Tj T* (Zone is the user's zone \(for remote-zone users\)) Tj T*  T* (Tip: Use moduser to set a password or other attributes,) Tj T* (use 'aua' to add a user auth name \(GSI DN or Kerberos Principal name\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 146.8605 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .867318 Tw (Best practice suggests changing your Zone name before adding new users as any existing users would) Tj T* 0 Tw .503876 Tw (need to be informed of the new connection information and changes that would need to be made to their) Tj T* 0 Tw (local .irodsEnv files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 113.8605 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (7   Upgrading) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 95.86055 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The beta releases of E-iRODS do not yet support upgrading. Every install will be a clean install.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 77.86055 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This section will be updated when support is included.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R133': class PDFStream 
+133 0 obj
+% page stream
+<< /Length 8327 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (8   Migration from Community iRODS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .36152 Tw (Support for migrating from Community iRODS is planned, but automated scripts and documentation have) Tj T* 0 Tw (not yet been completed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This section will be updated with support is included and tested.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (9   Backing Up) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .832651 Tw (Backing up E-iRODS consists of three major parts: The data, the iRODS system and configuration files,) Tj T* 0 Tw (and the iCAT database itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .333735 Tw (The data itself can be handled by the iRODS system through replication and should not require any) Tj T* 0 Tw (specific backup efforts worth noting here.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 38 Tm 1.03528 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iRODS system and configuration files can be copied into iRODS as a set of Data Objects by) Tj T* 0 Tw 1.349979 Tw (using the ) Tj 0 0 .501961 rg (msiServerBackup ) Tj 0 0 0 rg (microservice. When run on a regular schedule, the ) Tj /F5 10 Tf (msiServerBackup) Tj T* 0 Tw .115366 Tw /F1 10 Tf (microservice will gather and store all the necessary configuration information to help you reconstruct) Tj T* 0 Tw (your iRODS setup during disaster recovery.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+Q
+q
+1 0 0 1 62.69291 552.0236 cm
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 98 Tm 2.59186 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iCAT database itself can be backed up in a variety of ways. A PostgreSQL database is) Tj T* 0 Tw .790542 Tw (contained on the local filesystem as a data/ directory and can be copied like any other set of files.) Tj T* 0 Tw 1.952651 Tw (This is the most basic means to have backup copies. However, this will have stale information) Tj T* 0 Tw 2.186905 Tw (almost immediately. To cut into this problem of staleness, PostgreSQL 8.4+ includes a feature) Tj T* 0 Tw .589269 Tw (called ) Tj 0 0 .501961 rg ("Record-based Log Shipping") Tj 0 0 0 rg (. This consists of sending a full transaction log to another copy) Tj T* 0 Tw 1.86936 Tw (of PostgreSQL where it could be "re-played" and bring the copy up to date with the originating) Tj T* 0 Tw .987318 Tw (server. Log shipping would generally be handled with a cronjob. A faster, seamless version of log) Tj T* 0 Tw 3.165814 Tw (shipping called ) Tj 0 0 .501961 rg ("Streaming Replication" ) Tj 0 0 0 rg (was included in PostgreSQL 9.0+ and can keep two) Tj T* 0 Tw (PostgreSQL servers in sync with sub-second delay.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.352927 Tw 12 TL /F1 10 Tf 0 0 0 rg (Configuration and maintenance of this type of backup system is out of scope for this document, but is) Tj T* 0 Tw (included here as an indication of best practice.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (10   Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.241412 Tw (E-iRODS enforces that the database in use \(PostgreSQL\) is configured for UTF-8 encoding. This is) Tj T* 0 Tw (enforced at the database level and then the tables inherit this setting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 3.394651 Tw 12 TL /F1 10 Tf 0 0 0 rg (The iRODS setting 'StrictACL' is configured on by default in E-iRODS. This is different from the) Tj T* 0 Tw .017984 Tw (community version of iRODS and behaves more like standard Unix permissions. This setting can be found) Tj T* 0 Tw (in the ) Tj /F5 10 Tf (server/config/reConfigs/core.re ) Tj /F1 10 Tf (file under acAclPolicy{}.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 270.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (11   Architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 228.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 4.838314 Tw (E-iRODS represents a major effort to analyze, harden, and package iRODS for sustainability,) Tj T* 0 Tw 1.091318 Tw (modularization, security, and testability. This has led to a fairly significant refactorization of much of the) Tj T* 0 Tw (underlying codebase. The following descriptions are included to help explain the architecture of E-iRODS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .399988 Tw (The core is designed to be as immutable as possible and serve as a bus for handling the internal logic of) Tj T* 0 Tw .537633 Tw (the business of iRODS \(data storage, policy enforcement, etc.\). Exposed by the core will be six or seven) Tj T* 0 Tw .203984 Tw (major interfaces which will allow extensibility and separation of functionality into plugins. A few plugins will) Tj T* 0 Tw (be included by default in E-iRODS to provide a set of base functionality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 156.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The planned plugin interfaces and their status are listed here:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 150.0236 cm
+Q
+q
+1 0 0 1 62.69291 76.86614 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 57 cm
+Q
+q
+1 0 0 1 23 3 cm
+1 1 1 rg
+n 0 54 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 443.8898 -18 re f*
+1 1 1 rg
+n 0 18 443.8898 -18 re f*
+1 1 1 rg
+n 0 54 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 443.8898 -18 re f*
+1 1 1 rg
+n 0 18 443.8898 -18 re f*
+.960784 .960784 .862745 rg
+n 0 54 443.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 241.6513 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 86.08565 0 Td (Plugin Interface) Tj T* -86.08565 0 Td ET
+Q
+Q
+q
+1 0 0 1 259.6513 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 93.68804 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 32.66902 0 Td (Status) Tj T* -32.66902 0 Td ET
+Q
+Q
+q
+1 0 0 1 365.3393 39 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 72.55043 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 23.77022 0 Td (Since) Tj T* -23.77022 0 Td ET
+Q
+Q
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable Microservices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Complete) Tj T* ET
+Q
+Q
+q
+1 0 0 1 365.3393 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Composable Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Complete) Tj T* ET
+Q
+Q
+q
+1 0 0 1 365.3393 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b3) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 0 m 443.8898 0 l S
+n 0 36 m 443.8898 36 l S
+n 0 18 m 443.8898 18 l S
+n 253.6513 0 m 253.6513 54 l S
+n 359.3393 0 m 359.3393 54 l S
+n 0 54 m 443.8898 54 l S
+n 0 0 m 0 54 l S
+n 443.8898 0 m 443.8898 54 l S
+n 0 0 m 443.8898 0 l S
+n 0 36 m 443.8898 36 l S
+n 0 18 m 443.8898 18 l S
+n 253.6513 0 m 253.6513 54 l S
+n 359.3393 0 m 359.3393 54 l S
+n 0 54 m 443.8898 54 l S
+n 0 0 m 0 54 l S
+n 443.8898 0 m 443.8898 54 l S
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R134': class PDFStream 
+134 0 obj
+% page stream
+<< /Length 7507 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 669.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+1 1 1 rg
+n 0 90 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 443.8898 -18 re f*
+1 1 1 rg
+n 0 54 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 443.8898 -18 re f*
+1 1 1 rg
+n 0 18 443.8898 -18 re f*
+1 1 1 rg
+n 0 90 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 443.8898 -18 re f*
+1 1 1 rg
+n 0 54 443.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 443.8898 -18 re f*
+1 1 1 rg
+n 0 18 443.8898 -18 re f*
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable Authentication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Planned) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable Database) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Planned) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable Messaging) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Planned) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable RPC API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Planned) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pluggable Rule Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 259.6513 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Requested) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 90 m 443.8898 90 l S
+n 0 72 m 443.8898 72 l S
+n 0 54 m 443.8898 54 l S
+n 0 36 m 443.8898 36 l S
+n 0 18 m 443.8898 18 l S
+n 253.6513 0 m 253.6513 90 l S
+n 359.3393 0 m 359.3393 90 l S
+n 0 0 m 0 90 l S
+n 443.8898 0 m 443.8898 90 l S
+n 0 0 m 443.8898 0 l S
+n 0 90 m 443.8898 90 l S
+n 0 72 m 443.8898 72 l S
+n 0 54 m 443.8898 54 l S
+n 0 36 m 443.8898 36 l S
+n 0 18 m 443.8898 18 l S
+n 253.6513 0 m 253.6513 90 l S
+n 359.3393 0 m 359.3393 90 l S
+n 0 0 m 0 90 l S
+n 443.8898 0 m 443.8898 90 l S
+n 0 0 m 443.8898 0 l S
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+q
+1 0 0 1 62.69291 636.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (12   Pluggable Microservices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 546.0236 cm
+q
+BT 1 0 0 1 0 74 Tm .696412 Tw 12 TL /F1 10 Tf 0 0 0 rg (E-iRODS is in the process of being modularized whereby existing community iRODS functionality will be) Tj T* 0 Tw .850697 Tw (replaced and provided by small, interoperable plugins. The first plugin functionality to be completed was) Tj T* 0 Tw 1.553314 Tw (pluggable microservices. Pluggable microservices allow users to add new microservices to an existing) Tj T* 0 Tw .579213 Tw (E-iRODS server without recompiling the server or even restarting any running processes. A microservice) Tj T* 0 Tw 1.161235 Tw (plugin contains a single compiled microservice shared object file to be found by the server. A separate) Tj T* 0 Tw .524524 Tw (development package, including an example, is available at ) Tj 0 0 .501961 rg (http://eirods.org/download) Tj 0 0 0 rg (, and explains how) Tj T* 0 Tw (this works in more detail.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (13   Composable Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .65284 Tw (The second area of modularity to be added to E-iRODS consists of composable resources. Composable) Tj T* 0 Tw .297126 Tw (resources replace the concept of resource groups from community iRODS. There are no resource groups) Tj T* 0 Tw (in E-iRODS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 441.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.1   Tree Metaphor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .930697 Tw (Composable resources are best modeled with a tree metaphor \(and in computer science parlance, they) Tj T* 0 Tw .279986 Tw (are tree data structures\). An E-iRODS composable resource is a tree with one 'root' node. Nodes that are) Tj T* 0 Tw .459488 Tw (at the bottom of the tree are 'leaf' nodes. Nodes that are not leaf nodes are 'branch' nodes and have one) Tj T* 0 Tw (more more 'child' nodes. A child node can have one and only one 'parent' node.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .274651 Tw (The terms root, leaf, branch, child, and parent represent locations and relationships within the structure of) Tj T* 0 Tw .799213 Tw (a particular tree. The terms 'coordinating' and 'storage' represent the functionality of particular resources) Tj T* 0 Tw .952485 Tw (within a particular tree. A resource node can be a coordinating resource and/or a storage resource. For) Tj T* 0 Tw 1.309987 Tw (clarity and reuse, it is generally best practice to separate the two so that a particular resource node is) Tj T* 0 Tw (either a coordinating resource or a storage resource.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .88311 Tw (In computer science, a tree is a data structure with a hierarchical representation of linked nodes. These) Tj T* 0 Tw .639535 Tw (nodes can be named based on where they are in the hierarchy. The node at the top of a tree is the root) Tj T* 0 Tw .125251 Tw (node. Parent nodes and child nodes are on opposite ends of a connecting link, or edge. Leaf nodes are at) Tj T* 0 Tw .175488 Tw (the bottom of the tree, and any node that is not a leaf node is a branch node. These positional descriptors) Tj T* 0 Tw .126651 Tw (are helpful when describing the structure of a tree. Composable resources are best represented using this) Tj T* 0 Tw (tree metaphor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.2   Virtualization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.24104 Tw (In iRODS, files are stored as Data Objects on disk and have an associated physical path as well as a) Tj T* 0 Tw .898221 Tw (virtual path within the iRODS file system. iRODS collections only exist in the iCAT database and do not) Tj T* 0 Tw (have an associated physical path \(allowing them to exist across all resources, virtually\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 3.560888 Tw (Composable resources introduce the same dichotomy between the virtual and physical. E-iRODS) Tj T* 0 Tw 2.41229 Tw (resources are defined to be either coordinating resources or storage resources. These two different) Tj T* 0 Tw .907209 Tw (classes of resource map directly to the branch nodes and leaf nodes of a generic tree data structure. A) Tj T* 0 Tw .63936 Tw (coordinating resource has built-in logic that defines how it determines, or coordinates, the flow of data to) Tj T* 0 Tw 2.835318 Tw (and from its children. Coordinating resources exist solely in the iCAT and virtually exist across all) Tj T* 0 Tw .669398 Tw (E-iRODS servers in a particular Zone. A storage resource has a Vault \(physical\) path and knows how to) Tj T* 0 Tw .274692 Tw (speak to a specific type of storage medium \(disk, tape, etc.\). The encapsulation of resources into a plugin) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R135': class PDFStream 
+135 0 obj
+% page stream
+<< /Length 10312 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.456905 Tw (architecture allows E-iRODS to have a consistent interface to all resources, whether they represent) Tj T* 0 Tw (coordination or storage.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .048735 Tw (This virtualization of the coordinating resources allows the logic of how to manage both the placement and) Tj T* 0 Tw .273516 Tw (the retrieval of Data Objects to exist independent of the types of resources that are connected as children) Tj T* 0 Tw .46936 Tw (resources. When E-iRODS tries to retrieve data, each child resource will \223vote\224 by offering whether it can) Tj T* 0 Tw .23229 Tw (provide the requested data, and coordinating resources will decide which particular storage resource \(e.g.) Tj T* 0 Tw .909431 Tw (physical location\) the read should come from. The specific manner of this vote is specific to the logic of) Tj T* 0 Tw .830751 Tw (the coordinating resource. For instance, a coordinating resource could optimize for reducing the number) Tj T* 0 Tw .502485 Tw (of requests made against each storage resource within some time frame or it could optimize for reducing) Tj T* 0 Tw .292485 Tw (latency in expected data retrieval times. We expect a wide variety of useful optimizations to be developed) Tj T* 0 Tw (by the community.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 2.607318 Tw (An intended side effect of the tree metaphor and the virtualization of coordinating resources is the) Tj T* 0 Tw .708735 Tw (deprecation of the concept of a resource group. Resource groups in community iRODS could not be put) Tj T* 0 Tw 1.683984 Tw (into other resource groups. A specific limiting example was that of the compound resource where, by) Tj T* 0 Tw .77811 Tw (definition, it was a group and could not be placed into another group significantly limiting its functionality) Tj T* 0 Tw (as a management tool. Groups in E-iRODS now only refer to user groups.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Read more at ) Tj 0 0 .501961 rg (http://eirods.org/release/e-irods-composable-resources/) Tj 0 0 0 rg (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Paper \(279kB, PDF\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+Q
+q
+1 0 0 1 62.69291 528.0236 cm
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Slides \(321kB, PDF\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+Q
+q
+1 0 0 1 62.69291 513.0236 cm
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Poster \(6.4MB, PDF\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.3   Coordinating Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .055318 Tw (Coordinating resources contain the flow control logic which determines both how its child resources will be) Tj T* 0 Tw (allocated copies of data as well as which copy is returned when a data object is requested. These include:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (random) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+Q
+q
+1 0 0 1 62.69291 402.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (round robin) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 402.0236 cm
+Q
+q
+1 0 0 1 62.69291 405.0236 cm
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (pass through \(for testing\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+Q
+q
+1 0 0 1 62.69291 372.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (replication \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 372.0236 cm
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (load balanced \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 360.0236 cm
+Q
+q
+1 0 0 1 62.69291 342.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (storage balanced \(%-full\) \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 342.0236 cm
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (storage balanced \(bytes\) \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+Q
+q
+1 0 0 1 62.69291 330.0236 cm
+Q
+q
+1 0 0 1 62.69291 312.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (tiered \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 312.0236 cm
+Q
+q
+1 0 0 1 62.69291 282.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.4   Storage Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 252.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .414269 Tw (Storage resources represent storage interfaces and include the file driver information to talk with different) Tj T* 0 Tw (types of storage. These include:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 252.0236 cm
+Q
+q
+1 0 0 1 62.69291 234.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (unix file system) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 234.0236 cm
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (structured file type \(tar, zip, gzip, bzip\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+Q
+q
+1 0 0 1 62.69291 222.0236 cm
+Q
+q
+1 0 0 1 62.69291 204.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Universal Mass Storage \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 204.0236 cm
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HPSS \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 189.0236 cm
+Q
+q
+1 0 0 1 62.69291 192.0236 cm
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (S3 \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+Q
+q
+1 0 0 1 62.69291 177.0236 cm
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (WOS \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 159.0236 cm
+Q
+q
+1 0 0 1 62.69291 162.0236 cm
+Q
+q
+1 0 0 1 62.69291 144.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (non-blocking \(expected\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 144.0236 cm
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.5   Managing Child Resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (There are two new ) Tj /F4 10 Tf (iadmin ) Tj /F1 10 Tf (subcommands introduced with this feature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 78.02362 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (addchildtoresc) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R136': class PDFStream 
+136 0 obj
+% page stream
+<< /Length 4146 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 643.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F4 10 Tf 12 TL (eirods@hostname:~$ iadmin h addchildtoresc) Tj T* ( addchildtoresc Parent Child [ContextString] \(add child to resource\)) Tj T* (Add a child resource to a parent resource.  This creates an 'edge') Tj T* (between two nodes in a resource tree.) Tj T*  T* (Parent is the name of the parent resource.) Tj T* (Child is the name of the child resource.) Tj T* (ContextString is any relevant information that the parent may need in order) Tj T* (  to manage the child.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 623.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (rmchildfromresc) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 96 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F4 10 Tf 12 TL (eirods@hostname:~$ iadmin h rmchildfromresc) Tj T* ( rmchildfromresc Parent Child \(remove child from resource\)) Tj T* (Remove a child resource from a parent resource.  This removes an 'edge') Tj T* (between two nodes in a resource tree.) Tj T*  T* (Parent is the name of the parent resource.) Tj T* (Child is the name of the child resource.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 488.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (13.6   Example Usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .645318 Tw (Creating a composite resource consists of creating the individual nodes of the desired tree structure and) Tj T* 0 Tw (then connecting the parent and children nodes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 431.6236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F6 12.5 Tf 0 0 0 rg (13.6.1   Example 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 299.4236 cm
+q
+n 0 0 485.6898 142 re n
+Q
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 126.9449 18.1 cm
+q
+216 0 0 108 0 0 cm
+/FormXob.7a3bd19666ee9a405e1aad925c8d21ce Do
+Q
+Q
+Q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 .1 .1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL 115.3499 0 Td (Example 1: Replicates Data Objects to three locations) Tj T* -115.3499 0 Td ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 269.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.567126 Tw (A replicating coordinating resource with three unix file system storage resources as children would be) Tj T* 0 Tw (composed with seven \(7\) iadmin commands:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 181.4634 cm
+q
+q
+.822636 0 0 .822636 0 0 cm
+q
+1 0 0 1 6.6 8.022988 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 570 96 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F4 10 Tf 12 TL (eirods@hostname:~/ $ iadmin mkresc example1 replication) Tj T* (eirods@hostname:~/ $ iadmin mkresc repl_resc1 "unix file system" renci.example.org:/Vault) Tj T* (eirods@hostname:~/ $ iadmin mkresc repl_resc2 "unix file system" maxplanck.example.org:/Vault) Tj T* (eirods@hostname:~/ $ iadmin mkresc repl_resc3 "unix file system" sdsc.example.org:/Vault) Tj T* (eirods@hostname:~/ $ iadmin addchildtoresc example1 repl_resc1) Tj T* (eirods@hostname:~/ $ iadmin addchildtoresc example1 repl_resc2) Tj T* (eirods@hostname:~/ $ iadmin addchildtoresc example1 repl_resc3) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 148.4634 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (14   Configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 118.4634 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .864692 Tw (There are a number of configuration files that control how an iRODS server behaves. The following is a) Tj T* 0 Tw (listing of the configuration files in an E-iRODS installation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 88.46339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.794983 Tw (This document is intended to explain how the various configuration files are connected, what their) Tj T* 0 Tw (parameters are, and when to use them.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R137': class PDFStream 
+137 0 obj
+% page stream
+<< /Length 6936 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (~/.odbc.ini) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .851984 Tw (This file, in the eirods user's home directory, defines the unixODBC connection details needed for the) Tj T* 0 Tw .202651 Tw (iCommands to communicate with the iCAT database. This file was created by the installer package and) Tj T* 0 Tw (probably should not be changed by the sysadmin unless they know what they are doing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 701.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iRODS/config/irods.config) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 665.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .733516 Tw (This file defines the main settings for the iRODS installation. It is created by the installer package and) Tj T* 0 Tw .311984 Tw (comes preconfigured with approved and tested settings. Changing this file will take effect after a restart) Tj T* 0 Tw (of the iRODS server. It is recommended not to change this file.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 649.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iRODS/server/config/server.config) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 625.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .084985 Tw (This file defines the behavior of the server Agent that answers individual requests coming into iRODS. It) Tj T* 0 Tw (is recommended not to change this file.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (~/.irods/.irodsA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 561.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .546488 Tw 12 TL /F1 10 Tf 0 0 0 rg (This is the scrambled password file that is saved after an ) Tj /F4 10 Tf (iinit ) Tj /F1 10 Tf (is run. If this file does not exist, then) Tj T* 0 Tw .05186 Tw (each iCommand will prompt for a password before authenticating with the iRODS server. If this file does) Tj T* 0 Tw .012765 Tw (exist, then each iCommand will read this file and use the contents as a cached password token and skip) Tj T* 0 Tw (the password prompt. This file can be deleted manually or can be removed by running ) Tj /F4 10 Tf (iexit full) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (~/.irods/.irodsEnv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 521.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .971412 Tw (This is the main iRODS configuration file defining the iRODS environment. Any changes are effective) Tj T* 0 Tw (immediately since iCommands reload their environment on every execution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 488.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (15   Glossary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .74686 Tw 12 TL /F1 10 Tf 0 0 0 rg (This glossary attempts to cover most of the terms you may encounter when first interacting with iRODS.) Tj T* 0 Tw (More information can be found on the iRODS wiki at ) Tj 0 0 .501961 rg (http://irods.org) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 442.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 406.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.19811 Tw (An external \(logical\) name given to an iRODS Rule\(s\) that defines a set of macro-level tasks. These) Tj T* 0 Tw .759984 Tw (tasks are performed by a chain of microservices in accordance with external input parameters. This is) Tj T* 0 Tw (analogous to head atom in a Prolog rule or trigger-name in a relational database.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Agent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 366.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.182619 Tw (A type of iRODS server process. Each time a client connects to a server, an agent is created and a) Tj T* 0 Tw (network connection established between it and the client.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 350.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 302.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.737674 Tw (An Application Programming Interface \(API\) is a piece of software's set of defined programmatic) Tj T* 0 Tw .22311 Tw (interfaces to enable other software to communicate with it. iRODS defines a client API and expects that) Tj T* 0 Tw 1.568555 Tw (clients connect and communicate with iRODS servers in this controlled manner. iRODS has an API) Tj T* 0 Tw (written in C, and another written in Java \(Jargon\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 286.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Authentication Mechanisms) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 238.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.044983 Tw (iRODS can employ various mechanisms to verify user identity and control access to Data Objects) Tj T* 0 Tw .303314 Tw (\(iRODS files\), Collections, etc. These currently include the default iRODS secure password mechanism) Tj T* 0 Tw 5.52122 Tw (\(challenge-response\), Grid Security Infrastructure \(GSI\), and Operating System authentication) Tj T* 0 Tw (\(OSAuth\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 222.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Audit Trail) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 174.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .603516 Tw (List of all operations performed upon a Data Object, a Collection, a Resource, a User, or other iRODS) Tj T* 0 Tw 1.804983 Tw (entities. When Auditing is enabled, significant events in the iRODS system \(affecting the iCAT\) are) Tj T* 0 Tw .876905 Tw (recorded. Full activity reports can be compiled to verify important preservation and/or security policies) Tj T* 0 Tw (have been enforced.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 158.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Client) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 122.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .017984 Tw (A Client in the iRODS client-server architecture gives users an interface to manipulate Data Objects and) Tj T* 0 Tw .339269 Tw (other iRODS entities that may be stored on remote iRODS servers. iRODS clients include: iCommands) Tj T* 0 Tw (unix-like command line interface, iDrop \(ftp-like client java application\), iDropWeb \(web interface\), etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 106.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Collection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 82.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .541098 Tw (All Data Objects stored in an iRODS system are stored in some Collection, which is a logical name for) Tj T* 0 Tw 2.081412 Tw (that set of Data Objects. A Collection can have sub-collections, and hence provides a hierarchical) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R138': class PDFStream 
+138 0 obj
+% page stream
+<< /Length 7037 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 72.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .221567 Tw (structure. An iRODS Collection is like a directory in a Unix file system \(or Folder in Windows\), but is not) Tj T* 0 Tw .322209 Tw (limited to a single device or partition. A Collection is logical so that the Data Objects can span separate) Tj T* 0 Tw .121797 Tw (and heterogeneous storage devices \(i.e. is infrastructure and administrative domain independent\). Each) Tj T* 0 Tw (Data Object in a Collection must have a unique name in that Collection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 701.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Data Grid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 677.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.605697 Tw (A grid computing system \(a set of distributed, cooperating computers\) that deals with the controlled) Tj T* 0 Tw (sharing and management of large amounts of distributed data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 661.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Data Object) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 625.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .283516 Tw (A Data Object is a single "stream-of-bytes" entity that can be uniquely identified; a file stored in iRODS.) Tj T* 0 Tw .538221 Tw (It is given a Unique Internal Identifier in iRODS \(allowing a global name space\), and is associated with) Tj T* 0 Tw (\(situated in\) a Collection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Driver) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.059986 Tw (A piece of software that interfaces to a particular type of resource as part of the iRODS server/agent) Tj T* 0 Tw 1.722651 Tw (process. The driver provides a common set of functions \(open, read, write, close, etc.\) which allow) Tj T* 0 Tw .240651 Tw (iRODS clients \(iCommands and other programs using the client API\) to access different devices via the) Tj T* 0 Tw (common iRODS protocol.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Federation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 509.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .414269 Tw (Zone Federation occurs when two or more independent iRODS Zones are registered with one another.) Tj T* 0 Tw .709985 Tw (Users from one Zone can authenticate through their home iRODS server and have access rights on a) Tj T* 0 Tw (remote Zone and its Data Objects, Collections, and Metadata.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 493.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Jargon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 481.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The Java API for iRODS. Read more at ) Tj 0 0 .501961 rg (https://www.irods.org/index.php/Jargon) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iCAT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.407126 Tw (The iCAT, or iRODS Metadata Catalog, stores descriptive state metadata about the Data Objects in) Tj T* 0 Tw .694983 Tw (iRODS Collections in a DBMS database \(e.g. PostgreSQL, MySQL, Oracle\). The iCAT can keep track) Tj T* 0 Tw 1.77152 Tw (of both system-level metadata and user-defined metadata. There is one iCAT database per iRODS) Tj T* 0 Tw (Zone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 401.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (IES \(iCAT-Enabled Server\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 389.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A machine that runs both an iRODS server and the iCAT database for a particular Zone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 373.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (iCommands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 325.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .32936 Tw (iCommands are Unix utilities that give users a command-line interface to operate on data in the iRODS) Tj T* 0 Tw 2.708314 Tw (system. There are commands related to the logical hierarchical filesystem, metadata, data object) Tj T* 0 Tw .160814 Tw (information, administration, rules, and the rule engine. iCommands provide the most comprehensive set) Tj T* 0 Tw (of client-side standard iRODS manipulation functions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Inheritance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 237.0236 cm
+q
+BT 1 0 0 1 0 62 Tm 1.173828 Tw 12 TL /F1 10 Tf 0 0 0 rg (Collections in the iRODS logical name space have an attribute named Inheritance. When Collections) Tj T* 0 Tw .429985 Tw (have this attribute set to Enabled, new Data Objects and Collections added to the Collection inherit the) Tj T* 0 Tw .996647 Tw (access permissions \(ACLs\) of the Collection. Data Objects created within Collections with Inheritance) Tj T* 0 Tw .464985 Tw (set to Disabled do not inherit the parent Collection's ACL settings. ) Tj /F4 10 Tf (ichmod ) Tj /F1 10 Tf (can be used to manipulate) Tj T* 0 Tw .342485 Tw (this attribute on a per-Collection level. ) Tj /F4 10 Tf (ils -A ) Tj /F1 10 Tf (displays ACLs and the inheritance status of the current) Tj T* 0 Tw (working iRODS directory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 221.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Logical Name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 185.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.203318 Tw (The identifier used by iRODS to uniquely name a Data Object, Collection, Resource, or User. These) Tj T* 0 Tw 2.055814 Tw (identifiers enable global namespaces that are capable of spanning distributed storage and multiple) Tj T* 0 Tw (administrative domains for shared Collections or a unified virtual Collection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 169.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Management Policies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 121.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.16784 Tw (The specification of the controls on procedures applied to Data Objects in a Collection. Management) Tj T* 0 Tw 4.224269 Tw (policies may define that certain Metadata be required to be stored. Those policies could be) Tj T* 0 Tw 1.683984 Tw (implemented via a set of iRODS Rules that generate and verify the required Metadata. Audit Trails) Tj T* 0 Tw (could be used to generate reports that show that Management Policies have been followed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Metadata) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.009982 Tw (Metadata is data about data. In iRODS, metadata can include system or user-defined attributes) Tj T* 0 Tw .830751 Tw (associated with a Data-Object, Collection, Resource, etc., stored in the iCAT database. The metadata) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R139': class PDFStream 
+139 0 obj
+% page stream
+<< /Length 6995 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 72.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (stored in the iCAT database are in the form of AVUs \(attribute-value-unit tuples\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 737.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Metadata Harvesting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 701.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.728443 Tw (The process of extraction of existing Metadata from a remote information resource and subsequent) Tj T* 0 Tw 3.073555 Tw (addition to the iRODS iCAT. The harvested Metadata could be related to certain Data Objects,) Tj T* 0 Tw (Collections, or any other iRODS entity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 685.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Micro-service) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 673.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A set of operations performed on a Collection at a remote storage location.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 601.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .633615 Tw (Micro-services are small, well-defined procedures/functions that perform a certain server-side task and) Tj T* 0 Tw 2.248314 Tw (are compiled into the iRODS server code. Rules invoke Micro-services to implement Management) Tj T* 0 Tw .626647 Tw (Policies. Micro-services can be chained to implement larger macro-level functionality, called an Action.) Tj T* 0 Tw 1.290574 Tw (By having more than one chain of Micro-services for an Action, a system can have multiple ways of) Tj T* 0 Tw 1.600751 Tw (performing the Action. At runtime, using priorities and validation conditions, the system chooses the) Tj T* 0 Tw ("best" micro-service chain to be executed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Migration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.986136 Tw (The process of moving digital Collections to new hardware and/or software as technology evolves.) Tj T* 0 Tw .573555 Tw (Separately, Transformative Migration may be used to mean the process of manipulating a Data Object) Tj T* 0 Tw (into a new format \(e.g. gif to png\) for preservation purposes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Physical Resource) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 509.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.092485 Tw (A storage system onto which Data Objects may be deposited. iRODS supports a wide range of disk,) Tj T* 0 Tw (tape, and remote storage resources.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 493.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Resource) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 469.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .734269 Tw (A resource, or storage resource, is a software/hardware system that stores digital data. iRODS clients) Tj T* 0 Tw (can operate on local or remote data stored on different types of resources through a common interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 393.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.053984 Tw (Rules are a major innovation in iRODS that let users automate data management tasks, essential as) Tj T* 0 Tw .831984 Tw (data collections scale to petabytes across hundreds of millions of files. Rules allow users to automate) Tj T* 0 Tw 1.696976 Tw (enforcement of complex Management Policies \(workflows\), controlling the server-side execution \(via) Tj T* 0 Tw 1.60229 Tw (Micro-services\) of all data access and manipulation operations, with the capability of verifying these) Tj T* 0 Tw (operations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 377.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Rule Engine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 329.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .572485 Tw (The Rule Engine interprets Rules following the iRODS rule syntax. The Rule Engine, which runs on all) Tj T* 0 Tw .060697 Tw (iRODS servers, is invoked by server-side procedure calls and selects, prioritizes, and applies Rules and) Tj T* 0 Tw .766647 Tw (their corresponding Micro-services. The Rule Engine can apply recovery procedures if a Micro-service) Tj T* 0 Tw (or Action fails.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 313.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Scalability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 265.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.02436 Tw (Scalability means that a computer system performs well, even when scaled up to very large sizes. In) Tj T* 0 Tw 2.630574 Tw (iRODS, this refers to its ability to manage Collections ranging from the data on a single disk to) Tj T* 0 Tw 2.242126 Tw (petabytes \(millions of gigabytes\) of data in hundreds of millions of files distributed across multiple) Tj T* 0 Tw (locations and administrative domains.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Server) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.614985 Tw (An iRODS server is software that interacts with the access protocol of a specific storage system. It) Tj T* 0 Tw (enables storing and sharing data distributed geographically and across administrative domains.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 209.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Transformative Migration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 173.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.497318 Tw (The process of manipulating a Data Object from one encoding format to another. Usually the target) Tj T* 0 Tw 1.028651 Tw (format will be newer and more compatible with other systems. Sometimes this process is "lossy" and) Tj T* 0 Tw (does not capture all of the information in the original format.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 157.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Trust Virtualization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 145.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The management of Authentication and authorization independently of the storage location.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 129.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Unique Internal Identifier) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (See Logical Name.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 101.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (User Name) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 77.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.573318 Tw (Unique identifier for each person or entity using iRODS; sometimes combined with the name of the) Tj T* 0 Tw 1.814597 Tw (home iRODS Zone \(as username#Zonename\) to provide a globally unique name when using Zone) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R140': class PDFStream 
+140 0 obj
+% page stream
+<< /Length 7126 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 72.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Federation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 737.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Vault) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 653.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .179398 Tw (An iRODS Vault is a data repository system that iRODS can maintain on any storage system which can) Tj T* 0 Tw .247882 Tw (be accessed by an iRODS server. For example, there can be an iRODS Vault on a Unix file system, an) Tj T* 0 Tw .12061 Tw (HPSS \(High Performance Storage System\), or an IBM DB2 database. A Data Object in an iRODS Vault) Tj T* 0 Tw .907984 Tw (is stored as an iRODS-written object, with access controlled through the iCAT catalog. This is distinct) Tj T* 0 Tw .383876 Tw (from legacy data objects that can be accessed by iRODS but are still owned by previous owners of the) Tj T* 0 Tw 1.387633 Tw (data. For file systems such as Unix and HPSS, a separate directory is used; for databases such as) Tj T* 0 Tw (Oracle or DB2 a system-defined table with LOB-space \(Large Object space\) is used.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 637.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Zone) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 589.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .17784 Tw (An iRODS Zone is an independent iRODS system consisting of an iCAT-Enabled Server \(IES\), optional) Tj T* 0 Tw 1.365814 Tw (additional distributed iRODS Servers \(which can reach hundreds, worldwide\) and clients. Each Zone) Tj T* 0 Tw .327485 Tw (has a unique name. When two iRODS Zones are configured to interoperate with each other securely, it) Tj T* 0 Tw (is called \(Zone\) Federation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 556.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (16   Known Issues) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 196.3691 cm
+q
+q
+.635673 0 0 .635673 0 0 cm
+q
+1 0 0 1 6.6 10.38269 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 738 552 re B*
+Q
+q
+BT 1 0 0 1 0 530 Tm 12 TL /F4 10 Tf 0 0 0 rg (Ticket Item:  [#1212] iadmin modrescdatapaths failing - psql 8.1 on cen58) Tj T* (-------------------------------------------------------------------------) Tj T*  T* (iadmin modrescdatapath does not work on RHEL/CentOS 5.x since the yum-packaged PostgreSQL version is 8.1.) Tj T*  T* (PostgreSQL 8.1 does not allow the 'update' command to include a table alias \(as used by modrescdatapath\).) Tj T* (This feature was not included in PostgreSQL until version 8.2.) Tj T*  T* (The modrescdatapath subcommand works as expected on RHEL/CentOS 6.x.) Tj T*  T*  T* (Ticket Item:  [#1260] unixODBC on OpenSuSE 12.x fails when iRODS resource name contains a hyphen \(aka "hpss-sdsc"\)) Tj T* (------------------------------------------------------------------------------------------------------------------) Tj T* (  ) Tj T* (unixODBC on OpenSuSE 12.x fails when iRODS resource name contains a hyphen \(aka "hpss-sdsc"\).) Tj T*  T* (Also, 'moon landing' in rules3.0/rulewriteKeyValPairs.r.) Tj T*  T*  T* (Other Operating Systems and versions do not exhibit this behavior.) Tj T*  T*  T* (Mar  6 09:47:34 pid:21588 NOTICE: rsAuthCheck user rods#tempZone) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: rsAuthResponse set proxy authFlag to 5, client authFlag to 5, user:rods#tempZone ) Tj T* (proxy:rods client:rods) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[1]=RajaBase) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[2]=acRegisterData) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[3]=acRegisterData\(\)) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[4]=\($objPath like "/home/raja#sdsc/myImportantFiles\\*" ) Tj (&) Tj (&) Tj ( $dataSize ) Tj (>) Tj ( 10000000\)) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[5]={) Tj T* (    msiRegisterData\(\):::recover_msiRegisterData\(\);) Tj T* (    msiQueue\("msiReplicateData\(\\'hpss-sdsc\\'\) ::: recover_msiReplicateData;"\);) Tj T* (}) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: bindVar[6]=@REL) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: cllExecSqlWithResult: SQLExecDirect error: -1, sql:select rule_id from R_RULE_MAIN ) Tj T* (where  rule_base_name = ? and  rule_name = ? and rule_event = ? and rule_condition = ? and rule_body = ? and  ) Tj T* (rule_recovery = ?) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: SQLSTATE: 01000) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: SQLCODE: 4294967295) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: SQL Error message: [unixODBC]Error while executing the query \(non-fatal\);) Tj T* (ERROR:  syntax error at or near "hpss" at character 344) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: chlInsRuleTable cmlGetIntegerValueFromSqlV3 find rule if any failure -806000) Tj T* (Mar  6 09:47:34 pid:21588 NOTICE: rsGeneralRowInsert: rcGeneralRowInsert failed) Tj T* (Mar  6 09:47:34 pid:21588 ERROR: executeRuleAction Failed for msiAdmInsertRulesFromStructIntoDB status = -806000 ) Tj T* (CAT_SQL_ERR) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 163.3691 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (17   History of Releases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 151.3691 cm
+Q
+q
+1 0 0 1 62.69291 91.36911 cm
+1 1 1 rg
+n 0 60 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 42 469.8898 -42 re f*
+1 1 1 rg
+n 0 60 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 42 469.8898 -42 re f*
+.960784 .960784 .862745 rg
+n 0 60 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 45 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 55.12711 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 17.00355 0 Td (Date) Tj T* -17.00355 0 Td ET
+Q
+Q
+q
+1 0 0 1 73.12711 45 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 34.98898 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL .544488 0 Td (Version) Tj T* -0.544488 0 Td ET
+Q
+Q
+q
+1 0 0 1 120.1161 45 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 343.7737 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 146.8818 0 Td (Description) Tj T* -146.8818 0 Td ET
+Q
+Q
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2013-03-15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 73.12711 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Third Beta Release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 27 cm
+Q
+q
+1 0 0 1 120.1161 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .79336 Tw (This is the third release from RENCI. It includes a new package for CentOS) Tj T* 0 Tw (6+, support for composable resources, and additional documentation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 3 cm
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 0 m 469.8898 0 l S
+n 0 42 m 469.8898 42 l S
+n 67.12711 0 m 67.12711 60 l S
+n 114.1161 0 m 114.1161 60 l S
+n 0 60 m 469.8898 60 l S
+n 0 0 m 0 60 l S
+n 469.8898 0 m 469.8898 60 l S
+n 0 0 m 469.8898 0 l S
+n 0 42 m 469.8898 42 l S
+n 67.12711 0 m 67.12711 60 l S
+n 114.1161 0 m 114.1161 60 l S
+n 0 60 m 469.8898 60 l S
+n 0 0 m 0 60 l S
+n 469.8898 0 m 469.8898 60 l S
+Q
+Q
+ 
+endstream
+endobj
+% 'R141': class PDFStream 
+141 0 obj
+% page stream
+<< /Length 1991 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 669.0236 cm
+1 1 1 rg
+n 0 96 469.8898 -54 re f*
+.878431 .878431 .878431 rg
+n 0 42 469.8898 -42 re f*
+1 1 1 rg
+n 0 96 469.8898 -54 re f*
+.878431 .878431 .878431 rg
+n 0 42 469.8898 -42 re f*
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2012-06-25) Tj T* ET
+Q
+Q
+q
+1 0 0 1 73.12711 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Second Beta Release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 81 cm
+Q
+q
+1 0 0 1 120.1161 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.959425 Tw (This is the second release from RENCI. It includes packages for iCAT,) Tj T* 0 Tw 1.948186 Tw (Resource, iCommands, and development, in both DEB and RPM formats.) Tj T* 0 Tw (Also includes more documentation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 45 cm
+Q
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2012-03-01) Tj T* ET
+Q
+Q
+q
+1 0 0 1 73.12711 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3.0b1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Initial Beta Release.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 27 cm
+Q
+q
+1 0 0 1 120.1161 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.83364 Tw (This is the first release from RENCI, based on the iRODS 3.0 community) Tj T* 0 Tw (codebase.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 120.1161 3 cm
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 96 m 469.8898 96 l S
+n 0 42 m 469.8898 42 l S
+n 67.12711 0 m 67.12711 96 l S
+n 114.1161 0 m 114.1161 96 l S
+n 0 0 m 0 96 l S
+n 469.8898 0 m 469.8898 96 l S
+n 0 0 m 469.8898 0 l S
+n 0 96 m 469.8898 96 l S
+n 0 42 m 469.8898 42 l S
+n 67.12711 0 m 67.12711 96 l S
+n 114.1161 0 m 114.1161 96 l S
+n 0 0 m 0 96 l S
+n 469.8898 0 m 469.8898 96 l S
+n 0 0 m 469.8898 0 l S
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+Q
+ 
+endstream
+endobj
+xref
+0 142
+0000000000 65535 f
+0000000113 00000 n
+0000000272 00000 n
+0000000437 00000 n
+0000000612 00000 n
+0000000794 00000 n
+0000001035 00000 n
+0000001276 00000 n
+0000001517 00000 n
+0000001758 00000 n
+0000001999 00000 n
+0000002241 00000 n
+0000002483 00000 n
+0000002725 00000 n
+0000002968 00000 n
+0000003211 00000 n
+0000003454 00000 n
+0000003697 00000 n
+0000003940 00000 n
+0000004183 00000 n
+0000004426 00000 n
+0000004669 00000 n
+0000004912 00000 n
+0000005155 00000 n
+0000005398 00000 n
+0000005641 00000 n
+0000005884 00000 n
+0000006127 00000 n
+0000006370 00000 n
+0000006613 00000 n
+0000006856 00000 n
+0000007099 00000 n
+0000007342 00000 n
+0000007585 00000 n
+0000007828 00000 n
+0000008071 00000 n
+0000008314 00000 n
+0000008557 00000 n
+0000008800 00000 n
+0000009043 00000 n
+0000009286 00000 n
+0000009529 00000 n
+0000009772 00000 n
+0000010015 00000 n
+0000010258 00000 n
+0000010501 00000 n
+0000010744 00000 n
+0000010987 00000 n
+0000011230 00000 n
+0000011473 00000 n
+0000011716 00000 n
+0000011959 00000 n
+0000012202 00000 n
+0000012445 00000 n
+0000012688 00000 n
+0000012931 00000 n
+0000013174 00000 n
+0000013417 00000 n
+0000013660 00000 n
+0000013903 00000 n
+0000014146 00000 n
+0000014373 00000 n
+0000015181 00000 n
+0000015418 00000 n
+0000015686 00000 n
+0000015922 00000 n
+0000016166 00000 n
+0000016421 00000 n
+0000016661 00000 n
+0000017024 00000 n
+0000017257 00000 n
+0000017417 00000 n
+0000017720 00000 n
+0000018004 00000 n
+0000018184 00000 n
+0000018481 00000 n
+0000018795 00000 n
+0000019094 00000 n
+0000019380 00000 n
+0000019716 00000 n
+0000019947 00000 n
+0000020265 00000 n
+0000020540 00000 n
+0000020840 00000 n
+0000021129 00000 n
+0000021421 00000 n
+0000021753 00000 n
+0000021984 00000 n
+0000066925 00000 n
+0000067288 00000 n
+0000067510 00000 n
+0000067828 00000 n
+0000068072 00000 n
+0000068376 00000 n
+0000068659 00000 n
+0000068942 00000 n
+0000069225 00000 n
+0000069364 00000 n
+0000069652 00000 n
+0000069779 00000 n
+0000070043 00000 n
+0000070293 00000 n
+0000070549 00000 n
+0000070805 00000 n
+0000071081 00000 n
+0000071394 00000 n
+0000071823 00000 n
+0000072163 00000 n
+0000072525 00000 n
+0000072848 00000 n
+0000073109 00000 n
+0000073475 00000 n
+0000073741 00000 n
+0000074018 00000 n
+0000074300 00000 n
+0000074637 00000 n
+0000075005 00000 n
+0000075289 00000 n
+0000075594 00000 n
+0000075939 00000 n
+0000076259 00000 n
+0000076614 00000 n
+0000076942 00000 n
+0000077198 00000 n
+0000077485 00000 n
+0000077747 00000 n
+0000078029 00000 n
+0000078314 00000 n
+0000078542 00000 n
+0000087382 00000 n
+0000094046 00000 n
+0000100297 00000 n
+0000104764 00000 n
+0000109523 00000 n
+0000117951 00000 n
+0000125559 00000 n
+0000135973 00000 n
+0000140220 00000 n
+0000147257 00000 n
+0000154395 00000 n
+0000161491 00000 n
+0000168718 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(R{\024W\375&\210.\2148X\256\317iz\217) (R{\024W\375&\210.\2148X\256\317iz\217)] 
+
+ /Info 97 0 R
+ /Root 96 0 R
+ /Size 142 >>
+startxref
+170782
+%%EOF

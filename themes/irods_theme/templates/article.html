@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% if article.description %}
+    <meta name="description" content="{{article.description}}" />
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+<section class="white_bg">
+        <div class="container">
+            <div class="space_half"></div>
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >     
+              <a href="{{ SITEURL }}/news">News</a> / {{ article.date|strftime('%d %B %Y') }}
+              <h3>{{ article.title }}</h3>
+              <br>
+              {{article.content}}
+              <hr>
+              {{article.author}}                   
+            </div>
+            <div class="space"></div>
+        </div>
+</section>
+{% endblock %}
