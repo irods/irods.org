@@ -202,6 +202,7 @@ header .intro-text .skills {
 .main_logo{
     background: url("../../images/irods_logo.png")no-repeat center;
     background-size: contain;
+    margin: 50px auto;
     width: 140px;
     height: 40px;
 }
@@ -232,18 +233,18 @@ header .intro-text .skills {
 .small_centered_line{
     height:1px;
     width:280px;
-    margin: 40px 0;
+    margin: 40px auto;
     background: #aaa;
 }
 .small_centered_line_green{
     height:1px;
     width:280px;
-    margin: 40px 0;
+    margin: 40px auto;
     background: #18bc9c;
 }
 .light_small_centered_line{
     width:280px;
-    margin: 40px 0;
+    margin: 40px auto;
     background: #fff;
     text-align: center;
     text-align: -webkit-center;
@@ -288,7 +289,6 @@ header .intro-text .skills {
 }
 
 .centered{
-    display: table-cell;
     vertical-align: middle;
 }
 .space{
