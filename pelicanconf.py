@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 # If developing on a server at the root level, leave set to empty ''
 SITEURL = ''
 # If developing in a subdirectory, use leading slash
-SITEURL = '/newirodsorg'
+#SITEURL = '/path/to/subdir'
 # Production setting is found in publishconf.py
 # Used via 'make publish'
 
