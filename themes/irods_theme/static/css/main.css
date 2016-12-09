@@ -384,10 +384,14 @@ td{
 .splash_box{
     background: url("../../images/splash_box.png") center center;
     background-repeat: no-repeat;
-    display:table;
-    width: 100%;
+    position: relative;
+    right: 215px;
+    width: 1400px;
     height: 450px;
     padding: 15px 0px 0px 0px;
+}
+.core_competencies_container{
+    padding: 0px 90px;
 }
 .toggler:hover{
     color:#0c6150;
@@ -488,9 +492,18 @@ td{
 .core_competencies_container a{
     color:#58595b;
 }
-@media(max-width:992px){
+@media(max-width:991px){
     .core_icon{
         max-width: 180px;
+    }
+    .splash_box{
+        background: url("../../images/splash_box.png") center center;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 327px;
+        width: 1400px;
+        height: 450px;
+        padding: 15px 0px 0px 0px;
     }
 }
 @media(max-width:580px){
@@ -509,6 +522,18 @@ td{
     }
 }
 @media(max-width:767px) {
+    .core_competencies_container{
+        padding: 0px;
+    }
+    .splash_box{
+        background: url("../../images/splash_box.png") center center;
+        background-repeat: no-repeat;
+        position: inherit; 
+        right: 0px;
+        width: 100%;
+        height: 450px;
+        padding: 15px 0px 0px 0px;
+    }
     .navbar-brand{
         margin: 20px 0px 0px 14px;
         height: 24px;
@@ -557,6 +582,15 @@ td{
     }
 }
 @media(min-width:1200px) {
+    .splash_box{
+        background: url("../../images/splash_box.png") center center;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 115px;
+        width: 1400px;
+        height: 450px;
+        padding: 15px 0px 0px 0px;
+    }
     .funded_cell{
         border: 1px solid #aaa;
         height:25px;
@@ -571,6 +605,7 @@ td{
         padding-right:10px;
     }
     .core_competencies_container{
+        padding: 0px;
         width: 800px;
         margin: auto auto;
         text-align: center;
