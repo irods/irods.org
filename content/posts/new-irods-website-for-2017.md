@@ -8,7 +8,7 @@ We are excited to announce the redesign of our website!
 
 The iRODS website has been powered by [WordPress](https://wordpress.org/) since the iRODS Consortium took the mantle from the DICE Group beginning in 2012.  Since then, we've posted over 120 articles and have grown from 1-2 people to a team of 10+.
 
-But our Wordpress installation had become too tangled and was proving too complicated to change without fear that some unintended part of it would break.
+But our WordPress installation had become too tangled and was proving too complicated to change without fear that some unintended part of it would break.
 
 Earlier this year (2016), we began investigating a number of other methods for producing and maintaining a website of moderate complexity and settled on [Pelican](http://blog.getpelican.com/).
 
