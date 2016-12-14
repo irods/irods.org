@@ -44,6 +44,7 @@ STATIC_PATHS = ['extras','images','uploads']
 EXTRA_PATH_METADATA = {
     'extras/.htaccess':   {'path': '.htaccess'},
     'extras/partners.html':   {'path': 'partners/index.html'},
+    'extras/consortium.html':   {'path': 'consortium/index.html'},
 }
 
 # No feeds while in development, requires absolute SITEURL (done in production)
