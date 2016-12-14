@@ -45,6 +45,7 @@ EXTRA_PATH_METADATA = {
     'extras/.htaccess':   {'path': '.htaccess'},
     'extras/partners.html':   {'path': 'partners/index.html'},
     'extras/consortium.html':   {'path': 'consortium/index.html'},
+    'extras/faq.html':   {'path': 'about/faq/index.html'},
     'extras/overview.html':   {'path': 'about/overview/index.html'},
     'extras/members.html':   {'path': 'consortium/members/index.html'},
 }
