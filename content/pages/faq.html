@@ -13,7 +13,7 @@
             <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
                 <h1><i class="green_font fa fa-angle-right"></i> General</h1>
                 <!-- <h3>Who uses iRODS <i class="green_font fa fa-question"></i></h3>
-                iRODS is in operation at thousands of locations around the world in industry, academia, and government. A representative selection of users is <a href="http://irods.org/selected-irods-users/" target="_blank">here</a>.
+                iRODS is in operation at thousands of locations around the world in industry, academia, and government. A representative selection of users is <a href="http://irods.org/selected-irods-users/">here</a>.
                 <br/><br/> -->
                 <h3>How does iRODS handle metadata and data discovery <i class="green_font fa fa-question"></i></h3>
                 One of the primary functions of iRODS is to connect unstructured data with metadata. Metadata may be attached to files, users, groups, collections (iRODS equivalent of sub-directories), and resources (data containers [e.g., a hard drive]).
@@ -24,7 +24,7 @@
                 <br/><br/>
                 Once metadata is applied, it can be used in various ways. It can be used to trigger actions, based on rules defined in the iRODS rule engine.
                 <br/><br/>
-                iRODS metadata can be searched as well. A simple way to search is using the iRODS <a href="https://wiki.irods.org/index.php/imeta" target="_blank">imeta</a> command. More complex queries can be generated using a subset of SQL operations issued through the <a href="https://wiki.irods.org/index.php/iquest" target="_blank">iquest</a> command.
+                iRODS metadata can be searched as well. A simple way to search is using the iRODS <a href="https://docs.irods.org/4.2.0/icommands/metadata/#imeta">imeta</a> command. More complex queries can be generated using a subset of SQL operations issued through the <a href="https://docs.irods.org/4.2.0/icommands/user/#iquest">iquest</a> command.
                 <br/><br/>
                 A search capability based on file contents has been implemented in an experimental capacity. We will release details as they become available.
                 <br/><br/>
@@ -37,9 +37,9 @@
                 In a production environment, the relational database will most likely reside on one or more servers, separate from the iCAT server. Refer to the documentation for the database for advice on sizing the database server. In general, as the size and access rate of the database increase, more RAM and processor cores will be required for acceptable performance.
                 <br/><br/>
                 <h3>What operating systems can be used with iRODS <i class="green_font fa fa-question"></i></h3>
-                The most current list of OSes that we test against is available at <a href="download.html" target="_blank">irods.org/download/</a>. iRODS can also be compiled for other POSIX OSes, but they may not be included in our continuous integration and testing,
+                The most current list of OSes that we test against is available at <a href="{filename}/pages/download.html">irods.org/download/</a>. iRODS can also be compiled for other POSIX OSes, but they may not be included in our continuous integration and testing,
                 <br/><br/>
-                Try it out: Clone from our GitHub repository at <a href="https://github.com/irods/irods" target="_blank">github.com/irods/irods</a>
+                Try it out: Clone from our GitHub repository at <a href="https://github.com/irods/irods">github.com/irods/irods</a>
                 <br/><br/>
                 <h3>What is the advantage of having iRODS or any other low level storage management <i class="green_font fa fa-question"></i></h3>
                 <h3>What are its benefits <i class="green_font fa fa-question"></i></h3>
@@ -58,7 +58,7 @@
                 <br/><br/>
                 <h1><i class="green_font fa fa-angle-right"></i> Database</h1>
                 <h3>What database software can be used with iRODS <i class="green_font fa fa-question"></i></h3>
-                The most current list of DBMSes that we test against is available at <a href="download.html" terget="_blank">irods.org/download/</a>.
+                The most current list of DBMSes that we test against is available at <a href="{filename}/pages/download.html">irods.org/download/</a>.
                 <br/><br/>
                 <h3>Can I set up an iCAT server and a resource server on the same machine <i class="green_font fa fa-question"></i></h3>
                 Every iCAT server is also a resource server. In fact, “iCAT server” is shorthand for “iCAT-enabled resource server”. As such, the resource server package can not be installed on the same machine as the iCAT server package.
@@ -75,7 +75,7 @@
                 <br/><br/>
                 <h1><i class="green_font fa fa-angle-right"></i> Performance</h1>
                 <h3>How does iRODS transfer performance compare<br/>with FTP or other protocol <i class="green_font fa fa-question"></i></h3>
-                For files larger than 32MB (by default, but configurable), iRODS uses multiple threads to transfer data in parallel. This provides iRODS with a significant speed advantage over FTP, which only uses a single thread for transfers. For transferring large files, iRODS can be comparable or even faster than GridFTP. Download <a href="https://openwiki.uninett.no/_media/norstore:irods:irods_performance2.pdf" target="_blank">irods_performance2.pdf</a>
+                For files larger than 32MB (by default, but configurable), iRODS uses multiple threads to transfer data in parallel. This provides iRODS with a significant speed advantage over FTP, which only uses a single thread for transfers. For transferring large files, iRODS can be comparable or even faster than GridFTP. Download <a href="https://openwiki.uninett.no/_media/norstore:irods:irods_performance2.pdf">irods_performance2.pdf</a>
                 <br/><br/>
                 <h3>How many petabytes/files/users can iRODS manage <i class="green_font fa fa-question"></i></h3>
                 <h3>How do I scale iRODS to handle my data <i class="green_font fa fa-question"></i></h3>
@@ -95,7 +95,7 @@
                 <br/><br/>
                 Drawbacks: Federation is not completely seamless. Separate zones can have separate sets of policies and separate sets of users. This is extraordinarily flexible, because federation is meant to permit completely separate organizations to share data. But it also increases the complexity of the system, particularly if one person is responsible for administering all the zones. Another limitation of this approach is that metadata does not get transferred when files are copied between zones.
                 <br/><br/>
-                For more about iRODS federation, see the <a href="https://github.com/irods/irods/blob/master/manual.rst#8zone-federation" title="iRODS Manual: Federation" target="_blank">iRODS manual</a>.
+                <a href="https://docs.irods.org/4.2.0/system_overview/federation/">Read more about iRODS Federation</a>.
                 <br/><br/>
                 <h3>Database Load Balancing <i class="green_font fa fa-exclamation"></i></h3>
                 The ICAT database is critically important for the operation of a zone. All three of the presently supported database management systems (DBMS)–PostgreSQL, MySQL, and Oracle–have load balancing capabilities available, through pgpool, HAProxy, or Oracle RAC, respectively. A load-balanced database appears the same to iRODS as an ordinary database, so no additional configuration of iRODS is necessary.
@@ -115,15 +115,15 @@
                 <h1><i class="green_font fa fa-angle-right"></i> Future</h1>
                 <h3>What are some future directions for iRODS development <i class="green_font fa fa-question"></i></h3>
                 <h3>What is the current iRODS roadmap <i class="green_font fa fa-question"></i></h3>
-                Please see <a href="https://github.com/irods/irods/milestones" target="_blank">Github</a> for the technical iRODS roadmap for upcoming releases, and the status of particular issues. The long term technical vision for iRODS includes features such as:
+                Please see <a href="https://github.com/irods/irods/milestones">GitHub</a> for the technical iRODS roadmap for upcoming releases, and the status of particular issues. The long term technical vision for iRODS includes features such as:
                 <br/><br/>
-                <i>API Consistency across Programming Languages</i>: Leverage existing technologies such as <a href="http://avro.apache.org/" target="_blank">Apache Avro</a> to provide a thinner, unified platform from which numerous client side development libraries may be created, including APIs for clients built in java, python, PHP and more. This effort will relieve development pressure to ensure sustainability and compatibility into the future.
+                <i>API Consistency across Programming Languages</i>: Leverage existing technologies such as <a href="http://avro.apache.org/">Apache Avro</a> to provide a thinner, unified platform from which numerous client side development libraries may be created, including APIs for clients built in java, python, PHP and more. This effort will relieve development pressure to ensure sustainability and compatibility into the future.
                 <br/><br/>
-                <i>Zone Introspection</i>: Currently a client has no way to know what capabilities a particular iRODS zone can provide, which servers are running and healthy, and which plugins are installed and enabled. Zone introspection, introduced for iRODS 4.0.3 and beyond through the <a href="{filename}/posts/zonereport-plugins-v1-0-released.md" title="Zonereport Plugins v1.0 released" target="_blank">zonereport plugins</a>, will provide this information. This capability simplifies zone administration and troubleshooting, and eventually a client may be able to request certain features from the grid and be routed to an appropriate server to provide those capabilities.
+                <i>Zone Introspection</i>: Currently a client has no way to know what capabilities a particular iRODS zone can provide, which servers are running and healthy, and which plugins are installed and enabled. Zone introspection, introduced for iRODS 4.0.3 and beyond through the <a href="{filename}/posts/zonereport-plugins-v1-0-released.md" title="Zonereport Plugins v1.0 released">zonereport plugins</a>, will provide this information. This capability simplifies zone administration and troubleshooting, and eventually a client may be able to request certain features from the grid and be routed to an appropriate server to provide those capabilities.
                 <br/><br/>
                 <i>Plugin Bundles</i>: As plugins become more complicated and new features emerge that span many plugins, a dependency model will need to be put into place to allow the enforcement of plugin dependencies. A plugin bundle represents a package of dependent plugins which might represent a new feature to iRODS. This ties directly into zone introspection, as this tool will help the zone administrator manage those dependencies.
                 <br/><br/>
-                <i>Indexing Framework ( External Service Integration )</i>: An iRODS <a href="https://github.com/DICE-UNC/indexing" target="_blank">indexing framework</a> will provide the ability to do full-content indexing of data stored in an iRODS zone. We are working to package the products of this DFC-led effort for straightforward and reliable deployment. This technology will enable a robust discovery environment in the short term and other services such as auditing in the future.
+                <i>Indexing Framework ( External Service Integration )</i>: An iRODS <a href="https://github.com/DICE-UNC/indexing">indexing framework</a> will provide the ability to do full-content indexing of data stored in an iRODS zone. We are working to package the products of this DFC-led effort for straightforward and reliable deployment. This technology will enable a robust discovery environment in the short term and other services such as auditing in the future.
             </div>
             <div class="space"></div>
         </div>
