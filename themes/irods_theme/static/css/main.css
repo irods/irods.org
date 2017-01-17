@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background: url('../../images/irods_main_bg.png') center center;
     font-family: Helvetica,Arial,sans-serif;
     font-weight: normal;
     color:#888888;
