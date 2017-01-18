@@ -48,6 +48,7 @@ EXTRA_PATH_METADATA = {
     'extras/faq.html':   {'path': 'about/faq/index.html'},
     'extras/overview.html':   {'path': 'about/overview/index.html'},
     'extras/members.html':   {'path': 'consortium/members/index.html'},
+    'extras/members1.html':   {'path': 'members/index.html'},
 }
 
 # No feeds while in development, requires absolute SITEURL (done in production)
