@@ -207,6 +207,15 @@ header .intro-text .skills {
     width: 140px;
     height: 40px;
 }
+.hype_banner{
+    margin: 40px 0px 60px 0px;
+    padding: 17px 0px;
+    font-size: 16px;
+    min-height: 60px;
+    background: #00a651;
+    border-bottom: 3px solid #005725;
+    color: #fff;
+}
 .error_404{
     background: url("../../images/404_error.jpg")no-repeat center;
     background-size: contain;
