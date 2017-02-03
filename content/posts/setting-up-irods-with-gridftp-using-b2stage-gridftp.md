@@ -4,6 +4,10 @@ Author: Justin James
 Slug: setting-up-irods-with-gridftp-using-b2stage-gridftp
 Status: published
 
+ -- <a href="{filename}/posts/setting-up-irods-4.2-with-gridftp-using-b2stage-gridftp.md">**Feb 2017 - See new post, updated for iRODS 4.2**</a>
+
+<hr />
+
 I was asked to set up a reference implementation of iRODS using the
 B2STAGE-GridFTP data storage interface (DSI). This blog entry explains
 the steps used to set up and test this implementation. This was set up
@@ -39,7 +43,7 @@ Installing Necessary Packages
 Run the following commands on server.example.org to install the packages
 that we will be using:
 
-~~~~ 
+~~~~
 sudo apt-get install cmake
 sudo apt-get install globus-gridftp-server-progs globus-simple-ca globus-gass-copy-progs
 sudo apt-get install libglobus-common-dev libglobus-gridftp-server-dev libglobus-gridmap-callout-error-dev
@@ -52,7 +56,7 @@ sudo apt-get install cdbs
 
 Run the following on client.example.org:
 
-~~~~ 
+~~~~
 sudo apt-get install globus-gass-copy-progs
 ~~~~
 
@@ -63,7 +67,7 @@ The following instructions should be performed on server.example.org.
 
 First we need to clone the B2STAGE-GridFTP repository.
 
-~~~~ 
+~~~~
 cd ~
 git clone https://github.com/EUDAT-B2STAGE/B2STAGE-GridFTP
 ~~~~
@@ -71,7 +75,7 @@ git clone https://github.com/EUDAT-B2STAGE/B2STAGE-GridFTP
 Next we will get ready to build the iRODS DSI. We will put the output
 files in /iRODS\_DSI.
 
-~~~~ 
+~~~~
 sudo mkdir /iRODS_DSI
 sudo chmod 777 /iRODS_DSI
 cd ~/B2STAGE-GridFTP
@@ -80,7 +84,7 @@ cp setup.sh.template setup.sh
 
 Edit setup.sh and change the contents to:
 
-~~~~ 
+~~~~
 export GLOBUS_LOCATION="/usr"
 export IRODS_PATH="/usr"
 export DEST_LIB_DIR="/iRODS_DSI"
@@ -90,7 +94,7 @@ export DEST_ETC_DIR="/iRODS_DSI"
 
 Now build the iRODS DSI:
 
-~~~~ 
+~~~~
 source setup.sh
 cmake CMakeLists.txt
 C_INCLUDE_PATH=/usr/include/x86_64-linux-gnu/globus make install
@@ -99,7 +103,7 @@ C_INCLUDE_PATH=/usr/include/x86_64-linux-gnu/globus make install
 Next we need to edit /etc/gridftp.conf (as root) and add the following
 lines to the end.
 
-~~~~ 
+~~~~
 $LD_LIBRARY_PATH "$LD_LIBRARY_PATH:/iRODS_DSI"
 $irodsConnectAsAdmin "rods"
 load_dsi_module iRODS
@@ -110,7 +114,7 @@ Now we need to preload the GridFTP server library alongside the DSI
 library. Edit (as root) /etc/init.d/globus-gridftp-server and add the
 following lines to the start:
 
-~~~~ 
+~~~~
 LD_PRELOAD="$LD_PRELOAD:/usr/lib/x86_64-linux-gnu/libglobus_gridftp_server.so:/iRODS_DSI/libglobus_gridftp_server_iRODS.so"
 export LD_PRELOAD
 ~~~~
@@ -120,20 +124,20 @@ update /etc/irods/server\_config.json and change the following line:
 
 Old:
 
-~~~~ 
+~~~~
 "default_hash_scheme": "SHA256",
 ~~~~
 
 New:
 
-~~~~ 
+~~~~
  "default_hash_scheme": "MD5",
 ~~~~
 
 We will be running the GridFTP server in the root account. Add the file
 /root/.irods/irods\_environment.json with the following contents:
 
-~~~~ 
+~~~~
  {
 "irods_host": "localhost",
 "irods_zone_name": "tempZone",
@@ -164,19 +168,19 @@ will use SimpleCA for this purpose.
 
 On server.example.org, create the CA by running:
 
-~~~~ 
+~~~~
 grid-ca-create
 ~~~~
 
 Next create an deb package for this certificate authority.
 
-~~~~ 
+~~~~
 grid-ca-package -d -cadir ~/.globus/simpleCA
 ~~~~
 
 Install the package on server.example.org:
 
-~~~~ 
+~~~~
 sudo dpkg -i globus-simple-ca-ffffffff_0.0_all.deb
 ~~~~
 
@@ -192,13 +196,13 @@ and \~/.globus/simpleCA/grid-ca-ssl.conf and set the policy to
 
 Old:
 
-~~~~ 
+~~~~
 policy = policy_match
 ~~~~
 
 New:
 
-~~~~ 
+~~~~
 policy = policy_anything
 ~~~~
 
@@ -207,7 +211,7 @@ cond\_subjects to '"\*"':
 
 New:
 
-~~~~ 
+~~~~
 cond_subjects globus '"*"'
 ~~~~
 
@@ -218,7 +222,7 @@ to '"\*"''.
 
 Copy the certificate authority files to \~/.globus:
 
-~~~~ 
+~~~~
 cp /etc/grid-security/certificates/ffffffff.0 ~/.globus/
 cp /etc/grid-security/certificates/ffffffff.signing_policy ~/.globus/certificate
 ~~~~
@@ -228,7 +232,7 @@ cp /etc/grid-security/certificates/ffffffff.signing_policy ~/.globus/certificate
 Perform the following commands to create the private key and generate a
 certificate signing request:
 
-~~~~ 
+~~~~
 # create key
 openssl genrsa -des3 -out hostkey.pem 1024
 
@@ -242,7 +246,7 @@ mv temp.pem hostkey.pem
 
 Sign the newly created certificate:
 
-~~~~ 
+~~~~
 grid-ca-sign -in cert.csr -out hostcert.pem
 ~~~~
 
@@ -252,7 +256,7 @@ authority.\*
 Install the certificates on server.example.org. The certificates should
 be owned by root since the GridFTP server is run by root.
 
-~~~~ 
+~~~~
 sudo cp hostkey.pem /etc/grid-security
 sudo cp hostcert.pem /etc/grid-security
 sudo chmod 600 /etc/grid-security/hostkey.pem
@@ -263,7 +267,7 @@ Copy hostcert.pem and hostkey.pem into the user's home directory on
 client.example.org. Run the following commands to install these
 certificates and set the permissions:
 
-~~~~ 
+~~~~
 mkdir ~/.globus
 cp ~/hostkey.pem ~/.globus/hostkey.pem
 cp ~/hostcert.pem ~/.globus/hostcert.pem
@@ -275,7 +279,7 @@ chmod 644 ~/.globus/hostcert.pem
 
 Run the following command to get the subject name from the certificate:
 
-~~~~ 
+~~~~
 openssl x509 -noout -in hostcert.pem -subject
 ~~~~
 
@@ -284,7 +288,7 @@ and add the subject mapping to the user irods. The following is an
 example of the contents of this file. Replace the part inside the quotes
 with the subject name returned from the previous command.
 
-~~~~ 
+~~~~
 "/C=US/ST=NC/L=CH/O=irods/CN=server.example.org" rods
 ~~~~
 
@@ -293,9 +297,9 @@ Running the GridFTP Server
 
 Run the GridFTP server using the following command:
 
- 
 
-~~~~ 
+
+~~~~
 sudo /etc/init.d/globus-gridftp-server restart
 ~~~~
 
@@ -304,26 +308,26 @@ Testing the GridFTP Connection
 
 On the server, create a 1GB random file:
 
-~~~~ 
+~~~~
  dd if=/dev/urandom of=file.dat bs=1000 count=1000000
 ~~~~
 
 Put this file into iRODS.
 
-~~~~ 
+~~~~
 iput file.dat
 ~~~~
 
 Now let's test retrieving this file from client.example.org.
 
-~~~~ 
+~~~~
 globus-url-copy gsiftp://server.example.org:2811/tempZone/home/rods/file.dat file.dat
 ~~~~
 
 Remove the file from iRODS and let's try to put it from
 client.example.org to iRODS:
 
-~~~~ 
+~~~~
 globus-url-copy file.dat gsiftp://server.example.org:2811/tempZone/home/rods/file.dat
 ~~~~
 
