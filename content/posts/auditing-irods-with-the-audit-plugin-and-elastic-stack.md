@@ -78,6 +78,16 @@ the following in the rule\_engines array.
 }
 ~~~~
 
+Also add "audit_" in the rule_engine_namespaces as shown below.
+
+~~~~
+    "rule_engine_namespaces": [
+        "",
+        "audit_",
+        "indexing_"
+    ],
+~~~~
+
 <em>Notes:
 
 -   If you are using a default version of server\_config.json, this will
