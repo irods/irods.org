@@ -25,18 +25,18 @@
 
                 More combinations will be made available as our testing matrix continues to mature and increase in scope.
 
-                The latest packages can be downloaded from our APT and YUM repositories hosted at <a href="https://packages.irods.org">https://packages.irods.org</a>.
+                In order to install the latest packages, configure your package manager to include our APT or YUM repository.
+                Instructions may be found at <a href="https://packages.irods.org">https://packages.irods.org</a>.
 
                 <h3>Installation Examples</h3>
                 <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
-                <br/>
                 or
                 <br/>
-                <pre>sudo yum install irods-server irods-database-plugin-postgres</pre>
+                <pre>sudo yum install epel-release
+sudo yum install irods-server irods-database-plugin-postgres</pre>
                 <br/>
                 <h3>Upgrade Examples</h3>
                 <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
-                <br/>
                 or
                 <br/>
                 <pre>sudo yum update irods-server irods-database-plugin-postgres</pre>
