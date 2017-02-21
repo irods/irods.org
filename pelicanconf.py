@@ -60,3 +60,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 TAG_FEED_ATOM = None
 TAG_FEED_RSS = None
+
+# https://github.com/akhayyat/pelican-page-hierarchy
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['page_hierarchy',]
+SLUGIFY_SOURCE = 'basename'
