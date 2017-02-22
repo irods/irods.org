@@ -142,7 +142,7 @@ header .intro-text .skills {
 }
 
 
-@media(min-width:768px) {    
+@media(min-width:768px) {
     .skill_list li{
         text-align: left;
     }
@@ -316,8 +316,7 @@ section {
 }
 
 section h2 {
-    margin: 0;
-    font-size: 3em;
+    font-size: 32px;
 }
 
 section.success {
@@ -412,7 +411,7 @@ td{
     padding: 5px 10px 5px 20px;
     margin: 10px;
     background: rgba(0,0,0,0.03);
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     border-radius: 4px 4px;
 }
 .light_font{
@@ -428,7 +427,7 @@ td{
 .article_top_image{
     max-height: 300px;
     overflow-y:hidden;
-    width: 100%; 
+    width: 100%;
 }
 .pillar_section{
     margin:0px 0px 50px 0px;
@@ -478,17 +477,17 @@ td{
     margin: 15px 0px;
 }
 .footer_opts_container{
-    list-style: none; 
+    list-style: none;
     border-left: solid 1px #ffffff;
 }
 .navbar-default .navbar-toggle:hover{
     background-color: #bbb;
 }
 .navbar-default .navbar-toggle:focus{
-    background-color:#bbb; 
+    background-color:#bbb;
 }
 .navbar-default .navbar-toggle:focus .icon-bar{
-    background-color:#ffffff; 
+    background-color:#ffffff;
 }
 .navbar-default .navbar-toggle{
     border-color: #bbb;
@@ -538,7 +537,7 @@ td{
     .splash_box{
         background: url("../../images/splash_box.png") center center;
         background-repeat: no-repeat;
-        position: inherit; 
+        position: inherit;
         right: 0px;
         width: 100%;
         height: 450px;
