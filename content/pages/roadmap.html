@@ -36,21 +36,23 @@
 
                 <h1><i class="green_font fa fa-angle-right"></i> Upcoming Release: iRODS 4.3</h1>
 
-                <p>For iRODS 4.3, our focus will be on two things: the logging framework, and hardening the existing features and new work introduced in 4.2.  Alongside this work, but not part of the core codebase, the Consortium will be working on supporting features and functionality provided by additional external tools and features delivered as plugins.</p>
+                <p>The focus for iRODS 4.3 will be on two things: the logging framework, and hardening the existing features and new work introduced in 4.2.</p>
+
+                <p>Alongside this work, but not part of the core codebase, the Consortium will be working on supporting features and functionality provided by additional external tools and features delivered as plugins.</p>
 
                 <h3>Logging</h3>
 
-                <p>The logging in iRODS needs to be modernized and standardized with regards to best practices around log rotation, timestamps, and human and machine readable formats.  We plan to investigate a variety of logging frameworks and select one that delivers flexibility powerful enough to afford easy aggregation of our distributed system.</p>
+                <p>The logging in iRODS needs to be modernized and standardized with regards to best practices around log rotation, timestamps, and human and machine readable formats.  We plan to investigate a variety of logging frameworks and select one that delivers flexibility powerful enough to afford easy aggregation of logs from our distributed system.</p>
 
                 <h3>Hardening</h3>
 
-                <p>The everpresent backlog of edge cases and bugfixes will continue to be addressed.  This release will mark the first of a new tick-tock release pattern, meaning one release will focus on features, and the next will focus more on hardening.  4.2 was the feature release, and 4.3 will be the hardening.</p>
+                <p>The everpresent backlog of bugfixes and edge cases will continue to be addressed.  This release will mark the first of a new tick-tock release pattern, meaning one release will focus on features, and the next will focus more on hardening.  4.2 was the feature release, and 4.3 will be the hardening release.</p>
 
                 <h3>Multipart Data Objects</h3>
 
-                <p>As file sizes continue to grow, moving them around monolithically becomes subject to a variety of failure modes that are easily circumvented with smaller files.  iRODS will implement multipart dataobjects whereby large files are broken up into parts before transfer over the network, and then reconstituted on the other end.</p>
+                <p>As file sizes continue to grow, moving them around monolithically becomes subject to a set of failure modes that are more gracefully handled with the use of smaller files.  iRODS will implement multipart data objects whereby large files are broken up into parts before transfer over the network, and then reconstituted on the other end.</p>
 
-                <p>Each part of the file will be transfered and tracked as a regular dataobject within the iRODS protocol.  Any individual part that does not transfer correctly can be retransmitted.  This will allow iRODS to more gracefully overcome network instability, and affords cleaner restarts of large files. This work will also improve transport speeds by eventually serving as the backbone for multi-target transfers into iRODS and multi-source transfers out of iRODS.</p>
+                <p>Each part of the file will be transferred and tracked as a regular data object within the iRODS protocol.  Any individual part that does not transfer correctly can be retransmitted.  This will allow iRODS to more gracefully overcome network instability, and affords cleaner restarts of large files. This work will also improve transport speeds by eventually serving as the backbone for multi-target transfers into iRODS and multi-source transfers out of iRODS.</p>
 
                 <p>Because each part of a larger file will now be addressable, iRODS will be able to provide POSIX-like semantics for object storage technologies.  This means that these object stores can be connected to iRODS in a cache-free configuration.</p>
 
@@ -58,13 +60,13 @@
 
                 <p>iRODS strives to serve as the glue that can tie together many existing storage technologies with a unified namespace, discovery mechanism, and policy engine.  Usually, when an organization decides they need to incorporate iRODS into their infrastructure, they already have a significant amount of data, usually in disparate physical systems.</p>
 
-                <p>iRODS needs a way to keep track of changes occurring on filesystems, where existing scripts and tools and instruments are making changes outside of iRODS.  This can be done for moderate-sized systems with a pattern we have named the "Landing Zone" whereby iRODS watches a particular location in the filesystem and takes action when new files appear.  For much larger systems handling a very large number of files concurrently, this approach may become an unreasonable bottleneck.</p>
+                <p>iRODS needs a way to keep track of changes occurring on filesystems, where existing scripts, tools, and instruments are making changes outside of iRODS.  This can be done for moderate-sized systems with a pattern we have named the "Landing Zone" whereby iRODS watches a particular location in the filesystem and takes action when new files appear.  For much larger systems handling a very large number of files concurrently, this approach may become an unreasonable bottleneck.</p>
 
                 <p>We are working with Intel's Lustre group to investigate and then implement best practices around keeping the iRODS catalog up-to-date for such high-velocity systems.</p>
 
                 <h3>Metadata Abstraction</h3>
 
-                <p>iRODS metadata has tradically been stored within the relational database known as the iCAT.  Permissions on that metadata was originally designed to be readable by everyone because the primary use case was for discoverability.  As use cases have become more diverse and sophisticated, the metadata is being used to drive policy decisions as well as store additional information that should not be made available to all users of the system.</p>
+                <p>iRODS metadata has traditionally been stored within the relational database known as the iCAT.  Permissions on that metadata was originally designed to be readable by everyone because the primary use case was discoverability.  As use cases have become more diverse and sophisticated, the metadata is being used to drive policy decisions as well as store additional information that should not be made available to all users of the system.</p>
 
                 <p><a href="https://github.com/xu-hao/QueryArrow/">QueryArrow</a> has been developed to help alleviate this restriction and allow iRODS to store and query metadata in a variety of other database or indexing technologies.</p>
 
