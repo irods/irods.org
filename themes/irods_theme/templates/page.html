@@ -1,4 +1,12 @@
+{% if output_file == 'ugm2017/travel/index.html' or output_file == 'ugm2017/index.html' or output_file == 'ugm2017/cfp/index.html' %}
+
+{% extends "ugm2017.html" %}
+
+{% else %}
+
 {% extends "base.html" %}
+
+{% endif %}
 
 {% block content %}
 

@@ -311,6 +311,11 @@ header .intro-text .skills {
     display: inline-block;
     width: 100%;
 }
+.space_quart{
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
 section {
     padding: 100px 0;
 }
@@ -870,3 +875,105 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
+
+/* //////////////////////////////////////////////
+/////////////////////////////////////////////////
+
+UGM 2017 STYLES
+
+/////////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.navbar-brand-ugm_2017{
+    background: url("../../images/irods_white_logo.png")no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height:34px;
+    width:140px;
+    padding: 0px;
+    margin: 13px;
+}
+
+.navbar-ugm_2017 {
+    background: #006658 url("../../images/green_ugm2017_bg.jpg")no-repeat top center;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    border-top: 5px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 3px 0 #005446; 
+}
+
+.body-ugm_2017 {
+    overflow-x: hidden;
+    background: url('../../images/lions_bg.png'), url("../../images/green_ugm2017_bg.jpg"), #006658;
+    background-position: top center, top center;
+    background-repeat: repeat, no-repeat;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    color:#ffffff;
+}
+
+.a-ugm_2017{
+    color: #ffffff !important;
+    font-weight: normal;
+}
+
+.a-ugm_2017:hover{
+    color: #ffffff !important;
+    font-weight: normal;
+    text-decoration: underline !important;
+}
+
+.btn-ugm2017{
+    background: #fff;
+    color:#18bc9c;
+    border-bottom: 3px solid #005446;
+    width: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px; 
+    border-radius: 0px;
+}
+
+.btn-ugm2017:hover,.btn-ugm2017:focus{
+    background: #18bc9c;
+    color:#fff;
+    border-bottom: 1px solid #005446;
+    cursor: pointer;
+    border-top:2px solid #18bc9c;
+    border-left: 0px;
+    border-right: 0px; 
+    border-radius: 0px;
+}
+
+.h1-ugm_2017,
+.h2-ugm_2017,
+.h3-ugm_2017,
+.h5-ugm_2017,
+.h6-ugm_2017 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color:#fff;
+}
+
+.small_centered_line_ugm2017{
+    height:1px;
+    width:280px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-bottom: 2px solid #005446;
+}
+
+.h4-ugm_2017 {
+    font-family: tristram;
+    font-size: 39px;
+    font-weight: lighter;
+    color:#fff;
+}
+
+
+
