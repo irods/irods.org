@@ -89,6 +89,9 @@ hr.star-primary:after {
 .navbar-default{
     background: rgba(255,255,255,1);
 }
+.phone_show{
+    display: none;
+}
 header {
     text-align: center;
     color: #fff;
@@ -593,6 +596,9 @@ td{
     }
     .phone_hide{
         display: none;
+    }
+    .phone_show{
+        display: block;
     }
 }
 @media(min-width:1200px) {
