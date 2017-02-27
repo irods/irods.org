@@ -983,3 +983,11 @@ UGM 2017 STYLES
 
 
 
+.abstract{
+    padding: 5px 10px 5px 20px;
+    margin: 10px;
+    background: rgba(0,0,0,0.03);
+    border: 1px solid #ddd;
+    border-radius: 4px 4px;
+}
+

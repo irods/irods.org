@@ -1,0 +1,306 @@
+<title>about</title>
+<html>
+<body>
+<section class="white_bg">
+        <div class="container">
+            <div class="space_half"></div>
+            <div class="row" >
+                <div class="col-lg-12 text-center">
+                    <h4 class="green_font"><i class="green_font fa fa-group"></i> iRODS User Group Meeting 2016</h2>
+                </div>
+            </div>
+            <hr class="small_centered_line_green">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+                <p>
+                <b>
+                Kenan Center, 300 Kenan Center Drive<br />
+                Chapel Hill, North Carolina, USA<br/>
+                June 7 - June 9, 2016<br/>
+                </b>
+                </p>
+
+                <h3>
+                Photos and Videos
+                </h3>
+
+                <p><a href="https://www.flickr.com/photos/irods/albums/72157669709739022">Conference Photos hosted on Flickr</a></p>
+
+                <p><a href="https://www.youtube.com/playlist?list=PL29FhEN41mZPlxTGq46NtBw1hRxhZLkU7">Conference Videos hosted on YouTube</a></p>
+
+                <h3>
+                Articles
+                </h3>
+                <p><a href="{filename}/uploads/2016/12/irods_ugm2016_proceedings.pdf">iRODS UGM 2016 Proceedings (PDF 9.1MB)</a></p>
+
+                <p>
+                <ul>
+                    <li><b>iRODS Audit (C++) Rule Engine Plugin and AMQP</b><br/>
+                    Terrell Russell, Jason Coposky, Justin James - RENCI at UNC Chapel Hill</li>
+
+                    <li><b>Speed Research Discovery with Comprehensive Storage and Data Management</b><br/>
+                    HGST | PANASAS | iRODS</li>
+
+                    <li><b>Integrating HUBzero and iRODS</b><br/>
+                    Rajesh Kalyanam, Robert A. Campbell, Samuel P. Wilson, Pascal Meunier, Lan Zhao, Elizabett A. Hillery, Carol Song - Purdue University</li>
+
+                    <li><b>An R Package to Access iRODS Directly</b><br/>
+                    Radovan Chytracek, Bernhard Sonderegger, Richard Coté - Nestlé Institute of Health Sciences</li>
+
+                    <li><b>Davrods, an Apache WebDAV Interface to iRODS</b><br/>
+                    Ton Smeele, Chris Smeele - Utrecht University</li>
+
+                    <li><b>NFS-RODS: A Tool for Accessing iRODS Repositories via the NFS Protocol</b><br/>
+                    D. Oliveira, A. Lobo Jr., F. Silva, G. Callou, I. Sousa, V. Alves, P. Maciel - UFPE<br/>
+                    Stephen Worth - EMC Corporation<br/>
+                    Jason Coposky - iRODS Consortium</li>
+
+                    <li><b>Academic Workflow for Research Repositories Using iRODS and Object Storage</b><br/>
+                    Randall Splinter - DDN</li>
+
+                    <li><b>Application of iRODS Metadata Management for Cancer Genome Analysis Workflow</b><br/>
+                    Lech Nieroda, Martin Peifer, Viktor Achter, Janna Velder, Ulrich Lang - University of Cologne</li>
+
+                    <li><b>Status and Prospects of Kanki: An Open Source Cross-Platform Native iRODS Client Application</b><br/>
+                    Ilari Korhonen, Miika Nurminen - University of Jyväskylä</li>
+                </ul>
+                </p>
+
+
+                <h3>
+                Presentations (June 8-9)
+                </h3>
+
+                            <hr/>
+                            The iRODS Consortium in 2016 [<a href="{filename}/uploads/2016/06/ugm2016-the-irods-consortium.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=DsqdvyGHgiM">video</a>]<br/>
+                            <em>Jason Coposky, iRODS Consortium</em>
+                            <br/><br/>
+                            iRODS 4.2 Overview [<a href="{filename}/uploads/2016/06/ugm2016-irods-42-overview.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=G6svm_REW3I">video</a>]<br/>
+                            <em>Terrell Russell, iRODS Consortium</em>
+                            <br/><br/>
+                            Auditing with the Pluggable Rule Engine [<a href="{filename}/uploads/2016/06/ugm2016-auditing-rule-engine-amqp.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=7NnpxAfvbBU">video</a>]<br/>
+                            <em>Terrell Russell, iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                     <p>iRODS 4.2 has introduced the new rule engine plugin interface. This interface offers the possibility of rule engines
+                                     which support iRODS rules written in various languages. This paper introduces an audit plugin that emits a single
+                                     AMQP message for every policy enforcement point within the iRODS server. We illustrate both the breadth and
+                                     depth of these messages as well as some introductory analytics. This plugin may prove useful from instrumentation
+                                     of a production iRODS installation to helping debug a confusing emergent distributed rule engine behavior.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            A Geo-Distributed Active Archive Tier [<a href="{filename}/uploads/2016/06/HGST_A-Geo-Distributed-Active-Archive-Tier-for-iRODS.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=QpL2ih3BdTk">video</a>]<br/>
+                            <em>Earle Philhower, III, Western Digital</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>iRODS makes it incredibly easy to preserve and share data generated by researchers, but as data volumes increase, the costs of maintaining all that data on primary storage becomes prohibitive. We present an advanced architecture that enables long term data retention and high availability in iRODS using a two-tiered design comprised of primary storage and a geographically distributed, object store-based, HGST Active Archive System for easy active archival. This model employs an existing high performance (expensive) primary storage system, coupled with an affordable, ultra-high capacity HGST Active Archive System back-end. Thanks to the iRODS abstraction layer and rules engine, this data tiering is automated and completely transparent to end users. We will discuss the solution architecture, provide a brief description of active archives in general and the HGST Active Archive System specifically, including its synchronous geographic replication capabilities, and present performance statistics for the available archived data.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            Testing Object Storage Systems with iRODS at Bayer [<a href="{filename}/uploads/2016/06/Bayer_iRODS-and-Objectstorage_UGM2016.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=2TTt_PdOuRE">video</a>]<br/>
+                            <em>Othmar Weber, Bayer Business Systems</em>
+                            <br/><br/>
+                            Advancing the Life Cycle of iRODS for Data [<a href="{filename}/uploads/2016/06/iRODS_UG_Panasas_06_2016.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=Nr4l3j0ACJ8">video</a>]<br/>
+                            <em>David Sallack, Panasas</em>
+                            <br/><br/>
+                            Having it Both Ways: Bringing Data to Computation & Computation to Data with iRODS [<a href="{filename}/uploads/2016/06/NCM-CyVerse-iRODS-UG-2016.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=fZWZ6dQTbs4">video</a>]<br/>
+                            <em>Nirav Merchant, University of Arizona</em>
+                            <br/><br/>
+                            Integrating HUBzero and iRODS [<a href="{filename}/uploads/2016/06/Purdue_Integrating-Hub-Zero-and-iRODS_UGM16.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=fM67FPCn4tY">video</a>]<br/>
+                            <em>Rajesh Kalyanam, Purdue University</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>Geospatial data is now increasingly used with tools in diverse fields such as agronomy, hydrology and sociology to gain a better understanding of scientific data. Funded by the NSF DIBBS program, the GABBS project seeks to create reusable building blocks aiding researchers in adding geospatial data processing, visualization and curation to their tools. GABBS leverages the HUBzero cyberinfrastructure platform and iRODS to build a web-based collaborative research platform with enhanced geospatial capabilities. HUBzero is unique in its availability of a rapid tool development kit that simplifies web-enabling existing tools. Its support for dataset DOI association enables citable tool results. In short, it provides a seamless path from data collection, to simulation and publication and can benefit from iRODS data management at each step. Scientific tools often require and generate metadata with their outputs. Given the structured nature of geospatial data, automatic metadata capture is vital in avoiding repetitive work. iRODS microservices enable this automation of data processing, metadata capture and indexing for searchability. They also allow for similar offline ingestion of external research data. The iRODS Fuse filesystem mounts directly onto the hub, enabling tools to refer to local file paths, simplifying development. We will discuss this work of integrating iRODS with HUBzero in the GABBS project and share our experience and lessons learned with the iRODS user community.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            iRODS Data Integration with CloudyCluster Cloud-Based HPC [<a href="{filename}/uploads/2016/06/CloudyCluster-IRODS-2016-Read-Only.pdf">slides</a>]<br/>
+                            <em>Boyd Wilson, Omnibond</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>This talk, with interactive Q&amp;A, is presented in anticipation of integrating iRODS with CloudyCluster to add simplified data management to CloudyCluster's easy, self-service, on-demand, public, cloud-based HPC provisioning. An overview of CloudyCluster will be provided with goals of the pending integration. We will also seek feedback from the community to help direct the integration. The end goal is to provide advanced computational and data management resources to the long tail of science and those without easy access to computational resources.</p>
+                                    <p>This presentation will focus on our efforts to develop a comprehensively secure cyberinfrastructure including iRODS, addressing issues from the datacenter level through to iRODS auditing, to provide a perspective on the effort required and the areas of most concern when developing secure infrastructure.</p>
+                                    <p>The challenges of using iRODS to support a broad community with data privacy levels ranging from HIPAA to open access will be discussed, and techniques for data segregation and auditing will be presented, to address a range of potential use cases. We will also present on the policies and rules used to support data management generally and HIPAA specifically in distributed iRODS installations.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            Getting R to talk to iRODS<br/>
+                            <em>Bernhard Sonderegger, Nestlé Institute of Health Sciences</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>The R language is an environment with a large and highly active user community in the field of data science. At NIHS we have developed the R-irods package which allows user-friendly access to irods data objects and metadata from the R language. Information is passed to the R functions as native R objects (e.g. data-frames) to facilitate integration with existing R code and to allow data access using standard R constructs.</p>
+                                    <p>To maximize performance and maintain a simple architecture, the implementation heavily relies on the icommands C++ code wrapped using Rcpp bindings.</p>
+                                    <p>The R-irods package has been engineered to have semantics equivalent to the icommands and can easily be used as a basis for further customization. At the NIHS we have created an ontology aware package on top of R-irods to ensure consistent metadata annotations and to facilitate query construction.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            Davrods, an Apache WebDAV Interface to iRODS [<a href="{filename}/uploads/2016/06/Utrecht-University_Davrods-presentation.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=zwjG9c4-qjE">video</a>]<br/>
+                            <em>Chris Smeele & Ton Smeele, Utrecht University</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>Utrecht University has developed a WebDAV compliant interface to IRODS 4.1 to facilitate drag-n-drop moving data in and out of iRODS 4 using an operating system's native interface. The presentation highlights the solution's design principles and the resulting architecture.  Davrods builds on Apache's mod_dav capabilities. We will share benchmark data that we have collected and conclude with a demonstration.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            iRODS 4.3 [<a href="{filename}/uploads/2016/06/ugm2016-irods-43-and-beyond.pdf">slides</a>]<br/>
+                            <em>Terrell Russell, iRODS Consortium</em>
+                            <br/><br/>
+                            Bidirectional Integration of Multiple Metadata Sources  [<a href="{filename}/uploads/2016/06/queryarrow2_Hao-Xu_DICE_iRODS-UGM-2016.pdf">slides</a>] [<a href="{filename}/uploads/2015/01/xu-queryarrow-2016.pdf">PDF</a>]<br/>
+                            <em>Hao Xu, DICE Group</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    We describe a generalize query language that allows us to integrate multiple types of data sources. The language provides both upquery and update, and customizable data policy. We demonstrate its use in iRODS, with applications such as graph based metadata, indexing, and metadata access. We also show that it can be proven that using both relational database and graph database provide the same behavior.
+                                </div>
+                            </div>
+                            <br/>
+                            DFC architecture & An iRODS Client for Mobile Devices [<a href="{filename}/uploads/2016/06/Odum_irodsUsersGroup_June_2016.pdf">slides</a>]<br/>
+                            <em>
+                                Jonathan Crabtree, Odum Institute<br/>
+                                Mike Conway, DICE Group<br/>
+                                Matthew Krause, DICE Group
+                            </em>
+                            <br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>In a collaboration between CyVerse, DataNet Federation Consortium, and Odum Institute developers, the CyVerse Discovery Environment has been ported as a general infrastructure to support data-driven research. This is the first step towards a broader community effort to standardize and adopt these tools, extending iRODS as a full service data management and computation environment.</p>
+                                    <p>The session will include a review of recent extensions to Jargon to power Virtual Collections, Metadata Templates, and other facilities that are powering DataNet Federation interfaces.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            NFS-RODS: A Tool for Accessing iRODS Repositories via the NFS Protocol [<a href="{filename}/uploads/2016/06/NFSRODS-slides.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=c7Gnnv1ftww">video</a>]<br/>
+                            <em>
+                                Danilo Oliveira, UFPE
+                            </em>
+                            <br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>Data center and data evolution has been dramatic in the last few years with the advent of cloud computing and the massive increase of data due to the Internet of Everything. The Integrated Rule-Oriented Data System (iRODS) helps in this changing world with virtualizing data storage resources regardless the location where the data is stored.</p>
+                                    <p>This paper presents a tool implemented for accessing iRODS repositories through the NFS protocol. This tool integrates NFS to the iRODS server through common operating system commands on a remote iRODS repository via the NFS protocol.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            MetaLnx: An Administrative and Metadata UI for iRODS [<a href="{filename}/uploads/2016/06/EMC_Metalnx_iRODS_UGM-2016.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=cGWOnoR3Hqs">video</a>]<br/>
+                            <em>Stephen Worth, EMC</em>
+                            <br/><br/>
+                            Academic Workflow for Research Repositories [<a href="{filename}/uploads/2016/06/DDN_Academic-Workflows-with-iRODS-FINAL-Read-Only.pdf">slides</a>]<br/>
+                            <em>Randy Splinter, DDN</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>Traditionally, the sharing and retention of research data has been a contentious issue. Sharing data over WANs has been limited by the available storage technologies. NAS solutions while excellent for sharing data over a LAN have never had the same success over WANs. The successful implementation of object storage solutions has opened a door into the ability to share data over WAN links.</p>
+                                    <p>By coupling that ability to share objects over a WAN with middleware like iRODS provides the research community with the ability to provide more stringent controls over the data including:</p>
+                                    <ul>
+                                        <li>Better control of ACLs including:
+                                            <ul>
+                                                <li>Implementing data retention policies to meet regulatory regulations</li>
+                                                <li>Loss of IP due to faulty loss</li>
+                                            </ul></li>
+                                        <li>Virtualization of multiple storage silos under a single namespace</li>
+                                        <li>Extensive metadata tags and searching of those tags</li>
+                                        <li>Extensible rules engine to implement functionality such as:
+                                            <ul>
+                                                <li>HSM style functionality between storage devices</li>
+                                                <li>Data migration based upon set criterion</li>
+                                            </ul></li>
+                                    </ul>
+                                    Some of the advantages of this approach include:
+                                    <ul>
+                                        <li>Ease of administration: Once rules are tested and in place the system can be managed with a minimum of administrative overhead</li>
+                                        <li>Automating workflows to guarantee consistency and reproducibility in the science that is produced</li>
+                                        <li>Ease of auditing for both usage and back charging and for maintaining adequate data security compliance</li>
+                                        <li>Using storage platforms like DDN WOS remote replication becomes simple and provides a straightforward way</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br/>
+                            Application of iRODS Metadata Manager for Cancer Genome Analysis Workflow [<a href="{filename}/uploads/2016/06/iRODS_UGM2016_Nieroda.pdf">slides</a>]<br/>
+                            <em>Lech Nieroda, University of Cologne</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    <p>NGS is an increasingly cost efficient and reliable method to provide whole genomes or exomes in a relatively short time.</p>
+                                    <p>The massive amounts of resulting data pose challenges during various stages of its lifecycle: organizing and storing of input data, high throughput processing and analysis in an HPC Cluster and effective reviewing and secure sharing of the results.</p>
+                                    <p>Traditional file systems quickly meet their limits when content based metadata handling is required.</p>
+                                    <p>As a computing center, that has been driving NGS workflows for many years, we are constantly looking for solutions to optimize these workflows to maximize output and quality. We have decided to use IRODS, a comprehensive data management system that would allow customized metadata attributes, fine grained protection rules as well as a query system to quickly organize and review the results.</p>
+                                    <p>In this paper we describe our design and experiences with the integration of iRODS with an automated pipeline, which was developed within our participation in the BMBF funded project SMOOSE to optimize relevant workflows for cancer studies to clinical use. The workflow was taken from the department of Translational Genomics from the University of Cologne. The focus of the workflow lies in sequencing and analysis of cancer genomes with the goal of identifying novel and potentially clinically relevant alterations. The gained insights can lead to personalized therapy with higher efficacy and reduced toxicity.</p>
+                                </div>
+                            </div>
+                            <br/>
+                            Status and Prospects of Kanki: An Open Source Cross-Platform Native iRODS Client Application [<a href="{filename}/uploads/2016/06/KTH_Status-and-Prospects-of-KANKI_iRODS-UGM-2016.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=wpBHCu6yh8I">video</a>]<br/>
+                            <em>Ilari Korhonen, University of Jyväskylä</em><br/>
+                            <div>
+                                <div class="abstract">
+                                    The current state of development of project Kanki is discussed and additionally some prospects for future development of Kanki are laid out. Kanki is an open source cross-platform native iRODS client application which was introduced to the iRODS community at the 7th Annual iRODS Users Group Meeting in 2015. Afterwards project Kanki was released open source with a 3-clause BSD license in September 2015. Since then 9 releases have been made, from which the latest 6 have been available in addition to the source code as pre-built binary packages for x86-64 CentOS Linux 6/7 and OS X 10.10+. The Kanki build environment at the University of Jyväskylä is running out of Jenkins continuous integration for both previously mentioned platforms and the Linux builds are currently being executed in disposable containers instantiated from pre-built Docker images. This provides an excellent framework for (regression) testing of the client suite. Currently the immediate goals of development to be discussed are: stability, testing, ease of install and use, a complete iRODS basic feature set for graphical icommands alternatives. The prospects for more advanced future developments to be discussed are: a fully extensible modular metadata editor with pluggable attribute editor widgets, a fully extensible modular search user interface with pluggable condition widgets, data grid analytics and visualization with VTK integration.
+                                </div>
+                            </div>
+                            <br/>
+                            DAM Secure File System [<a href="{filename}/uploads/2016/06/Meet-Ben-iRODS-4Posting-Paul-Evans.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=GeROGvGzkXo">video</a>]<br/>
+                            <em>Paul Evans, Daystrom Technology Group</em>
+                            <br/><br/>
+                            iRODS Feature Requests and Discussion [<a href="{filename}/uploads/2016/06/Feature-Requests-2016.pdf">PDF</a>]<br/>
+                            <em>Reagan Moore, DICE Group</em>
+
+
+
+                <h3>
+                Training (June 7)
+                </h3>
+
+                <p>
+                8:00 – 9:00 AM:  Registration &amp; Breakfast<br/>
+                9:00 AM – 5:00 PM:  Training<br/>
+                5:30 – 6:30 PM:  Members Meet &amp; Greet, Kenan Center Terrace<br/>
+                5:30 – 6:00 PM:  Omnibond Birds of a Feather, Room 204
+                </p>
+
+                <p><b>Beginner Training</b></p>
+
+                <p>This hands-on workshop taught how to plan and deploy an iRODS 4.2 installation and explored storage resource composition, metadata operations, and rule development using graphical and command line interfaces.</p>
+
+                <ul>
+                    <li>Introduction / Overview</li>
+                    <li>Four Pillars</li>
+                    <li>Planning an iRODS Deployment</li>
+                    <li>Installation</li>
+                    <li>LUNCH</li>
+                    <li>iCommands and Cloud Browser</li>
+                    <li>Virtualization</li>
+                    <li>Basic Metadata</li>
+                    <li>Basic Rule Engine</li>
+                </ul>
+
+                <p><b>Advanced Training</b></p>
+
+                <p>In-depth experience with iRODS 4.2. The iRODS development team at RENCI guided students through advanced topics such as using multiple rule engine plugins, PAM authentication, federation, and configuration for high availability.<br/>
+                <i>Prerequisites (4.1.9, installed via ftp on EC2 via slipofpaper).</i></p>
+
+                <ul>
+                    <li>Upgrades</li>
+                    <li>PAM/SSL Configuration</li>
+                    <li>LUNCH</li>
+                    <li>Plugins
+                        <ul>
+                            <li>Composable Resource Plugins
+                                <ul>
+                                    <li>Object store compound example</li>
+                                    <li>Delayed replication to archive</li>
+                                    <li>Cache purging rule</li>
+                                    <li>Load balancing example</li>
+                                </ul></li>
+                            <li>Rule Engine Plugins
+                                <ul>
+                                    <li>Native</li>
+                                    <li>Python</li>
+                                    <li>C++</li>
+                                </ul></li>
+                            <li>Microservice Plugins</li>
+                            <li>API Plugins</li>
+                        </ul></li>
+                    <li>High Availability</li>
+                    <li>Troubleshooting / Bottlenecks / Monitoring / Performance / Extras</li>
+                </ul>
+
+
+            </div>
+        </div>
+</section>
+</body>
+</html>
