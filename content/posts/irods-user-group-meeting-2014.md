@@ -11,6 +11,4 @@ Cambridge, MA.
 Thank you to all who attended; the meeting was a terrific success! More
 than 70 participants from 6 different countries attended.
 
-Presentation materials from the meeting are available below.
-
-[user\_group\_mtg\_2014]
+<a href="{filename}/pages/ugm2014.html">Presentation materials from the meeting are now available.</a>
