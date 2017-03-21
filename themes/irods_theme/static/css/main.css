@@ -429,6 +429,14 @@ td{
     border: 1px solid #ddd;
     margin: 23px 0px 0px 9px;
 }
+.tech_diagram{
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.tech_diagram_cont{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .empty_profile{
     margin: 23px 0px 0px 11px;
 }
@@ -445,6 +453,11 @@ td{
     margin: 0px 0px 0px 15px;
     border-left:1px solid #ddd;
     min-height: 230px;
+}
+.diagram_description{
+    text-align: left;
+    margin: 0px 0px 0px 15px;
+    border-left:1px solid #ddd;
 }
 .core_competencies_text{
     font-size: 12px;
