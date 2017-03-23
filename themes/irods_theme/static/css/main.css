@@ -381,6 +381,12 @@ td{
 .dark_section_header{
     border-bottom: 1px solid #777;
 }
+.alert_message{
+    border: 1px solid #ff6a00;
+    background: #ffffff;
+    color: #ff6a00;
+    padding: 30px;
+}
 .green_font{
     color:#18bc9c;
 }
