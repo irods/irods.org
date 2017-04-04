@@ -348,7 +348,12 @@ section.green_bg {
     text-align: -webkit-center;
     padding: 80px 0px 50px 0px;
 }
-section.green_bg a{
+section.green_bg a, .light_font_link{
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.light_font_link:hover{
     color: #fff;
     font-weight: normal;
     text-decoration: underline;
@@ -464,6 +469,7 @@ td{
     text-align: left;
     margin: 0px 0px 0px 15px;
     border-left:1px solid #ddd;
+    min-height: 103px;
 }
 .core_competencies_text{
     font-size: 12px;
@@ -923,6 +929,9 @@ MEDIA QUERY STYLES
         padding-left:10px;
         padding-right:10px;
         height:92px;
+    }
+    .small_centered_line_ugm2017{
+        width: 100%;
     }
 }
 @media(max-width:767px) {
