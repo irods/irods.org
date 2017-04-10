@@ -21,7 +21,7 @@ The March TWG meeting agenda is a good encapsulation of where we are on a variet
 
 - 4.3 Roadmap
 
-    [The roadmap has been sent to Planning Committee for a vote]({filename}/pages/roadmap.html).  It should be official within the next month.
+    [The roadmap has been sent to the Planning Committee for a vote]({filename}/pages/roadmap.html).  It should be official within the next month.
 
 - Preparing [4.1.11](https://github.com/irods/irods/milestone/25) and [4.2.1](https://github.com/irods/irods/milestone/24) releases
 
@@ -56,7 +56,7 @@ The March TWG meeting agenda is a good encapsulation of where we are on a variet
 
     This plugin has been hammered recently and is nearly ready for running the entire iRODS test suite.  The recent work has been to get all the iRODS rule engine data types available within python data structures.  This will be pulled into CI and once it's green, we'll release.
 
-- AMQP Audit Rule Engin Plugin
+- AMQP Audit Rule Engine Plugin
 
     The testing of the audit plugin has been done manually.  To test this plugin requires setting up an AMQP listener to catch the messages and compare them to a known good set.  Once this work is automated in CI, we will release as soon as possible.
 
