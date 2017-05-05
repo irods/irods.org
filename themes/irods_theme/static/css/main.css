@@ -883,7 +883,9 @@ UGM 2017 STYLES
     color:#fff;
 }
 
-
+.inactive_content{
+    display: none;
+}
 
 .abstract{
     padding: 5px 10px 5px 20px;
