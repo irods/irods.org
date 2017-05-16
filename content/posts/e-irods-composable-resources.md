@@ -5,7 +5,7 @@ Slug: e-irods-composable-resources
 Status: published
 
 RENCI is attending the [2013 iRODS User Group Meeting in Garching,
-Germany](https://www.irods.org/index.php/iRODS_User_Group_Meeting_2013)
+Germany]({filename}/pages/ugm2013.html)
 this week.
 
 The meeting is being hosted by the [Max Planck Institute of Plasma
