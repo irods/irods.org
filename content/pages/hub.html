@@ -6,16 +6,16 @@
             <div class="space_half"></div>
             <div class="row" >
                 <div class="col-lg-12 text-center">
-                    <h4 class="green_font"><i class="green_font fa fa-info-sitemap"></i> iRODS HUB</h2>
+                    <h4 class="green_font"><i class="green_font fa fa-info-sitemap"></i> iRODS HUB</h4>
                 </div>
             </div>
             <hr class="small_centered_line_green">
             <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >     
                 iRODS HUB is a place for iRODS users and developers to share their designs with the rest of the community.
-                <br/><br/>
-                <i class="green_font fa fa-exclamation"></i> Disclaimer
-                <br/><br/>
-                <i>We may provide links on this website to other websites or resources that are relevant to iRODS and/or the subject matter of this website. The terms of use applicable to this website do not apply to such third party websites. The University of North Carolina (including the iRODS Consortium and RENCI) makes no warranties or representations with respect to the compatibility with iRODS of any software, code, products, services or other resources provided by such third parties. We do not endorse and are not liable for the use of any software, code, products, services or other resources on or available from such websites or resources. You acknowledge and agree that under no circumstances will we be held responsible or liable, directly or indirectly, for any loss or damage that is caused or alleged to have been caused to you in connection with your use of, or reliance on, any software, code, products, services or other resources available on any other website regardless of whether we directly or indirectly link to the foregoing.</i>
+                <br>
+                The links provided below are not endorsed or supported by the iRODS Consortium. They are listed here in service of the greater iRODS open source community.
+                <br><br>
+                Want to add your work to the iRODS HUB? <a href="#hub_form">Click Here</a>.
                 <br/><br/>
                 <h1>HUB Links</h1>
                 <hr/>
@@ -72,11 +72,54 @@
                 <br/><a href="https://github.com/marcindulak/irods-tutorial-centos6/tree/master/vagrant">GitHub</a> — <a href="https://github.com/marcindulak">Marcin Dulak</a>
                 <hr/>                
                 <h3><i class="green_font fa fa-link"></i> Rule: Extracting Image Metadata Using Imagemagick</h3>
+                <div id="hub_form"></div>
                 <div><i>Posted June 8, 2015</i></div><br/>
                 This rule and microservice were used in the training session at the 2015 iRODS User Group Meeting to demonstrate workflow automation using the iRODS Rule Engine. The microservice uses Imagemagick to extract metadata from image files. An example rule is provided, which uses the acPostProcForPut PEP to identify incoming images, extract the metadata, and associate the metadata with the image in the iCAT.
                 <br/><a href="https://github.com/irods/contrib/tree/master/microservices">GitHub</a> — <a href="https://github.com/jasoncoposky">Jason Coposky</a>
-
-            </div>
+                <hr>
+                <h1>Add your work to the iRODS HUB</h1>
+                Please complete the following form to submit any iRODS-affiliated work that you would like to have listed on this page. This is not an automatic process - the iRODS Consortium will evaluate your submission and contact you before posting anything here on your behalf.
+                <hr>
+                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Your Name and Organization</label>
+                            <input type="text" class="form-control" placeholder="Your Name and Organization" id="name" required data-validation-required-message="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Your Email Address</label>
+                            <input type="email" class="form-control" placeholder="Your Email Address" id="email" required data-validation-required-message="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>URL(s)</label>
+                            <input type="text" class="form-control" placeholder="URL(s)" id="url" required data-validation-required-message="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Description</label>
+                            <textarea class="form-control" placeholder="Description" id="description" required data-validation-required-message="required"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>            
             <div class="space"></div>
         </div>
 </section>

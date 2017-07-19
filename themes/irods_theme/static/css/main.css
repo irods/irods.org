@@ -606,9 +606,43 @@ td{
 
 .floating-label-form-group {
     position: relative;
-    margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+.form-control{
+    height: 24px;
+
+}
+
+.event_list_item{
+    border-left: 1px solid;
+}
+
+.event_container{
+    display: flex;
+    padding: 6px 0px;
+    width:100%;
+}
+.event_container_next{
+    background:#e2f2ec;
+    display: flex;
+    padding: 6px 0px;
+    width:100%;
+}
+.next_event{
+    position: absolute;
+    left: -50px;
+    font-weight: bolder;
+    color: #18bc9c;
+}
+.not_next{
+    display: none;
+}
+.event_list_hr{
+    margin:5px 0px;
+    padding: 0px;
+    border-top:1px solid #aaaaaa;
 }
 
 .floating-label-form-group input,
@@ -620,9 +654,10 @@ td{
     border: 0;
     border-radius: 0;
     font-size: 1.5em;
-    background: 0 0;
+    background: #f9f9f9;
     box-shadow: none!important;
     resize: none;
+    height: 43px;
 }
 
 .floating-label-form-group label {
@@ -919,6 +954,11 @@ MEDIA QUERY STYLES
     }
 }
 @media(max-width:580px){
+    .event_list_hr{
+        margin:5px 0px;
+        padding: 0px;
+        border-top:4px double #aaaaaa;
+    }
     .funded_cell{
         border: 1px solid #aaa;
         height:92px;
