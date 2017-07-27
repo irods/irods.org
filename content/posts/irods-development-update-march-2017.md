@@ -17,7 +17,7 @@ The March TWG meeting agenda is a good encapsulation of where we are on a variet
 
 - Call for Proposals for UGM2017 is available
 
-    The iRODS User Group Meeting is coming up in under three months in the Netherlands.  Please submit your talks and demos.  We want to know what you're working on and how iRODS has been a part of that planning and execution.  If you have new tools, please share.  If you have new metrics, please share.  This meeting is shaping up to be the biggest yet.  Find the call for proposals here: [https://irods.org/ugm2017/cfp]({filename}/pages/ugm2017/cfp.html)
+    The iRODS User Group Meeting is coming up in under three months in the Netherlands.  Please submit your talks and demos.  We want to know what you're working on and how iRODS has been a part of that planning and execution.  If you have new tools, please share.  If you have new metrics, please share.  This meeting is shaping up to be the biggest yet.  Find the call for proposals here: https://irods.org/ugm2017/cfp
 
 - 4.3 Roadmap
 

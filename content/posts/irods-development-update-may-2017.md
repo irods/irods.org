@@ -5,7 +5,7 @@ Slug: irods-development-update-may-2017
 Status: published
 
 
-May has been a very busy month.  We are in the final stretch before we head to the [User Group Meeting in Utrecht, Netherlands in under two weeks]({filename}/pages/ugm2017.html).   The [agenda has been posted]({filename}/pages/ugm2017/agenda.html), register today!
+May has been a very busy month.  We are in the final stretch before we head to the [User Group Meeting in Utrecht, Netherlands in under two weeks]({filename}/pages/ugm2017.html).   The agenda has been posted, register today!
 
 
 ### Travel

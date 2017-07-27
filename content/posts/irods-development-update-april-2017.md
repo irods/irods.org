@@ -5,7 +5,7 @@ Slug: irods-development-update-april-2017
 Status: published
 
 
-This month's TWG touched on the many irons we have in the fire in the run up to the [User Group Meeting in Utrecht, Netherlands in June]({filename}/pages/ugm2017.html).   Remember, [registration and submission deadlines]({filename}/pages/ugm2017/cfp.html) are very soon.
+This month's TWG touched on the many irons we have in the fire in the run up to the [User Group Meeting in Utrecht, Netherlands in June]({filename}/pages/ugm2017.html).   Remember, registration and submission deadlines are very soon.
 
 
 
