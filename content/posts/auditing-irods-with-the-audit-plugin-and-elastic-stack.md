@@ -72,7 +72,7 @@ the following in the rule\_engines array.
  "plugin_specific_configuration" : {
    "pep_regex_to_match" : "audit_.*",
    "amqp_topic" : "queue://audit_messages",
-   "amqp_location" : "localhost:5672",
+   "amqp_location" : "ANONYMOUS@localhost:5672",
    "amqp_options" : ""
    }
 }
@@ -83,8 +83,7 @@ Also add "audit_" in the rule_engine_namespaces as shown below.
 ~~~~
     "rule_engine_namespaces": [
         "",
-        "audit_",
-        "indexing_"
+        "audit_"
     ],
 ~~~~
 
