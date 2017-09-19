@@ -6,7 +6,7 @@ $(document).ready(function(){
     console.log(IDs);
     for (var i = 0; i < IDs.length; i++) {
         if(IDs[i] > todays_date && !$('.event_container_next').length){
-            $('#'+ IDs[i]).addClass("event_container_next");
+            $('#'+IDs[i]).addClass("event_container_next");
             $('#'+IDs[i]).children(".col-xs-1").children(".not_next").addClass("next_event");
             $('#'+IDs[i]).children(".col-xs-1").children(".not_next").removeClass("not_next");
         }
