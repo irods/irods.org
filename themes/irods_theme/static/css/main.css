@@ -829,7 +829,7 @@ UGM 2017 STYLES
 /////////////////////////////////////////////////
 ////////////////////////////////////////////// */
 
-.navbar-brand-ugm_2017{
+.navbar-brand-ugm{
     background: url("../../images/irods_white_logo.png")no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -839,40 +839,70 @@ UGM 2017 STYLES
     margin: 13px;
 }
 
-.navbar-ugm_2017 {
-    background: #006658 url("../../images/green_ugm2017_bg.jpg")no-repeat top center;
+.navbar-ugm {
+    background-image: url('../../images/1.png'), url('../../images/ugm2018_top_bg.jpg');
+    background-color: #003569;
+    background-repeat: repeat, no-repeat;
+    background-position: center, top;
+    background-size: auto;
     font-family: Helvetica,Arial,sans-serif;
     font-weight: normal;
-    border-top: 5px solid #ffffff;
+    padding: 2px 0px 0px 0px;
     border-bottom: 1px solid #ffffff;
-    box-shadow: 0 3px 0 #005446; 
+    box-shadow: 3px 3px 3px 0 #000000; 
 }
 
-.body-ugm_2017 {
+.body-ugm {
     overflow-x: hidden;
-    background: url('../../images/lions_bg.png'), url("../../images/green_ugm2017_bg.jpg"), #006658;
-    background-position: top center, top center;
-    background-repeat: repeat, no-repeat;
     font-family: Helvetica,Arial,sans-serif;
     font-weight: normal;
     color:#ffffff;
+    min-height: 600px;
+    background-image: url('../../images/ugm2018_bull_header.png'), url('../../images/1.png'), url('../../images/ugm2018_top_bg.jpg'), url('../../images/ugm2018_top_bg_rep_x.jpg');
+    background-color: #001e3c;
+    background-repeat: no-repeat, repeat, no-repeat, repeat-x;
+    background-position: top, center, top, top;
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    text-align: center;
+    text-align: -webkit-center;
 }
 
-.a-ugm_2017{
+.body-ugm-subpage{
+    overflow-x: hidden;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    color:#ffffff;
+    min-height: 600px;
+    background-image: url('../../images/1.png'), url('../../images/ugm2018_top_bg.jpg');
+    background-color: #023465;
+    background-repeat: repeat, no-repeat;
+    background-position: center, top;
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.a-ugm{
     color: #ffffff !important;
     font-weight: normal;
 }
 
-.a-ugm_2017:hover{
+.a-ugm:hover{
     color: #ffffff !important;
     font-weight: normal;
     text-decoration: underline !important;
 }
 
-.btn-ugm2017{
+.btn-ugm{
     background: #fff;
     color:#18bc9c;
-    border-bottom: 3px solid #005446;
+    border-bottom: 3px solid #000;
     width: 50%;
     font-size: 30px;
     cursor: pointer;
@@ -882,28 +912,28 @@ UGM 2017 STYLES
     border-radius: 0px;
 }
 
-.btn-ugm2017:hover,.btn-ugm2017:focus{
+.btn-ugm:hover,.btn-ugm:focus{
     background: #18bc9c;
     color:#fff;
-    border-bottom: 1px solid #005446;
+    border-bottom: 1px solid #000;
     cursor: pointer;
-    border-top:2px solid #18bc9c;
+    border-top:2px solid #000;
     border-left: 0px;
     border-right: 0px; 
     border-radius: 0px;
 }
 
-.h1-ugm_2017,
-.h2-ugm_2017,
-.h3-ugm_2017,
-.h5-ugm_2017,
-.h6-ugm_2017 {
+.h1-ugm,
+.h2-ugm,
+.h3-ugm,
+.h5-ugm,
+.h6-ugm {
     font-family: Helvetica,Arial,sans-serif;
     font-weight: bold;
     color:#fff;
 }
 
-.small_centered_line_ugm2017{
+.small_centered_line_ugm{
     height:1px;
     width:280px;
     margin: 40px auto;
@@ -911,7 +941,7 @@ UGM 2017 STYLES
     border-bottom: 2px solid #005446;
 }
 
-.h4-ugm_2017 {
+.h4-ugm {
     font-family: tristram;
     font-size: 39px;
     font-weight: lighter;
