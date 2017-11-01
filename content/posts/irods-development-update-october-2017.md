@@ -29,7 +29,7 @@ The work on a [CockroachDB database plugin](https://github.com/irods/irods_datab
 - Active Development Work
 
     - Python iRODS Client (PRC)
-        - community activity/usage is increasting
+        - community activity/usage is increasing
         - work on adding SSL
         - preparing 0.7.0
         - [https://github.com/irods/python-irodsclient](https://github.com/irods/python-irodsclient)
