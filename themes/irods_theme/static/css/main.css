@@ -377,6 +377,41 @@ section.white_bg_page{
 td{
     padding: 5px;
 }
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
 .dark_section{
     border: 1px solid #777;
     background: #f7f7f7;
@@ -395,8 +430,25 @@ td{
 .green_font{
     color:#18bc9c;
 }
+.red_font{
+    color:#ff0000;
+}
 .toggler{
     cursor: pointer;
+}
+.cell-flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.cell-block{
+    display: block;
+}
+.border-bottom{    
+    border-bottom: 1px solid #dedede;
+    padding: 0px 0px 2px 0px;
 }
 .main_splash_container{
     padding: 0px;
