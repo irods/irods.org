@@ -44,6 +44,11 @@ $(document).ready(function(){
         $(".trirods_3").removeClass('inactive_content');
         $(".trirods_3_button").addClass('active');
     });
+    $(".trirods_4_button").click(function(){
+        deactivate_trirods_content();
+        $(".trirods_4").removeClass('inactive_content');
+        $(".trirods_4_button").addClass('active');
+    });
 
 });
 
