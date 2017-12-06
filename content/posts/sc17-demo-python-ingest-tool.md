@@ -38,6 +38,7 @@ After seeing the results above, we decided to formalize the dependency on Redis 
 ### Demo
 
 <script type="text/javascript" src="https://asciinema.org/a/150435.js" id="asciicast-150435" async></script>
+[https://asciinema.org/a/150435](https://asciinema.org/a/150435)
 
 First, we ingest 3000 files using the existing iCommand `iput`, both with and without verifying checksums on the server.
 

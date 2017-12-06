@@ -30,6 +30,7 @@ The query is run against the metadata stored in the iRODS Catalog, so any annota
 ### Demo
 
 <script type="text/javascript" src="https://asciinema.org/a/150254.js" id="asciicast-150254" async></script>
+[https://asciinema.org/a/150254](https://asciinema.org/a/150254)
 
 First, the code is downloaded and compiled, generating an installable package that delivers two microservice plugins, five iRODS Rule Language rulebases (four for configuration, and one with policy), and a rule for firing the tiering logic.  Next the resource hierarchies are created and defined as storage tiers via `imeta` by attaching well-defined metadata attributes and values to the storage resources.
 
