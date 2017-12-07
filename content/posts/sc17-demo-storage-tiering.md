@@ -18,7 +18,7 @@ In exploring this capability, we are primarily interested in providing an open s
 
 The code running this demo can be found in the irods training repository:
 
-  [https://github.com/irods/irods_training/master/advanced/storage_tiering/](https://github.com/irods/irods_training/master/advanced/storage_tiering/)
+  [https://github.com/irods/irods_training/tree/master/advanced/storage_tiering/](https://github.com/irods/irods_training/tree/master/advanced/storage_tiering/)
 
 There is a default time-based policy in place that will move data from one tier to the next after a period of time.  This is implemented via a query that finds all data in violation of the policy parameters and schedules any matching replicas for a move (actually a replication and a trim).  When a data object is read, the replica is scheduled to move back to the first (presumably, fastest) tier.
 
