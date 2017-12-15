@@ -1276,3 +1276,12 @@ MEDIA QUERY STYLES
     }
 }
 
+.trirods_event{
+        padding: 30px 0 50px 0;
+        border-width: 1px 0 0 0;
+        border-style: solid;
+        border-color: #888;
+}
+.trirods_speaker{
+        margin: 25px 0 0 0;
+}
