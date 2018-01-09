@@ -47,15 +47,15 @@ points that are being introduced in iRODS 4.2 were disabled for testing.
 !ENABLE\_RE indicates that the pluggable rule engine was turned off by
 removing the ENABLE\_RE compile flag.
 
-  ---------------------------- -------
-  4.1.9                        1.0x
-  4.2 (FORK & !ENABLE\_RE)     1.04x
-  4.2 (FORK & !DYNAMIC\_PEP)   1.10x
-  4.2 (FORK)                   1.16x
-  4.2                          1.67x
-  ---------------------------- -------
+ | version                      | relative timing |
+ | ---------------------------- | :----: |
+ | 4.1.9                        | 1.0x   |
+ | 4.2 (FORK & !ENABLE\_RE)     | 1.04x  |
+ | 4.2 (FORK & !DYNAMIC\_PEP)   | 1.10x  |
+ | 4.2 (FORK)                   | 1.16x  |
+ | 4.2                          | 1.67x  |
 
-  : Table 1 - Performance comparison between iRODS 4.1.9 and iRODS 4.2
+Table 1 - Performance comparison between iRODS 4.1.9 and iRODS 4.2
   (June 2016)
 
 Changing to fork rather than fork-and-exec to spawn agents consistently
@@ -116,15 +116,15 @@ still introduce the pluggable rule engine framework. Table 2 shows the
 results of performance testing of the 4.2 engineering preview versus
 version 4.1.9.
 
-  ----------------------------------- --------- -------
-  4.1.9                               104.57s   1.0x
-  4.2 (FORK, DISPATCHER, & DEFAULT)   106.88s   1.02x
-  4.2 (FORK & DISPATCHER)             123.50s   1.18x
-  4.2 (FORK)                          132.47s   1.27x
-  4.2                                 168.49s   1.61x
-  ----------------------------------- --------- -------
+| version                            | timing  | relative timing |
+| ---------------------------------- | :-----: | :----: |
+| 4.1.9                              | 104.57s | 1.0x   |
+| 4.2 (FORK, DISPATCHER, & DEFAULT)  | 106.88s | 1.02x  |
+| 4.2 (FORK & DISPATCHER)            | 123.50s | 1.18x  |
+| 4.2 (FORK)                         | 132.47s | 1.27x  |
+| 4.2                                | 168.49s | 1.61x  |
 
-  : Table 2 - Performance comparison between iRODS 4.1.9 and iRODS 4.2
+Table 2 - Performance comparison between iRODS 4.1.9 and iRODS 4.2
   engineering preview
 
 
