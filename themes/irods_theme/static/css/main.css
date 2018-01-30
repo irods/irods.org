@@ -236,7 +236,7 @@ header .intro-text .skills {
     padding: 17px 0px;
     font-size: 16px;
     min-height: 60px;
-    background: #00a651;
+    background: rgba(24, 188, 165, 0.52);
     border-bottom: 3px solid #005725;
     color: #fff;
 }
@@ -441,7 +441,7 @@ section.white_bg{
     text-align: center;
     text-align: -webkit-center;
     padding: 80px 0px 50px 0px;
-    background-image: url("../../images/2.png"), url('../../images/irods_main_bg.png'); 
+    background-image: url("../../images/2.png"), url('../../images/irods_main_bg.png');
     background-position: center, center;
     border-bottom: 40px solid #58585a;
 }
@@ -524,7 +524,7 @@ td{
 .cell-block{
     display: block;
 }
-.border_bottom{    
+.border_bottom{
     border-bottom: 1px solid #dedede;
     padding: 0px 0px 2px 0px;
 }
@@ -1003,7 +1003,7 @@ UGM 2017 STYLES
     font-weight: normal;
     padding: 2px 0px 0px 0px;
     border-bottom: 1px solid #ffffff;
-    box-shadow: 3px 3px 3px 0 #000000; 
+    box-shadow: 3px 3px 3px 0 #000000;
 }
 
 .body-ugm {
@@ -1062,7 +1062,7 @@ UGM 2017 STYLES
     cursor: pointer;
     border-top:0px;
     border-left: 0px;
-    border-right: 0px; 
+    border-right: 0px;
     border-radius: 0px;
 }
 
@@ -1073,7 +1073,7 @@ UGM 2017 STYLES
     cursor: pointer;
     border-top:2px solid #000;
     border-left: 0px;
-    border-right: 0px; 
+    border-right: 0px;
     border-radius: 0px;
 }
 
@@ -1239,7 +1239,7 @@ MEDIA QUERY STYLES
     .phone_show{
         display: block !important;
     }
-    .border_bottom{    
+    .border_bottom{
         border-bottom: none;
         padding: none;
     }
