@@ -28,12 +28,12 @@
                 <br/>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
-                        <a href="{filename}/images/data_to_compute.jpg" target="_blank" ><img src="{filename}/images/data_to_compute.jpg" class="tech_diagram"></a>
+                        <a href="{filename}/images/pattern_data_to_compute.jpg" target="_blank" ><img src="{filename}/images/pattern_data_to_compute.jpg" class="tech_diagram"></a>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
-                        <a href="{filename}/images/data_to_compute.jpg" target="_blank"><b>Data to Compute</b><br class="phone_show"/></a>
+                        <a href="{filename}/images/pattern_data_to_compute.jpg" target="_blank"><b>Pattern: Data to Compute</b><br class="phone_show"/></a>
                         <br/>
-                        <a href="{filename}/images/data_to_compute.jpg" target="_blank" class="phone_show"><img src="{filename}/images/data_to_compute.jpg" class="tech_diagram"></a>
+                        <a href="{filename}/images/pattern_data_to_compute.jpg" target="_blank" class="phone_show"><img src="{filename}/images/pattern_data_to_compute.jpg" class="tech_diagram"></a>
                         <br class="phone_show"/>
                         In many existing enterprise and research deployments, HPC clusters are separated from long term data storage technologies.  When data needs to be moved to HPC and back again, the Data to Compute design pattern can leverage metadata-driven workflows and automate the execution of an organization's data management policy.
                     </div>
@@ -41,16 +41,71 @@
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
-                        <a href="{filename}/images/compute_to_data.jpg" target="_blank" ><img src="{filename}/images/compute_to_data.jpg" class="tech_diagram"></a>
+                        <a href="{filename}/images/pattern_compute_to_data.jpg" target="_blank" ><img src="{filename}/images/pattern_compute_to_data.jpg" class="tech_diagram"></a>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
-                        <a href="{filename}/images/compute_to_data.jpg" target="_blank"><b>Compute to Data</b><br class="phone_show"/></a>
+                        <a href="{filename}/images/pattern_compute_to_data.jpg" target="_blank"><b>Pattern: Compute to Data</b><br class="phone_show"/></a>
                         <br/>
-                        <a href="{filename}/images/compute_to_data.jpg" target="_blank" class="phone_show"><img src="{filename}/images/compute_to_data.jpg" class="tech_diagram"></a>
+                        <a href="{filename}/images/pattern_compute_to_data.jpg" target="_blank" class="phone_show"><img src="{filename}/images/pattern_compute_to_data.jpg" class="tech_diagram"></a>
                         <br class="phone_show"/>
                         When data is stored in specific locations due to a requirement for specialized software or hardware or only because it is too big and expensive to move, compute requests can be routed to the appropriate location automatically.  This metadata-driven computation design pattern could serve as a bridge until the time services are more fully containerized.
                     </div>
-                </div>   
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" target="_blank" ><img src="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" target="_blank"><b>Capability: Automated Ingest - Filesystem Scanner</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" target="_blank" class="phone_show"><img src="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        When an organization first discovers iRODS, it is usually true that the organization already has a lot of data in disparate storage systems.
+                        The automated ingest framework is based on RQ (Redis Queue) and can scale workers to bring large filesystems under management quickly.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_automated_ingest_landing_zone.jpg" target="_blank" ><img src="{filename}/images/capability_automated_ingest_landing_zone.jpg" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_automated_ingest_landing_zone.jpg" target="_blank"><b>Capability: Automated Ingest - Landing Zone</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_automated_ingest_landing_zone.jpg" target="_blank" class="phone_show"><img src="{filename}/images/capability_automated_ingest_landing_zone.jpg" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        iRODS is often deployed to capture products from systems that generate new files in a regular way (sequencers, telescopes, microscopes, sensor networks, etc.).
+                        The automated ingest framework can be configured to watch locations for new files and extract metadata, define manifests, and otherwise prepare them for use by the rest of the system.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_storage_tiering.jpg" target="_blank" ><img src="{filename}/images/capability_storage_tiering.jpg" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_storage_tiering.jpg" target="_blank"><b>Capability: Storage Tiering</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_storage_tiering.jpg" target="_blank" class="phone_show"><img src="{filename}/images/capability_storage_tiering.jpg" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        The storage tiering framework provides efficient policy-driven storage utilization by automatically moving data between any number of identified tiers of storage within a configured tiering group.
+                        To define a storage tiering group, selected storage resources are labeled with metadata which define their place in the group and how long data should reside in that tier before being migrated to the next tier.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/core_integration_layer.jpg" target="_blank" ><img src="{filename}/images/core_integration_layer.jpg" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/core_integration_layer.jpg" target="_blank"><b>Core: Integration Layer</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/core_integration_layer.jpg" target="_blank" class="phone_show"><img src="{filename}/images/core_integration_layer.jpg" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        iRODS provides a layer of abstraction which integrates with your pre-existing infrastructure. This flexibility allows your infrastructure to continue to change over time.
+                    </div>
+                </div> 
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
@@ -62,19 +117,6 @@
                         <a href="{filename}/images/data_lifecycle_diagram.jpg" target="_blank" class="phone_show"><img src="{filename}/images/data_lifecycle_diagram.jpg" class="tech_diagram"></a>
                         <br class="phone_show"/>
                         As data matures and reaches a broader community, data management policy must also evolve to meet these additional requirements. iRODS virtualizes the stages of the data lifecycle through policy evolution.
-                    </div>
-                </div> 
-
-                <div class="row pillar_section">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
-                        <a href="{filename}/images/system_integration_diagram.jpg" target="_blank" ><img src="{filename}/images/system_integration_diagram.jpg" class="tech_diagram"></a>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
-                        <a href="{filename}/images/system_integration_diagram.jpg" target="_blank"><b>System Integration</b><br class="phone_show"/></a>
-                        <br/>
-                        <a href="{filename}/images/system_integration_diagram.jpg" target="_blank" class="phone_show"><img src="{filename}/images/system_integration_diagram.jpg" class="tech_diagram"></a>
-                        <br class="phone_show"/>
-                        iRODS provides a layer of abstraction which integrates with your pre-existing infrastructure. This flexibility allows your infrastructure to continue to change over time.
                     </div>
                 </div> 
 
