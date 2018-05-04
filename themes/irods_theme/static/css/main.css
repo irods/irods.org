@@ -1285,3 +1285,7 @@ MEDIA QUERY STYLES
 .trirods_speaker{
         margin: 25px 0 0 0;
 }
+.sponsor-bg {
+    background-color: #bbb;
+    padding: 20px;
+}
