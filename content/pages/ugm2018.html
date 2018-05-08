@@ -122,6 +122,254 @@
                     </ul>
                 </ul>
             </div>
+
+            <div class="space_half"></div>
+            <div class="col-lg-offset-2 col-lg-8" >
+                <h4 class="light_font" id="talks">Accepted Talks</h4>
+                <hr class="small_centered_line_ugm">
+            </div>
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+
+                <b>Using iRODS to manage, share and publish research data: Yoda</b><br/>
+                Ton Smeele and Lazlo Westerhof<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    Researchers face challenges when they want to manage, share and publish their research data.
+<br/><br/>
+In 2014, Utrecht University commenced development of Yoda, a research data management system to meet these challenges. More recently features have been added to facilitate researchers to describe, deposit and publish research data in compliance with the FAIR principles.
+<br/><br/>
+Yoda deploys iRODS as its core component, customized with approximately 10,000 lines of rules and extended with a graphical user interface. It accommodates multiple metadata schemas to support varying requirements across fields of science.
+<br/><br/>
+We will discuss Yoda design principles related to the new features and their iRODS realization.
+                </div>
+
+                <br/>
+                <b>Towards A Parallel and Restartable Data Transfer Mechanism in iRODS</b><br/>
+                Zoey Greer, Jason Coposky, Terrell Russell, and Hao Xu<br/>
+                iRODS Consortium, RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    This paper will address the ongoing efforts to bring a modern data transfer mechanism built on Avro and ZeroMQ to iRODS.
+                </div>
+
+                <br/>
+                <b>High-ish Availability Genomics at Wellcome Sanger Institute</b><br/>
+                John Constable<br/>
+                Wellcome Sanger Institute<br/>
+                <div class="abstract">
+                    This talk will be a writeup on the design, implementation and lessons learned of moving an iRODS federated zone from a single to multiple IES servers, with the aim of reducing the impact if any one of the systems were to become unavailable, whether by planned downtime or unforeseen outage.
+<br/><br/>
+The zone to be migrated is the largest at the institute, both in terms of data held (~10PB and ~118 connections).
+<br/><br/>
+The work started by building on https://irods.org/2015/07/configuring-irods-for-high-availability/ and aimed to extend the work by removing the load balancer as a single point of failure.
+<br/><br/>
+At the time of writing the submission, the work is still ongoing. Did it succeed? Come to the talk to find out..
+                </div>
+
+                <br/>
+                <b>Wellcome Sanger Institute iRODS Deployment seven years on</b><br/>
+                John Constable<br/>
+                Wellcome Sanger Institute<br/>
+                <div class="abstract">
+                    Its been seven years since "Implementing a genomic data management system using iRODS in the Wellcome Trust Sanger Institute.” (https://www.ncbi.nlm.nih.gov/pubmed/21906284) was published.
+<br/><br/>
+In the intervening time, the capacity of the system has gone from 300TB to 18PB, four servers to one hundred and twenty nine, two zones to six and iRODS has gone from 2.4.1 to the currently deployed 4.1.10.
+<br/><br/>
+This talk will detail how the institute has changed its deployment, what approaches it now uses, which approaches have stood the test of time, and which have changed.
+                </div>
+
+                <br/>
+                <b>Data archiving in iRODS</b><br/>
+                Matthew Saum, Arthur Newton, and Christine Staiger<br/>
+                SURFsara<br/>
+                <div class="abstract">
+                    Long-term archiving of data is required to comply with legal regulations and to preserve experimental data which is not reproducible. During the archiving process data is migrated to other storage system which are fit for long-term storage and data preservation resulting in which online storage usage and thus costs are reduced.
+<br/><br/>
+Storage systems for data archiving are usually based on nearline storage facilities implemented as tiered storage systems which consist of a disk cache to stage data back when needed and tape libraries to preserve data.  
+<br/><br/>
+In our previous work we showed how to integrate such a tiered storage system into iRODS through compound resources which in turn put another iRODS cache resource in front of the tiered storage system. This led to communication issues between iRODS clients and the backend system and showed some performance issues. 
+<br/><br/>
+In this work we present a way how to make a tiered storage system which employs tape storage in the backend transparent to iRODS. We implemented an iRODS rule set which resolves the communication problems between iRODS and the tiered storage system. 
+<br/><br/>
+Data objects moved into the iRODS resource employing the tiered storage system are still visible, iCAT functional, and searchable even after the bit stream has moved offline to tape. 
+<br/><br/>
+A vital part of that integration are rules which can read the data status, i.e. report whether the data is located on tape directly or whether there is a copy on disk cache. By this other rules can be triggered accordingly to stage or directly access data. 
+<br/><br/>
+Initial performance testing shows satisfactory results on transfer and staging speeds. Moreover, the ruleset is modular and pluggable, and relies primarily on default microservices. This allows our solution to adapt to varying requirements with minimal effort. 
+<br/><br/>
+Our reference implementation is based on the archive setup at SURFsara.
+                </div>
+
+                <br/>
+                <b>Implementing a Storage Abstraction Service with iRODS</b><br/>
+                Jordan de La Houssaye<br/>
+                BnF, Bibliothèque nationale de France<br/>
+                <div class="abstract">
+                    In the first part of this article, we start with a little bit of context. The National Library of France (BnF, Bibliothèque nationale de France) has among its missions to collect, preserve, enrich and make available the national heritage. As such, the BnF practices digital preservation both for born digital documents and digitalized ones. To this end the system SPAR was developed to support and structure the digital preservation effort at the BnF. At the time of writing (march 22, 2018) SPAR counts 8 342 445 packages (a package corresponds roughly to a document in the library, be it a book, a musical album, etc.) for a net of 3.5 Po of storage. Needless to say, the storage aspect of SPAR is one of its most critical parts, and separation of concerns is a matter of risk management. 
+<br/><br/>
+Hence, the storage functionality of SPAR is separated in two parts: the first one is responsible for policy management (the storage module of SPAR) while the second one allows our system engineers to focus on technical aspects (the Storage Abstraction Service, or SAS). The main focus of this article is on this second part, which is implemented with iRODS. It is designed to solve the following issues. Data duplication between remote sites should be as easy and transparent as possible. In case of disaster, one should be able to recover entire documents (and not just parts of it) while rescuing a storage support (disk or magnetic tape). The people responsible for the preservation of digital collections should focus exclusively on preservation policies such as the number of replicas and the audit frequencies, and they should not be aware of technical specificities and difficulties involved while working with such or such technology. The people responsible for daily operations on our storage system should not be bothered (or the least possible) with business concerns such as: how SPAR packages are constructed, where do they come from, how do we present the data to external applications and users, etc. 
+<br/><br/>
+To these ends, we defined an abstract model that greatly simplifies the management of our data. This model is the subject of the third part of this article. 
+<br/><br/>
+In the fourth part of this article, we develop on the implementation of the SAS with iRODS. We started with version 3 of iRODS. When version 4 came out, we successfully reimplemented our model in a more simple and robust way thanks to its hierarchical resources and its rule system.
+<br/><br/>
+With the abstractions it implements, the SAS dramatically simplifies our daily operations and it makes the people in charge of digital preservation confident in their ability to manage successfully emergencies. It is already a key element in our system, and we can now foresee a generalization of its use beyond the digital preservation concerns.
+                </div>
+
+                <br/>
+                <b>Deployment of a national research data grid powered by iRODS</b><br/>
+                Ilari Korhonen<br/>
+                KTH Royal Institute of Technology<br/>
+                <div class="abstract">
+                    The deployment of a nation-wide data grid for the distributed storage and management of academic research data is presented. The Swedish National Infrastructure for Computing (SNIC) has funded the development and deployment of a national storage system for the management of research data produced in Swedish academia. The system is now entering production and the first call for applications is being opened. Thus now were are in the position to be able to present the first real-world usability studies of our system. Since we are operating a geographically distributed storage system, we were very pleased to be able to reach data transfer rates in the range of gigabytes per second per client over WAN links spanning several router hops and hundreds of kilometers of distance. The high speed transfers are being accommodated by the iRODS parallel transfer mechanism, which appears to perform rather well over long-distance connections with the associated latency. Furthermore, we present our experiences of the iRODS parallel transfer in a LAN environment using 100G Ethernet technology with a high-performance backing filesystem (GPFS) over 100 Gbps InfiniBand interconnects. We strive to provide a scalable and cost-effective infrastructure for data management all the way from our high-performance computing clusters and supercomputer to the sharing of the data via the World Wide Web, and we see iRODS as the best overall solution for us. Now that SNIC has joined the iRODS consortium, we will also be looking closely into future development efforts with iRODS.
+                </div>
+
+                <br/>
+                <b>The NIEHS Data Commons</b><br/>
+                Mike Conway<br/>
+                NIEHS/NIH<br/>
+                <div class="abstract">
+                    The NIEHS Data Commons is a system for accessing, sharing, and integrating research data and metadata. The iRODS data grid is at the core of the Commons, providing policy-based management to support ingest, indexing, provenance tracking, and analysis of NIEHS data sets. 
+<br/><br/>
+In the development of the Commons, NIEHS is collaborating with the Consortium in several areas, including the MetaLnx web interface, message queue based indexing, metadata templates, and virtual collections. This talk will describe the Commons and introduce aspects of the development that can have wider applicability for the iRODS community.
+                </div>
+
+                <br/>
+                <b>Discovery Environment and UNC's Implementation of a Community Edition</b><br/>
+                Don Sizemore, Tony Edgin, and Mike Conway<br/>
+                Odum Institute, UNC Chapel Hill; CyVerse; NIEHS/NIH<br/>
+                <div class="abstract">
+                    This discussion will demonstrate and discuss the CyVerse Discovery Environment platform and efforts to adopt this as a general cyberinfrastructure platform based on iRODS. 
+<br/><br/>
+Discovery Environment is a highly successful platform for data driven science and discovery implemented by CyVerse (formerly iPlant). The platform brings together data management and computation, giving researchers an easy way to discover data and tools, launch analyses, and share and manage the results of pipelines and algorithms. 
+<br/><br/>
+Odum Institute and RENCI have been working for some time on adapting the DE platform for other research projects. Recently, Don Sizemore has installed and configured a running instance of DE at UNC based on a candidate 'Community Edition' codebase, using Kubernetes for service management. This talk will discuss the installation, the capabilities, and potential application of this robust and complete CI stack in the larger iRODS community.
+                </div>
+
+                <br/>
+                <b>FAIR data management and Disqoverability</b><br/>
+                Maarten Coonen, Paul van Schayck, Daniel Theunissen, and Pascal Suppers<br/>
+                Maastricht University<br/>
+                <div class="abstract">
+                    The FAIR principles (Findable, Accessible, Interoperable, Reusable) are a set of 15 principles that form a guideline for proper research data management and data stewardship. Originating from a Netherlands based workshop in 2014, these principles have now gained more and more interest of researchers, publishers, funding and government agencies worldwide (1). An important aspect of the FAIR principles is to make human and machine readable representations of data sets in order to achieve semantic interoperability. 
+<br/><br/>
+At DataHub Maastricht, we are providing research data management services to research groups in both the academic hospital and the life sciences faculty. By making data FAIR across disciplines, we strive to enable reuse of data by researchers in the hospital, the university and beyond, whilst being compliant with current and upcoming legislation (like the GDPR) and privacy policies. Since DataHub's launch in 2014, the FAIR principles have been our inspiration in designing and building the infrastructure. 
+<br/><br/>
+During UGM 2017 we have shown the design and characteristics of our DataHub infrastructure, which is more than iRODS alone. Several technologies have been combined and interfaced with iRODS in order to facilitate research workflows. Our solution is now (April 2018) serving a research community of approximately 170 users and totaling 24 TiB. 
+<br/><br/>
+This year, we are working on (meta)data interoperability and semantic search / findability. We will demonstrate our workflow and tooling regarding metadata entry, enrichment with ontology terms and storage in iRODS. For semantic search, we have formed a strategic partnership with the company Ontoforce, whose search technology Disqover (2) enables end users to simultaneously search through public and in-house linked data sets without having expertise of writing SPARQL queries. With the integration of Disqover in our DataHub infrastructure, we can link (meta)data sets originating from different systems. Specifically, data sets stored in our iRODS environment are made findable in Disqover by transforming the metadata into RDF triples and importing those as data source in Disqover. End users will use Disqover as the preferred way of searching through iRODS metadata while finding related data from public sources as well. By means of linkout through a persistent identifier and download through Davrods or the DFC iRODS Cloud Browser, data is transferred from iRODS to the end user. 
+<br/><br/>
+(1) https://www.dtls.nl/fair-data/fair-principles-explained/ 
+<br/><br/>
+(2) https://www.ontoforce.com/product/
+                </div>
+
+                <br/>
+                <b>Metalnx 2.0 - The Future of Metalnx</b><br/>
+                Stephen Worth, Terrell Russell, and Mike Conway<br/>
+                WorthWize Consulting; iRODS Consortium, RENCI at UNC-Chapel Hill; Himself<br/>
+                <div class="abstract">
+                    Metalnx was introduced to the iRODS Community by Dell EMC in 2015 as a scalable Java-based GUI making it easier for users to administer an iRODS grid and interact with collections and user metadata. 
+<br/><br/>
+In early 2018, Dell EMC donated the source, based under the iRODS license (BSD-3), to the Consortium. This talk provides a short demonstration and review of current Metalnx capabilities, the transition to a container-only model in Version 2.0, development continuation under a community model, and some ideas on future plans.
+                </div>
+
+                <br/>
+                <b>The Brain Image Library</b><br/>
+                Derek Simmel<br/>
+                Pittsburgh Supercomputing Center, Carnegie Mellon University<br/>
+                <div class="abstract">
+                    The Brain Image Library (BIL) is a national public resource enabling researchers to deposit, analyze, mine, share and interact with large brain image datasets. As part of a comprehensive U.S. NIH BRAIN cyberinfrastructure initiative, BIL encompasses the deposition of datasets, the integration of datasets into a searchable web-accessible system, the redistribution of datasets, and a High Performance Computing enclave to allow researchers to process datasets in-place and share restricted and pre-release datasets. BIL serves a geographically distributed user base including large confocal imaging centers that are generating petabytes of confocal imaging datasets per year. For these users, the library serves as an archive facility for whole brain volumetric datasets from mammals, and a facility to provide researchers with a practical way to analyze, mine, share or interact with large image datasets. The Brain Image Library is a operated as a partnership between the Biomedical Applications Group at the Pittsburgh Supercomputing Center, the Center for Biological Imaging at the University of Pittsburgh and the Molecular Biosensor and Imaging Center at Carnegie Mellon University.
+<br/><br/>
+The Brain Image Library has adopted iRODS to provide data registration and metadata management for the brain image datasets uploaded to the library. We have employed the prototype iRODS filesystem scanner to rapidly register large multi-TB trees of microscopy data into our iRODS database. In this 20-minute Talk, we will summarize our requirements and goals for data management with iRODS. We look forward to learning best practices from the user group to accelerate our development and to operate our iRODS infrastructure as effectively as possible.
+                </div>
+
+                <br/>
+                <b>Integrating Scale-Out NAS into an iRODS Data Fabric</b><br/>
+                Paul Evans<br/>
+                Daystrom<br/>
+                <div class="abstract">
+                    In legacy versions of iRODS, it was 'possible' to integrate a storage resource that also allowed direct access outside of (or 'parallel to') iRODS protocols. However, as systems scaled up it became increasingly impractical to keep the iCAT in-sync with storage resources that allowed direct access, and this type of resource was essentially abandoned.
+<br/><br/>
+In this discussion we'll present how we have been able to integrate the metadata layer of the RozoFS Scale-Out File system with iRODS to provide viable, parallel and concurrent access to a Scale-Out NAS SDS that is integrated with an iRODS Data Fabric.
+                </div>
+
+                <br/>
+                <b>HydroShare and iRODS: How iRODS Manages Data for a Hydrology Community of 1000's of Users</b><br/>
+                Ray Idaszak, David G. Tarboton, Hong Yi, Chris Calloway, Shaowen Wang, Jeffery Horsburgh, Dan Ames, Martyn Clark, Jon Goodall, Alva Couch, Tony Castronova, Christina Bandaragoda, Martin Seul, Mark Henderson, Phuong Doan<br/>
+                RENCI at UNC-Chapel Hill; Utah State University; University of Illinois; Brigham Young University; National Center for Atmospheric Research; University of Virginia; Tufts University; Consortium of Universities for the Advancement of Hydrologic Science, Inc.; University of Washington<br/>
+                <div class="abstract">
+                    HydroShare is an online, production collaboration system for sharing of and collaboration around hydrologic data, analytical tools, and models, which are “resources” defined by standardized content types for data formats and models commonly used in hydrology. With over 2000 registered users, in HydroShare one can: share one’s data and models with colleagues; manage who has access to the content that is shared; share, access, visualize and manipulate a broad set of hydrologic data types and models; use the web services application programming interface (API) to program automated and client access; publish data and models and obtain a citable digital object identifier (DOI); aggregate your resources into collections; discover and access data and models published by others; and use web apps in an app store to visualize, analyze and run models on data in HydroShare. In this presentation we will present how the integrated Rule-Oriented Data System (iRODS, see http://irods.org/) - an open-source distributed data management system with worldwide adoption - is being used to manage data content within and beyond HydroShare.
+                </div>
+
+                <br/>
+                <b>iRODS Automated Ingest, Storage Tiering Framework and Data Virtualization Capabilities for Clinical Data Management, Instrument data lifecycle management and Archiving data</b><br/>
+                Masilamani Subramanyam and Szymon Arkuszewski<br/>
+                Integration Competency Center, Genentech; Solution Delivery R&amp;D, Roche Molecular Systems<br/>
+                <div class="abstract">
+                    Exploring iRODS Automated Ingest, Storage Tiering Framework and Data Virtualization Capabilities for use cases such as:
+<br/><br/>
+- Integrating with a large data transfer platform to support data replication
+<br/><br/>
+- Clinical Data Management to enable easy access to data and to streamline data management
+<br/><br/>
+- Instrument data lifecycle management
+                </div>
+
+                <br/>
+                <b>iRODS Capability: Storage Tiering</b><br/>
+                Jason Coposky and Terrell Russell<br/>
+                iRODS Consortium, RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    This packaged storage tiering framework provides iRODS the capability of automatically moving data between identified tiers of storage within a configured tiering group.
+<br/><br/>
+To define a storage tiering group, selected storage resources can be labeled with metadata to define both their place in the group and how long data should reside in that tier before being migrated to the next tier.
+                </div>
+
+                <br/>
+                <b>iRODS Capability: Automated Ingest</b><br/>
+                Terrell Russell, Hao Xu, and Antoine de Torcy<br/>
+                iRODS Consortium, RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    This automated ingest framework gives iRODS an enterprise solution that solves two major use cases: getting existing data under management and ingesting incoming data hitting a landing zone.
+<br/><br/>
+Based on the Python iRODS Client and RedisQueue, this framework can scale up to match the demands of data coming off instruments, satellites, or parallel filesystems.
+                </div>
+
+<!--
+                <br/>
+                <b>SciDAS</b><br/>
+                Claris Castillo<br/>
+                RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    http://scidas.org/
+                </div>
+
+                <br/>
+                <b>NIH Data Commons</b><br/>
+                Claris Castillo<br/>
+                RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    https://commonfund.nih.gov/commons
+                </div>
+
+                <br/>
+                <b>An iRODS OpenID Authentication Plugin</b><br/>
+                Kyle Ferriter<br/>
+                RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    https://github.com/irods-contrib/irods_auth_plugin_openid
+                </div>
+-->
+                <br/>
+                <b>A Pilot of iRODS for Managing Next Generation Sequencing Data</b><br/>
+                Todd Moughamer<br/>
+                Syngenta<br/>
+                <div class="abstract">
+                    DNA sequencing technology has evolved rapidly and resulted in data storage challenges for research organizations. Syngenta’s Next Generation Sequencing platform has been successful at getting data to researchers and analysts. However, there are opportunities to improve the users’ access to the data and the organization’s ability to manage and track data. Towards leveraging these opportunities, Syngenta has implemented a pilot of iRODS that integrates with their current processes and ways of working.
+                </div>
+
+            </div>
+
             <div class="space"></div>
         </div>
     </section>
