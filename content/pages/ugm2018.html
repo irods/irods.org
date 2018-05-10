@@ -351,15 +351,16 @@ Based on the Python iRODS Client and RedisQueue, this framework can scale up to 
                 <div class="abstract">
                     https://commonfund.nih.gov/commons
                 </div>
-
+-->
                 <br/>
-                <b>An iRODS OpenID Authentication Plugin</b><br/>
+                <b>OpenID Connect Authentication in iRODS</b><br/>
                 Kyle Ferriter<br/>
                 RENCI at UNC-Chapel Hill<br/>
                 <div class="abstract">
-                    https://github.com/irods-contrib/irods_auth_plugin_openid
+                    This talk will discuss the ability to log into iRODS using 3rd party OpenID Connect identity providers. In many use cases, users will have one or more accounts with online systems which provide identity assurance mechanisms. We can delegate the user’s password or secret validation to that system during the iRODS authentication process. This enables the user to reuse credentials from that system in iRODS, to change their password in that system and have it respected in iRODS, and to avoid ever giving their password to iRODS.
+<br/><br/>
+Due to the nature of OpenID Connect and Oauth 2.0, the plugin which enables this functionality relies on a small Django web server to act as the third leg in the three legged authorization code flow. The iRODS OpenID server plugin can then talk to this Django server when it needs to verify that an authorization flow has completed, and retrieve the corresponding token. This web server can also be used by other iRODS feautures to help simplify or automate OAuth 2.0 processes.
                 </div>
--->
                 <br/>
                 <b>A Pilot of iRODS for Managing Next Generation Sequencing Data</b><br/>
                 Todd Moughamer<br/>
