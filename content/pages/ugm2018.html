@@ -335,23 +335,24 @@ To define a storage tiering group, selected storage resources can be labeled wit
 Based on the Python iRODS Client and RedisQueue, this framework can scale up to match the demands of data coming off instruments, satellites, or parallel filesystems.
                 </div>
 
-<!--
                 <br/>
-                <b>SciDAS</b><br/>
-                Claris Castillo<br/>
-                RENCI at UNC-Chapel Hill<br/>
+                <b>A Pilot of iRODS for Managing Next Generation Sequencing Data</b><br/>
+                Todd Moughamer<br/>
+                Syngenta<br/>
                 <div class="abstract">
-                    http://scidas.org/
+                    DNA sequencing technology has evolved rapidly and resulted in data storage challenges for research organizations. Syngenta’s Next Generation Sequencing platform has been successful at getting data to researchers and analysts. However, there are opportunities to improve the users’ access to the data and the organization’s ability to manage and track data. Towards leveraging these opportunities, Syngenta has implemented a pilot of iRODS that integrates with their current processes and ways of working.
                 </div>
 
                 <br/>
-                <b>NIH Data Commons</b><br/>
+                <b>iRODS in the Cloud: SciDAS and NIH Data Commons</b><br/>
                 Claris Castillo<br/>
                 RENCI at UNC-Chapel Hill<br/>
                 <div class="abstract">
-                    https://commonfund.nih.gov/commons
+                    In this talk I will describe two major cloud-agnostic efforts in which iRODS is being used to abstract storage infrastructure across private and public clouds.
+<br/><br/>
+SciDAS is an NSF funded cyberinfrastructure that federates access to multiple national CI resources including NSF Cloud Chameleon and Open Science Grid to help researchers more effectively use a broader array of these resources. SciDAS is developed using large-scale systems biology and hydrology datasets, but is extensible to many other domains.  Helium Stack is one of the four full-stacks funded under the NIH Data Commons Pilot Phase project to accelerate biomedical research by providing a cloud-based platform where investigators can store, access, share and compute on data and software. In both projects iRODS provides an abstraction layer via which scientists can seamlessly and fluidly access data independently of its physical location while considering locality to optimize efficiency and cost in the Cloud.
                 </div>
--->
+
                 <br/>
                 <b>OpenID Connect Authentication in iRODS</b><br/>
                 Kyle Ferriter<br/>
@@ -360,13 +361,6 @@ Based on the Python iRODS Client and RedisQueue, this framework can scale up to 
                     This talk will discuss the ability to log into iRODS using 3rd party OpenID Connect identity providers. In many use cases, users will have one or more accounts with online systems which provide identity assurance mechanisms. We can delegate the user’s password or secret validation to that system during the iRODS authentication process. This enables the user to reuse credentials from that system in iRODS, to change their password in that system and have it respected in iRODS, and to avoid ever giving their password to iRODS.
 <br/><br/>
 Due to the nature of OpenID Connect and Oauth 2.0, the plugin which enables this functionality relies on a small Django web server to act as the third leg in the three legged authorization code flow. The iRODS OpenID server plugin can then talk to this Django server when it needs to verify that an authorization flow has completed, and retrieve the corresponding token. This web server can also be used by other iRODS feautures to help simplify or automate OAuth 2.0 processes.
-                </div>
-                <br/>
-                <b>A Pilot of iRODS for Managing Next Generation Sequencing Data</b><br/>
-                Todd Moughamer<br/>
-                Syngenta<br/>
-                <div class="abstract">
-                    DNA sequencing technology has evolved rapidly and resulted in data storage challenges for research organizations. Syngenta’s Next Generation Sequencing platform has been successful at getting data to researchers and analysts. However, there are opportunities to improve the users’ access to the data and the organization’s ability to manage and track data. Towards leveraging these opportunities, Syngenta has implemented a pilot of iRODS that integrates with their current processes and ways of working.
                 </div>
 
             </div>
