@@ -6,7 +6,7 @@ Status: published
 
 The accepted talks have been posted for the iRODS User Group Meeting 2018, to be held in Durham, NC from June 5-7, 2018.
 
-We currently have 20 talks spanning national and international infrastructure projects, brain imaging, hydrology, and new iRODS capabilities and plugins.
+We currently have 21 talks spanning national and international infrastructure projects, brain imaging, hydrology, and new iRODS capabilities and plugins.
 
 [Abstracts can be found on the UGM 2018 Site - Register Now]({filename}/pages/ugm2018.html)!
 
@@ -129,3 +129,9 @@ We currently have 20 talks spanning national and international infrastructure pr
     Kyle Ferriter
 
     RENCI at UNC-Chapel Hill
+
+- iRODS Usage at CC-IN2P3/CNRS
+
+    Yonny Cardenas
+
+    CC-IN2P3
