@@ -407,6 +407,7 @@ section.success {
     display: table;
     text-align: center;
     text-align: -webkit-center;
+    text-align: -moz-center;
 }
 section.green_bg {
     color: #fff;
