@@ -12,7 +12,7 @@ The [irods/externals repository](https://github.com/irods/externals) has been up
 
 With the landing of 4.3.0-related externals, we are readying for the first run of clang-format and the integration of the work to refactor logging.
 
-One of the limitations of using the Python Rule Engine Plugin has proven to be the lack of an integrated GenQuery iterator (in the iRODS Rule Language, we have [LIGQ](https://docs.irods.org/4.2.3/plugins/irods_rule_language/#language-integrated-general-query)).  We are working on making a `genquery_iterate.py` module available so GenQuery results can be returned as a Python iterable.
+One of the limitations of using the Python Rule Engine Plugin has proven to be the lack of an integrated GenQuery iterator (in the iRODS Rule Language, we have [LIGQ](https://docs.irods.org/4.2.3/plugins/irods_rule_language/#language-integrated-general-query)).  We are working on making a `genquery.py` module available so GenQuery results can be returned as a Python iterable.
 
 We have begun work on a performance lab to deterministically select the best queueing technology for the [automated ingest framework](https://github.com/irods/irods_capability_automated_ingest).  We have very short jobs (we're usually just issuing a filesystem `stat()`) and would like to know that any sized filesystem can be scanned in a set amount of time by simply adding more workers.  The first release was based on [RQ](http://python-rq.org/), our current prototype is based on a default [Celery](http://www.celeryproject.org/) implementation, and our other candidates to be tested include [RabbitMQ](https://www.rabbitmq.com/) and [Bee-Queue](https://github.com/bee-queue/bee-queue).
 
