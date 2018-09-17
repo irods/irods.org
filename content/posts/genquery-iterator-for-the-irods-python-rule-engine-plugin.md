@@ -169,10 +169,10 @@ def pep_api_data_obj_put_post(rule_args, callback, rei):
 
         if row_Pub[0] == client_user:
 
-	    for row_Sub in row_iterator( ['COLL_NAME','DATA_NAME','DATA_OWNER_NAME'],
-				         subscribe_query, AS_DICT, callback):
+            for row_Sub in row_iterator( ['COLL_NAME','DATA_NAME','DATA_OWNER_NAME'],
+                                         subscribe_query, AS_DICT, callback):
 
-	        if row_Sub['DATA_OWNER_NAME'] not in group_users:
+                if row_Sub['DATA_OWNER_NAME'] not in group_users:
                     continue
                 datetime_string = dt.ctime(dt.now())
                 chlog = DataObject("{COLL_NAME}/{DATA_NAME}".format(**row_Sub))
@@ -189,11 +189,11 @@ class DataObject_Access_Error(RuntimeError):
 class DataObject(object):
 
     def __init__(self, objPath, callback = None):
-	self.callback = callback
-	self.desc = -1
-	rv = callback.msiDataObjOpen("objPath={}++++openFlags=O_RDWR".format(objPath),0)
-	self.desc = rv['arguments'][1]
-	if self.desc <= 0:
+        self.callback = callback
+        self.desc = -1
+        rv = callback.msiDataObjOpen("objPath={}++++openFlags=O_RDWR".format(objPath),0)
+        self.desc = rv['arguments'][1]
+        if self.desc <= 0:
             raise DataObject_Access_Error(objPath)
 
     def appendString(self, string):
@@ -204,9 +204,9 @@ class DataObject(object):
 
     def cleanup (self):
         if self.desc > 0:
-	    rv = self.callback.msiDataObjClose(self.desc, 0)
-	    close = rv['arguments'][1]
-	    self.desc = 0
+            rv = self.callback.msiDataObjClose(self.desc, 0)
+            close = rv['arguments'][1]
+            self.desc = 0
 
     def __del__(self):
         self.cleanup()
@@ -584,7 +584,7 @@ TICKET_OWNER_NAME
 TICKET_OWNER_ZONE
 ```
 
-A few examples of the types of queries possible via `iquest` using GenQuery,
+For a few examples of the types of queries possible via `iquest` using GenQuery,
 see the listing at the end of the help text (`iquest -h`):
 
 ```
