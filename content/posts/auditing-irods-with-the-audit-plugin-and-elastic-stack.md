@@ -37,7 +37,7 @@ iRODS dependencies. Perform the following steps to set up your system to
 use the iRODS repository, get the iRODS externals, and set your PATH to
 use the correct version of CMake.
 
-~~~~ 
+~~~~
 wget -qO - https://core-dev.irods.org/irods-core-dev-signing-key.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://core-dev.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods-core-dev.list
 sudo apt-get update
@@ -51,7 +51,7 @@ export PATH=/opt/irods-externals/cmake3.5.2-0/bin:$PATH
 Next clone the repository and build and install the audit rule engine
 plugin.
 
-~~~~ 
+~~~~
 git clone https://github.com/irods/irods_rule_engine_plugin_audit_amqp
 cd irods_rule_engine_plugin_audit_amqp
 mkdir build
@@ -65,7 +65,7 @@ The final step is to update the /etc/irods/server\_config.json to use
 the rule engine plugin. Edit this file as either root or irods and add
 the following in the rule\_engines array.
 
-~~~~ 
+~~~~
 {
  "instance_name": "irods_rule_engine_plugin-audit_amqp-instance",
  "plugin_name": "irods_rule_engine_plugin-audit_amqp",
@@ -115,7 +115,7 @@ of message brokers than can be used.
 
 To download and start ActiveMQ perform the following steps:
 
-~~~~ 
+~~~~
 wget http://archive.apache.org/dist/activemq/5.13.2/apache-activemq-5.13.2-bin.tar.gz
 gunzip apache-activemq-5.13.2-bin.tar.gz
 tar xvf apache-activemq-5.13.2-bin.tar
@@ -135,32 +135,32 @@ messages will remain on the queue until a listener reads them.*
 
 Download Apache Apollo and create an instance of the broker:
 
-~~~~ 
+~~~~
 cd ~
 wget http://mirrors.sonic.net/apache/activemq/activemq-apollo/1.7.1/apache-apollo-1.7.1-unix-distro.tar.gz
-gunzip apache-apollo-1.7.1-unix-distro.tar.gz 
-tar xvf apache-apollo-1.7.1-unix-distro.tar 
+gunzip apache-apollo-1.7.1-unix-distro.tar.gz
+tar xvf apache-apollo-1.7.1-unix-distro.tar
 apache-apollo-1.7.1/bin/apollo create irods.example.org
 ~~~~
 
 Disable authentication on the broker by removing the comments from the
 following line in irods.example.org/etc/apollo.xml:
 
-~~~~ 
+~~~~
 <authentication enabled="false"/>
 ~~~~
 
 Add AMQP connectors after the existing connectors in
 irods.example.org/etc/apollo.xml:
 
-~~~~ 
+~~~~
 <connector id="amqp" bind="tcp://0.0.0.0:5672"/>
 <connector id="amqps" bind="ssl://0.0.0.0:5671"/>
 ~~~~
 
 Create the broker as a service and start it.
 
-~~~~ 
+~~~~
 sudo ln -s "~/irods.example.org/bin/apollo-broker-service" /etc/init.d/
 sudo service apollo-broker-service start
 ~~~~
@@ -177,7 +177,7 @@ Elasticsearch will be the database used to store and index all of the
 dynamic PEP information. Perform the following steps to install and
 start Elasticsearch:
 
-~~~~ 
+~~~~
 echo "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-2.x.list
 sudo apt-get update
 sudo apt-get --force-yes install elasticsearch
@@ -188,7 +188,7 @@ Let's go ahead and set up an index on Elasticsearch and make sure the
 hostname field is not analyzed. This will allow us to group data by
 hostname without getting funny results.
 
-~~~~ 
+~~~~
 curl -XPUT 'http://localhost:9200/audit_log'
 curl -XPUT localhost:9200/audit_log/_mapping/hostname_mapping -d '
 {
@@ -208,7 +208,7 @@ Logstash will be used to read the messages from the ActiveMQ message
 broker, transform them, and store them in Elasticsearch. Install
 Logstash and the stomp plugin:
 
-~~~~ 
+~~~~
 wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 echo "deb http://packages.elastic.co/logstash/2.1/debian stable main" | sudo tee -a /etc/apt/sources.list.d/logstash-2.x.list
 sudo apt-get update
@@ -222,7 +222,7 @@ sudo ./plugin install logstash-input-stomp
 The next step is to configure Logstash. As super-user, create the file
 /opt/logstash/bin/audit.conf with the following contents:
 
-~~~~ 
+~~~~
 input {
     # Read the audit_messages queue messages using the stomp protocol.
     stomp {
@@ -238,11 +238,18 @@ input {
 filter {
 
     # Remove AMQP header and footer information from message
+    # Logstash < 5.0
     ruby {
         code => " event['message'].sub!(/.*__BEGIN_JSON__/, '')
                   event['message'].sub!(/__END_JSON__.*/, '')
                 "
     }
+
+    # Logstash >= 5.0
+    #
+    #        code => " event.set('message',event.get('message').sub(/.*__BEGIN_JSON__/, ''))
+    #                  event.set('message',event.get('message').sub(/__END_JSON__.*/, ''))
+    #                "
 
     # Parse the JSON message
     json {
@@ -298,7 +305,7 @@ output.
 
 Next, start Logstash.
 
-~~~~ 
+~~~~
 cd /opt/logstash/bin
 ./logstash -f audit.conf
 ~~~~
@@ -313,7 +320,7 @@ database. You can use curl to verify this:
 
 To query for rule name and pid for all database open pre PEPs:
 
-~~~~ 
+~~~~
 curl -XGET 'localhost:9200/audit_log/_search' -d '{
     "fields": [ "3__rule_name", "2__pid" ],
    "size": "100",
@@ -325,7 +332,7 @@ curl -XGET 'localhost:9200/audit_log/_search' -d '{
 
 To query all fields for database open pre PEPs:
 
-~~~~ 
+~~~~
 curl 'localhost:9200/audit_log/_search?q=3__rulename=audit_pep_database_gen_query_pre'
 ~~~~
 
@@ -338,11 +345,11 @@ iRODS grid.
 
 Install Kibana and start:
 
-~~~~ 
+~~~~
 echo "deb http://packages.elastic.co/kibana/4.4/debian stable main" | sudo tee -a /etc/apt/sources.list.d/kibana-4.4.x.list
 sudo apt-get update
 sudo apt-get -y install kibana
-sudo service kibana start 
+sudo service kibana start
 ~~~~
 
 Access the Kibana web portal using the following URL:
@@ -351,7 +358,7 @@ http://localhost:5601
 The following is a sample dashboard to demonstrate what can be done in
 Kibana. Save this in a file called irods\_dashboard.json:
 
-~~~~ 
+~~~~
 [
   {
     "_id": "Sample-iRODS-Dashboard",
@@ -465,7 +472,7 @@ In the Kibana web portal, perform the following tasks:
 2.  Select Settings-\>Objects-\>Import and load irods\_dashboard.json.
 3.  Click on the eye icon next to the "Sample iRODS Dashboard".
 
-*  
+*
 Note: If you get an error on input stating "Could not locate that
 index-pattern-field, it is likely because an iget and iput haven't been
 executed and certain database fields that are used by the visualizations
