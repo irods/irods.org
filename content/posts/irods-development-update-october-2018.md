@@ -4,7 +4,7 @@ Author: Terrell Russell
 Slug: irods-development-update-october-2018
 Status: published
 
-October was very quick.  We've had presence at converences and meetings around the world and will be in Dallas for SC18 in a couple weeks.  [Please register for our Workshop]({files}/content/sc18.md) if you'll be in town.
+October was very quick.  We've had presence at converences and meetings around the world and will be in Dallas for SC18 in a couple weeks.  [Please register for our Workshop]({filename}/pages/sc18.html) if you'll be in town.
 
 Work on 4.1.12 is complete.  We expect to release within a day or so once the tests pass with the committed code.
 
