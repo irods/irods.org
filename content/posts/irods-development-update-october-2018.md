@@ -80,7 +80,7 @@ Our move from vSphere to Docker is making progress.  We have a first pass at a s
         - adding to website
         - iRODS-REST being contributed to the Consortium
 
-    - Continous Integration (CI)
+    - Continuous Integration (CI)
         - refactoring to use Docker
         - public Jenkins
         - move to pull-request and peer-review

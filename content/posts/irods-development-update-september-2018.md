@@ -94,7 +94,7 @@ Work on 4.1.12 is nearly complete.  We're so close.  It is expected to be the fi
         - finalizing v2.0.0
         - [https://github.com/irods-contrib/metalnx-web](https://github.com/irods-contrib/metalnx-web)
 
-    - Continous Integration (CI)
+    - Continuous Integration (CI)
         - refactoring to use Docker
         - public Jenkins
         - move to pull-request and peer-review

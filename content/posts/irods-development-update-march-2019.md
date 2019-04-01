@@ -1,28 +1,32 @@
-Title: iRODS Development Update: February 2019
-Date: 2019-02-28 15:00
+Title: iRODS Development Update: March 2019
+Date: 2019-03-31 15:00
 Author: Terrell Russell
-Slug: irods-development-update-february-2019
+Slug: irods-development-update-march-2019
 Status: published
 
 
-The labor of the last few months is paying off.  [We've shipped 4.2.5]({filename}/posts/irods-4-2-5-is-released.md), along with eight plugins for compatibility.  We're nearing releases for Metalnx and Cloudbrowser.  NFSRODS required 4.2.5 before it could be released, and so we're preparing that now as well.
+We are moving full-speed towards Utrecht at this point - [Register today and submit your Talks](https://irods.org/ugm2019)!
 
-[TRiRODS was held on February 20th](https://irods.org/trirods/), hosted by RENCI here in Chapel Hill, NC.  In the first talk, the new irods::filesystem and irods::iostreams libraries were introduced and explained.  Along with the irods::connection_pool and irods::thread_pool work, a new iput prototype was demonstrated to be up to 11x faster for moving many small files into iRODS.  The cacheless s3 plugin was introduced and provides a seamless POSIX interface in front of object storage (local or remote).
+The [Storage Tiering capability](https://github.com/irods/irods_capability_storage_tiering) has been refactored and will be released very soon with updated capacity for admin-defined policies for access time, data movement, data replication, and data verification. 
 
-Also included in 4.2.5 is a new GenQuery iterator (both for C++ and Python) that makes interacting with the catalog and working with result sets much simpler and less error prone.
+Due to the refinement and clarification in the storage tiering capability, early work on the Indexing capability is very promising.  We had a skeleton framework up and running within 48 hours of beginning to code.  We expect indexing and publishing to be part of the training at the User Group Meeting in Utrecht in June.
 
-The 4-2-stable rewrite of the irodsReServer is complete, and shipped with 4.2.5.  It no longer blocks the delay queue with a long-running job, and it will work continuously through as many jobs as it can that are ready to be processed.  We have seen more than 100k jobs get processed in under four minutes in local bench testing.
+We spent a week testing and improving the [Ceph RADOS resource plugin](https://github.com/irods/irods_resource_plugin_rados) with a Docker compose setup provided by Consortium Member Maastricht University.  It is now passing our test suite, manually.
+
+With a goal of simplification and general purpose usage, we are questioning [NFSRODS](https://github.com/irods/irods_client_nfsrods)'s current requirement of Kerberos authentication and authorization.  We love removing code, so trusting the client's username could be quite rewarding.
+
+We have demonstrated parallel builds and parallel testing of the iRODS core code via Docker.  We have demontrated builds and tests of a single iRODS plugin via Docker.  Adding parallel plugin build and test is the next step.  After that, we only need to add topology testing (multiple-server Zone) and federation testing (multiple Zones).
 
 
-### February Technology Working Group
+### March Technology Working Group
 
 - [4.2.6](https://github.com/irods/irods/milestone/31)
 
-    - 84 issues open, 53 bugs
+    - 88 issues open, 53 bugs
 
 - [4.3.0](https://github.com/irods/irods/milestone/16)
 
-    - 113 issues open, 48 bugs
+    - 111 issues open, 48 bugs
     - clang6, cmake3.11
     - c++17
     - genQuery iterator
@@ -31,6 +35,8 @@ The 4-2-stable rewrite of the irodsReServer is complete, and shipped with 4.2.5.
     - irods::iostreams
     - clang format
     - irodsDelayServer
+    - not supported for Ubuntu14, LTS ends April 2019
+    - add support for Ubuntu18
 
 - Active Development Work
 
@@ -40,18 +46,18 @@ The 4-2-stable rewrite of the irodsReServer is complete, and shipped with 4.2.5.
         - [https://github.com/irods/python-irodsclient](https://github.com/irods/python-irodsclient)
 
     - Cacheless and Detached S3
-        - initial prototype working - get/put
-        - testing differences with Minio/AWS
-        - testing for performance
+        - works with current iRODS parallel transfer
+        - moving to shared memory for new multi-process transfer
 
     - Access Protocols
-        - NFSRODS awaiting 4.2.5 for first release
+        - NFSRODS, release is imminent, looking to remove Kerberos requirement
         - [https://github.com/irods/irods_client_nfsrods](https://github.com/irods/irods_client_nfsrods)
         - Samba/CIFS/SMB project to surface iRODS as SMB
         - containerization and CI
 
     - iRODS Capability - Automated Ingest
         - working to test edge cases, keep cache true
+        - testing with storage tiering, new irodsDelayServer
         - [https://github.com/irods/irods_capability_automated_ingest](https://github.com/irods/irods_capability_automated_ingest)
 
     - Lustre Integration
@@ -60,17 +66,18 @@ The 4-2-stable rewrite of the irodsReServer is complete, and shipped with 4.2.5.
         - [https://github.com/irods-contrib/irods_tools_lustre](https://github.com/irods-contrib/irods_tools_lustre)
 
     - Storage Tiering Capability Package
-        - considering data transfer protocol abstraction
+        - abstraction work newrly complete
+        - releasing before UGM
         - [https://github.com/irods/irods_capability_storage_tiering](https://github.com/irods/irods_capability_storage_tiering)
 
-    - iRODS clients listing
-        - see https://irods.org/clients
-        - improvements/opinions welcome
-
     - Metalnx packaging
-        - finalizing v2.0.0
+        - 2.0.0 released?  not quite.
         - awaiting CI
         - [https://github.com/irods-contrib/metalnx-web](https://github.com/irods-contrib/metalnx-web)
+
+    - Cloud Browser
+        - multi-dataobject move
+        - need to finalize and publish Docker image
 
     - Continuous Integration (CI)
         - refactoring to use Docker
@@ -101,18 +108,12 @@ The 4-2-stable rewrite of the irodsReServer is complete, and shipped with 4.2.5.
 
     - Multipart Transfer, v5 API
         - evaluating approach and timeline
-        - [https://github.com/irods/irods_api_plugin_adapter](https://github.com/irods/irods_api_plugin_adapter)
-        - [https://github.com/irods/irods_api_plugin_multipart](https://github.com/irods/irods_api_plugin_multipart)
 
     - Indexing Capability
         - new architecture, discussion
-        - reacts to event stream from Audit Plugin
         - leverage similar architecture as Automated Ingest
 
     - Swagger REST API
         - working demo with metadata templates
         - [https://github.com/irods-contrib/irods_rest_services](https://github.com/irods-contrib/irods_rest_services)
-
-    - Cloud Browser
-        - need to finalize and publish docker image
 

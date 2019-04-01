@@ -89,7 +89,7 @@ Stay warm!
         - awaiting CI
         - [https://github.com/irods-contrib/metalnx-web](https://github.com/irods-contrib/metalnx-web)
 
-    - Continous Integration (CI)
+    - Continuous Integration (CI)
         - refactoring to use Docker
             - parallelized test runs (down from 8h to 30m)
         - public Jenkins

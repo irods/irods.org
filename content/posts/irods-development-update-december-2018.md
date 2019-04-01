@@ -118,7 +118,7 @@ Happy New Year everyone!
         - whiteboarded
         - working on initial prototype
 
-    - Continous Integration (CI)
+    - Continuous Integration (CI)
         - refactoring to use Docker
         - public Jenkins
         - move to pull-request and peer-review
