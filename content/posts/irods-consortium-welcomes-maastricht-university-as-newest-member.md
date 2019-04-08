@@ -1,6 +1,6 @@
 Title: iRODS Consortium welcomes Maastricht University as newest member
 Date: 2018-12-06 7:00
-Author: Stephanie Suber
+Author: Anne Johnson
 Slug: irods-consortium-welcomes-maastricht-university-as-newest-member
 Status: published
 
