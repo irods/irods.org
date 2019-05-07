@@ -1290,3 +1290,38 @@ MEDIA QUERY STYLES
     background-color: #bbb;
     padding: 20px;
 }
+
+/* //////////////////////////////////////////////
+/////////////////////////////////////////////////
+
+MEMBER LOGOS
+
+/////////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.members {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.member-logo {
+    flex: 1;
+    margin: 1rem;
+    width: 100px;
+    height: auto;
+    min-width: 100px;
+    max-width: 200px;
+}
+.member-logo-wide {
+    flex: 2;
+    margin: 1rem;
+    width: 100px;
+    height: auto;
+    min-width: 200px;
+    max-width: 300px;
+}
+
