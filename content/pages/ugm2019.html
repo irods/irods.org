@@ -138,13 +138,174 @@
                         </li>
                     </ul>
                 </ul>
-
-                <h3 class="h3-ugm_2017"><a href="https://easychair.org/conferences/?conf=irodsugm2019">Abstract Submission is open at EasyChair</a></h3>
-
             </div>
             <div class="space phone_hide"></div>
+
+
+            <div class="space_half"></div>
+            <div class="col-lg-offset-2 col-lg-8" >
+                <h4 class="light_font" id="talks">Accepted Talks</h4>
+                <hr class="small_centered_line_ugm">
+            </div>
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+
+                <b>More than Just Load Balancing iRODS Using HAProxy</b><br/>
+                Tony Edgin<br/>
+                CyVerse, University of Arizona<br/>
+                <div class="abstract">
+                    The iRODS community has demonstrated that HAProxy works well for horizontally scaling iRODS catalog providers, but HAProxy can provide other functionality. This talk will demonstrate how HAProxy can access information about the user and client application and use it to control quality of service through throttling per user access, providing fast lanes for certain applications, and routing data transfer sessions to specific catalog providers. The talk will also show how HAProxy can be configured to filter out port scanners. Finally, the talk will show how to configure HAProxy to allow a single canonical host name for iRODS and other services like davrods.
+                </div>
+
+                <b>An authentication solution for iRODS based on the OpenID Connect protocol</b><br/>
+                Claudio Cacciari, Giusy Muscianisi, Michele Carpenè, Mattia D'Antonio, and Giuseppe Fiameni<br/>
+                CINECA<br/>
+                <div class="abstract">
+                    We are going to describe an authentication solution for iRODS based on the OpenID Connect (OIDC) protocol. In the context of European data infrastructures, like EUDAT, and projects, like EOSC-hub, iRODS must interoperate with other services, which support OIDC and OAuth2 protocols. The typical usage workflows encopass both direct user interaction via icommand and other clients and service-to-service interaction on behalf of the user. While in the first case we can rely on the already existing irods OpenID plugin, in the second one it is not possible because of two main reasons. The first is that the service-to-service process implies that the user is not requested to generate a token for iRODS, but that iRODS is able to re-use an existing token from another service. The second is that the other service needs to get access to iRODS using multiple authentication protocols in a dynamic way, not fixing one of them in the configuration. For example we have instances of DavRODS that allow to log-in via plain username and password or via OIDC token. In order to achieve those results we implemented a Pluggable Authentication Module (PAM), which allows iRODS to accept an OIDC token, re-using the password parameter of the PAM based authentication, validate it against an Authentication Service and map the user to a local account relying on the attributes provided back by the Authentication Service, once validated the token. Given the flexibility of the PAM approach, in this way it is possible to stack multiple PAM modules together, enabling a single iRODS instance to support multiple OIDC providers and even to create dynamically the local accounts, without any pre-configured mapping.
+
+                </div>
+
+                <b>Integration of iRODS data workflows in an extensible HTTP REST API framework</b><br/>
+                Mattia D'Antonio, Claudio Cacciari, Giuseppa Muscianisi, Michele Carpené, and Giuseppe Fiameni<br/>
+                CINECA<br/>
+                <div class="abstract">
+                    We developed a set of HTTP REST APIs on top of iRODS to support users of different communities to automate both ingestion and retrieval data workflows. We built a common REST APIs layer implementing basic functionalities, including the interaction with iRODS, within an extensible framework (RAPyDO: Rest Apis with Python on Docker) that we developed and adopted to build communities-specific REST APIs.
+<br/><br/>
+More in details, we are collaborating with the EUropean DATa infrastructure EUDAT; European projects like EOSC-hub and SeaDataNet; national initiatives in collaboration with Telethon (a non-profit organization for genetic diseases research) and SIGU (Italian Society for Human Genomics).
+<br/><br/>
+All endpoints are written by using the Python language through the Flask framework and served by an uWSGI web server deployed within a Docker container.
+<br/><br/>
+We created a wrapper of the python irods client (PRC) to let both the core framework and communities specific APIs to easily interact with iRODS by supporting all main authentication protocols (native passwords, Pluggable authentication modules (PAM), Grid Security Infrastructure (GSI) by the Globus Toolkit. To be able to support all required authentication methods we also contributed to the PRC by developing authentication modules for both GSI and PAM.
+<br/><br/>
+Most of iRODS-based functions that we developed can be mapped against corresponding icommands like ils, iget, iput, imv, icp, imeta, irule, iticket but also more complex functionalities have been realized, for instance streamed read/write operations from/to network sockets.
+<br/><br/>
+To be able to execute data intensive and complex workflows, we also introduced an asynchronous layer implemented on Celery, a task management queue based on distributed message passing.
+                </div>
+
+                <b>iRODS in context: Exploring integrations between iRODS and OwnCloud</b><br/>
+                Hylke Koers, Stefan Wolfsheimer, Arthur Newton, and Sharif Islam<br/>
+                SURFsara<br/>
+                <div class="abstract">
+                    Within the Netherlands, iRODS is gaining substantial traction with universities and other research institutes as a tool to help manage large amounts of heterogeneous research data. In this context iRODS is usually used as middleware, providing value through data virtualization, metadata management and/or rule-driven workflows. This is then typically combined with other tools and technology to fully support the diverse needs of researchers, data stewards, IT managers, etc.
+                    <br/><br/>
+While integrations with other RDM tools are facilitated by iRODS’ flexibility, a significant amount of work is usually still required to develop and test them with users in their specific context. For this reason SURF – as the collaborative ICT organisation for Dutch education and research – sees a role for itself to spearhead the development of such integrations as that effectively means pooling of resources which lowers the collective development cost and accelerates the pace of adoption.
+<br/><br/>
+In this contribution, we will focus on a recent project undertaken by SURF to explore the integration between OwnCloud and iRODS. OwnCloud is an open-source, “sync and share” solution to manage data as an individual or as a research team. OwnCloud is the technology behind two successful existing SURF products: SURFdrive and Research Drive. Offering a GUI, versioning, off-line sync and link-based sharing, it’s functionality is in many ways complementary to iRODS. This makes integrating the two technologies attractive, yet there are several challenges in terms of file inventory synchronization, metadata management, and access control. In the demo we’d like to share how we have addressed these challenges and discuss a proposed way forward.
+<br/><br/>
+As an outlook into future work, this integration could be extended to support seamless publication of research data in trusted, long-term data repositories. Existing data publication workflows have many common tasks, but also significant variance in the “details” of how these tasks are stringed together and how they need to be operationalized. To address this balance, we are exploring an approach that essentially abstracts data publication tasks into an overarching workflow framework, so as to allow for flexibility yet also benefit from standards and common patterns.
+                </div>
+
+                <b>SODAR - the iRODS-powered System for Omics Data Access and Retrieval</b><br/>
+                Mikko Nieminen, Manuel Holtgrewe, Mathias Kuhring, and Dieter Beule<br/>
+                Berlin Institute of Health<br/>
+                <div class="abstract">
+                    In the past years, a growing number of high-throughput omics assays in the areas of genomics, proteomics, and metabolomics have become widespread in life science research. This creates increasing demand for handling the large amounts of data as well as models for the complex experimental designs. Further challenges include the FAIR principiles for making the data findable, accessible, interoperable, and reuseable. Collaboration between multiple institutes further complicates data management.
+                    <br/><br/>
+Here we present SODAR (System for Omics Data Access and Retrieval), our effort of fulfilling these requirements. The modular system allows for the curation of complex studies with the required meta data as well as for the storage of large bulk data. To facilitate effective and efficient data management workflows, SODAR provides project-based access control, a web-based graphical user interface for data management, programmatic data access, ID management for study objects as well as various tools for omics data management.
+<br/><br/>
+The system is based on open source solutions. iRODS is used for large data storage while Davrods allows for providing access through the widely supported HTTP(S) protocol (e.g., for integration with the IGV software). Graphical interfaces and APIs are implemented in Python using the Django framework. Our data model is based on the ISA-Tools data model ISA-tab is used as the meta data file exchange format. A transaction sub system integrates activities spanning both data and meta data. Core parts of SODAR are available as reuseable libraries for creating project-based data management systems that share access control with SODAR.
+<br/><br/>
+We will demonstrate our flag ship rare disease genetics use case, starting from bulk data import to the browsing of study design and metadata and interacting with the data through IGV.
+<br/><br/>
+A beta version of SODAR is currently deployed in our institutes. The system will be made available as open source under a permissive license.
+                </div>
+
+                <b>iRODS and use case of Bristol-Myers Squibb to manage genomics data</b><br/>
+                Oleg Moiseyenko<br/>
+                Bristol-Myers Squibb Company<br/>
+                <div class="abstract">
+                    This presentation discuss how iRODS helps Bristol-Myers Squibb to manage petabytes of NGS data, synchronizing it from different on premise locations with AWS Cloud store and challenges it presents.
+                    <br/><br/>
+In days of high speed internet and cloud computing the old paradigms in drugs discovery went through significant changes. The shifts in IT landscape and medicine economics force “big pharma” companies adopt seeking better routes for innovation and efficiencies. Since DNA has gone digital the various scientific communities around the globe routinely run multiple tests, take high-resolution medical images and use big data in health research on daily basis.
+<br/><br/>
+New cloud computing infrastructure contributes to swift increase in research partnerships in bioanalysis via collaboration consortia, what at the end leads to data fragmentation in terms of sources, data types and storage. In addition to that this data should be also securely stored, well maintained through the lifetime, and access-controlled in accordance with latest local regulations and data compliance requirements.
+                </div>
+
+                <b>Asynchronous file handling with iRODS tape resources</b><br/>
+                Arthur Newton, Stefan Wolfsheimer, Sharif Islam, Hylke Koers, and Matthew Saum<br/>
+                SURFsara<br/>
+                <div class="abstract">
+                    Tiered storage systems comprised of a disk cache staging area and a tape library are cost-effective solutions ideal for long-term storage.
+                    <br/><br/>
+Last year, we presented a way how to build a tiered storage system which employs tape storage in the backend transparent to iRODS. Since our tape archive system already has a disk cache we explicitly did not make use of a iRODS compound resource for integration which would have required an additional cache layer.
+<br/><br/>
+Tape storage is inherently asynchronous, meaning that data can reside in different states, online on disk cache, or offline only on tape. If the data is offline, it is not readily available and needs to be staged to disk. Our solution in iRODS can (automatically) trigger state transitions between offline and online. However, the user still experienced the asynchronisity of the different states of data, which left room for improvement in the user friendliness of handling such data.
+<br/><br/>
+To fill this gap we implemented a set of commandline applications which makes it easier for the user to download, upload and retrieve information about the state of data. The iRODS python client provides the base of the tool which alleviates the need for icommands or the DMF tape tools and as such also broadens the compatability on different systems. The application is split into a set of CLI tools and a daemon-like application that handles requests and file transfers in the background. The daemon is automatically spawned as a non-root process upon the first request and stopped when idle for a specific time.
+<br/><br/>
+The commandline tool can be extended to other types of storage resources with similar asynchronous staging of data. Additionally, the performance can possibly be improved by allowing for parallel transfer of data.
+                </div>
+
+                <b>A GA4GH Data Repository Service for native iRODS</b><br/>
+                Mike Conway<br/>
+                NIEHS/NIH<br/>
+                <div class="abstract">
+                    This paper and presentation will premier implementation of a GA4GH Data Repository Service, (formerly the GA4GH Data Object Service), that can run on a base iRODS server. The Data Repository Service implementation uses standard iRODS collections to house a Data Bundle, and utilizes Attribute-Value-Unit metadata to mark data objects and bundles with auxiliary information.
+                    <br/><br/>
+Using this service allows iRODS to integrate with workflow and data access services in the area of genomics and bio-sciences that follow the emerging standards of the GA4GH consortium. These standards have been identified in the NIH Commons effort as an important interoperability standard.
+<br/><br/>
+The development approach of this implementation sets a very low barrier of entry and allows any genomic data set stored in iRODS to be exposed via the GA4GH Data Repository Service API. A presentation, paper, and source code release are planned for the User Group Meeting.
+                </div>
+
+                <b>Providing validated, templated and richer metadata using a bidirectional conversion between JSON and iRODS AVUs</b><br/>
+                J. Paul van Schayck, Ton Smeele, Daniël Theunissen, and Lazlo Westerhof<br/>
+                Maastricht UMC+ - DataHub; Utrecht University - ITS/RDM<br/>
+                <div class="abstract">
+                    iRODS allows attaching any number of attribute, value, unit (AVU) triples to any iRODS object. Very few limits or restrictions are placed on the content and usage of these AVU triples. However, a frequently recurring question in research data management is to structure metadata according to some standard and to provide end-user interfaces for this. Moreover, the interoperability and reusability guidelines of the FAIR principles state that metadata should use controlled vocabularies and meet community standards (1). In order to start addressing these questions in a generic way, we have developed a new method for storing richer and templated metadata in AVUs.
+                    <br/><br/>
+We have chosen to work with metadata in a JSON representation and use JSON-schema for metadata structuring and validation. The associated JSON-schema also provides the template for metadata forms for end-users. JSON is a flexible and easy to use format for serializing (nested) data, while maintaining human and developer readability. We have developed and implemented a bidirectional conversion between JSON and AVUs (2). This conversion method strives to (a) be a bijection between JSON and AVUs, (b) be as lean as possible and (c) keep attribute/value pairs the same between JSON and AVUs. The conversion method is used as part of two Python rules that allow users to respectively set and retrieve AVU metadata on an iRODS object using a JSON structure. Optionally, a policy can be installed and activated to validate metadata updates against a JSON-schema that rules the object.
+<br/><br/>
+We hope that this work will provide other developers with a generic method for a conversion between JSON and AVU. We are encouraging others to use the JSON-schema for building dynamic metadata forms and making iRODS more accessible to use with a metadata standard of choice.
+                </div>
+
+                <b>Rodinaut: A tool for metadata management</b><br/>
+                Othmar Weber<br/>
+                Bayer<br/>
+                <div class="abstract">
+                    For Scientists who need to ensure compliance with data security/privacy, and find information in iRODS, Rodinaut is a web application that enables viewing and managing metadata.  Unlike the existing command-line tool, our product is self-explaining, easy and fast to use, and improves user experience with iRODS.
+                </div>
+
+                <b>iRODS at KTH and SNIC - Status and Prospects</b><br/>
+                Ilari Korhonen<br/>
+                KTH Royal Institute of Technology<br/>
+                <div class="abstract">
+                    The current state of iRODS operations at KTH PDC Center for High Performance Computing is presented with a two-pronged approach. Firstly, the status of our national iRODS-based data infrastructure is laid out with respect to both the deployment at KTH PDC as well as our collaboration with our partner center NSC at Linköping University. We are currently a distributed operation between two centers, with the possibility of more Swedish HPC centers to join in the future. Secondly, our development efforts for an HPC-adjacent iRODS deployment at our center is discussed. The focus here is to provide access to several tiers of iRODS storage environments in the high performance computing environments available at our center, in a secure, efficient, low-latency and high-throughput configuration. In addition to providing iRODS clients in our compute cluster to enable access to (federated) iRODS grids while using (federated) Kerberos authentication between the administrative domains, we are also collaborating with the iRODS Consortium on the testing of a new iRODS Lustre interface. Eventually this would enable us to provide Lustre-backed iRODS resources for storage tiering within the local iRODS grid, for the staging of HPC data into and especially out of the compute filesystem. This combined with federated access to several tiers of storage resources and the ability to publish data out of iRODS, possibly in the future referenced by persistent identifiers, gives a working solution for research data lifecycle management.
+                </div>
+
+                <b>Surgical Critical Care Initiative: Leveraging iRODS to Accomplish Multi-Site Data Collection, Harmonization, and Analytics to Generate Clinical Decision Support Tools</b><br/>
+                Andy MacKelfresh and Justin James<br/>
+                Duke University; iRODS Consortium, RENCI at UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    To support the development of Clinical Decision Support Tools (CDSTs) in both civilian and military health systems, the Surgical Critical Care Initiative (SC2i), a Department of Defense funded consortium of Federal and non-Federal institutions, leverages iRODS to harmonize clinical, laboratory, and bio-bank data and centralize 30+ million high-quality data elements to enhance complex decision making in acute and trauma care.
+                </div>
+
+                <b>iRODS and InfiniBand for Securing Systems for Supervisory Control and Data Acquisition</b><br/>
+                David Wade<br/>
+                Himself<br/>
+                <div class="abstract">
+Supervisory Control and Data Acquisition ( SCADA ) systems deployed up to now have suffered
+from well known and well publicized design defects in both security and scaleability. Techniques are
+developed to use High Performance Computing techniques to mitigate such defects in future
+SCADA designs. Instances of such entail using network technology other than line drivers or
+Ethernet, and protocols other than TCP/IP to mitigate network intrusion, and keeping sensor, controller,
+and monitor data local to the edges while placing restrictions on how and what they can report back to
+a central control.
+<br/><br/>
+Mellanox InfiniBand offers security enhancements to a network which are often
+overlooked in the design for compute but may be deployed in a SCADA to ameliorate the well known
+security flaws in the Ethernet and TCP/IP designs. iRODS is introduced as a data manipulation
+subsystem for SCADA because of its ability to update simultaneously many RDBMS in
+parallel and provide a RULES ENGINE against such updates to secure their credibility should intrusion occur.
+<br/><br/>
+A model for a quite simplistic SCADA will be introduced and using such we will propose
+techniques using IB and iRODS for securing such.
+                </div>
+
+            </div>
+
+            <div class="space"></div>
+
+
         </div>
     </section>
 </body>
 </html>
-
