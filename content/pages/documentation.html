@@ -26,6 +26,8 @@
                 <br/>
                 <h3>Technical Diagrams</h3>
                 <br/>
+                <p>The following series of technical one-pagers tell a story, starting with the iRODS Data Management Model.</p>
+
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
                         <a href="{filename}/images/data_management_model.jpg" target="_blank" ><img src="{filename}/images/data_management_model.jpg" class="tech_diagram"></a>
@@ -37,7 +39,15 @@
                         <br class="phone_show"/>
                         iRODS provides eight packaged capabilities, each of which can be selectively deployed and configured (usually into known patterns).  These patterns and capabilities represent the most common use cases as identified by community participation and reporting.
                     </div>
-                </div> 
+                </div>
+
+                <p>The model contains eight capabilities which can be combined into interesting patterns:
+                <ul>
+                    <li>Data to Compute is Automated Ingest + Tiering + Additional Policy</li>
+                    <li>Compute to Data is Sorting Policy + Job Routing Policy</li>
+                    <li>Synchronization is Automated Ingest + Sync Policy</li>
+                </ul>
+                </p>
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -50,7 +60,7 @@
                         <br class="phone_show"/>
                         In many existing enterprise and research deployments, HPC clusters are separated from long term data storage technologies.  When data needs to be moved to HPC and back again, the Data to Compute design pattern can leverage metadata-driven workflows and automate the execution of an organization's data management policy.
                     </div>
-                </div> 
+                </div>
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -62,6 +72,19 @@
                         <a href="{filename}/images/pattern_compute_to_data.jpg" target="_blank" class="phone_show"><img src="{filename}/images/pattern_compute_to_data.jpg" class="tech_diagram"></a>
                         <br class="phone_show"/>
                         When data is stored in specific locations due to a requirement for specialized software or hardware or only because it is too big and expensive to move, compute requests can be routed to the appropriate location automatically.  This metadata-driven computation design pattern could serve as a bridge until the time services are more fully containerized.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/pattern_synchronization.jpg" target="_blank" ><img src="{filename}/images/pattern_synchronization.jpg" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/pattern_synchronization.jpg" target="_blank"><b>Pattern: Synchronization</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/pattern_synchronization.jpg" target="_blank" class="phone_show"><img src="{filename}/images/pattern_synchronization.jpg" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        iRODS is usually deployed into an environment alongside multiple other technologies.  Existing filesystems may be tightly coupled with scientific instruments or legacy pipelines which are not yet ready to be directly integrated with iRODS.  In these cases, iRODS can 'follow the leader' and keep its metadata catalog up-to-date by synchronizing with an existing 'source of truth'.
                     </div>
                 </div>
 
@@ -118,7 +141,7 @@
                         <br class="phone_show"/>
                         iRODS provides a layer of abstraction which integrates with your pre-existing infrastructure. This flexibility allows your infrastructure to continue to change over time.
                     </div>
-                </div> 
+                </div>
 
             <hr class="light_small_centered_line">
 
@@ -133,7 +156,7 @@
                         <br class="phone_show"/>
                         As data matures and reaches a broader community, data management policy must also evolve to meet these additional requirements. iRODS virtualizes the stages of the data lifecycle through policy evolution.
                     </div>
-                </div> 
+                </div>
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
@@ -147,7 +170,7 @@
                         Deploying iRODS requires making decisions about how quickly and how deeply to integrate with existing systems.  The flexibility of iRODS allows for a dynamic approach that supports building confidence and trust in the software.
                         Tighter integration and automation can lead to better performance and stronger assertions about what has happened to your data throughout its lifecycle.
                     </div>
-                </div> 
+                </div>
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
@@ -160,7 +183,7 @@
                         <br class="phone_show"/>
                         With metadata being a central part of how iRODS fosters best practices in workflows and provenance, it is also important to encourage good metadata curation.  Metadata templates afford iRODS a friendly UI for specifying requirements, validation, and standardization.
                     </div>
-                </div>   
+                </div>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 text-center tech_diagram_cont phone_hide">
                         <a href="{filename}/images/multipart_data_objects.jpg" target="_blank" ><img src="{filename}/images/multipart_data_objects.jpg" class="tech_diagram"></a>
@@ -172,9 +195,10 @@
                         <br class="phone_show"/>
                         An effort to improve reliability and predictability of large file transfers in iRODS, multipart data objects will improve transport speeds (parallel and/or multisource), allow for cache-free object storage plugins, and provide natural support for reliable restarts.
                     </div>
-                </div> 
+                </div>
                 <h3>User Group Meetings</h3>
                 <ul>
+                    <li><a href="{filename}/uploads/2018/irods_ugm2018_proceedings.pdf">iRODS User Group Meeting 2018 Proceedings (PDF)</a>, <a href="https://www.amazon.com/dp/1799019500">(Amazon)</a></li>
                     <li><a href="{filename}/uploads/2017/irods_ugm2017_proceedings.pdf">iRODS User Group Meeting 2017 Proceedings (PDF)</a>, <a href="https://www.amazon.com/dp/1978019580">(Amazon)</a></li>
                     <li><a href="{filename}/uploads/2016/12/irods_ugm2016_proceedings.pdf">iRODS User Group Meeting 2016 Proceedings (PDF)</a>, <a href="https://www.amazon.com/dp/1540795446">(Amazon)</a></li>
                     <li><a href="{filename}/uploads/2015/09/UMG2015_P.pdf">iRODS User Group Meeting 2015 Proceedings (PDF)</a>, <a href="https://www.amazon.com/dp/1517567785">(Amazon)</a></li>
@@ -288,7 +312,7 @@
                         <br class="phone_show"/>
                         1920 × 1080
                     </div>
-                </div> 
+                </div>
                 <br/>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -299,7 +323,7 @@
                         <br/>
                         <a href="{filename}/images/space_girl_sticker_proc.png" target="_blank" class="phone_show"><img src="{filename}/images/space_girl_sticker_proc.png" class="tech_diagram"></a>
                     </div>
-                </div> 
+                </div>
                 <br/>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -310,7 +334,7 @@
                         <br/>
                         <a href="{filename}/images/why_open.jpg" target="_blank" class="phone_show"><img src="{filename}/images/why_open.jpg" class="tech_diagram"></a>
                     </div>
-                </div> 
+                </div>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
                         <a href="{filename}/images/iRODS_capabilities_poster_web.jpg" target="_blank" ><img src="{filename}/images/iRODS_capabilities_poster_web.jpg" class="tech_diagram"></a>
@@ -320,7 +344,7 @@
                         <br/>
                         <a href="{filename}/images/iRODS_capabilities_poster_web.jpg" target="_blank" class="phone_show"><img src="{filename}/images/iRODS_capabilities_poster_web.jpg" class="tech_diagram"></a>
                     </div>
-                </div> 
+                </div>
                 <br/>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -331,7 +355,7 @@
                         <br/>
                         <a href="{filename}/images/ugm17_sticker.png" target="_blank" class="phone_show"><img src="{filename}/images/ugm17_sticker.png" class="tech_diagram"></a>
                     </div>
-                </div> 
+                </div>
                 <br/>
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
@@ -342,7 +366,7 @@
                         <br/>
                         <a href="{filename}/images/iRODS_staff_ts_bg_2017.jpg" target="_blank" class="phone_show"><img src="{filename}/images/iRODS_staff_ts_bg_2017.jpg" class="tech_diagram"></a>
                     </div>
-                </div> 
+                </div>
             </div>
             <div class="space"></div>
         </div>
