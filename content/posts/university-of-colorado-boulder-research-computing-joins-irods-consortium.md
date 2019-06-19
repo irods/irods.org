@@ -1,5 +1,5 @@
 Title: University of Colorado Boulder Research Computing joins iRODS Consortium
-Date: 2019-06-18 8:00
+Date: 2019-06-19 8:00
 Author: Anne Johnson
 Slug: university-of-colorado-boulder-research-computing-joins-irods-consortium
 Status: published
