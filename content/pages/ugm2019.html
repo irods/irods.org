@@ -171,11 +171,12 @@
 
                             <br/>
                             An authentication solution for iRODS based on the OpenID Connect protocol
-                            [<a href="{filename}/uploads/2019/Carpene-Cineca-OpenID_Connect-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/Carpene-CINECA-OpenID_Connect-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/Cacciari-CINECA-OpenID_Connect-paper.pdf">paper</a>]
                             [<a href="https://lecturenet.uu.nl/Site1/Play/bbfead46a8bd46f0934961d2288969621d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=54YA92Ure4A&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=7">YouTube video</a>]
                             <br/>
-                            <em>Michele Carpené - Cineca</em><br/>
+                            <em>Michele Carpené - CINECA</em><br/>
                             <div>
                                 <div class="abstract">
                                     <p> We are going to describe an authentication solution for iRODS based on the OpenID Connect (OIDC) protocol. In the context of European data infrastructures, like EUDAT, and projects, like EOSC-hub, iRODS must interoperate with other services, which support OIDC and OAuth2 protocols. The typical usage workflows encompass both direct user interaction via icommand and other clients and service-to-service interaction on behalf of the user. While in the first case we can rely on the already existing iRODS OpenID plugin, in the second one it is not possible because of two main reasons. The first is that the service-to-service process implies that the user is not requested to generate a token for iRODS, but that iRODS is able to re-use an existing token from another service. The second is that the other service needs to get access to iRODS using multiple authentication protocols in a dynamic way, not fixing one of them in the configuration. For example, we have instances of DavRODS that allow to log-in via plain username and password or via OIDC token. In order to achieve those results, we implemented a Pluggable Authentication Module (PAM), which allows iRODS to accept an OIDC token, re-using the password parameter of the PAM based authentication, validate it against an Authentication Service and map the user to a local account relying on the attributes provided back by the Authentication Service, once validated the token. Given the flexibility of the PAM approach, in this way it is possible to stack multiple PAM modules together, enabling a single iRODS instance to support multiple OIDC providers and even to create dynamically the local accounts, without any pre-configured mapping.</p>
@@ -343,11 +344,12 @@
 
                             <br/>
                             Integration of iRODS data workflows in an extensible HTTP REST API framework
-                            [<a href="{filename}/uploads/2019/D'Antonio-Cineca-Extensible_HTTP_REST_API_framework-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/D'Antonio-CINECA-Extensible_HTTP_REST_API_framework-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/D'Antonio-CINECA-Extensible_HTTP_REST_API_framework-paper.pdf">paper</a>]
                             [<a href="https://lecturenet.uu.nl/Site1/Play/d1fc11c12b514a7b91eef826c1d0ca391d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=vtwjYAayHgU&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=19">YouTube video</a>]
                             <br/>
-                            <em>Mattia D'Antonio - Cineca</em><br/>
+                            <em>Mattia D'Antonio - CINECA</em><br/>
                             <div>
                                 <div class="abstract">
                                     <p>We developed a set of HTTP REST APIs on top of iRODS to support users of different communities to automate both ingestion and retrieval data workflows. We built a common REST APIs layer implementing basic functionalities, including the interaction with iRODS, within an extensible framework (RAPyDO: Rest Apis with Python on Docker) that we developed and adopted to build communities-specific REST APIs.
