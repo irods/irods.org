@@ -46,6 +46,7 @@
                     <li>Data to Compute is Automated Ingest + Tiering + Additional Policy</li>
                     <li>Compute to Data is Sorting Policy + Job Routing Policy</li>
                     <li>Synchronization is Automated Ingest + Sync Policy</li>
+                    <li>Data Transfer Nodes is Cache Management Policy + Replication Policy</li>
                 </ul>
                 </p>
 
@@ -90,6 +91,19 @@
 
                 <div class="row pillar_section">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/pattern_data_transfer_nodes.png" target="_blank" ><img src="{filename}/images/pattern_data_transfer_nodes.png" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/pattern_data_transfer_nodes.png" target="_blank"><b>Pattern: Data Transfer Nodes</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/pattern_data_transfer_nodes.png" target="_blank" class="phone_show"><img src="{filename}/images/pattern_data_transfer_nodes.png" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        Many academic and governmental organizations have mandates to share data with one another.  However, most internal networks are not designed for easy sharing with external partners.  The common resulting pattern of having a DMZ, or set of machines designated as Data Transfer Nodes, provides a solution to that mandate.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
                         <a href="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" target="_blank" ><img src="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" class="tech_diagram"></a>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
@@ -98,7 +112,7 @@
                         <a href="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" target="_blank" class="phone_show"><img src="{filename}/images/capability_automated_ingest_filesystem_scanner.jpg" class="tech_diagram"></a>
                         <br class="phone_show"/>
                         When an organization first discovers iRODS, it is usually true that the organization already has a lot of data in disparate storage systems.
-                        The automated ingest framework is based on RQ (Redis Queue) and can scale workers to bring large filesystems under management quickly.
+                        The automated ingest framework is based on Redis and Celery and can scale workers to bring large filesystems under management quickly.
                     </div>
                 </div>
 
@@ -127,6 +141,45 @@
                         <br class="phone_show"/>
                         The storage tiering framework provides efficient policy-driven storage utilization by automatically moving data between any number of identified tiers of storage within a configured tiering group.
                         To define a storage tiering group, selected storage resources are labeled with metadata which define their place in the group and how long data should reside in that tier before being migrated to the next tier.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_indexing.png" target="_blank" ><img src="{filename}/images/capability_indexing.png" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_indexing.png" target="_blank"><b>Capability: Indexing</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_indexing.png" target="_blank" class="phone_show"><img src="{filename}/images/capability_indexing.png" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        The indexing capability provides a policy framework around both full text and metadata indexing for the purposes of data discovery.  Logical collections are annotated with metadata which indicates that any data objects or nested collections of data objects should be indexed by a particular external indexing technology.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_publishing.png" target="_blank" ><img src="{filename}/images/capability_publishing.png" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_publishing.png" target="_blank"><b>Capability: Publishing</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_publishing.png" target="_blank" class="phone_show"><img src="{filename}/images/capability_publishing.png" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        The publishing capability provides a metadata-driven policy framework for the publication of data to external services.  When data is annotated appropriately, it can be protected, assigned a persistent identifier, and queued for publication to the configured catalog of record.
+                    </div>
+                </div>
+
+                <div class="row pillar_section">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center tech_diagram_cont phone_hide">
+                        <a href="{filename}/images/capability_provenance.png" target="_blank" ><img src="{filename}/images/capability_provenance.png" class="tech_diagram"></a>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 diagram_description">
+                        <a href="{filename}/images/capability_provenance.png" target="_blank"><b>Capability: Provenance</b><br class="phone_show"/></a>
+                        <br/>
+                        <a href="{filename}/images/capability_provenance.png" target="_blank" class="phone_show"><img src="{filename}/images/capability_provenance.png" class="tech_diagram"></a>
+                        <br class="phone_show"/>
+                        Since every operation within an iRODS Zone can be logged with an Audit Plugin, a well-formed query can discover every event associated with a particular data object, user, or resource.  The results can be formed into a standardized target format and provide automated reporting for an organization.
                     </div>
                 </div>
 
