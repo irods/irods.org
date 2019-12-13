@@ -16,7 +16,7 @@ The [Python iRODS Client has been released as v0.8.2](https://github.com/irods/p
 
 [NFSRODS has been released as v0.9.1](https://github.com/irods/irods_client_nfsrods/releases).  It's a minor release that fixes some internal mapping - no new functionality.
 
-A request for and a discussion about [Logical Quotas has resulted in a new policy plugin](https://github.com/irods/irods_rule_engine_plugin_logical_quotas).  The upcoming [TRiRODS]({filename}/pages/trirods.md) talk will cover the background and the use case.  The video should be posted shortly.
+A request for and a discussion about [Logical Quotas has resulted in a new policy plugin](https://github.com/irods/irods_rule_engine_plugin_logical_quotas).  The upcoming [TRiRODS]({filename}/pages/trirods.html) talk will cover the background and the use case.  The video should be posted shortly.
 
 We expect 4.2.8 to follow from 4.2.7 pretty quickly with the landing of Intermediate Replicas and a refactoring of the irodsReServer to use the new query_processor library.
 
