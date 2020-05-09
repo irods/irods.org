@@ -35,19 +35,34 @@
 
                 <p><a href="https://www.youtube.com/playlist?list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG">Conference Videos hosted on YouTube</a></p>
 
-<!--
                 <h3>
                 Articles
                 </h3>
                 <p><a href="{filename}/uploads/2019/irods_ugm2019_proceedings.pdf">iRODS UGM 2019 Proceedings (PDF)</a></p>
                 <p>
                 <ul>
-                    <li><b>Title</b><br/>
-                    Author - Affiliation<br/>
-                    Author - Affiliation</li>
+                    <li><b>Providing validated, templated, and richer metadata using a bidirectional conversion between JSON and iRODS AVUs</b><br/>
+                    J. Paul van Schayck, Daniël Theunissen – Maastricht University<br/>
+                    Ton Smeele, Lazlo Westerhof – Utrecht University</li>
+                </ul>
+                <ul>
+                    <li><b>An authentication solution for iRODS based on the OpenID Connect protocol</b><br/>
+                    Claudio Cacciari, Giuseppa Muscianisi, Michele Carpené, Mattia D’Antonio, Giuseppe Fiameni – CINECA<br/>
+                </ul>
+                <ul>
+                    <li><b>NFSRODS: Presenting iRODS as NFSv4.1</b><br/>
+                    Kory Draughn, Terrell Russell, Alek Mieczkowski, Jason Coposky – iRODS Consortium<br/>
+                    Mike Conway - NIH / NIEHS</li>
+                </ul>
+                <ul>
+                    <li><b>Integration of iRODS data workflows in an extensible HTTP REST API framework</b><br/>
+                    Mattia D’Antonio, Claudio Cacciari, Giuseppa Muscianisi, Michele Carpené, Guiseppe Fiameni – CINECA</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS S3 Resource Plugin: Cacheless and Detached Mode</b><br/>
+                    Justin James, Terrell Russell, Jason Coposky – iRODS Consortium<br/>
                 </ul>
                 </p>
-            -->
 
 
                 <h3>
@@ -142,17 +157,20 @@
                             <br/>
                             Providing validated, templated and richer metadata using a bidirectional conversion between JSON and iRODS AVUs
                             [<a href="{filename}/uploads/2019/vanSchayck-Maastricht-JSON2AVU-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/vanSchayck-Maastricht-JSON2AVU-paper.pdf">paper</a>]
                             [<a href="https://lecturenet.uu.nl/Site1/Play/86d12604533c4c15b3ed58f6f39c15ab1d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=CUUjuIC_-0w&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=5">YouTube video</a>]
                             <br/>
                             <em>J. Paul van Schayck - Maastricht University</em><br/>
                             <div>
                                 <div class="abstract">
-                                    <p>iRODS allows attaching any number of attribute, value, unit (AVU) triples to any iRODS object. Very few limits or restrictions are placed on the content and usage of these AVU triples. However, a frequently recurring question in research data management is to structure metadata according to some standard and to provide end-user interfaces for this. Moreover, the interoperability and reusability guidelines of the FAIR principles state that metadata should use controlled vocabularies and meet community standards. In order to start addressing these questions in a generic way, we have developed a new method for storing richer and templated metadata in AVUs.
+                                    <p>A frequently recurring question in research data management is to structure metadata according to a standard and to provide the corresponding user interface to it. This has only become more urgent since the introduction of the FAIR principles which state that metadata should use controlled vocabularies and meet community standards.
                                     <br/><br/>
-                                    We have chosen to work with metadata in a JSON representation and use JSON-schema for metadata structuring and validation. The associated JSON-schema also provides the template for metadata forms for end-users. JSON is a flexible and easy to use format for serializing (nested) data, while maintaining human and developer readability. We have developed and implemented a bidirectional conversion between JSON and AVUs. This conversion method strives to (a) be a bijection between JSON and AVUs, (b) be as lean as possible and (c) keep attribute/value pairs the same between JSON and AVUs. The conversion method is used as part of two Python rules that allow users to respectively set and retrieve AVU metadata on an iRODS object using a JSON structure. Optionally, a policy can be installed and activated to validate metadata updates against a JSON-schema that rules the object.
+                                    The iRODS data grid technology is well positioned as a core layer within an infrastructure to manage research data. One of its strengths is the ability to attach any number of attribute, value, unit (AVU) triples as metadata to any iRODS object. This makes iRODS adaptable to very diverse use cases in research data management. However, the challenge of working with more structured metadata is not being addressed by the default capabilities of iRODS. Our aim is to develop a new method for storing richer, templated and validated metadata in AVUs.
                                     <br/><br/>
-                                    We hope that this work will provide other developers with a generic method for a conversion between JSON and AVU. We are encouraging others to use the JSON-schema for building dynamic metadata forms and making iRODS more accessible to use with a metadata standard of choice.</p>
+                                    JSON is a popular, flexible and easy to use format for serializing (nested) data, while maintaining human and developer readability. Furthermore, a JSON Schema can be used to validate a JSON structure and it can also be used to obtain a dynamically generated form on the basis of this schema. This combination of functionalities makes it an excellent format for metadata. We have therefore designed and implemented a bidirectional conversion between JSON and AVUs. The conversion method has been implemented as Python iRODS rules that allow to set and retrieve AVU metadata on an iRODS object using a JSON structure. Optionally, a policy can be installed to validate metadata entry and updates against the JSON Schema that governs the object.
+                                    <br/><br/>
+                                    With this work we provide other iRODS developers with a generic method for conversion between JSON and AVUs. We are encouraging others to use the conversion method in their deployments.</p>
                                 </div>
                             </div>
 
@@ -324,6 +342,7 @@
                             <br/>
                             NFSRODS: Presenting iRODS as NFSv4.1
                             [<a href="{filename}/uploads/2019/Draughn-iRODS-NFSRODS-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/Draughn-iRODS-NFSRODS-paper.pdf">paper</a>]
                             [<a href="https://lecturenet.uu.nl/Site1/Play/fc0e6527dbff4fd5a97c353fb5649d1f1d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=WqwbEOlA0nQ&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=17">YouTube video</a>]
                             <br/>
@@ -434,6 +453,7 @@
                             <br/>
                             iRODS S3 Resource Plugin: Cacheless and Detached Mode
                             [<a href="{filename}/uploads/2019/James-iRODS-S3_Resource_Plugin_Cacheless_and_Detached-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2019/James-iRODS-S3_Resource_Plugin_Cacheless_and_Detached-paper.pdf">paper</a>]
                             [<a href="https://lecturenet.uu.nl/Site1/Play/6b5372ee1d174cba8cc194978739edd41d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=aEzJHA1qctE&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=25">YouTube video</a>]
                             <br/>
@@ -456,7 +476,7 @@
                             [<a href="https://lecturenet.uu.nl/Site1/Play/d8c8d6e9cfd148b4bace253df330c6831d?catalog=b357f19d-eaaa-4941-b4fc-2df126660937">UU video</a>]
                             [<a href="https://www.youtube.com/watch?v=8urV-OonFQQ&list=PL29FhEN41mZN6S54IMBMwIPDC_dMiWFJG&index=27">YouTube video</a>]
                             <br/>
-                            <em>Jaspreet - iRODS Consortium</em><br/>
+                            <em>Jaspreet Gill - iRODS Consortium</em><br/>
 
                             <br/>
                             Lightning Talk - iRODS Install on OLPC schoolserver (Intel NUC)
