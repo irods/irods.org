@@ -333,6 +333,57 @@
                     The Discovery Environment, a web-based Data Science workbench that supports data management, analysis and collaboration tasks for diverse communities of users from astronomers to zoologists, is actively utilized by thousands of scientists world-wide. In this presentation we highlight how we have leveraged iRODS alongside other frameworks like Kubernetes, NodeJS, React, and Asynchronous Tasks to meet researchers' growing demands for reproducible, extensible, collaborative and scalable analysis environments. We also provide an overview of the Terrain API which provides developers with programmatic access to extend and adopt the Discovery Environment's underlying cyberinfrastructure. Finally, we touch upon our Visual and Interactive Computing Environment (VICE), our newest service that allows researchers to use Jupyter Notebooks, RStudio, Rshiny and other custom web-based, interactive data analysis and visualization tools. VICE provides secure out-of-the-box, single sign-on access to all container (Docker)-based applications and can manage CPU- and GPU-based analysis with configurable resource allocation per task.
                 </div>
 
+                <br/>
+                <b>iRODS Rule Engine Plugin - Hard Links 4.2.8.0</b><br/>
+                Kory Draughn and Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    This new C++ rule engine plugin provides an iRODS system the ability to convey hard links to its users. An iRODS system stores a hard link when replicas of two different iRODS data objects with different logical paths share a common physical path on the same host. When this occurs, metadata is added to both logical data objects for bookkeeping. This talk will explain the original use cases for hard links in iRODS and introduce Conway Diagrams to help visualize the various corner cases.
+                </div>
+
+                <br/>
+                <b>iRODS Client - NFSRODS 1.0</b><br/>
+                Kory Draughn and Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    An update from last year's preview, this 1.0 release now provides multi-user support for NFSv4 ACLs by handling calls from nfs4_setfacl and nfs4_getfacl. It also supports sssd for easier AD/LDAP integration and secure connections to iRODS via SSL. Coupled with the Hard Links iRODS Rule Engine Plugin, NFSRODS 1.0 can provide a direct NFSv4.1 mount point to users in enterprise environments.
+                </div>
+
+                <br/>
+                <b>iRODS Client - AWS Lambda Function for S3 1.0</b><br/>
+                Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    Under development for less than six months, this new AWS Lambda function updates an iRODS Catalog with events occurring in one or more S3 buckets. Files created, renamed, or deleted in S3 appear quickly in iRODS.
+                    <br/><br/>
+                    The following AWS configurations are supported with the 1.0 release:
+                    <ul>
+                    <li>S3 -> Lambda -> iRODS</li>
+                    <li>S3 -> SNS -> Lambda -> iRODS</li>
+                    <li>S3 -> SQS -> Lambda -> iRODS</li>
+                    </ul>
+                </div>
+
+                <br/>
+                <b>S3:TNG - iRODS S3 Plugin with Direct Streaming</b><br/>
+                Justin James, Kory Draughn, Jason Coposky and Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    The iRODS S3 storage resource plugin has become very important to the iRODS ecosystem. Many production systems are now spanning local disk, local or remote object stores, and tape. Last year's release of the cacheless S3 plugin enjoyed immediate uptake.
+                    <br/><br/>
+                    This year's update shares the design and engineering underway for the iRODS S3 plugin to provide direct streaming into and out of S3-compatible storage. This rewrite uses the new iRODS IOStreams library and in-memory buffering to make efficient multi-part transfers.
+                </div>
+
+                <br/>
+                <b>iRODS Policy Composition: Principles and Practice</b><br/>
+                Jason Coposky and Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    Historically a single static policy enforcement point, such as acPostProcForPut, was the sole location for all policy implementation. With the addition of a continuation code to the rule engine plugin framework, we may now configure multiple policies to be invoked for any given policy enforcement point. This subsequently allows for a separation of concerns and clean policy implementation. The policy developers now have the ability to separate the "when" (the policy enforcement points) from the "what" (the policy itself). How the policy is then invoked becomes a matter of configuration rather than implementation.
+                    <br/><br/>
+                    Given this new approach, multiple policies can be configured together, or composed, without the need to touch the code. For example, the Storage Tiering capability is effectively a collection of several basic policies: Replication, Verification, Retention, and the Violating Object Discovery. All of these policies are configured via metadata annotating root resources, and taken as a whole provide a flexible system for automated data movement.
+                </div>
+
 
             </div>
 
