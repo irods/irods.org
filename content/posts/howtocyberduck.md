@@ -24,47 +24,29 @@ written by
 iPlant](https://pods.iplantcollaborative.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store)
 for use with the iPlant Data Store.
 
-### Installing and configuring Cyberduck
-
-<ul style="list-style: none;">
-<li>
-**Step 1**. Install or Update Cyberduck.
-
-</li>
+## Installing and configuring Cyberduck
 
 
-<li>
+### Install or Update Cyberduck
+
 If Cyberduck is already installed, check if you need to update (must be
 version 4.7.1 or later):
 
-</li>
 1.  Click the Cyberduck menu.
 2.  Click Preferences and then click Check for Updates.
 
-<li>
 To install Cyberduck for your operating system for the first time:
 
-</li>
-<ol>
-<li>
 Go to the Cyberduck installation page at <https://cyberduck.io/>.
 
-</li>
-<li>
 Follow the steps for your OS:
 
-</li>
-<ul>
+**For MacOS**:
 
-
-</p>
-<li>
-For MacOS:
-
-</li>
 1.  Click Download Cyberduck-4.7.1.zip (or later version than 4.7.1).
+
 2.  Extract and move the contents of the downloaded file to your
-    Applications folder. **IMPORTANT:** The file must be located in your
+    Applications folder. IMPORTANT: The file must be located in your
     Applications folder.
     <p>
 
@@ -73,18 +55,16 @@ For MacOS:
     through the Mac Store for a fee that supports the Cyberduck
     development team.*
 
-<li>
-For Windows:
+**For Windows**:
 
-</li>
 1.  Click Download Cyberduck-Installer-4.7.1.exe (or later version than
     4.7.1, if displayed).
+
 2.  Locate the downloaded file and double click to begin installation.
+
 3.  Go through the install process.
 
-</ul>
-</ol>
-**Step 2**. Configure Cyberduck for use with iRODS
+### Configure Cyberduck for use with iRODS
 
 To connect Cyberduck to an iRODS repository, you must first bookmark the
 connection using a .cyberduckprofile Connection Profile file.
@@ -93,6 +73,7 @@ connection using a .cyberduckprofile Connection Profile file.
     link](http://people.renci.org/~danb/FOR_DEMOS/cyberduck/irods.cyberduckprofile)
     to download a Connection Profile template, which contains
     preconfigured settings for using Cyberduck with iRODS repositories.
+
 2.  Use a text editor to edit the contents of the Connection Profile.
 
 
@@ -107,7 +88,6 @@ connection using a .cyberduckprofile Connection Profile file.
 
    Save the updated Connection Profile.
 
-    ~~~~
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
@@ -134,11 +114,11 @@ connection using a .cyberduckprofile Connection Profile file.
             <string>iRODS password</string>
         </dict>
     </plist>
-    ~~~~
 
 3.  Double click the updated irods.cyberduckprofile file to open it as a
     Cyberduck bookmark. The profile will open so you can edit the
     defaults.
+
 4.  Update the Cyberduck bookmark.
     -   Update the Nickname field with an appropriate name to identify
         the bookmark.
@@ -153,7 +133,7 @@ connection using a .cyberduckprofile Connection Profile file.
     <p>
     <div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckprofile.png" /></div>
 
-### Using Cyberduck
+## Using Cyberduck
 
 These instructions provide basic instructions for downloading and
 uploading files to an iRODS repository using Cyberduck.
@@ -163,61 +143,45 @@ Help manual](https://trac.cyberduck.io/wiki/help/en), the [Cyberduck
 FAQs](https://trac.cyberduck.io/wiki/help/en/faq), or contact [Cyberduck
 Support](https://trac.cyberduck.io/newticket).
 
-<ol>
-<li>
-Open Cyberduck.
+### Open Cyberduck
 
-</li>
-<li>
 In the Cyberduck window, double-click a bookmark.
 
 
-<p>
 <div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckmenu.png" /></div>
 
-</li>
-<li>
 Log in to the iRODS server using your iRODS username and password. By
 default, your Home folder is selected.
 
-</li>
-<li>
-**Once connected, to download a file or folder from iRODS using
-Cyberduck**:
+Once connected, to download a file or folder from iRODS using
+Cyberduck:
 
 1.  Click the file or folder to download.
+
 2.  Click the Cyberduck File menu and then click Download. The file is
     downloaded to your default download folder.
 
-<li>
-**To navigate to a different folder**:
+To navigate to a different folder:
 
-<ol>
-<li>
 Click the Cyberduck Go menu and then click Go to Folder:
 
-</li>
 -   Enter the path to the folder.
 -   Click Go.
-
-</ol>
-</li>
-<p>
-
-
 
 
 <div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckfolder.png" /></div>
 
 
-<li>
-**To upload a file or folder to an iRODS repository using Cyberduck**:
+### Upload
+
+To upload a file or folder to an iRODS repository using Cyberduck:
 
 1.  Click the Cyberduck File menu and then click Upload.
+
 2.  Click the file or folder to upload and then click Upload.
 
-</ol>
-### Need help?
+
+## Need help?
 
 See the Cyberduck Preferences Help page for more information on
 installation, or connect with us on the [iRODS Chat Google
