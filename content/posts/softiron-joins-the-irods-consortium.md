@@ -4,7 +4,7 @@ Author: SoftIron
 Slug: softiron-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/softiron_logo.jpg" width="150px" />
+<img src="{filename}/images/softiron_logo.png" width="150px" />
 
 <br />
 
