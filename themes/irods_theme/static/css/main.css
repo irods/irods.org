@@ -1065,6 +1065,7 @@ UGM 2017 STYLES
     border-left: 0px;
     border-right: 0px;
     border-radius: 0px;
+    white-space: pre-wrap;
 }
 
 .btn-ugm:hover,.btn-ugm:focus{
