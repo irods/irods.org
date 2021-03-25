@@ -36,18 +36,30 @@
 
                 <p><a href="https://www.youtube.com/playlist?list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">Conference Videos hosted on YouTube</a></p>
 
-<!--
                 <h3>
                 Articles
                 </h3>
                 <p><a href="{filename}/uploads/2020/irods_ugm2020_proceedings.pdf">iRODS UGM 2020 Proceedings (PDF)</a></p>
                 <p>
                 <ul>
-                    <li><b>Title</b><br/>
-                    Authors - Affiliation<br/>
+                    <li><b>S3:TNG – iRODS S3 Resource Plugin with Direct Streaming</b><br/>
+                    Justin James, Kory Draughn, Jason Coposky, Terrell Russell – iRODS Consortium</li>
                 </ul>
                 </p>
--->
+                <ul>
+                    <li><b>Integration of iRODS with IBM Spectrum Archive Enterprise Edition – A flexible tiered storage archiving solution</b><br/>
+                    Nils Haustein – IBM European Storage Competence Center<br/>
+                    Mauro Tridici – Euro-Mediterranean Center on Climate Change (CMCC)</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Client: NFSRODS 1.0</b><br/>
+                    Kory Draughn, Terrell Russell, Alek Mieczkowski, Jason Coposky – iRODS Consortium<br/>
+                    Mike Conway – NIEHS / NIH</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Client: AWS Lambda Function for S3 1.0</b><br/>
+                    Terrell Russell – iRODS Consortium</li>
+                </ul>
 
                 <h3>
                 Presentations (June 9)
@@ -112,6 +124,7 @@
                             <br/>
                             S3:TNG - iRODS S3 Resource Plugin with Direct Streaming
                             [<a href="{filename}/uploads/2020/James-iRODS-S3_Resource_Plugin_with_Direct_Streaming-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2020/James-iRODS-S3_Resource_Plugin_with_Direct_Streaming-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=2CKUfGejYuY&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
                             <em>Justin James - iRODS Consortium</em><br/>
@@ -134,7 +147,7 @@
                             <em>Ilari Korhonen - KTH Royal Institute of Technology</em><br/>
                             <div>
                                 <div class="abstract">
-                                At the PDC Center for High Performance Computing at KTH, in collaboration with our colleagues at the supercomputing center of Linköping University, we operate the iRODS-based section of the national research data storage for Sweden. We have a heterogeneous, asymmetric data grid based on iRODS with several underlying storage solutions and technologies. At PDC we have the performance tier of the system running on top of GPFS filesystems. Our GPFS cluster alongside the filesystems it is hosting, are due for an upgrade - since we would like to deploy the newest generation of GPFS (5.0.x) for its space efficiency and several other enhancements. For this we prepared by initially building the cluster with two physical filesystems to accomodate the envisioned upgrade and (online) data migrations. After the cluster has been upgraded to the latest software we will upgrade (reformat) the on-disk GPFS filesystems one at a time, migrating the data online between the filesystems via iRODS. All data will remain accessible at all times and users uninerrupted, not realizing their data objects have been migrated underneath. At this moment the first step of this operation has been done, i.e. the other physical filesystem has been drained of iRODS resources and those have been migrated to its pair. This was done via the asynchronous and parallel rule execution of iRODS 4.2.x with a set of custom rules developed with the iRODS Consortium. This enabled us to gain more parallelism of the system, not only with the parallel read/write performance of GPFS with iRODS parallel streams but also the checksumming of the migrated data objects in parallel, jobs being launched from the iRODS delay execution queue. The successes and challenges of this process are to be presented.
+                                At the PDC Center for High Performance Computing at KTH, in collaboration with our colleagues at the supercomputing center of Linköping University, we operate the iRODS-based section of the national research data storage for Sweden. We have a heterogeneous, asymmetric data grid based on iRODS with several underlying storage solutions and technologies. At PDC we have the performance tier of the system running on top of GPFS filesystems. Our GPFS cluster alongside the filesystems it is hosting, are due for an upgrade - since we would like to deploy the newest generation of GPFS (5.0.x) for its space efficiency and several other enhancements. For this we prepared by initially building the cluster with two physical filesystems to accommodate the envisioned upgrade and (online) data migrations. After the cluster has been upgraded to the latest software we will upgrade (reformat) the on-disk GPFS filesystems one at a time, migrating the data online between the filesystems via iRODS. All data will remain accessible at all times and users uninterrupted, not realizing their data objects have been migrated underneath. At this moment the first step of this operation has been done, i.e. the other physical filesystem has been drained of iRODS resources and those have been migrated to its pair. This was done via the asynchronous and parallel rule execution of iRODS 4.2.x with a set of custom rules developed with the iRODS Consortium. This enabled us to gain more parallelism of the system, not only with the parallel read/write performance of GPFS with iRODS parallel streams but also the checksumming of the migrated data objects in parallel, jobs being launched from the iRODS delay execution queue. The successes and challenges of this process are to be presented.
                                 </div>
                             </div>
 
@@ -150,7 +163,7 @@
                             [<a href="{filename}/uploads/2020/Rajasekar-UNC-Policy_Encapsulated_Objects-slides.pdf">slides</a>]
                             [<a href="https://www.youtube.com/watch?v=ooHdGNP6_LE&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
-                            <em>Arcot Rajasekar - University of North Carolin at Chapel Hill</em><br/>
+                            <em>Arcot Rajasekar - University of North Carolina at Chapel Hill</em><br/>
                             <div>
                                 <div class="abstract">
                                 With increasing movement of data objects across distributed and remote storage data objects lose their policies that were applied and used where they were generated, created or administered. When a file is moved from a local storage to a remote storage, all such metadata including metadata about ownership, creation, modification audit trail and security and permission information are not transferred. Moreover, all links to the original is lost and there is no lineage captured or maintained and as the data object gets copied and moved across multiple storages and modified at various stages the information about all these actions are not captured and is lost forever. Even policy-based data management systems, such as iRODS, that instrument policy enforcement points within the data management infrastructure and apply policies as computer actionable rules but do not control once the object is copied out of its domain. We propose the concept of a policy encapsulated object (PEO) that encodes policies that govern the life-cycle of a data object as part of the data payload and serve as a gatekeeper for the data. Also, to make the system self-contained we propose inclusion of an execution infrastructure (similar to the iRODS rule engine) which will run on top of any operating system and capture all lineage and administrative policies.
@@ -162,6 +175,7 @@
                             <br/>
                             Integration of iRODS with IBM Spectrum Archive Enterprise Edition - A flexible tiered storage archiving solution
                             [<a href="{filename}/uploads/2020/Haustein-IBM-iRODS_and_SpectrumArchive-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2020/Haustein-IBM-iRODS_and_SpectrumArchive-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=43cM8M4XMHw&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
                             <em>Nils Haustein - IBM European Storage Competence Center</em><br/>
@@ -342,6 +356,7 @@
                             <br/>
                             iRODS Client: NFSRODS 1.0
                             [<a href="{filename}/uploads/2020/Draughn-iRODS-NFSRODS_v1.0.0-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2020/Draughn-iRODS-NFSRODS_v1.0.0-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=Y_qp8n-fndY&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
                             <em>Kory Draughn - iRODS Consortium</em><br/>
@@ -365,7 +380,7 @@
                             <em>Jay Aikat - RENCI</em><br/>
 
                             <br/>
-                            iRODS Rule Engine Plugin – Hard Links 4.2.8.0
+                            iRODS Rule Engine Plugin: Hard Links 4.2.8.0
                             [<a href="{filename}/uploads/2020/Draughn-iRODS-Hard_Links_Rule_Engine_Plugin-slides.pdf">slides</a>]
                             [<a href="https://www.youtube.com/watch?v=XeJRYDuS7ns&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
@@ -450,6 +465,7 @@
                             <br/>
                             <em>Jonathon Anderson - University of Colorado Research Computing</em><br/>
                             <em>Kory Draughn - iRODS Consortium</em><br/>
+                            <em>Terrell Russell - iRODS Consortium</em><br/>
                             <div>
                                 <div class="abstract">
                                 University of Colorado Research Computing uses iRODS to provision space in its PetaLibrary/archive research data storage service. This storage is implemented as top-level collections and is sold at a $/TB/year rate. In our experience on other platforms, implementing storage allocations with user and/or group quotas leads to confusion, particularly when individual users have access to multiple discrete storage allocations, as ownership metadata falls out-of-sync from the logical spacial hierarchy of the file system. To provide more logical quotas atop the iRODS collection hierarchy, the iRODS logical quotas policy plugin tracks the logical size of a collection--calculated as the total size of all data objects nested within it--as collection-level metadata that is consulted before and updated after i/o. This allows us to place a logical size limit on a collection, more closely matching our end-users expectations of how storage allocations should behave. This talk covers our deployment experience and details about the plugin implementation.
@@ -474,6 +490,7 @@
                             <br/>
                             iRODS Client: AWS Lambda Function for S3 1.0
                             [<a href="{filename}/uploads/2020/Russell-iRODS-iRODS_Client_AWS_Lambda_Function_for_S3_1.0-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2020/Russell-iRODS-iRODS_Client_AWS_Lambda_Function_for_S3_1.0-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=HdnWGAcJd_4&list=PL29FhEN41mZPxeQLdPBYTq8Ze9yEDK0Tz">video</a>]
                             <br/>
                             <em>Terrell Russell - iRODS Consortium</em><br/>
