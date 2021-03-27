@@ -25,6 +25,6 @@ Consortium were doing with iRODS,” he said, “I knew right away that I
 wanted to come back and get involved.”
 
 Both Ben and Dan will be at the [iRODS User Group
-Meeting](http://irods.org/2014/04/irods-user-group-meeting/ "iRODS User Group Meeting")
+Meeting]({filename}/pages/ugm2014.html)
 in Cambridge, MA held June 18-19. Please welcome them to the team when
 you see them there.
