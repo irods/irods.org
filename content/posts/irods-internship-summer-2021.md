@@ -5,6 +5,8 @@ Slug: irods-internship-summer-2021
 Status: published
 
 
+**Update:**  This internship is open to international students, but may require some extra paperwork.  A US Bank account is highly recommended for candidates not in the United States.
+
 ## Join Us
 
 The iRODS Consortium is looking for qualified, motivated candidates for a paid, full-time, remote, summer internship (probably three months, June-August).  There is interesting work to be done in C++, Python, and Java.  We have brainstormed five separate projects, each appropriate for a summer of focus.  Each project is real work that we would like to have done and will be an important part of the iRODS ecosystem in the near future.
