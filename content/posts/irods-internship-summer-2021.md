@@ -5,7 +5,7 @@ Slug: irods-internship-summer-2021
 Status: published
 
 
-**Update:**  This internship is open to international students, but may require some extra paperwork.  A US Bank account is highly recommended for candidates not in the United States.
+**Update:**  This internship is open to international students, but would require extra paperwork.  A US Bank account is required for candidates not in the United States.
 
 ## Join Us
 
