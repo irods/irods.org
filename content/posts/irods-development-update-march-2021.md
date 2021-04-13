@@ -40,7 +40,7 @@ Zone Management Tool.
 
 
 
-### February Technology Working Group
+### March Technology Working Group
 
 - [4.2.9](https://github.com/irods/irods/milestone/35)
 
