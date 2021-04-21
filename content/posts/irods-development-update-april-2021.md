@@ -245,3 +245,11 @@ We have a month of development time left.  Heads down.
     - Member Ticketing System
 
 - Discussion
+    - S3 billing - use cases - cost/effort (Nirav)
+        - auditing?  Per dept, person, bucket, etc.
+        - BYOB - bring your own bucket
+            - store secrets in Hashicorp Vault?  AVU?  Delicate.
+    - BMS using internal AWS 'intelligent tiering' to save costs
+        - tagging to classify for who 'own's the data in the enterprise
+        - but don't currently charge back, directly
+    - possible panels / discussions at UGM
