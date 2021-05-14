@@ -1,44 +1,53 @@
-Title: iRODS Development Update: April 2021
-Date: 2021-04-20 21:00
+Title: iRODS Development Update: May 2021
+Date: 2021-05-14 14:00
 Author: Terrell Russell
-Slug: irods-development-update-april-2021
+Slug: irods-development-update-may-2021
 Status: published
 
 
-It's getting very real.  Just over six weeks until our [2021 iRODS User Group Meeting]({filename}/pages/ugm2021.html).
 
-We have a draft list of talks from the Consortium.  We have around 40 registrations (and counting).  We have
-T-shirts and stickers being printed.  It's all coming together... mostly.  4.2.9 will be ready.
+It's happening.  Release season is upon us.  4.2.9 is down to just the release notes and plugin testing.
+[NFSRODS](https://github.com/irods/irods_client_nfsrods) is nearing its release.  The
+[Python iRODS Client](https://github.com/irods/python-irodsclient) will be 1.0 soon.  The
+[iRODS Globus Connector](https://github.com/irods/irods_client_globus_connector) is out.
+[Metalnx](https://github.com/irods-contrib/metalnx-web) with gallery/icon view is landing imminently.
 
-4-2-stable has just seen write locks merged, along with additional cleanups for checksums and streaming overwrites.
-The delay server now honors a priority level for delayed jobs, along with honoring the delay time units as they were
-documented.  An atomic database operations library is under development that will allow one-stop resource hierarchy
-editing as well as a potential path forward for the [iRODS Lambda function](https://github.com/irods/irods_client_aws_lambda_s3)
-to increase its batch size (both increasing throughput and lowering cost).
+The release notes for 4.2.9 are covering nearly 300 issues, the most in a very long time.  As it turns out, that's
+what happens when new states (intermediate and locking) are added and everything needs to be refactored.
 
-[NFSRODS](https://github.com/irods/irods_client_nfsrods) now lists very large collections correctly (we had a paging bug),
-and with its additional caches, is under additional testing in larger environments.  We expect a major release at UGM again this year.
+The Technology Update at the [2021 Virtual iRODS User Group Meeting]({filename}/pages/ugm2021.html) will be very dense this year.
+Please make sure to register!
 
-We have a month of development time left.  Heads down.
+[The submission deadline is tomorrow]({filename}/pages/ugm2021/cfp.html) - send in your site reports, your integrations,
+your big plans, your strategic thinking about data management policy, we want to learn from everyone.  And also, remember the
+Best Student Technology Award - to be eligible, the student (from undergraduate to doctoral) must be a named author
+on the submission and present their work at the User Group Meeting.
+
+We're so close - hope everyone is safe.
 
 
-### April Technology Working Group
+
+### May Technology Working Group
 
 - [4.2.9](https://github.com/irods/irods/milestone/35)
 
-    - 33 bugs / 67 issues, 221 closed
+    - 15 bugs / 27 issues, 276 closed
     - intermediate replicas
     - logical locking
     - rule execution context (reiFiles) migrated to catalog
     - priority available to delayed rules
 
+- [4.2.10](https://github.com/irods/irods/milestone/36)
+
+    - 6 bugs / 11 open, 0 closed
+
 - [4.2 Backlog](https://github.com/irods/irods/milestone/34)
 
-    - 131 bugs / 242 open, 0 closed
+    - 136 bugs / 252 open, 0 closed
 
 - [4.3.0](https://github.com/irods/irods/milestone/16)
 
-    - 42 bugs / 112 open, 107 closed
+    - 38 bugs / 109 open, 109 closed
     - clang format
     - new logger (rsyslog or stdout)
     - irodsDelayServer refactoring / with implicit remote()
@@ -67,46 +76,37 @@ We have a month of development time left.  Heads down.
 
 - New Development Work
 
-    - re-enabled PLUSET delay time units
-    - imeta console fix
-    - fix for atomic metadata api encoding JSON within XML
-    - checksum API now reads up to r_data_main.data_size bytes
-    - istream read now reads up to r_data_main.data_size bytes
-    - put operations always honor the VERIFY_CHKSUM_KW flag
-    - ils now supports -d option, to not print contents of a collection
-    - delay server now honors priority level
-        - set via delay hint PRIORITY or via iqmod
-        - valid levels in range of 1 to 9 (default 5)
-        - grandfathered rules will get priority 5
-    - 4.2.9 Breaking Changes
-        - an overwrite will always erase the existing checksum
-        - an overwrite via put operation will no longer recalculate a checksum
-            - unless requested in the put operation
-    - new library under development for unrelated atomic database operations
-        - supports inserts, updates, and deletes
-        - supports data objects, collections, resources, and metadata
-        - currently generating proper SQL
-        - first use expected for new iadmin subcommand
-            - iadmin setparentresc
+    - delay server now honors priority level (range 1-9, default 5)
+    - ifsck does not terminate on sub-directory permission denied errors
+    - checksums are erased on overwrite of a replica
+        - checksums are not automatically updated on overwrite
+            - this is a breaking change
+    - checksums, if requested, will still be calculated and stored on failure
+        - to help identify different replicas
+    - considering having server absorb some specific queries
+        - some specific queries do not work on all supported databases
+            - found through the use of NFSRODS
 
 - Active Development Work
 
     - Build and Packaging
         - consistent / better use of CMake
         - portable iCommands (for non-root users)
-            - engineering PR to CyVerse and Sanger
+            - engineering build to CyVerse and Sanger
+            - should be ready with 4.2.9
+            - working to prepare manually for 4.2.8
 
     - [Zone Management Tool](https://github.com/irods/irods_client_zone_management_tool)
         - uses new C++ REST API
-        - connection status in footer
-        - user/group/resource editing is cleaner
         - readying for UGM
 
     - Logical Locking
-        - initial implementation for write lock interface nearing completion
-        - tightened up error/edge cases
-            - to ensure data objects do not get stuck in the lock state
-        - working on making the test suite pass
+        - write-lock implementation has landed - scoped by open and close
+        - locks also affect non-open operations such as unlink and rename
+        - tests continue to pass
+            - continuing to discover/think about/fix edge cases
+            - confidence increasing!
+        - some documentation has been written, continuing effort
 
     - New RPC API framework
         - leverages design from Authentication Working Group
@@ -124,41 +124,42 @@ We have a month of development time left.  Heads down.
         - full HDF5 support could come later
 
     - [Metalnx](https://github.com/irods-contrib/metalnx-web)
-        - pull request to support 'anonymous' login
+        - now supports anonymous login
         - working on gallery view (thumbnails) of collections
-        - working on elasticsearch consistency with irods_capability_indexing schema
-        - next release with search and indexing update
+        - resource names now displayed correctly
+        - error messages now honor configured download limit
+        - displays error message when deletion of a collection fails
+        - collection browser listing now sortable
         - awaiting CI
 
     - [C++-based REST API](https://github.com/irods/irods_client_rest_cpp)
         - working on packaging
         - being used by Zone Management Tool
+        - https://github.com/irods/irods_client_rest_cpp
+        - now in CI
 
     - C++ S3 API
         - working on packaging
         - part of new Data Transfer Nodes pattern
 
     - [Python iRODS Client (PRC)](https://github.com/irods/python-irodsclient)
+        - added parallel transfer (multithreaded put and get behavior)
+        - added ichksum-like functionality
+        - added queryable iRODS delay rule objects
+        - added temporary passwords (Paul van Schayck)
+        - JSON-oriented APIs must be binbytesbuf because of XML standard
+            - introduces no inefficiencies for the binary protocol
+            - means larger base64-encoded payloads when used from PRC
+        - more sane logging behavior
+        - refresh visibility of atomic metadata within the session that changed it
+        - true client/server isolation now possible for object registration tests
         - now in CI
 
     - [Streaming S3 Resource Plugin](https://github.com/irods/irods_resource_plugin_s3)
-        - continue testing scenario when S3 backend is overwhelmed
-            - added a max retry wait time during failure exponential backoff
-        - added timeout handling when writing to or reading from circular buffer
-        - updated libs3 to fix rename issue on Oracle S3
-        - added resource name to salt for shared memory key
-        - awaiting CI
+        - ready for 4.2.9
+        - now in CI
 
     - [NFSRODS](https://github.com/irods/irods_client_nfsrods)
-        - added connection caching
-        - iRODS permissions, user types, query results, all now cached
-        - large collections now listing correctly (fixed paging issue)
-        - improved list operation performance
-            - listing a collection with 500 entries... ~1 second
-            - listing a collection with 3000 entries... ~3-4 seconds
-            - listing a collection with 65000 entries... <5 minutes
-        - cached list operation performance
-            - all ~0.1 seconds
         - ready for 4.2.9
         - awaiting CI
 
@@ -192,6 +193,7 @@ We have a month of development time left.  Heads down.
         - clients
             - Python iRODS Client (PRC)
             - Jargon
+            - C++ REST API
         - clients (to be added)
             - baton/tears
             - automated ingest
@@ -209,7 +211,6 @@ We have a month of development time left.  Heads down.
             - Nestle R Client Library
             - Ceph RADOS resource plugin
             - CockroachDB database plugin
-            - QueryArrow database plugin
 
 - Background Items
 
@@ -234,6 +235,7 @@ We have a month of development time left.  Heads down.
         - future release
             - could brute-force confirm checksums to detect renames
             - would persist metadata
+        - could use atomic database operations to increase batch size > 1
     - [Unified Storage Tiering Capability](https://github.com/irods/irods_capability_storage_tiering)
     - Parallel Filesystem Integration
         - iRODS API plugin
@@ -245,11 +247,3 @@ We have a month of development time left.  Heads down.
     - Member Ticketing System
 
 - Discussion
-    - S3 billing - use cases - cost/effort (Nirav)
-        - auditing?  Per dept, person, bucket, etc.
-        - BYOB - bring your own bucket
-            - store secrets in Hashicorp Vault?  AVU?  Delicate.
-    - BMS using internal AWS 'intelligent tiering' to save costs
-        - tagging to classify for who 'own's the data in the enterprise
-        - but don't currently charge back, directly
-    - possible panels / discussions at UGM
