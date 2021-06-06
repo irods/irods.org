@@ -9,7 +9,7 @@ In a quick follow-up to last month's v0.9.0 release... the iRODS Consortium is p
 
 [https://github.com/irods/python-irodsclient/releases/tag/v1.0.0](https://github.com/irods/python-irodsclient/releases/tag/v1.0.0)
 
-The original implementation was by Chris La Rose and Michael Gatto at the iPlant Collaborative (now known as CyVerse) in 2013.
+The original implementation was by Chris LaRose and Michael Gatto at the iPlant Collaborative (now known as CyVerse) in 2013.
 
 The library was contributed in mid-2014 to the newly established iRODS Consortium and was taken over by Antoine de Torcy.  Antoine brought the library up to PyPI standards with modern packaging and maintained it through v0.7.0.
 
