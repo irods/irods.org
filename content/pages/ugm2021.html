@@ -1,390 +1,575 @@
 <title>ugm2021</title>
 <html>
 <body>
-    <section class="body-ugm-subpage">
+<section class="white_bg">
         <div class="container">
             <div class="space_half"></div>
             <div class="row" >
                 <div class="col-lg-12 text-center">
-                    <img src="{filename}/images/ugm2021-virtual-banner.png" style="width:80%;" alt="iRODS UGM 2021, Hosted by the Wellcome Sanger Institute, June 8-11, 2021">
+                    <h4><i class="fa fa-group"></i> <b>iRODS User Group Meeting 2021</b></h4>
                 </div>
             </div>
-            <div class="space_half"></div>
+            <hr class="light_small_centered_line">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+                <p>
+                <b>
+                Virtual<br />
+                Hosted by the Wellcome Sanger Institute<br/>
+                June 8 - June 11, 2021<br/>
+                </b>
+                </p>
 
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-center" >
-                <h4 class="light_font">June 8-11, 2021</h4>
-                <br />
-            </div>
+                <p>Original Agenda
+                    (<a href="{filename}/images/irods_ugm2021_agenda.pdf">pdf</a>)
+                </p>
 
-            <div>
-                <a href="https://forms.gle/bxD4a6DPYv5s7tRr9"><div class="btn btn-ugm">Register Now! FREE </div></a>
+
+                <h3>Group Photo</h3>
+
+                <p><img src="{filename}/uploads/2021/ugm2021_group_photo.png" width='300' /></p>
+
+                <h3>
+                Videos
+                </h3>
+
+<!--                <p><a href="https://www.flickr.com/photos/irods/albums/">Conference Photos hosted on Flickr</a></p> -->
+
+                <p><a href="https://www.youtube.com/playlist?list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">Conference Videos hosted on YouTube</a></p>
+
 <!--
-                <br />
-                <a href="https://bit.ly/irods-ugm-shirt"><div class="btn btn-ugm">Shirt and Swag Bag! $20 </div></a>
+                <h3>
+                Articles
+                </h3>
+                <p><a href="{filename}/uploads/2021/irods_ugm2021_proceedings.pdf">iRODS UGM 2021 Proceedings (PDF)</a></p>
+                <ul>
+                    <li><b>S3:TNG – iRODS S3 Resource Plugin with Direct Streaming</b><br/>
+                    Justin James, Kory Draughn, Jason Coposky, Terrell Russell – iRODS Consortium</li>
+                </ul>
+                <ul>
+                    <li><b>Integration of iRODS with IBM Spectrum Archive Enterprise Edition – A flexible tiered storage archiving solution</b><br/>
+                    Nils Haustein – IBM European Storage Competence Center<br/>
+                    Mauro Tridici – Euro-Mediterranean Center on Climate Change (CMCC)</li>
+                </ul>
 -->
+
+                <h3>
+                Presentations (June 8)
+                </h3>
+
+                            <hr/>
+
+                            <br/>
+                            iRODS UGM 2021 Keynote - 12 years of iRODS: What we've learned and what's next
+                            [<a href="{filename}/uploads/2021/Clapham-Sanger-UGM2021_Keynote-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=Thv9dcq0e0E&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Peter Clapham - Wellcome Sanger Institute</em><br/>
+
+                            <br/>
+                            Consortium Update
+                            [<a href="{filename}/uploads/2021/Coposky-iRODS-UGM2021_Consortium_Update-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=hKZ7C0R6bns&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Jason Coposky - iRODS Consortium</em><br/>
+
+                            <br/>
+                            Technology Update
+                            [<a href="{filename}/uploads/2021/Russell-iRODS-UGM2021_Technology_Update-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=KmvCd9nGQEQ&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Terrell Russell - iRODS Consortium</em><br/>
+                            <em>Kory Draughn - iRODS Consortium</em><br/>
+                            <em>Justin James - iRODS Consortium</em><br/>
+
+                            <br/>
+                            Logical Locking
+                            [<a href="{filename}/uploads/2021/King-iRODS-Logical_Locking-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=NdL53e0wCV4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Alan King - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                iRODS 4.2.9 introduces Logical Locking by providing additional replica status values within the catalog. Previously, replicas in iRODS could only be marked 'good' or 'stale'. This did not capture the states of when data was in flight, or incomplete. This talk will explain the new intermediate and locked states for iRODS replicas and how they are used to provide protection from uncoordinated writes into the system.
+                                </div>
+                            </div>
+
+                            <br/>
+                            The Research Data Management System at the University of Groningen: architecture, solution engines, and challenges
+                            [<a href="{filename}/uploads/2021/Tsyganov-Stoica-Strikwerda-UnivGroningen-Research_Data_Management_System_at_Univ_of_Groningen_Architecture_Solution_Engines_and_Challenges-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=cO5d-V4GfLU&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>A. Tsyganov, S. Stoica, M. Babai, V. Soancatl-Aguilar, J. McFarland, G. Strikwerda, M. Klein, V. Boxelaar, A. Pothaar, C. Marocico, J. van den Buijs - University of Groningen</em><br/>
+                            <div>
+                                <div class="abstract">
+                                RUG Research Data Management System (RugRDMS) is powered by iRODS. It is developed at the University of Groningen to store, share data and allow collaborative research projects. The system is developed based on open source solutions, providing access to the stored data by means of command line, webdav and a web-based graphical user interface.
+                                <br /><br />
+                                The system provides a number of key functionalities and technical solutions such as metadata templates management, data policies, data provenance and audit. It uses some of the existing iRODS functionalities and tools like the iRODS audit plugin to track the data operations or the iRODS Python rule-engine to implement a set of custom developed rules. It allows users to configure and tune metadata templates for different research areas. Furthermore, iRODS rule-based facilities and archiving tools have been implemented to automate metadata extraction on demand and allow long term storage on tape drives. In addition an engine of custom system policies that is used for data handling has been developed. The engine provides a flexible environment on top of the current iRODS rules. Data replication on the storage level guarantees full data recovery.
+                                <br /><br />
+                                The system is accessible via the local HPC facilities and provides a landing zone to support data to compute. The architectural design of the system allows both vertical and horizontal scalability with the potential of unifying different iRODS installations and facilities.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Automating Data Management Flows with iRODS and Globus
+                            [<a href="{filename}/uploads/2021/Vasiliadis-Globus-Automating_Data_Management_Flows_with_iRODS_and_Globus-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=GO_MKFy5zXQ&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Vas Vasiliadis - University of Chicago</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Major research instruments operating at ever higher resolutions are generating orders of magnitude more data in relatively short timeframes. As a result, the research enterprise is increasingly challenged by what should be mundane tasks: describing data for downstream discovery and making the data accessible (often with appropriate access controls) to the broader research community. The ad hoc methods currently employed place undue burden on scientists and system administrators alike, and it is clear that a more robust, scalable approach is required.
+                                <br /><br />
+                                The Globus platform-as-a-service (PaaS) and, specifically, the Globus Flows service is increasingly used to easily build and execute automated data flows in this context. We will describe how Globus platform services may be used in conjunction with iRODS's robust storage capabilities to facilitate automated flows that: (a) stage data to intermediate storage, (b) extract and ingest metadata into an index for downstream discovery, and (c) manage access permissions to allow secure sharing of the data with collaborators. We will use a Jupyter notebook to demonstrate how Globus services are combined in this scenario, providing attendees with actionable code that may be easily repurposed for their needs. We will also illustrate how such an automated flow can feed into downstream data portals, science gateways, and data commons, enabling search and discovery of data by the broader community.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client: iRODS Globus Connector
+                            [<a href="{filename}/uploads/2021/James-iRODS-Globus_Connector-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=Dy28C5MpVQc&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Justin James - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The iRODS Globus Connector has recently been released and provides connectivity between Globus endpoints and iRODS storage. This talk will explore the work required to port the GridFTP Data Storage Interface (DSI) into the new Globus Connect ecosystem.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS and NetCDF Updates
+                            [<a href="{filename}/uploads/2021/Moore-iRODS-NetCDF_Updates-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=sy5zLvTATk4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Daniel Moore - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                This talk will cover recent changes to the iRODS NetCDF API plugins, iCommands, and microservices. This is ongoing work and we are interested to hear about current and potential use cases with this technology.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Frictionless Data for iRODS
+                            [<a href="{filename}/uploads/2021/Tyrrell-Earlham-Frictionless_Data_for_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=Gz8gT7jgYc4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Simon Tyrrell, Xingdong Bian, Robert P. Davey - Earlham Institute</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The international wheat community has embraced the omics era and is producing larger and more heterogeneous datasets at a rapid pace in order to produce better varieties via breeding programmes. These programmes, especially in the pre-breeding space, have encouraged wheat communities to make these datasets available more openly. This is a positive step, but the consistent and standardised collection and dissemination of data based on rich metadata remains difficult, as so much of this information is stored in papers and supplementary information. Furthermore, whilst ontologies exist for data descriptions, e.g. the Environmental Factor Ontology, the Crop Ontology, etc., use of these ontology terms to annotate key development characteristics across disparate data generation methods and growing sites is rarely routine or harmonised. Therefore, we built Grassroots, an infrastructure including portals to deliver large scale datasets with semantically marked-up metadata to power FAIR data in crop research.
+                                <br /><br />
+                                As an integral component of the Grassroots Infrastructure, we use iRODS as the data management layer. Our Apache module, mod_eirods_dav (1) exposes iRODS data and metadata based upon open standards. To promote data reuse, and to allow for easy downstream analysis, we have added extra fully-configurable functionality to mod_eirods_dav to allow for automatic generation of Frictionless Data Packages (2) from the iRODS data and metadata with support for both the Data Resource and Tabular Data Resource Frictionless standards.
+                                <br /><br />
+                                Grassroots is open source and available on GitHub. More information can be found at https://grassroots.tools
+                                <br /><br />
+                                [1] https://github.com/billyfish/eirods-dav<br />
+                                [2] https://frictionlessdata.io
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS and Observability
+                            [<a href="{filename}/uploads/2021/Rajasekar-UNC-iRODS_and_Observability-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=B7acZbub9Ls&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Arcot Rajasekar - The University of North Carolina at Chapel Hill</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Observability is an emerging practice for measuring and interpreting the pulse of complex and distributed software systems. Software developers and IT teams need to understand when and why there is an abnormal behavior, how to mitigate that within a short time. With the acceleration of complexity, scale, and dynamic architectures coupled with automatic software patching, malicious intrusions and system breakdowns, high throughput systems need more than to react to events but proactively predict and mitigate anomalous behavior before it happened. Challenges due to multiple combinations of things going wrong, and sympathetic reinforcements of faults can make it hard to track how errors are manifesting and how a system is behaving. Observability couples the ability to capture runtime telemetry with a visual and reasoning system that can detect and pinpoint abnormal behavior deep in the system before it can affect the performance of the whole system. Introduced first in control theory, observability is a measure of how well internal states of a system can be inferred by knowledge of its external outputs. The iRODS software system is not only a very complex and dynamic system it is also being increasingly deployed with other complex software on distributed infrastructures that rely on its high throughput and reliability. An introduction to the concept of observability in iRODS would be very helpful for making sure that a deployed iRODS installation is operating in an optimal manner. Moreover, with observability built into iRODS, one can find operational anomalies in systems that are relying on iRODS and help mitigate them. The iRODS system already has a very strong measurement capability through its logging. Enhancing its capability with tracing, session replay, learning and analysis systems that can provide actionable insight would take iRODS to the next level of performance and resilience. In this talk, we look at various ways one can enhance iRODS to become a highly 'observable' system.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS and NIEHS Environmental Health Science
+                            [<a href="{filename}/uploads/2021/Conway-Patel-NIEHS-iRODS_and_NIEHS_Environmental_Health_Science-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=kMFvIZB4Eks&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Mike Conway, Deep Patel - NIEHS / NIH</em><br/>
+                            <div>
+                                <div class="abstract">
+                                NIEHS continues to leverage iRODS and has contributed to two important capabilities, indexing/pluggable search and pluggable publication. This talk will demonstrate both of these capabilities and describe how others can make use of these techniques for their own search and publishing use cases.
+                                <br /><br />
+                                NIEHS will feature work on integrating search with the standard file and metadata indexing capability and describe how targeted search features are easily added.
+                                <br /><br />
+                                NIEHS will feature work on publishing and demonstrate how iRODS data collections and metadata can be published to the GEO repository.
+                                <br /><br />
+                                NIEHS will feature the ability to publish DRS (Data Repository Service) bundles and serve them through a GA4GH-compliant Data Repository Service interface.
+                                <br /><br />
+                                NIEHS will also discuss the NIH Gen3 platform and highlight opportunities and features of interest in the areas of rich metadata, metadata templates, and authorization and authentication via NIH Data Passport standards.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Go-iRODSClient, iRODS FUSE Lite, and iRODS CSI Driver: Accessing iRODS in Kubernetes
+                            [<a href="{filename}/uploads/2021/Choi-CyVerse-Go-iRODSClient_iRODS_FUSE_Lite_and_iRODS_CSI_Driver_Accessing_iRODS_in_Kubernetes-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=rTOnNl7T6zo&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Illyoung Choi, John Hartman, Edwin Skidmore - CyVerse / University of Arizona</em><br/>
+                            <div>
+                                <div class="abstract">
+                                As developers are increasingly adopting the cloud-native paradigm for application development, Kubernetes has become the dominant platform for orchestrating their cloud-native services. To facilitate iRODS access in Kubernetes, we developed an iRODS CSI (Container Storage Interface) Driver. The driver provides on-demand data access using multiple connectivity modes to the iRODS server and exposes a file system interface to Kubernetes pods, thereby allowing cloud-native services to access iRODS without manually staging data within the containers. In this paper, we introduce the design and functionalities of the iRODS CSI Driver. In addition, we introduce two sub-projects: Go-iRODSClient and iRODS FUSE Lite. The Go-iRODSClient is an iRODS client library written in pure Golang for improved portability. The iRODS FUSE Lite is a complementary FUSE-based iRODS storage backend to the iRODS CSI Driver that is implemented using the Go-iRODSClient to provide improved performance and enhanced capabilities compared to iRODS FUSE. We expect the Go-iRODSClient, the iRODS FUSE Lite, and the iRODS CSI Driver to be indispensable tools for integrating iRODS into cloud-native applications.
+                                </div>
+                            </div>
+
+                <h3>
+                Presentations (June 9)
+                </h3>
+
+                            <hr/>
+
+                            <br/>
+                            Deep Dive into Ceph and how to use it for iRODS
+                            [<a href="{filename}/uploads/2021/Abukalam-SoftIron-Deep_Dive_into_Ceph_and_how_to_use_it_for_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=3Iw2LRLo-ts&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Danny Abukalam - SoftIron</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Ceph is the leading open source software defined storage solution. As an extremely portable and flexible solution it's an ideal approach to deploying and provisioning a one-size fits all storage solution within your data center.
+                                <br /><br />
+                                In this talk I will provide a brief overview of Ceph, how it compares to other SDS solutions, new features and developments in recent releases, and different approaches for deployment.
+                                <br /><br />
+                                I will also cover how it integrates with iRODS.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Archiving off-line and beyond, using the BagIt format and the bdbag library
+                            [<a href="{filename}/uploads/2021/Cacciari-SURF-Archiving_Off-line_and_Beyond_Using_the_BagIt_Format_and_the_bdbag_Library-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=sXUVvjDnrCA&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Claudio Cacciari, Arthur Newton - SURF</em><br/>
+                            <div>
+                                <div class="abstract">
+                                SURF, the cooperative association of Dutch educational and research institutions, offers a wide range of services for different phases in the life cycle of research data, including the long term preservation resource, based on a tape library. That storage resource is offered as a standalone service, but also through iRODS and it is optimized for files with a size of the order of magnitude of one gigabyte. A common need of the researchers is to use the long term preservation resource within iRODS as part of a seamless multi-tier data flow, however moving many small files to that resource would deteriorate the performance of the tape library, therefore they have to package them together in bigger files, using tar, zip or other formats. This can be done using the icommand ibun, manually or automated via iRODS rules.
+                                <br /><br />
+                                That solution is still lacking in many aspects. For example, the operation is synchronous, so in case of many users or many files, the system could be overloaded, potentially exposing the service to denial of service attacks. The metadata are not part of the package, both the system level ones, like checksums, and the user defined, therefore, if restored at a later point in time, the collection would miss important information. Naturally all these features can be implemented with iRODS rules, but it would still be a custom implementation, the more it grows in complexity the harder it is to maintain. For these reasons we decided to explore an alternative path which is the main topic of this presentation: offloading the package management (creation, checksum computation, compression) to an external library compliant with the standard BagIt format, using the rules to implement only the data staging and the asynchronous mechanism.
+                                <br /><br />
+                                We argue that our approach can be extended beyond the archiving flow. It can be viewed as a way to export and import data and metadata of collections in a consistent way between iRODS and other services, among which the tape library is just one, but others can be included such as publishing tools, data repositories, data clouds, etc. Moreover, the library we use, bdbag, would support further extensions. For example, it allows to create packages containing only the metadata and pointers to the real data, which could be considered virtual packages that can be exported without moving the real data, but rather delegating the real data transfer to the user client. Or, also, it supports the definition and validation of profiles on top of the basic BagIt structure, which formalize complex package structures making them shareable and discoverable.
+                                </div>
+                            </div>
+
+                            <br/>
+                            A transnational data system for HPC/Cloud-Computing Workflows based on iRODS/EUDAT
+                            [<a href="{filename}/uploads/2021/Golasowski-Hayek-Ostrava-Leibniz-Transnational_Data_System_for_HPC_Cloud_Computing_Workflows_based_on_iRODS_EUDAT-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=P9k8abZUArI&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Martin Golasowski - IT4Innovations, VŠB – Technical University of Ostrava</em><br/>
+                            <em>Mohamad Hayek, Rubén J. García-Hernández – Leibniz Supercomputing Centre</em><br/>
+                            <div>
+                                <div class="abstract">
+                                In this contribution, we present a transnational iRODS federation as a backend for distributed computational/Big Data workflows from science and industry. This system, the "LEXIS Distributed Data Infrastructure (DDI)", has been built in the project "Large-Scale EXecution for Industry and Society" (LEXIS, H 2020 GA 825532). It makes use of EUDAT B2SAFE, B2HANDLE, and B2STAGE on top of iRODS, to support a variety of use cases, starting with the three LEXIS Pilots: Simulations in Aeronautics Engineering, Earthquake/Tsunami Analysis, and Weather and Climate Prediction. Our presentation covers different aspects of setting up this system, from system to high-level concepts. We layout our experience in setting up a version of HAIRS (High-Availability iRODS System, cf. contributions of Kawai et al. to this meeting series), where we adapted the concept, and of installing EUDAT modules on top of it to provide the functionalities required within LEXIS. Afterward, we lay out our approach to integrating the iRODS system with the LEXIS platform, based on providing REST APIs to control and address the data system. These REST APIs are mostly custom LEXIS developments, based on conventional programming interfaces (e.g. python client) available for iRODS. Finally, we give a short status and outlook on the application of the system, and further aspects of our project interesting for the iRODS community (e.g., authentication via OpenID Connect with adaptation to Keycloak, collection structure of the iRODS system and backend systems, as also described in LEXIS publications).
+                                </div>
+                            </div>
+
+                            <br/>
+                            Hierarchical indexes of large file systems and iRODS
+                            [<a href="{filename}/uploads/2021/Braam-ThinkParQ-Hierarchical_Indexes_of_Large_File_Systems_and_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=BJKBt_GCDPw&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Peter Braam - ThinkParQ</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Understanding the content of high-performance file systems encounters at least two major challenges. First, the number of items in such file systems now regularly exceeds a billion items and can be much larger. Scanning such file systems is very time-consuming. Secondly, the rate at which content can be added to such parallel file systems can easily exceed the rate at which change events can be digested.
+                                <br /><br />
+                                During the rise of campaign storage and independently also seen in the APFS file system, a few hierarchical content indices were promoted. Such systems can provide a logarithmic search for items with particular properties and may be a useful intermediary between iRODS and extreme file systems.
+                                <br /><br />
+                                In this lecture, I will give an overview of this approach, what has been implemented, and some of the open questions in this area.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Herons, Yaks and Technical Debt - 2020 at Sanger
+                            [<a href="{filename}/uploads/2021/Constable-Sanger-Herons_Yaks_and_Technical_Debt_2020_at_Sanger-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=QfbfedotmJg&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>John Constable - Wellcome Sanger Institute</em><br/>
+                            <div>
+                                <div class="abstract">
+                                In 2020 the Informatics Systems Group at Sanger had a challenge - get the iRODS estate up to a supported, patched, latest reasonable version, both application and Operating System.
+                                <br /><br />
+                                It also had another challenge - move 8PB off of ageing hardware to new equipment, preferably with no user disruption. Of course, we had to add a few more PB of capacity, too.
+                                <br /><br />
+                                While that was going on, we also planned to deploy Proof Of Concepts on the Indexing plugin, NFSRODS and the MetalNX GUI. Replacing the HA system seemed a good idea too. Oh yes, and we should probably catch up on our backlog.
+                                <br /><br />
+                                Did we mention this all had to happen while supporting the science of sequencing this COVID thing (you may not have heard of it)?
+                                <br /><br />
+                                Come along to hear all the war stories, and be prepared to count Yaks and Unicorns.
+                                </div>
+                            </div>
+
+                            <br/>
+                            SPONSOR MESSAGE
+                            [<a href="https://www.youtube.com/watch?v=ZmR4Yq9C8bs&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Ashok Krishnamurthy - RENCI</em><br/>
+
+                            <br/>
+                            iRODS Policy Composition
+                            [<a href="{filename}/uploads/2021/Coposky-iRODS-Policy_Composition-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=2bgg54DEmnc&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Jason Coposky - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                This talk will demonstrate the updates made to policy composition from last year's introduction.  The code is now real and does what was promised.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client Library: Python iRODS Client 1.0
+                            [<a href="{filename}/uploads/2021/Moore-iRODS-Python_iRODS_Client_1.0-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=JDq7D20Wfcc&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Daniel Moore - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                This talk will cover the last year's updates to the Python iRODS Client. These include additional coverage of the iRODS API, better authentication options and connection handling, atomic metadata manipulation, and parallel transfer.
+                                </div>
+                            </div>
+
+                            <br/>
+                            A Year of iRODS: Lessons Learned
+                            [<a href="{filename}/uploads/2021/BarcenaRoig-KULeuven-A_Year_of_iRODS_Lessons_Learned-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=ydt7BS4ODwE&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Ingrid Barcena Roig - KU Leuven</em><br/>
+                            <div>
+                                <div class="abstract">
+                                A year ago the VSC Tier-1 Data service was launched. The primary goal of this service is to offer the Flemish researchers a platform to manage research data that is being processed using the VSC High Performance Computing infrastructure. iRODS was selected as basis for this service to facilitate the way the researchers create, manage, share and reuse research data.
+                                <br /><br />
+                                The first year the platform was in a pilot phase with a reduced number of research groups from different domains (Climate Change studies, Humanities and Arts, Life science, Technology, …).
+                                <br /><br />
+                                This talk will present the lessons we have learned in this first year designing, implementing and managing an iRODS based platform. The current status of the project, including some of the use cases that are already using the platform and the future plans will also be presented.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Policy: Read-only local analysis staging policy for BRAIN-I
+                            [<a href="{filename}/uploads/2021/Russell-iRODS-Read-Only_Local_Analysis_Staging_Policy_for_BRAIN-I-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=Fvr2KB3Cqog&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Terrell Russell - iRODS Consortium</em><br/>
+                            <em>Michelle Itano, Jason Stein, Oleh Krupa - University of North Carolina at Chapel Hill</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The BRAIN-I project, a collaboration to image and study mouse brains between the Renaissance Computing Institute (RENCI) and the UNC Neuroscience Microscopy Core (NMC) at the UNC Neuroscience Center at the UNC-Chapel Hill School of Medicine, has been working on policy to allow researchers to do local analysis of data that is already under management by iRODS. This talk will explain the design decisions, the policy that was developed and deployed, and how it works alongside the rest of the BRAIN-I configuration.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Panel - Storage Chargeback: Policy and Pricing
+                            [<a href="https://www.youtube.com/watch?v=qXjeIeF-FTA&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Nirav Merchant - CyVerse / University of Arizona</em><br/>
+                            <em>Pete Clapham - Wellcome Sanger Institute</em><br/>
+                            <em>Jason Coposky - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Storage offerings from third parties (including cloud providers) have made significant inroads in the last few years. Many clients and customers may now request to bring their own storage into an existing managed software stack or environment. This panel will discuss the opportunities, the costs, and the complexities involved in servicing these types of requests.
+                                </div>
+                            </div>
+
+                <h3>
+                Presentations (June 10)
+                </h3>
+
+                            <hr/>
+
+                            <br/>
+                            XtreemStore - Scalable Object Store Software for Archive Medium Tape
+                            [<a href="{filename}/uploads/2021/Wolf-GRAUDATA-XtreemStore_Scalable_Object_Store_Software_for_Archive_Medium_Tape-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=9w0oHvIUTLA&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Christian Wolf - GRAU DATA</em><br/>
+                            <div>
+                                <div class="abstract">
+                                This talk will cover the technology (object storage with S3 interface to tape) and existing use cases for XtreemStore as well as recent work to certify against iRODS 4.2.7 and the iRODS S3 storage resource plugin.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Refactoring Kanki - Towards a Modern Native iRODS Client Implementation
+                            [<a href="{filename}/uploads/2021/Korhonen-KTH-Refactoring_Kanki_Towards_a_Modern_Native_iRODS_Client_Implementation-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=BR22T95X2Og&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Ilari Korhonen - KTH Royal Institute of Technology</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The latest developments in the Kanki project are presented, i.e the recent work which has been carried out in collaboration with the iRODS consortium for both the modernizing of the Kanki CMake build environment and the refactoring of the code base for the next generation of iRODS client APIs. Many of the old fully C-compatible constructs have now been replaced and/or wrapped with object-oriented C++17 interfaces while enabling RAII. The simultaneous iRODS connections are now being pooled into connection pools, from which worker threads (instantiated from thread pools) can reserve their exclusive comms channel to an iRODS agent and perform client-side RPCs asynchronously. This enables Kanki to become a fully parallel-tasking high-performance iRODS client unlocking more and more of the new parallelism found in later iRODS versions.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Retrospective: Migrating Yoda from the PHP iRODS client to the Python iRODS client
+                            [<a href="{filename}/uploads/2021/Westerhof-UtrechtUniv-Retrospective_Migrating_Yoda_from_the_PHP_iRODS_Client_to_the_Python_iRODS_Client-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=M8vXnWD1kC4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Lazlo Westerhof - Utrecht University</em><br/>
+                            <div>
+                                <div class="abstract">
+                                At the UGM 2018, we presented Yoda, a system for reliable, long-term storing and archiving large amounts of FAIR research data during all stages of a study. Yoda deploys iRODS as its core component, customized with more than 10,000 lines of iRODS rules. With the iRODS Python rule engine plugin, we rewrote most of our rules to Python and developed an API for the Yoda web portal. Meanwhile the Yoda web portal was still communicating with iRODS trough the PHP client. This is the story of migrating the Yoda web portal from the PHP to the Python iRODS client.
+                                </div>
+                            </div>
+
+
+                            <br/>
+                            Leveraging iRODS for Scientific Applications in AWS Cloud
+                            [<a href="{filename}/uploads/2021/Konduri-Khavich-BMS-Leveraging_iRODS_for_Scientific_Applications_in_AWS_Cloud-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=t69MP5vRAGE&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Radha Konduri, Dmitry Khavich - Bristol Myers Squibb</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Advanced digital microscopes have revolutionized biology and pharmaceutical research, generating massive volumes of files like images, including 3D and time series data. But scientists can't study what they can't measure. The need to quantify biological characteristics, such as cell count, or to calculate metrics such as drug occupancy, has driven a need to seamlessly ingest, annotate, share, analyze and archive image datasets. Our projects seek to make image datasets easily discoverable, accessible, transformable, and analyzable, and to ensure that numeric datasets derived from image datasets are easily transferable to downstream data analysis platforms.
+                                <br /><br />
+                                Objectives: On-demand instrument data search and retrieval; Phenotypic feature measurement, analysis and zero manual intervention required to move images or metadata; Instrument files not locked in siloed analysis platforms; Image formats are globally readable; Image feature measures can be integrated and compared; Files origin / provenance available; Ability to annotate images and features; File data set transparency or visibility / no duplicated effort; Image data sets actionable.
+                                <br /><br />
+                                BMS took the approach to implement the integrated Rule Oriented Data System (iRODS) to ingest, validate, and assign metadata to instrument file datasets, to provide provenance, and to make file datasets discoverable and actionable. Enable storage of numeric datasets as attributes of imaging datasets and make available for downstream processing.
+                                <br /><br />
+                                Projects – Immuno-Oncology Cellular Therapy (IOCT), Discovery Imaging Platform (DIP)
+                                </div>
+                            </div>
+
+                            <br/>
+                            iCommands Userspace Packaging
+                            [<a href="{filename}/uploads/2021/Kitsinger-iRODS-iCommands_Userspace_Packaging-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=3qTf1iJfH4s&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Markus Kitsinger - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Since iRODS 4.2.0, the iCommands have been harder to deploy in HPC environments due to the packaged nature of the releases. Non-package-install builds were possible, but not very portable for administrators to provide binaries for their users. This talk will cover the work done to provide extractable userspace builds of the iCommands.
+                                </div>
+                            </div>
+
+                            <br/>
+                            Towards a scaled system for ingest, analysis, manipulation, and deployment of multiple HEVC streams with HPC and iRODS
+                            [<a href="{filename}/uploads/2021/Wade-IntegralEngineering-Towards_Scaled_System_Ingest_Analysis_Manipulation_Deployment_Multiple_HEVC_Streams_HPC_and_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=rbLpOQ0ANMg&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>David Wade - Integral Engineering</em><br/>
+                            <div>
+                                <div class="abstract">
+                                High End Video Codec (HEVC) streams, at 4K, 8K, and 16K pixels per frame (perhaps arising from autonomous mobile agents, at the 96 frames per second necessary for potential 3D Virtual viewing) provoke real concerns of scalability, both for performance and throughput, if they are to be ingested, analyzed, manipulated, and deployed at scale for multiple dozens, hundreds, or thousands of streams simultaneously. If analysis across multiple frames in a stream, across multiple streams, and/or conditioning (as in on-the-fly editing of frames in and out from multiple streams) are to become desirable, the existing networks, processors, memory, and data management schemes are likely to be insufficient.
+                                <br /><br />
+                                From COTS High Performance Computing design techniques, software and hardware for ingest and analysis, and employing iRODS as a data system control, we propose a design scalable to the potential demands of intelligent agents which must observe and report across such a large domain of HEVC inputs.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client: C++ REST API
+                            [<a href="{filename}/uploads/2021/Coposky-iRODS-C_Plus_Plus_REST_API-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=tQPQqBXR-Xw&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Jason Coposky - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The iRODS C++ REST API has been discussed for years, but is now ready to show to others. This presentation will explore the different aspects of what is possible with the REST API today and invite discussion about what else it may need.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client: NFSRODS 2.0
+                            [<a href="{filename}/uploads/2021/Draughn-iRODS-NFSRODS_2.0-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=niVY7hOm0OY&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Kory Draughn, Terrell Russell - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                NFSRODS has been updated to version 2.0 and now provides significant performance improvements and caching capabilities. This talk will cover what has changed and future work.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client: Zone Management Tool (ZMT)
+                            [<a href="{filename}/uploads/2021/Zhou-iRODS-Zone_Management_Tool_ZMT-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=jO7pyG1Am28&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Bo Zhou, Jason Coposky, Terrell Russell - iRODS Consortium</em><br/>
+                            <div>
+                                <div class="abstract">
+                                The iRODS Zone Management Tool (ZMT) is a new client that uses the iRODS C++ REST API. It has a design goal of handling the administrative side of running an iRODS Zone (managing users/groups/resources, etc.). This talk will introduce the ZMT, current status, and future work.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Client: Metalnx 2.4.0 with GalleryView
+                            [<a href="{filename}/uploads/2021/Zhou-iRODS-Metalnx_2.4.0_with_GalleryView-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=fQRiK-wmcgY&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Bo Zhou, Kory Draughn, Jason Coposky, Terrell Russell - iRODS Consortium</em><br/>
+                            <em>Mike Conway - NIEHS / NIH</em><br/>
+                            <div>
+                                <div class="abstract">
+                                Metalnx 2.4.0 includes a new view when browsing iRODS Collections. This view displays thumbnails for images within a particular Collection. This talk will describe the process of adding this view to the client as well as explaining the server-side rule that provides the thumbnail information.
+                                </div>
+                            </div>
+
+                            <br/>
+                            iRODS Development Team Q&A
+                            [<a href="https://www.youtube.com/watch?v=PZ6GW6ppBU4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>iRODS Development Team</em><br/>
+
+                            <br/>
+                            Lightning Talk - Log centralisation with rsyslog and the elasticstack and how Sanger use it to identify issues before they are reported
+                            [<a href="{filename}/uploads/2021/Hartley-Sanger-Log_Centralisation_rsyslog_Elasticstack_How_Sanger_Identifies_Issues_Before_Reported-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=HnKJO7BdDZc&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Brett Hartley - Wellcome Sanger Institute</em><br/>
+
+                            <br/>
+                            Lightning Talk - ii: command line utilities for iRODS
+                            [<a href="{filename}/uploads/2021/Snel-UtrechUniv-ii_Command_Line_Utilities_for_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=IjT0Of2U-KM&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Sietse Snel - Utrecht University</em><br/>
+
+                            <br/>
+                            Lightning Talk - iRODS Parallel Transfer Between Python Client and S3 Storage
+                            [<a href="{filename}/uploads/2021/James-Moore-iRODS-Parallel_Transfer_Between_Python_Client_and_S3_Storage-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=eNnJecHgkwM&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Justin James, Daniel Moore - iRODS Consortium</em><br/>
+
+                            <br/>
+                            Lightning Talk - NFSRODS deployment and performance tuning at Sanger
+                            [<a href="{filename}/uploads/2021/Constable-Sanger-NFSRODS_Deployment_and_Performance_Tuning-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=h7NvAQRsICg&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>John Constable - Wellcome Sanger Institute</em><br/>
+
+                            <br/>
+                            Lightning Talk - Golang iRODS Web Frontend
+                            [<a href="{filename}/uploads/2021/Verraedt-KULeuven-Golang_iRODS_Web_Frontend-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=5ESOK9gdScg&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Peter Verraedt - KU Leuven</em><br/>
+
+                            <br/>
+                            Lightning Talk - Just Stand It Up
+                            [<a href="https://www.youtube.com/watch?v=Be1R-WPNrc4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Kory Draughn - iRODS Consortium</em><br/>
+
+                            <br/>
+                            Lightning Talk - Towards a Cloud Native iRODS
+                            [<a href="{filename}/uploads/2021/Coposky-iRODS-Towards_a_Cloud_Native_iRODS-slides.pdf">slides</a>]
+                            [<a href="https://www.youtube.com/watch?v=21WzOYN5oFE&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Jason Coposky - iRODS Consortium</em><br/>
+
+                            <br/>
+                            UGM2021 Closing Remarks
+                            [<a href="https://www.youtube.com/watch?v=iIrWn3julKI&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
+                            <br/>
+                            <em>Peter Clapham - Wellcome Sanger Institute</em><br/>
+
+                            <br/>
+                            <br/>
+
             </div>
-
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-                <br/><br/>
-                The 13th Annual iRODS User Group Meeting is your chance to meet iRODS users, Consortium members, and staff to discuss iRODS-enabled applications and discoveries, technologies powered by iRODS, and the future of iRODS and the iRODS Consortium.
-                <br><br>
-                We will host 25+ presentations from the user community and the core development team, including use case presentations, live demonstrations, and open discussions about requested iRODS features. We anticipate an audience of 150 participants representing dozens of academic, government, and commercial institutions.
-                <br><br>
-                This year's virtual event will be a collection of pre-recorded and live talks with discussion.
-            </div>
-            <div class="space_half"></div>
-            <h4 class="light_font">Sponsors</h4>
-            <hr class="small_centered_line_ugm">
-            <div class="space_half"></div>
-            <div class="col-lg-12 text-center">
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"></div>
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/memberlogos/wellcome-sanger-institute.svg" class="member_logo"><hr class="phone_show"></div>
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/renci_logo_white.png" class="member_logo"><hr class="phone_show"></div>
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"></div>
-            </div>
-            <div class="col-lg-12 text-center">
-                <div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/globus_logo_white.png" class="member_logo"><hr class="phone_show"></div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/grau_data_logo_white.png" class="member_logo"><hr class="phone_show"></div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/memberlogos/softiron.svg" class="member_logo"><hr class="phone_show"></div>
-            </div>
-            <div class="space_quart"></div>
-            <div class="col-lg-12 text-center">
-                <div class="space_quart"></div>
-                Special thanks to our virtual host this year, the Wellcome Sanger Institute.
-            </div>
-            <div class="space_half"></div>
-            <div class="col-lg-offset-2 col-lg-8">
-                <h4 class="light_font" id="training">iRODS Troubleshooting</h4>
-                <hr class="small_centered_line_ugm">
-            </div>
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-                On Friday, June 11, we will host an iRODS Troubleshooting session where participants can get some one-on-one help with an existing or planned iRODS installation or integration.
-                <br><br>
-            </div>
-            <div class="space_half"></div>
-            <div class="col-lg-offset-2 col-lg-8" >
-                <h4 class="light_font">Pricing</h4>
-                <hr class="small_centered_line_ugm">
-            </div>
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-                <ul class="list-unstyled">
-                    <li><b>USER GROUP MEETING:</b></li>
-                    <ul>
-                        <li><a href="https://forms.gle/bxD4a6DPYv5s7tRr9">FREE - Register Now!</a></li>
-                        <li>Start Date: Tuesday, June 8</li>
-                        <li>End Date: Thursday, June 10</li>
-                        <li>iRODS Troubleshooting: Friday, June 11</li>
-                    </ul>
-                    <br/>
-                    <li><b>T-Shirt and swag bag:</b></li>
-                    <ul>
-                        <li>$20</li>
-                        <li>T-Shirt and swag bag shipped to you</li>
-                    </ul>
-                </ul>
-            </div>
-            <div class="space_half"></div>
-            <div class="col-lg-offset-2 col-lg-8" >
-                <h4 class="light_font">Key Dates</h4>
-                <hr class="small_centered_line_ugm">
-            </div>
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-                <ul class="list-unstyled">
-                    <ul>
-                        <li>
-                            May 15: Deadline for Abstracts for Talks/Papers
-                        </li>
-                        <li>
-                            June 11: Deadline for Papers
-                        </li>
-                    </ul>
-                </ul>
-            </div>
-            <div class="space phone_hide"></div>
-
-
-            <div class="space_half"></div>
-            <div class="col-lg-offset-2 col-lg-8" >
-                <h4 class="light_font" id="talks">Accepted Talks</h4>
-                <hr class="small_centered_line_ugm">
-            </div>
-
-            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-
-                <p><a href="{filename}/images/irods_ugm2021_agenda.pdf">Current Agenda (pdf)</a></p>
-                <br/>
-
-                <b>iRODS UGM 2021 Keynote -- 12 Years of iRODS at Sanger: What we've learned and what's next</b><br/>
-                Pete Clapham<br/>
-                Wellcome Sanger Institute<br/>
-                <br/>
-
-                <b>iRODS Logical Locking</b><br/>
-                Alan King<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    iRODS 4.2.9 introduces Logical Locking by providing additional replica status values within the catalog. Previously, replicas in iRODS could only be marked 'good' or 'stale'. This did not capture the states of when data was in flight, or incomplete. This talk will explain the new intermediate and locked states for iRODS replicas and how they are used to provide protection from uncoordinated writes into the system.
-                </div>
-
-                <b>The Research Data Management System at the University of Groningen: architecture, solution engines, and challenges</b><br/>
-                A. Tsyganov, S. Stoica, M. Babai, V. Soancatl-Aguilar, J. McFarland, G. Strikwerda, M. Klein, V. Boxelaar, A. Pothaar, C. Marocico, J. van den Buijs<br/>
-                University of Groningen<br/>
-                <div class="abstract">
-                    RUG Research Data Management System (RugRDMS) is powered by iRODS. It is developed at the University of Groningen to store, share data and allow collaborative research projects. The system is developed based on open source solutions, providing access to the stored data by means of command line, webdav and a web-based graphical user interface.
-                    <br /><br />
-                    The system provides a number of key functionalities and technical solutions such as metadata templates management, data policies, data provenance and audit. It uses some of the existing iRODS functionalities and tools like the iRODS audit plugin to track the data operations or the iRODS Python rule-engine to implement a set of custom developed rules. It allows users to configure and tune metadata templates for different research areas. Furthermore, iRODS rule-based facilities and archiving tools have been implemented to automate metadata extraction on demand and allow long term storage on tape drives. In addition an engine of custom system policies that is used for data handling has been developed. The engine provides a flexible environment on top of the current iRODS rules. Data replication on the storage level guarantees full data recovery.
-                    <br /><br />
-                    The system is accessible via the local HPC facilities and provides a landing zone to support data to compute. The architectural design of the system allows both vertical and horizontal scalability with the potential of unifying different iRODS installations and facilities.
-                </div>
-
-                <b>Automating Data Management Flows with iRODS and Globus</b><br/>
-                Vas Vasiliadis<br/>
-                University of Chicago<br/>
-                <div class="abstract">
-                    Major research instruments operating at ever higher resolutions are generating orders of magnitude more data in relatively short timeframes. As a result, the research enterprise is increasingly challenged by what should be mundane tasks: describing data for downstream discovery and making the data accessible (often with appropriate access controls) to the broader research community. The ad hoc methods currently employed place undue burden on scientists and system administrators alike, and it is clear that a more robust, scalable approach is required.
-                    <br /><br />
-                    The Globus platform-as-a-service (PaaS) and, specifically, the Globus Flows service is increasingly used to easily build and execute automated data flows in this context. We will describe how Globus platform services may be used in conjunction with iRODS's robust storage capabilities to facilitate automated flows that: (a) stage data to intermediate storage, (b) extract and ingest metadata into an index for downstream discovery, and (c) manage access permissions to allow secure sharing of the data with collaborators. We will use a Jupyter notebook to demonstrate how Globus services are combined in this scenario, providing attendees with actionable code that may be easily repurposed for their needs. We will also illustrate how such an automated flow can feed into downstream data portals, science gateways, and data commons, enabling search and discovery of data by the broader community.
-                </div>
-
-                <b>iRODS Client: iRODS Globus Connector</b><br/>
-                Justin James<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    The iRODS Globus Connector has recently been released and provides connectivity between Globus endpoints and iRODS storage. This talk will explore the work required to port the GridFTP Data Storage Interface (DSI) into the new Globus Connect ecosystem.
-                </div>
-
-                <b>iRODS and NetCDF Updates</b><br/>
-                Daniel Moore<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    This talk will cover recent changes to the iRODS NetCDF API plugins, iCommands, and microservices. This is ongoing work and we are interested to hear about current and potential use cases with this technology.
-                </div>
-
-                <b>Frictionless Data for iRODS</b><br/>
-                Simon Tyrrell, Xingdong Bian, Robert P. Davey<br/>
-                Earlham Institute<br/>
-                <div class="abstract">
-                    The international wheat community has embraced the omics era and is producing larger and more heterogeneous datasets at a rapid pace in order to produce better varieties via breeding programmes. These programmes, especially in the pre-breeding space, have encouraged wheat communities to make these datasets available more openly. This is a positive step, but the consistent and standardised collection and dissemination of data based on rich metadata remains difficult, as so much of this information is stored in papers and supplementary information. Furthermore, whilst ontologies exist for data descriptions, e.g. the Environmental Factor Ontology, the Crop Ontology, etc., use of these ontology terms to annotate key development characteristics across disparate data generation methods and growing sites is rarely routine or harmonised. Therefore, we built Grassroots, an infrastructure including portals to deliver large scale datasets with semantically marked-up metadata to power FAIR data in crop research.
-                    <br /><br />
-                    As an integral component of the Grassroots Infrastructure, we use iRODS as the data management layer. Our Apache module, mod_eirods_dav (1) exposes iRODS data and metadata based upon open standards. To promote data reuse, and to allow for easy downstream analysis, we have added extra fully-configurable functionality to mod_eirods_dav to allow for automatic generation of Frictionless Data Packages (2) from the iRODS data and metadata with support for both the Data Resource and Tabular Data Resource Frictionless standards.
-                    <br /><br />
-                    Grassroots is open source and available on GitHub. More information can be found at https://grassroots.tools
-                    <br /><br />
-                    [1] https://github.com/billyfish/eirods-dav<br />
-                    [2] https://frictionlessdata.io
-                </div>
-
-                <b>Leveraging iRODS for Scientific Applications in AWS Cloud</b><br/>
-                Radha Konduri, Dmitry Khavich<br/>
-                Bristol Myers Squibb<br/>
-                <div class="abstract">
-                    Advanced digital microscopes have revolutionized biology and pharmaceutical research, generating massive volumes of files like images, including 3D and time series data. But scientists can't study what they can't measure. The need to quantify biological characteristics, such as cell count, or to calculate metrics such as drug occupancy, has driven a need to seamlessly ingest, annotate, share, analyze and archive image datasets. Our projects seek to make image datasets easily discoverable, accessible, transformable, and analyzable, and to ensure that numeric datasets derived from image datasets are easily transferable to downstream data analysis platforms.
-                    <br /><br />
-                    Objectives: On-demand instrument data search and retrieval; Phenotypic feature measurement, analysis and zero manual intervention required to move images or metadata; Instrument files not locked in siloed analysis platforms; Image formats are globally readable; Image feature measures can be integrated and compared; Files origin / provenance available; Ability to annotate images and features; File data set transparency or visibility / no duplicated effort; Image data sets actionable.
-                    <br /><br />
-                    BMS took the approach to implement the integrated Rule Oriented Data System (iRODS) to ingest, validate, and assign metadata to instrument file datasets, to provide provenance, and to make file datasets discoverable and actionable. Enable storage of numeric datasets as attributes of imaging datasets and make available for downstream processing.
-                    <br /><br />
-                    Projects – Immuno-Oncology Cellular Therapy (IOCT), Discovery Imaging Platform (DIP)
-                </div>
-
-                <b>iRODS and NIEHS Environmental Health Science</b><br/>
-                Mike Conway, Deep Patel<br/>
-                NIEHS / NIH<br/>
-                <div class="abstract">
-                    NIEHS continues to leverage iRODS and has contributed to two important capabilities, indexing/pluggable search and pluggable publication. This talk will demonstrate both of these capabilities and describe how others can make use of these techniques for their own search and publishing use cases.
-                    <br /><br />
-                    NIEHS will feature work on integrating search with the standard file and metadata indexing capability and describe how targeted search features are easily added.
-                    <br /><br />
-                    NIEHS will feature work on publishing and demonstrate how iRODS data collections and metadata can be published to the GEO repository.
-                    <br /><br />
-                    NIEHS will feature the ability to publish DRS (Data Repository Service) bundles and serve them through a GA4GH-compliant Data Repository Service interface.
-                    <br /><br />
-                    NIEHS will also discuss the NIH Gen3 platform and highlight opportunities and features of interest in the areas of rich metadata, metadata templates, and authorization and authentication via NIH Data Passport standards.
-                </div>
-
-                <b>Go-iRODSClient, iRODS FUSE Lite, and iRODS CSI Driver: Accessing iRODS in Kubernetes</b><br/>
-                Illyoung Choi, John Hartman, Edwin Skidmore<br/>
-                CyVerse / University of Arizona<br/>
-                <div class="abstract">
-                    As developers are increasingly adopting the cloud-native paradigm for application development, Kubernetes has become the dominant platform for orchestrating their cloud-native services. To facilitate iRODS access in Kubernetes, we developed an iRODS CSI (Container Storage Interface) Driver. The driver provides on-demand data access using multiple connectivity modes to the iRODS server and exposes a file system interface to Kubernetes pods, thereby allowing cloud-native services to access iRODS without manually staging data within the containers. In this paper, we introduce the design and functionalities of the iRODS CSI Driver. In addition, we introduce two sub-projects: Go-iRODSClient and iRODS FUSE Lite. The Go-iRODSClient is an iRODS client library written in pure Golang for improved portability. The iRODS FUSE Lite is a complementary FUSE-based iRODS storage backend to the iRODS CSI Driver that is implemented using the Go-iRODSClient to provide improved performance and enhanced capabilities compared to iRODS FUSE. We expect the Go-iRODSClient, the iRODS FUSE Lite, and the iRODS CSI Driver to be indispensable tools for integrating iRODS into cloud-native applications.
-                </div>
-
-                <b>Deep Dive into Ceph and how to use it for iRODS</b><br/>
-                Danny Abukalam<br/>
-                SoftIron<br/>
-                <div class="abstract">
-                    Ceph is the leading open source software defined storage solution. As an extremely portable and flexible solution it's an ideal approach to deploying and provisioning a one-size fits all storage solution within your data center.
-                    <br /><br />
-                    In this talk I will provide a brief overview of Ceph, how it compares to other SDS solutions, new features and developments in recent releases, and different approaches for deployment.
-                    <br /><br />
-                    I will also cover how it integrates with iRODS.
-                </div>
-
-                <b>Archiving off-line and beyond, using the BagIt format and the bdbag library</b><br/>
-                Claudio Cacciari, Arthur Newton<br/>
-                SURF<br/>
-                <div class="abstract">
-                    SURF, the cooperative association of Dutch educational and research institutions, offers a wide range of services for different phases in the life cycle of research data, including the long term preservation resource, based on a tape library. That storage resource is offered as a standalone service, but also through iRODS and it is optimized for files with a size of the order of magnitude of one gigabyte. A common need of the researchers is to use the long term preservation resource within iRODS as part of a seamless multi-tier data flow, however moving many small files to that resource would deteriorate the performance of the tape library, therefore they have to package them together in bigger files, using tar, zip or other formats. This can be done using the icommand ibun, manually or automated via iRODS rules.
-                    <br /><br />
-                    That solution is still lacking in many aspects. For example, the operation is synchronous, so in case of many users or many files, the system could be overloaded, potentially exposing the service to denial of service attacks. The metadata are not part of the package, both the system level ones, like checksums, and the user defined, therefore, if restored at a later point in time, the collection would miss important information. Naturally all these features can be implemented with iRODS rules, but it would still be a custom implementation, the more it grows in complexity the harder it is to maintain. For these reasons we decided to explore an alternative path which is the main topic of this presentation: offloading the package management (creation, checksum computation, compression) to an external library compliant with the standard BagIt format, using the rules to implement only the data staging and the asynchronous mechanism.
-                    <br /><br />
-                    We argue that our approach can be extended beyond the archiving flow. It can be viewed as a way to export and import data and metadata of collections in a consistent way between iRODS and other services, among which the tape library is just one, but others can be included such as publishing tools, data repositories, data clouds, etc. Moreover, the library we use, bdbag, would support further extensions. For example, it allows to create packages containing only the metadata and pointers to the real data, which could be considered virtual packages that can be exported without moving the real data, but rather delegating the real data transfer to the user client. Or, also, it supports the definition and validation of profiles on top of the basic BagIt structure, which formalize complex package structures making them shareable and discoverable.
-                </div>
-
-                <b>A transnational data system for HPC/Cloud-Computing Workflows based on iRODS/EUDAT</b><br/>
-                Martin Golasowski, Mohamad Hayek, Rubén J. García-Hernández<br/>
-                IT4Innovations, VŠB – Technical University of Ostrava<br/>
-                Leibniz Supercomputing Centre<br/>
-                <div class="abstract">
-                    In this contribution, we present a transnational iRODS federation as a backend for distributed computational/Big Data workflows from science and industry. This system, the "LEXIS Distributed Data Infrastructure (DDI)", has been built in the project "Large-Scale EXecution for Industry and Society" (LEXIS, H 2020 GA 825532). It makes use of EUDAT B2SAFE, B2HANDLE, and B2STAGE on top of iRODS, to support a variety of use cases, starting with the three LEXIS Pilots: Simulations in Aeronautics Engineering, Earthquake/Tsunami Analysis, and Weather and Climate Prediction. Our presentation covers different aspects of setting up this system, from system to high-level concepts. We layout our experience in setting up a version of HAIRS (High-Availability iRODS System, cf. contributions of Kawai et al. to this meeting series), where we adapted the concept, and of installing EUDAT modules on top of it to provide the functionalities required within LEXIS. Afterward, we lay out our approach to integrating the iRODS system with the LEXIS platform, based on providing REST APIs to control and address the data system. These REST APIs are mostly custom LEXIS developments, based on conventional programming interfaces (e.g. python client) available for iRODS. Finally, we give a short status and outlook on the application of the system, and further aspects of our project interesting for the iRODS community (e.g., authentication via OpenID Connect with adaptation to Keycloak, collection structure of the iRODS system and backend systems, as also described in LEXIS publications).
-                </div>
-
-                <b>A Year of iRODS: Lessons Learned</b><br/>
-                Ingrid Barcena Roig<br/>
-                KU Leuven<br/>
-                <div class="abstract">
-                    A year ago the VSC Tier-1 Data service was launched. The primary goal of this service is to offer the Flemish researchers a platform to manage research data that is being processed using the VSC High Performance Computing infrastructure. iRODS was selected as basis for this service to facilitate the way the researchers create, manage, share and reuse research data.
-                    <br /><br />
-                    The first year the platform was in a pilot phase with a reduced number of research groups from different domains (Climate Change studies, Humanities and Arts, Life science, Technology, …).
-                    <br /><br />
-                    This talk will present the lessons we have learned in this first year designing, implementing and managing an iRODS based platform. The current status of the project, including some of the use cases that are already using the platform and the future plans will also be presented.
-                </div>
-
-                <b>Herons, Yaks and Technical Debt - 2020 at Sanger</b><br/>
-                John Constable<br/>
-                Wellcome Sanger Institute<br/>
-                <div class="abstract">
-                    In 2020 the Informatics Systems Group at Sanger had a challenge - get the iRODS estate up to a supported, patched, latest reasonable version, both application and Operating System.
-                    <br /><br />
-                    It also had another challenge - move 8PB off of ageing hardware to new equipment, preferably with no user disruption. Of course, we had to add a few more PB of capacity, too.
-                    <br /><br />
-                    While that was going on, we also planned to deploy Proof Of Concepts on the Indexing plugin, NFSRODS and the MetalNX GUI. Replacing the HA system seemed a good idea too. Oh yes, and we should probably catch up on our backlog.
-                    <br /><br />
-                    Did we mention this all had to happen while supporting the science of sequencing this COVID thing (you may not have heard of it)?
-                    <br /><br />
-                    Come along to hear all the war stories, and be prepared to count Yaks and Unicorns.
-                </div>
-
-                <b>iRODS Policy Composition</b><br/>
-                Jason Coposky<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    This talk will demonstrate the updates made to policy composition from last year's introduction.  The code is now real and does what was promised.
-                </div>
-
-                <b>iRODS Client Library: Python iRODS Client 1.0</b><br/>
-                Daniel Moore<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    This talk will cover the last year's updates to the Python iRODS Client. These include additional coverage of the iRODS API, better authentication options and connection handling, atomic metadata manipulation, and parallel transfer.
-                </div>
-
-                <b>Hierarchical indexes of large file systems and iRODS</b><br/>
-                Peter Braam<br/>
-                ThinkParQ<br/>
-                <div class="abstract">
-                    Understanding the content of high-performance file systems encounters at least two major challenges. First, the number of items in such file systems now regularly exceeds a billion items and can be much larger. Scanning such file systems is very time-consuming. Secondly, the rate at which content can be added to such parallel file systems can easily exceed the rate at which change events can be digested.
-                    <br /><br />
-                    During the rise of campaign storage and independently also seen in the APFS file system, a few hierarchical content indices were promoted. Such systems can provide a logarithmic search for items with particular properties and may be a useful intermediary between iRODS and extreme file systems.
-                    <br /><br />
-                    In this lecture, I will give an overview of this approach, what has been implemented, and some of the open questions in this area.
-                </div>
-
-                <b>iRODS Policy: Read-only local analysis staging policy for BRAIN-I</b><br/>
-                Terrell Russell, Michelle Itano, Jason Stein, Oleh Krupa<br/>
-                iRODS Consortium<br/>
-                The University of North Carolina at Chapel Hill<br/>
-                <div class="abstract">
-                    The BRAIN-I project, a collaboration to image and study mouse brains between the Renaissance Computing Institute (RENCI) and the UNC Neuroscience Microscopy Core (NMC) at the UNC Neuroscience Center at the UNC-Chapel Hill School of Medicine, has been working on policy to allow researchers to do local analysis of data that is already under management by iRODS. This talk will explain the design decisions, the policy that was developed and deployed, and how it works alongside the rest of the BRAIN-I configuration.
-                </div>
-
-                <b>Panel - Storage Chargeback: Policy and Pricing</b><br/>
-                Nirav Merchant, Pete Clapham, Jason Coposky<br/>
-                CyVerse / University of Arizona<br/>
-                Wellcome Sanger Institute<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    Storage offerings from third parties (including cloud providers) have made significant inroads in the last few years. Many clients and customers may now request to bring their own storage into an existing managed software stack or environment. This panel will discuss the opportunities, the costs, and the complexities involved in servicing these types of requests.
-                </div>
-
-                <b>iRODS Client: C++ REST API</b><br/>
-                Jason Coposky<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    The iRODS C++ REST API has been discussed for years, but is now ready to show to others. This presentation will explore the different aspects of what is possible with the REST API today and invite discussion about what else it may need.
-                </div>
-
-                <b>XtreemStore - Scalable Object Store Software for Archive Medium Tape</b><br/>
-                Christian Wolf<br/>
-                GRAU DATA<br/>
-                <div class="abstract">
-                    This talk will cover the technology (object storage with S3 interface to tape) and existing use cases for XtreemStore as well as recent work to certify against iRODS 4.2.7 and the iRODS S3 storage resource plugin.
-                </div>
-
-                <b>Refactoring Kanki - Towards a Modern Native iRODS Client Implementation</b><br/>
-                Ilari Korhonen<br/>
-                KTH Royal Institute of Technology<br/>
-                <div class="abstract">
-                    The latest developments in the Kanki project are presented, i.e the recent work which has been carried out in collaboration with the iRODS consortium for both the modernizing of the Kanki CMake build environment and the refactoring of the code base for the next generation of iRODS client APIs. Many of the old fully C-compatible constructs have now been replaced and/or wrapped with object-oriented C++17 interfaces while enabling RAII. The simultaneous iRODS connections are now being pooled into connection pools, from which worker threads (instantiated from thread pools) can reserve their exclusive comms channel to an iRODS agent and perform client-side RPCs asynchronously. This enables Kanki to become a fully parallel-tasking high-performance iRODS client unlocking more and more of the new parallelism found in later iRODS versions.
-                </div>
-
-                <b>Retrospective: Migrating Yoda from the PHP iRODS client to the Python iRODS client</b><br/>
-                Lazlo Westerhof<br/>
-                Utrecht University<br/>
-                <div class="abstract">
-                    At the UGM 2018, we presented Yoda, a system for reliable, long-term storing and archiving large amounts of FAIR research data during all stages of a study. Yoda deploys iRODS as its core component, customized with more than 10,000 lines of iRODS rules. With the iRODS Python rule engine plugin, we rewrote most of our rules to Python and developed an API for the Yoda web portal. Meanwhile the Yoda web portal was still communicating with iRODS trough the PHP client. This is the story of migrating the Yoda web portal from the PHP to the Python iRODS client.
-                </div>
-
-                <b>iRODS and Observability</b><br/>
-                Arcot Rajasekar<br/>
-                The University of North Carolina at Chapel Hill<br/>
-                <div class="abstract">
-                    Observability is an emerging practice for measuring and interpreting the pulse of complex and distributed software systems. Software developers and IT teams need to understand when and why there is an abnormal behavior, how to mitigate that within a short time. With the acceleration of complexity, scale, and dynamic architectures coupled with automatic software patching, malicious intrusions and system breakdowns, high throughput systems need more than to react to events but proactively predict and mitigate anomalous behavior before it happened. Challenges due to multiple combinations of things going wrong, and sympathetic reinforcements of faults can make it hard to track how errors are manifesting and how a system is behaving. Observability couples the ability to capture runtime telemetry with a visual and reasoning system that can detect and pinpoint abnormal behavior deep in the system before it can affect the performance of the whole system. Introduced first in control theory, observability is a measure of how well internal states of a system can be inferred by knowledge of its external outputs. The iRODS software system is not only a very complex and dynamic system it is also being increasingly deployed with other complex software on distributed infrastructures that rely on its high throughput and reliability. An introduction to the concept of observability in iRODS would be very helpful for making sure that a deployed iRODS installation is operating in an optimal manner. Moreover, with observability built into iRODS, one can find operational anomalies in systems that are relying on iRODS and help mitigate them. The iRODS system already has a very strong measurement capability through its logging. Enhancing its capability with tracing, session replay, learning and analysis systems that can provide actionable insight would take iRODS to the next level of performance and resilience. In this talk, we look at various ways one can enhance iRODS to become a highly 'observable' system.
-                </div>
-
-                <b>Towards a scaled system for ingest, analysis, manipulation, and deployment of multiple HEVC streams with HPC and iRODS</b><br/>
-                David Wade<br/>
-                Integral Engineering<br/>
-                <div class="abstract">
-                    High End Video Codec (HEVC) streams, at 4K, 8K, and 16K pixels per frame (perhaps arising from autonomous mobile agents, at the 96 frames per second necessary for potential 3D Virtual viewing) provoke real concerns of scalability, both for performance and throughput, if they are to be ingested, analyzed, manipulated, and deployed at scale for multiple dozens, hundreds, or thousands of streams simultaneously. If analysis across multiple frames in a stream, across multiple streams, and/or conditioning (as in on-the-fly editing of frames in and out from multiple streams) are to become desirable, the existing networks, processors, memory, and data management schemes are likely to be insufficient.
-                    <br /><br />
-                    From COTS High Performance Computing design techniques, software and hardware for ingest and analysis, and employing iRODS as a data system control, we propose a design scalable to the potential demands of intelligent agents which must observe and report across such a large domain of HEVC inputs.
-                </div>
-
-                <b>iCommands Userspace Packaging</b><br/>
-                Markus Kitsinger<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    Since iRODS 4.2.0, the iCommands have been harder to deploy in HPC environments due to the packaged nature of the releases. Non-package-install builds were possible, but not very portable for administrators to provide binaries for their users. This talk will cover the work done to provide extractable userspace builds of the iCommands.
-                </div>
-
-                <b>iRODS Client: NFSRODS 2.0</b><br/>
-                Kory Draughn, Terrell Russell<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    NFSRODS has been updated to version 2.0 and now provides significant performance improvements and caching capabilities. This talk will cover what has changed and future work.
-                </div>
-
-                <b>iRODS Client: Zone Management Tool (ZMT)</b><br/>
-                Bo Zhou, Jason Coposky, Terrell Russell<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    The iRODS Zone Management Tool (ZMT) is a new client that uses the iRODS C++ REST API. It has a design goal of handling the administrative side of running an iRODS Zone (managing users/groups/resources, etc.). This talk will introduce the ZMT, current status, and future work.
-                </div>
-
-                <b>iRODS Client: Metalnx 2.4.0 with GalleryView</b><br/>
-                Bo Zhou, Kory Draughn, Jason Coposky, Terrell Russell, Mike Conway<br/>
-                iRODS Consortium<br/>
-                NIEHS / NIH<br/>
-                <div class="abstract">
-                    Metalnx 2.4.0 includes a new view when browsing iRODS Collections. This view displays thumbnails for images within a particular Collection. This talk will describe the process of adding this view to the client as well as explaining the server-side rule that provides the thumbnail information.
-                </div>
-
-            </div>
-
-            <div class="space"></div>
-
         </div>
-    </section>
+</section>
 </body>
 </html>
