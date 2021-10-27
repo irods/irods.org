@@ -15,7 +15,7 @@ We also implemented a prototype of the S3 Ticket Booth. After some discussion an
 
 Support for Amazon Glacier is now available in the [S3 Resource Plugin](https://github.com/irods/irods_resource_plugin_s3) so give that a look if you find that interesting.
 
-The [iRODS Testing Environment](https://github.com/irods/irods_testing_environment) is growing support for SSL. This effort lead to some investigation around federation and negotiation keys. This project continues to help improve the stability and correctness of the iRODS server and clients.
+The [iRODS Testing Environment](https://github.com/irods/irods_testing_environment) is growing support for SSL. This effort led to some investigation around federation and negotiation keys. This project continues to help improve the stability and correctness of the iRODS server and clients.
 
 Progress has been made on iRODS v4.3.0 as well. Administrators will no longer need to manage multiple configuration files! All server configuration files have been consolidated into a single file, server_config.json. As for new features, the Atomic Database API is awaiting final approval. We are working hard to get 4.3 ready for UGM 2022 so keep an eye out for that.
 
@@ -223,20 +223,17 @@ The future continues to be very bright for iRODS users. See you next month!
         - single binary
         - eventual replacement for ~50 iCommands
         - ls/put/get/rm/cp/repl/query
-        - https://github.com/irods/irods_client_cli
 
     - [Logical Quotas](https://github.com/irods/irods_rule_engine_plugin_logical_quotas)
 
     - [Hard Links Rule Engine Plugin](https://github.com/irods/irods_rule_engine_plugin_hard_links)
         - awaiting more use cases before release
-        - https://github.com/irods/irods_rule_engine_plugin_hard_links
 
     - [AWS S3 Lambda](https://github.com/irods/irods_client_aws_lambda_s3)
         - future release
             - could brute-force confirm checksums to detect renames
             - would persist metadata
         - could use atomic database operations to increase batch size > 1
-        - https://github.com/irods/irods_client_aws_lambda_s3
 
     - [Unified Storage Tiering Capability](https://github.com/irods/irods_capability_storage_tiering)
 
