@@ -36,21 +36,56 @@
 
                 <p><a href="https://www.youtube.com/playlist?list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">Conference Videos hosted on YouTube</a></p>
 
-<!--
                 <h3>
                 Articles
                 </h3>
                 <p><a href="{filename}/uploads/2021/irods_ugm2021_proceedings.pdf">iRODS UGM 2021 Proceedings (PDF)</a></p>
                 <ul>
-                    <li><b>S3:TNG – iRODS S3 Resource Plugin with Direct Streaming</b><br/>
-                    Justin James, Kory Draughn, Jason Coposky, Terrell Russell – iRODS Consortium</li>
+                    <li><b>iRODS Logical Locking</b><br/>
+                    Alan King, Terrell Russell, Kory Draughn, Jason Coposky - iRODS Consortium</li>
                 </ul>
                 <ul>
-                    <li><b>Integration of iRODS with IBM Spectrum Archive Enterprise Edition – A flexible tiered storage archiving solution</b><br/>
-                    Nils Haustein – IBM European Storage Competence Center<br/>
-                    Mauro Tridici – Euro-Mediterranean Center on Climate Change (CMCC)</li>
+                    <li><b>The Research Data Management System at the University of Groningen: architecture, solution engines, and challenges</b><br/>
+                    A. Tsyganov, S. Stoica, M. Babai, V. Soancatl-Aguilar, J. McFarland, G. Strikwerda, M. Klein, V. Boxelaar, A. Pothaar, C. Marocico, J. van den Buijs - University of Groningen</li>
                 </ul>
--->
+                <ul>
+                    <li><b>Grassroots Enhancements for iRODS</b><br/>
+                    Simon Tyrrell, Xingdong Bian, Robert P. Davey - Earlham Institute</li>
+                </ul>
+                <ul>
+                    <li><b>A Prolegomenon for Improving Observability in iRODS</b><br/>
+                    Arcot Rajasekar - University of North Carolina at Chapel Hill</li>
+                </ul>
+                <ul>
+                    <li><b>Issues in Data Sharing for Environmental Health</b><br/>
+                    Mike Conway, Deep Patel - NIEHS / NIH</li>
+                </ul>
+                <ul>
+                    <li><b>Go-iRODSClient, iRODS FUSE Lite, and iRODS CSI Driver: Accessing iRODS in Kubernetes</b><br/>
+                    Illyoung Choi, John H. Hartman, Edwin Skidmore - CyVerse / University of Arizona</li>
+                </ul>
+                <ul>
+                    <li><b>A transnational data system for HPC/Cloud-Computing Workflows based on iRODS/EUDAT</b><br/>
+                    Martin Golasowski - IT4Innovations, VŠB - Technical University of Ostrava<br/>
+                    Mohamad Hayak, Rubén J. García-Hernández - Leibniz Supercomputing Centre</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Policy: Read-only local analysis staging policy for BRAIN-I</b><br/>
+                    Terrell Russell - iRODS Consortium<br/>
+                    Michelle Itano, Jason Stein, Oleh Krupa - University of North Carolina at Chapel Hill</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Client: C++ REST API</b><br/>
+                    Jason Coposky, Terrell Russell - iRODS Consortium</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Client: NFSRODS 2.0</b><br/>
+                    Kory Draughn, Terrell Russell - iRODS Consortium</li>
+                </ul>
+                <ul>
+                    <li><b>iRODS Client: Zone Management Tool (ZMT)</b><br/>
+                    Bo Zhou, Jason Coposky, Terrell Russell - iRODS Consortium</li>
+                </ul>
 
                 <h3>
                 Presentations (June 8)
@@ -82,11 +117,11 @@
                             <em>Justin James - iRODS Consortium</em><br/>
 
                             <br/>
-                            Logical Locking
+                            iRODS Logical Locking
                             [<a href="{filename}/uploads/2021/King-iRODS-Logical_Locking-slides.pdf">slides</a>]
                             [<a href="https://www.youtube.com/watch?v=NdL53e0wCV4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
-                            <em>Alan King - iRODS Consortium</em><br/>
+                            <em>Alan King, Terrell Russell, Kory Draughn, Jason Coposky - iRODS Consortium</em><br/>
                             <div>
                                 <div class="abstract">
                                 iRODS 4.2.9 introduces Logical Locking by providing additional replica status values within the catalog. Previously, replicas in iRODS could only be marked 'good' or 'stale'. This did not capture the states of when data was in flight, or incomplete. This talk will explain the new intermediate and locked states for iRODS replicas and how they are used to provide protection from uncoordinated writes into the system.
@@ -150,6 +185,7 @@
                             <br/>
                             Frictionless Data for iRODS
                             [<a href="{filename}/uploads/2021/Tyrrell-Earlham-Frictionless_Data_for_iRODS-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Tyrrell-Earlham-Frictionless_Data_for_iRODS-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=Gz8gT7jgYc4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Simon Tyrrell, Xingdong Bian, Robert P. Davey - Earlham Institute</em><br/>
@@ -169,6 +205,7 @@
                             <br/>
                             iRODS and Observability
                             [<a href="{filename}/uploads/2021/Rajasekar-UNC-iRODS_and_Observability-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Rajasekar-UNC-iRODS_and_Observability-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=B7acZbub9Ls&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Arcot Rajasekar - The University of North Carolina at Chapel Hill</em><br/>
@@ -181,6 +218,7 @@
                             <br/>
                             iRODS and NIEHS Environmental Health Science
                             [<a href="{filename}/uploads/2021/Conway-Patel-NIEHS-iRODS_and_NIEHS_Environmental_Health_Science-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Conway-Patel-NIEHS-iRODS_and_NIEHS_Environmental_Health_Science-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=kMFvIZB4Eks&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Mike Conway, Deep Patel - NIEHS / NIH</em><br/>
@@ -201,6 +239,7 @@
                             <br/>
                             Go-iRODSClient, iRODS FUSE Lite, and iRODS CSI Driver: Accessing iRODS in Kubernetes
                             [<a href="{filename}/uploads/2021/Choi-CyVerse-Go-iRODSClient_iRODS_FUSE_Lite_and_iRODS_CSI_Driver_Accessing_iRODS_in_Kubernetes-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Choi-CyVerse-Go-iRODSClient_iRODS_FUSE_Lite_and_iRODS_CSI_Driver_Accessing_iRODS_in_Kubernetes-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=rTOnNl7T6zo&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Illyoung Choi, John Hartman, Edwin Skidmore - CyVerse / University of Arizona</em><br/>
@@ -251,10 +290,11 @@
                             <br/>
                             A transnational data system for HPC/Cloud-Computing Workflows based on iRODS/EUDAT
                             [<a href="{filename}/uploads/2021/Golasowski-Hayek-Ostrava-Leibniz-Transnational_Data_System_for_HPC_Cloud_Computing_Workflows_based_on_iRODS_EUDAT-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Golasowski-Hayek-Ostrava-Leibniz-Transnational_Data_System_for_HPC_Cloud_Computing_Workflows_based_on_iRODS_EUDAT-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=P9k8abZUArI&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
-                            <em>Martin Golasowski - IT4Innovations, VŠB – Technical University of Ostrava</em><br/>
-                            <em>Mohamad Hayek, Rubén J. García-Hernández – Leibniz Supercomputing Centre</em><br/>
+                            <em>Martin Golasowski - IT4Innovations, VŠB - Technical University of Ostrava</em><br/>
+                            <em>Mohamad Hayek, Rubén J. García-Hernández - Leibniz Supercomputing Centre</em><br/>
                             <strong>Best Student Technology Award Winner</strong>
                             <div>
                                 <div class="abstract">
@@ -347,6 +387,7 @@
                             <br/>
                             iRODS Policy: Read-only local analysis staging policy for BRAIN-I
                             [<a href="{filename}/uploads/2021/Russell-iRODS-Read-Only_Local_Analysis_Staging_Policy_for_BRAIN-I-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Russell-iRODS-Read-Only_Local_Analysis_Staging_Policy_for_BRAIN-I-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=Fvr2KB3Cqog&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Terrell Russell - iRODS Consortium</em><br/>
@@ -427,7 +468,7 @@
                                 <br /><br />
                                 BMS took the approach to implement the integrated Rule Oriented Data System (iRODS) to ingest, validate, and assign metadata to instrument file datasets, to provide provenance, and to make file datasets discoverable and actionable. Enable storage of numeric datasets as attributes of imaging datasets and make available for downstream processing.
                                 <br /><br />
-                                Projects – Immuno-Oncology Cellular Therapy (IOCT), Discovery Imaging Platform (DIP)
+                                Projects - Immuno-Oncology Cellular Therapy (IOCT), Discovery Imaging Platform (DIP)
                                 </div>
                             </div>
 
@@ -460,6 +501,7 @@
                             <br/>
                             iRODS Client: C++ REST API
                             [<a href="{filename}/uploads/2021/Coposky-iRODS-C_Plus_Plus_REST_API-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Coposky-iRODS-C_Plus_Plus_REST_API-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=tQPQqBXR-Xw&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Jason Coposky - iRODS Consortium</em><br/>
@@ -472,6 +514,7 @@
                             <br/>
                             iRODS Client: NFSRODS 2.0
                             [<a href="{filename}/uploads/2021/Draughn-iRODS-NFSRODS_2.0-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Draughn-iRODS-NFSRODS_2.0-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=niVY7hOm0OY&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Kory Draughn, Terrell Russell - iRODS Consortium</em><br/>
@@ -484,6 +527,7 @@
                             <br/>
                             iRODS Client: Zone Management Tool (ZMT)
                             [<a href="{filename}/uploads/2021/Zhou-iRODS-Zone_Management_Tool_ZMT-slides.pdf">slides</a>]
+                            [<a href="{filename}/uploads/2021/Zhou-iRODS-Zone_Management_Tool_ZMT-paper.pdf">paper</a>]
                             [<a href="https://www.youtube.com/watch?v=jO7pyG1Am28&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>Bo Zhou, Jason Coposky, Terrell Russell - iRODS Consortium</em><br/>
@@ -507,7 +551,7 @@
                             </div>
 
                             <br/>
-                            iRODS Development Team Q&A
+                            iRODS Development Team Q&amp;A
                             [<a href="https://www.youtube.com/watch?v=PZ6GW6ppBU4&list=PL29FhEN41mZP8LhLnShmP48SBAY4nHxQ1">video</a>]
                             <br/>
                             <em>iRODS Development Team</em><br/>
