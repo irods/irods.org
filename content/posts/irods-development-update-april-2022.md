@@ -56,7 +56,7 @@ We hope you found this month's update exciting. As always, see you next month!
 
 - [TRiRODS](https://irods.org/trirods)
 
-    - Wed, May 11, 2022, 4pm ET
+    - Wed, May 18, 2022, 4pm ET
     - speaker, TBD
 
 - [4.2.12](https://github.com/irods/irods/milestone/38)
