@@ -4,6 +4,7 @@ Author: Terrell Russell
 Slug: irods-internship-summer-2022
 Status: published
 
+**Update:**  We have filled this internship for the summer.  Thank you to all our applicants!
 
 ## Join Us
 
