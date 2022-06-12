@@ -31,8 +31,8 @@
             <div class="space_half"></div>
             <div class="col-lg-12 text-center">
 <!--                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"></div> -->
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/kuleuven_logo.png" class="member_logo"><hr class="phone_show"></div>
-                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/renci_logo.png" class="member_logo"><hr class="phone_show"></div>
+                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/memberlogos/kuleuven.svg" class="member_logo"><hr class="phone_show"></div>
+                <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/renci_logo_white.png" class="member_logo"><hr class="phone_show"></div>
                 <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/vsc_logo.png" class="member_logo"><hr class="phone_show"></div>
                 <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2"><img src="{filename}/images/fujifilm_logo.png" class="member_logo"><hr class="phone_show"></div>
             </div>
@@ -163,7 +163,6 @@
             <div class="space phone_hide"></div>
 
 
-<!--
             <div class="space_half"></div>
             <div class="col-lg-offset-2 col-lg-8" >
                 <h4 class="light_font" id="talks">Accepted Talks</h4>
@@ -172,22 +171,204 @@
 
             <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
 
-                <p><a href="{filename}/images/irods_ugm2021_agenda.pdf">Current Agenda (pdf)</a></p>
+<!--
+                <p><a href="{filename}/images/irods_ugm2022_agenda.pdf">Current Agenda (pdf)</a></p>
                 <br/>
-
-                <b>Title</b><br/>
-                Speaker<br/>
-                Affiliation<br/>
+-->
+                
+                <b>iRODS as a data backend for the LEXIS workflow orchestration platform</b><br/>
+                Mohamad Hayek, Martin Golasowski, Stephan Hachinger and Jan Martinovič<br/>
+                Leibniz Supercomputing Centre<br/>
+                IT4Innovations, VŠB – Technical University of Ostrava<br/>
                 <div class="abstract">
-                    Abstract
+                    In this contribution, we present the current status of the iRODS federation used as a part of the Distributed Data Infrastructure in the LEXIS platform. This backend has been built in the European Horizon 2020 project "Large-Scale EXecution for Industry and Society" (LEXIS, H 2020 GA 825532) and was verified against a wide range of use cases from industry and society. We report on our experience in maintaining and extending the iRODS federation with a focus on the current challenges. Afterwards, we lay out our experience with enabling OpenID authentication for Keycloak integration and methods used to ensure synchronized fine-grained access control between iRODS and Keycloak. We then discuss our strategy to enable data staging between iRODS and various Cloud and HPC systems within the LEXIS platform via a REST API. Furthermore, we address the periodic testing of different aspects of the federation and the alerting system put in place to react to any irregularities in the tests. Finally, we present the results of speed tests done between the different nodes of the federation and we give an outlook on future work that might be interesting for the iRODS community.
+                </div>
+
+                <b>Programmable authentication workflows in iRODS</b><br/>
+                Stefan Wolfsheimer, Claudio Cacciari, Harry Kodden and Alan King<br/>
+                SURF<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    iRODS supports various authentication methods such as native authentication (username plus password), GSI, Kerberos, OpenID. New authentication methods are implemented as shared libraries that need to be installed on the client and server side. Client libraries such as python-irodsclient may need to be patched to support any new authentication protocol.
+
+                    A universal implementation that supports all flows is clearly favored over managing combinations of client and server libraries and flows. The PAM (pluggable authentication module) mechanism is a way to implement and customize authentication flows on the server without needing to adjust the software that uses this technique. Systems administrators may combine existing PAM libraries and implement flows featuring branches, multiple factors, and much more. The PAM mechanism is already supported by iRODS but the current version of the plugin is restricted to the standard flow only (username and password).
+
+                    We have implemented an authentication plugin for iRODS 4.3.0 "pam_interactive" that enables the flexibility of fully-fledged PAM authentication flows.
+
+                    SURF, the Dutch cooperative association of educational and research institutions, will use that implementation to offer new features to iRODS’s users. Two scenarios are especially relevant: the support of the SURF Access Management Provider (SRAM), which allows multiple Identity Providers to authenticate a user with iRODS. And the support of Multi-Factor Authentication (MFA) directly at iRODS level, often required for sensitive data management.
+
+                    In the first part of the presentation, we illustrate the possibilities of the plugin with a simple python script simulating 2-factor authentication driven by the PAM stack on the server. In the second part, we show, as a real-world example, the integration of iRODS and SRAM.
+                </div>
+
+                <b>Managing high-throughput sequencing and other -omics data with RODEOS and rodeos-ingest</b><br/>
+                Clemens Messerschmidt, Marten Jäger, Mathias Kuhring, Dieter Beule and Manuel Holtgrewe<br/>
+                Berlin Institute of Health at Charité – Universitätsmedizin Berlin, Core Unit Bioinformatics<br/>
+                <div class="abstract">
+                    Omics data are generated by high-throughput biochemical assays that
+                    simultaneously quantify and/or characterize molecules of the same
+                    type in biological samples. In biomedical research, omics data
+                    acquisition is often performed in specialized technology units referred
+                    to as core facilities. Using complex (and often expensive) devices
+                    such as sequencers and mass-spectrometers, these units produce a wealth
+                    of different high-volume datasets that need to be organized, stored,
+                    quality checked, pre-processed or transformed and eventually delivered
+                    to clients, archived or deleted.
+
+                    To streamline and automate the data management and handling processes
+                    while supporting the diversity of projects and clients present in
+                    the research organization, we introduce RODEOS (Raw Omics Data accEss
+                    and Organization System). The system is based on iRODS and
+                    rodeos-ingest, a custom event handler that extends
+                    the iRODS automated ingest framework. The automatic ingest enables
+                    an easier control of data through its life cycle from generation to
+                    delivery and deletion by unlocking iRODS' advantages like data discovery,
+                    connecting workflows based on the rule engine, as well as secure
+                    collaboration.
+
+                    To enrich metadata beyond simple file attributes, rodeos-ingest
+                    extracts additional technology-specific parameters from files
+                    generated by the omics units' devices when processing samples. We provide
+                    examples for widely used Illumina sequencers and demonstrate how the
+                    extracted metadata could be used to support demultiplexing and data QC
+                    workflows. Furthermore we integrated Metalnx as an additional user
+                    interface to RODEOS. This allows the wet-lab staff to easily add
+                    further iRODS metadata, e.g. for choosing data delivery paths and
+                    also empowers clients to view their data and track progress.
+                    This reduces the complexity of operations for everyone involved, especially when used
+                    in cross-institutional settings if coupled to (possibly multiple) Active
+                    Directory services for user authentication.
+
+                    RODEOS is in active use at the integrated sequencing unit of the Max
+                    Delbrück Center for Molecular Medicine (basic research) and the Berlin
+                    Institute of Health at Charité (university hospital). Additional
+                    rodeos-ingest modules are planned to support more facilities and
+                    technologies, e.g. mass spectronomy for metabolomics or
+                    proteomics.
+
+                    Rodeos-ingest is MIT-licensed and available at https://github.com/bihealth/rodeos-ingest
+                    
+                </div>
+
+                <b>Sustainable and FAIR Data Ecosystem, supporting new insights in Life Sciences</b><br/>
+                Berenice Wulbrecht, Carl Latham and Valerie Morel<br/>
+                ONTOFORCE<br/>
+                <div class="abstract">
+                    The last decade Data has become the new oil, and as a key asset in all industries. However, to leverage the power of data, it needs to be refined and distributed. This transformation has largely affected the Life Science field from academy to industry, who has adhered largely to the FAIR principles of findability, accessibility, interoperability, and reusability. Data is not consumables from an experiment anymore, it is now set to be re-used, re-interpreted… Some challenges remain like creating a consolidated view of disparate and siloed data or setting the infrastructure to store, search, retrieve and analyze data.
+                    iRODS stands for ‛Integrated Rule-Oriented Data System’. It is open-source data management software that links unstructured data to metadata and is used for distributed storage and data management automation.
+                    The knowledge platform, DISQOVER, enables data-driven decisions and accelerates research by unlocking insights from siloed data. The platform is integrating and harmonizing data silos across internal, public, and third-party sources into an integrated knowledge graph. DISQOVER helps you do your research in one place to answer complex questions and solve problems. One consistent and easy-to-use interface democratizes access to data through self-service knowledge discovery, allowing each scientist to access and explore data and generate insights.
+                    We proposed here the integration of iRODS and Disqover, to offers a sustainable data infrastructure to store and search for data, knowledge, and insights. The proposal highlights the FAIR data principles. As data and meta-data captured in various source systems are centralized in iRODS. Data can eventually be processed with an entity extraction service to further enrich meta-data. Relevant data and meta-data re loaded on the Disqover platform. The data are integrated and harmonized using various ontologies and reference datasets. Researchers can now very easily search and explore available data on Disqover and redirect their requests to iRODS to access original data. The integration of Disqover and iRODS platform provide a self-service data access for research and a sustainable data ecosystem. Such integration has broad applicability supporting research and development in Life Sciences.
+                    
+                </div>
+
+                <b>iRODS speaks SFTP: More ways to securely transfer your data</b><br/>
+                Illyoung Choi, Edwin Skidmore and Nirav Merchant<br/>
+                CyVerse/University of Arizona<br/>
+                <div class="abstract">
+                    Secure File Transfer Protocol (SFTP) is a widely utilized and supported protocol for securely transferring data. There are multiple client options that are open source and cross platform which include both command line and desktop GUI’s (Graphical User Interface).
+                    The need for compliance and data encryption during transfer is a strict requirement for many science domains that are working with confidential data e.g. public health records, the use of SFTP based transfer and clients is well known and validated, thus meeting multiple compliance needs.
+
+                    Realizing this unmet need for secure and encrypted transfers for CyVerse users, our team decided to implement SFTP access to iRODS. This approach complements the existing secure data transfer and authentication method currently provided in iRODS via SSL and PAM authentication, which however are challenging to integrate into existing services or research workflows for multiple reasons: requiring changes on iRODS server, firewall configurations, and training users for complex client side installations of icommands.
+
+                    In this talk, we introduce our work on adding iRODS as a backend storage option for SFTPGo (https://github.com/drakkan/sftpgo) utilizing the Go iRODS library developed at CyVerse (https://github.com/cyverse/go-irodsclient). We also redesigned its public-key authentication on top of iRODS Proxy Authentication, thus avoiding users embedding passwords in their scripts and automation and relying on key based authentication. The system is easy to deploy and has been validated with popular desktop SFTP clients such as FileZilla, Cyberduck etc. Our deployment of the system showed 58.0 MB/s for uploading and 15.0 MB/s for downloading when transferring a 1GB file. Compared with SFTPGo’s local storage, the iRODS integration to SFTPGo showed reduced I/O performance due to remote data access – SFTPGo’s local storage showed 77.0 MB/s for uploading and 64.0 MB/s for downloading. We plan to optimize the code to improve the I/O performance.
+
+                    We expect the new system, SFTPGo for iRODS will allow researchers working with confidential data to readily integrate this capability into their research workflows alongside familiar client tools while meeting some of their compliance requirements.
+                </div>
+
+                <b>Towards the FAIRification of lab-data</b><br/>
+                Martin Schobben<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    Data management and subsequent downstream recycling of data is a primer for future innovation. Solutions for better data management infrastructures, such as formalized in the FAIR data guiding principles, are not yet implemented in most academic laboratories populated by a range of analytical instruments. Each of these machines often has their own vendor supplied software suite for data processing and diagnostics, and thus prevents transparency of these workflows. This so-called "vendor lock-in" further results in various data models which are not easily integrated.
+
+                    In this talk I want to share some visions and perspectives on a strategy that could aid data collection and harmonization in laboratories. The ultimate aim of the project is to develop an universal tool that can be easily integrated in a day-to-day workflow of a scientist (using Python or R) as well as operating as a sub-system of iRODS for storage and downstream recycling of lab-data.
+                    
+                </div>
+
+                <b>Data Management Environment at the National Cancer Institute</b><br/>
+                Sunita Menon, Yuri Dinh, Zhengwu Lu, Udit Sehgal, Eran Rosenberg, Prasad Konka and Eric Stahlberg<br/>
+                Leidos Biomedical Research, Inc. (for NIH)<br/>
+                SVG, Inc. (for NIH)<br/>
+                <div class="abstract">
+                    As we generate more and more scientific data using high throughput technologies such as next-generation sequencing, Cryo-Electron Microscopy, and High Content Imaging, there is an increasing need for an efficient and cost-effective mechanism to store, share and manage these large heterogenous datasets. Tier 1 storage is expensive, and Tier 2 devices used standalone do not lend themselves well to the discovery and dissemination of datasets. The Data Management Environment (DME), which is a data management platform for the storage and management of high-value scientific datasets, was developed at the National Cancer Institute to close this gap. DME addresses the long-term data management needs of research labs and core facilities at NCI per the FAIR (Findable, Accessible, Interoperable, and Reusable) guiding principles for data management. It supports S3 compatible object store, as well as file system-based storage. DME uses iRODS as the metadata management layer enabling virtualization of backend storage, replacement of storage providers with zero impact on users, and transparent migration of data across providers. The granular permissions scheme provided by iRODS coupled with DME's authentication and authorization mechanism enables researchers to share data with collaborators securely. This talk will give an overview of the capabilities and architecture of the Data Management Environment and discuss how DME has leveraged IRODS to deliver enhanced data management and storage management capabilities.
+                </div>
+
+                <b>Can Blockchain Technology Play a Role in iRODS?</b><br/>
+                Arcot Rajasekar<br/>
+                The University of North Carolina at Chapel Hill<br/>
+                <div class="abstract">
+                    Blockchain technology has matured and is increasingly applied in a diversity of applications. Some of its intrinsic properties, such as secure database, distributed ledger, provenance tracking, integrity checking and trust worthiness, consensus maintenance and data sharing, and crypto-security, are values that are also central to iRODS. One view of blockchain is a Distributed, Immutable Ledger (DIL) that facilitates recording information about assets. One view that is interesting to the iRODS community is that of a Blockchain Storage (BCS) can be used to save data files (sharded as blocks) in a decentralized network as opposed to storing files in a centralized cloud storage. This approach provides all the advantages of the blockchain technology but uses enormous amount of storage. An alternate is to store just the hash of the data (but store data elsewhere) in the blockchain. One can also attach minimal useable metadata (MUM) to the hash and provide access to that in a private or public network. Blockchains also support rule-based actions, called smart contracts. Smart contracts are digital 'contracts' stored on the blockchain that are automatically executed when predetermined terms and conditions are met. One can notice the similarities to the iRODS rule system. Blockchains also support the concepts of private, public, permissioned exchanges of information. With such close functional similarity, taking advantage of synergetic properties will enhance the applications of iRODS in a diversity of applications including supply chain, health informatics, government, retail, etc. where transactional properties with large datasets dominate. In this paper, we look at various ways one can enhance iRODS with blockchain technology.
+                </div>
+
+                <b>Streamline-connecting data to interactive-apps in CyVerse Discovery Environment via iRODS CSI Driver</b><br/>
+                Illyoung Choi, Sarah Roberts, Edwin Skidmore and Nirav Merchant<br/>
+                CyVerse/University of Arizona<br/>
+                <div class="abstract">
+                    Container technologies such as Docker etc. have seen widespread adoption in many disciplines for building reproducible analysis workflows. The ephemeral nature of container-based workflows presents unique challenges for providing data visibility and access from external data repositories. The CyVerse Discovery Environment (DE) is a web workbench and a managed Kubernetes based container orchestration platform. DE allows researchers to readily build customized apps utilizing Docker containers to perform their custom analysis with data stored in the CyVerse Data Store (DS) which is based on iRODS.
+
+                    DE stages data needed by the app to local storage where the container is running, and upon completion of the analysis, new data is copied back to DS. This usage pattern is not intuitive for users, as scientific data is becoming increasingly larger the local data staging method becomes more inefficient in terms of transfer time and local storage. Additionally interactive applications such as Jupyter notebooks and Rstudio that support exploratory data analysis (EDA), what data sets need to be staged are not known to the user while launching the container. To overcome many of these limitations we have developed a new method that transfers data on-demand within the DE using the Kubernetes-native storage interface, named the iRODS CSI Driver. This new method provides apps direct data access to the DS, eliminating the need to copy data on local storage. The new method has been deployed in production since January 2022.
+
+                    In this talk, we demonstrate our work on integrating the iRODS CSI Driver to the DE and share how the CSI Driver is configured within the DE. We also demonstrate new capabilities in the CSI Driver that were added to optimize performance and ease integration. Lastly, we share issues encountered in production and how we fixed them.
+
+                    The integration of iRODS CSI Driver to the DE enabled scientists to access the DS more conveniently without limitations. Although the current CSI Driver shows reduced I/O performance compared to the previous staging method, the benefits in user experience outweighed slight losses in data access performance.
+                </div>
+
+                <b>From SRB to iRODS: 20 years of data management at the petabyte scale</b><br/>
+                Jean-Yves Nief and Yonny Cardenas<br/>
+                CC-IN2P3<br/>
+                <div class="abstract">
+                    CC-IN2P3 has been using SRB and then iRODS in a wide variety of projects and use cases for the last 20 years.
+                    CC-IN2P3 is a data center hosting services such as computing and data storage for international projects mainly in the fields of subatomic physics and astrophysics. Data management has always been a key activity for a data center such as CC-IN2P3, due to the ever growing size of the projects, their international dimension.
+                    This talk will emphasize on the evolution of the data management needs, the pitfalls, the endless migration cycle (both hardware and software) over the years.
+                    It will also focus on the ongoing prospects, especially the long term data preservation needs and open science.
+                    
+                </div>
+
+                <b>iRODS and Globus Deployment at the VSC</b><br/>
+                Vas Vasiliadis and Ingrid Barcena Roig<br/>
+                University of Chicago<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    We will provide a brief overview of the Globus service and how it integrates with iRODS for secure, reliable file transfer and sharing from diverse storage systems. We will also describe how the VSC is planning to deploy and use the Globus for iRODS connector as part of the member institutions' data management infrastructure.
+                </div>
+
+                <b>An Update on SODAR: the iRODS-powered System for Omics Data Access and Retrieval</b><br/>
+                Mikko Nieminen, Manuel Holtgrewe, Mathias Kuhring, Oliver Stolpe and Dieter Beule<br/>
+                Berlin Institute of Health<br/>
+                <div class="abstract">
+                    In life science research, an ever-growing number of high-throughput omics assays in the areas of genomics, proteomics, metabolomics and transcriptomics is creating challenges for data management. These challenges include handling large amounts of data, modeling complex experimental designs for studies, making data accessible and enabling collaboration between multiple institutes.
+
+                    We present an update to SODAR (System for Omics Data Access and Retrieval), which is our effort to fulfill these requirements. SODAR is specialized software for combining the modelling of complex studies with storage of large bulk data. To facilitate data management workflows, SODAR provides project-based data encapsulation and access control, web-based graphical user interfaces, programmatic access via REST APIs as well as various tools for managing data in research projects.
+
+                    SODAR is based on open-source solutions. The system uses iRODS for bulk data storage, with a transaction subsystem facilitating complex data transfer operations with validation and rollback capabilities. Davrods is used for web access to files and integrations with third party software. Graphical user interfaces and APIs are implemented in Python using the Django framework. The data model is based on the ISA-Tab standard, with a browser and editor component for ISA-Tab studies implemented in Vue.js. Core project management functionalities and related tools are available as a separate reusable library, which allows for creating other data management systems sharing common project access control structures.
+
+                    SODAR was previously presented in the iRODS user group meeting in 2019. Since then, major development has been done regarding, e.g., metadata editing, iRODS file management and REST APIs. We will demonstrate a use case with an emphasis on these new features and updates.
+
+                    SODAR is under continuous development and has been deployed in our institutes for several years. It is currently used in over 300 research projects and stores approximately 350 terabytes of data. The system is publicly available as open source with a permissive license.
+                </div>
+
+                <b>MrData: An iRODS Based Human Research Data Management System</b><br/>
+                Blake Fitch<br/>
+                Max Planck Institute for Biological Cybernetics<br/>
+                <div class="abstract">
+                    MrData is an iRODS based archival system for research medical imaging data. MrData was built initially to automate collection and archival of data flowing from a Siemens 9.4 Tesla MRI system but will be expanded to other devices. Of particular importance to this project was managing metadata related to human subject recruiting in a GDPR compliant manner. We chose Castellum, a Max Planck developed system specifically for managing human subject data securely and we worked with that team to integrate it with the MrData system. An additional requirement for us was “mixed use” metadata, information necessary for both subject recruiting and scientific processing. Mixed use metadata, such as handedness, is managed by Castellum but made available by MrData for scientific and archival purposes securely and without manual intervention. Our system never records any personally identifying information at the MRI scanner, so the resulting image files are never contaminated with a name, date of birth, etc. MrData is based on iRODS, gitlab, Flask, and python processes, implemented as a set of Docker microservices. The system is a mix of Docker images ranging from those completely defined by others, like davrods, to our locally implemented, python irods-client based uploader images which monitor a data landing zone, read DICOM/TWIX/etc, headers, and commit the data and metadata to iRODS. We will present an overview of this project, including current production status and future directions. We hope to hear feedback on whether some or all of this system would be usefully open-sourced.
+                </div>
+
+----
+
+                <b>title</b><br/>
+                author<br/>
+                affiliation<br/>
+                <div class="abstract">
+                    abstract
                 </div>
 
             </div>
 
             <div class="space"></div>
--->
+
 
         </div>
     </section>
 </body>
 </html>
+
