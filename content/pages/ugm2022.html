@@ -353,6 +353,20 @@
                     MrData is an iRODS based archival system for research medical imaging data. MrData was built initially to automate collection and archival of data flowing from a Siemens 9.4 Tesla MRI system but will be expanded to other devices. Of particular importance to this project was managing metadata related to human subject recruiting in a GDPR compliant manner. We chose Castellum, a Max Planck developed system specifically for managing human subject data securely and we worked with that team to integrate it with the MrData system. An additional requirement for us was “mixed use” metadata, information necessary for both subject recruiting and scientific processing. Mixed use metadata, such as handedness, is managed by Castellum but made available by MrData for scientific and archival purposes securely and without manual intervention. Our system never records any personally identifying information at the MRI scanner, so the resulting image files are never contaminated with a name, date of birth, etc. MrData is based on iRODS, gitlab, Flask, and python processes, implemented as a set of Docker microservices. The system is a mix of Docker images ranging from those completely defined by others, like davrods, to our locally implemented, python irods-client based uploader images which monitor a data landing zone, read DICOM/TWIX/etc, headers, and commit the data and metadata to iRODS. We will present an overview of this project, including current production status and future directions. We hope to hear feedback on whether some or all of this system would be usefully open-sourced.
                 </div>
 
+                <b>iRODS Python/PRC based portal and tools for active data support in research contexts</b><br/>
+                Paul Borgermans<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    The main work is a modular web portal that can be tailored for various needs/use cases. The focus is on "active data" in research data management solutions using iRODS. For manual / ad hoc manipulation of metadata, (hierarchical) schemas can be defined which are rendered as user friendly forms/templates. Further integration of external tools to support specific workflows such as metadata discovery. The software stack is kept simple and uses the Flask web framework, bootstrap 5 UI elements and vanilla javascript.
+                </div>
+
+                <b>Data: the final frontier. These are the voyages of the Informatics Digital Solutions team at Sanger. Its five-year mission: to migrate old data. To seek out new features. To boldly go where no iRODS Zone has gone before!</b><br/>
+                John Constable<br/>
+                Wellcome Sanger Institute<br/>
+                <div class="abstract">
+                    John Constable from the Informatics Support Group, part of the Informatics Digital Solutions team at Wellcome Sanger Institute will talk about the past years work with iRODS, covering migrating 8PB of data, improving the searching of 400 million items of metadata, deploying NFSRODS, switching to PostgreSQL, and adding the usual few petabytes of storage.
+                </div>
+
             </div>
 
             <div class="space"></div>
