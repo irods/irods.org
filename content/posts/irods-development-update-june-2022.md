@@ -63,7 +63,7 @@ See you next month!
 
 - [TRiRODS](https://irods.org/trirods)
 
-    - Wed, August 17, 2022, 4pm ET
+    - Wed, August 10, 2022, 4pm ET
     - iRODS Summer Interns 2022 (5!)
 
 - [4.2.12](https://github.com/irods/irods/milestone/38)
