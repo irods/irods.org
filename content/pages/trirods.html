@@ -42,9 +42,90 @@
                 </div>
                 <br><br>
 
-<!--
-                <h2>Upcoming Presentation</h2>
--->
+                <h2>Upcoming Presentations</h2>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Refactor and modernize the main irodsServer</h3>
+                    <i>By June Releford, iRODS Consortium</i><br>
+                    <i>Wednesday, August 10, 2022</i>
+                    <br><br>
+                    The iRODS server was originally written in C around 20 years ago. This talk will cover the summer's refactorization of the core server software with modern C++ for increased maintainability, performance, and extensibility.
+                    <br><br>
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-9 col-xs-12">
+                            June Releford is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Add irodsServer configuration live reload</h3>
+                    <i>By Violet White, iRODS Consortium</i><br>
+                    <i>Wednesday, August 10, 2022</i>
+                    <br><br>
+                    An iRODS server uses a process model which spawns independent agents to service incoming requests. While performant and relatively safe, the agents do not currently interact and will hold stale information when another part of the system changes. This talk covers the work done to automatically reload configuration changes without requiring a server restart.
+                    <br><br>
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/violet_white.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Violet White is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>AMQP Audit Rule Engine Plugin Investigation and iRODS C++ REST API Additions</h3>
+                    <i>By Phillip Davis, iRODS Consortium</i><br>
+                    <i>Wednesday, August 10, 2022</i>
+                    <br><br>
+                    The iRODS Consortium received an issue stating that the AMQP Audit Rule Engine Plugin generated invalid JSON. An investigation revealed that the issue does not originate from the Plugin itself, but rather from incompatibility between two versions of AMQP used in the iRODS demo ELK stack. We discuss the nature of that problem as well as steps forward.
+                    <br><br>
+                    The iRODS REST API did not expose entity rename, delete, repl, or trim functionality, nor did it allow add, remove, or modify of metadata AVUs. I investigated the architecture of the iRODS REST API and created endpoints for these actions.
+                    <br><br>
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/phillip_davis.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Phillip Davis is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>New Ticket Library</h3>
+                    <i>By Awab Masroor, iRODS Consortium</i><br>
+                    <i>Wednesday, August 10, 2022</i>
+                    <br><br>
+                    iRODS has been around for a long time. Like other similarly sized projects, iRODS has grown several low-level libraries. This talk will share how a higher level C++ API for iRODS Tickets was created to wrap these existing lower-level calls.
+                    <br><br>
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-9 col-xs-12">
+                            Awab Masroor is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>iRODS Testing Environment Web Application</h3>
+                    <i>By Rahqi Sarsour, iRODS Consortium</i><br>
+                    <i>Wednesday, August 10, 2022</i>
+                    <br><br>
+                    This talk covers design and implementation of a new application, a first draft of a front end / GUI for an existing Python command line tool. The iRODS Testing Environtment helps test a distributed system (iRODS) to provide confidence to users around the world.
+                    <br><br>
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-9 col-xs-12">
+                            Rahqi Sarsour is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
 
                 <h2>Previous Presentations</h2>
 
