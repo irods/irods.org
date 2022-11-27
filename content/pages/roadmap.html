@@ -16,25 +16,186 @@
 
                 <p>If you have an opinion about where iRODS should go next, I encourage you to participate in this open software development process. Join the <a href="https://groups.google.com/forum/#!forum/irod-chat">iRODS chat Google Group</a>. Raise issues on <a href="https://github.com/irods/irods">GitHub</a>. And if you are a <a href="{filename}/pages/consortium-membership.html">Consortium Member</a>, get involved in the Technology Working Group.</p>
 
+                <p>Kory Draughn<br/>
+                Chief Technologist<br/>
+                The iRODS Consortium</p>
+
+                <br/><br/>
+
+                <h1><i class="green_font fa fa-angle-right"></i> Document History</h1>
+                <ul>
+                    <li><a href="#upcoming">2023</a></li>
+                    <li><a href="#2017">2017</a></li>
+                    <li><a href="#2015">2015</a></li>
+                </ul>
+
+                <script>
+                    function togglevisibility(divname) {
+                        var x = document.getElementById(divname);
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+
+                <br/>
+                <hr style="border-top:5px solid;color:#06cd99"/>
+                <br/>
+
+                <div id="upcoming"></div>
+                <div id="2023"></div>
+
+                <h1><i class="green_font fa fa-angle-right"></i> <a onclick="togglevisibility('2023body')">2023</a></h1>
+
+                <div id="2023body" style="display:block">
+
+                    <p>Kory Draughn<br/>
+                    Chief Technologist<br/>
+                    The iRODS Consortium<br/>
+                    <i>April 2023</i></p>
+
+                    <h2>iRODS 2023 Roadmap</h2>
+
+                    <p>With each release of iRODS, the server, libraries, and clients become more stable and featureful. The needs of users and administrators become more complex over time. Users want tools and GUIs that are easy to understand quickly. Administrators want more flexibility and visibility into what the system is doing.</p>
+
+                    <p>In order to facilitate these needs, the Consortium plans to improve approachability by focusing on the following:</p>
+
+                    <h3>The Server</h3>
+
+                    <ul>
+                        <li>
+                            Make implementing the iRODS Protocol less complicated by moving to HTTP or designing a new protocol
+                            <ul>
+                                <li>Any move to HTTP will be heavily influenced by the C++ REST API</li>
+                                <li>If we choose to design a new protocol, it will be documented and versioned</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Replace the PackStruct serialization library
+                            <ul>
+                                <li>
+                                    Use an actively maintained and proven serialization library (e.g. Protocol Buffers, Flatbuffers, etc.)
+                                    <ul>
+                                        <li>Enables a straightforward path to supporting the most popular programming languages</li>
+                                        <li>API specification is documented as a result of using the library and tools</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Make the server cloud-friendly
+                            <ul>
+                                <li>Improve startup time</li>
+                                <li>Improve flexibility around dynamic host names</li>
+                                <li>Treat every server as a Catalog Service Provider</li>
+                                <li>Centralize configuration</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Improve support for archive files
+                            <ul>
+                                <li>
+                                    Make archive entries visible in the catalog
+                                    <ul>
+                                        <li>Design new abstractions, semantics, and APIs</li>
+                                    </ul>
+                                </li>
+                                <li>Deprecate all functionality stemming from special collections and imcoll</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>Plugins and Capabilities</h3>
+
+                    <ul>
+                        <li>Finish and release the Policy Composition rule engine plugin</li>
+                        <li>Finish and release the Publishing capability</li>
+                    </ul>
+
+                    <h3>Libraries</h3>
+
+                    <ul>
+                        <li>
+                            Add support for the new Authentication Plugin Framework introduced in the iRODS 4.3 series
+                            <ul>
+                                <li>All client-side libraries, regardless of the programming language, must be updated</li>
+                                <li>
+                                    Required for <strong>pam_interactive</strong> authentication scheme
+                                    <ul>
+                                        <li>This becomes the default for iCommands</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>Clients</h3>
+
+                    <ul>
+                        <li>
+                            Replace iCommands with a new CLI
+                            <ul>
+                                <li>A single binary backed by a plugin architecture allowing its functionality to be extended</li>
+                                <li>No memory leaks and proper signal handling</li>
+                                <li>Help text and documentation will be consistent in formatting and detail</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Improve Metalnx
+                            <ul>
+                                <li>Add support for the <strong>pam_interactive</strong> authentication scheme</li>
+                                <li>Remove the need for helper database</li>
+                                <li>
+                                    Remove most administrative features
+                                    <ul>
+                                        <li>Administrative features will be absorbed by the Zone Management Tool</li>
+                                    </ul>
+                                </li>
+                                <li>Remove unnecessary features</li>
+                                <li>Provide sane defaults for all configuration options</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Improve Zone Management Tool
+                            <ul>
+                                <li>Add support for the <strong>pam_interactive</strong> authentication scheme</li>
+                                <li>
+                                    Allow administrators to manage an entire zone from a single computer
+                                    <ul>
+                                        <li>Configuration and policy can be modified and applied to one or more servers simultaneously</li>
+                                        <li>Controls for starting and stopping servers</li>
+                                        <li>Controls for migrating the Delay server</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div> <!-- End of 2023 Roadmap -->
+
+                <br/>
+                <hr style="border-top:5px solid;color:#06cd99"/>
+                <br/>
+
+                <div id="2017"></div>
+
+                <h1><i class="green_font fa fa-angle-right"></i> <a onclick="togglevisibility('2017body')">2017</a></h1>
+
+                <div id="2017body" style="display:none">
+
                 <p>Terrell Russell<br/>
                 Chief Technologist<br/>
                 The iRODS Consortium<br/>
-                <i>(Last Updated March 2017)</i></p>
+                <i>March 2017</i></p>
 
-                <br/><br/>
-                <hr/>
-
-                <h1><i class="green_font fa fa-angle-right"></i> Table of Contents</h1>
-                <ul>
-                    <li id="upcoming"><a href="#upcoming">Upcoming Release: iRODS 4.3</a></li>
-                    <li><a href="#future">Future Direction</a></li>
-                    <li><a href="#previous">Previous Releases</a></li>
-                </ul>
-
-                <hr/>
-                <br/>
-
-                <h1><i class="green_font fa fa-angle-right"></i> Upcoming Release: iRODS 4.3</h1>
+                <h2>iRODS 4.3</h2>
 
                 <p>The focus for iRODS 4.3 will be on two things: the logging framework, and hardening the existing features and new work introduced in 4.2.</p>
 
@@ -72,9 +233,57 @@
 
                 <p>We plan to release the QueryArrow database plugin which will afford this abstraction of metadata.</p>
 
-                <div id="future"></div>
+                </div>
 
-                <h1><i class="green_font fa fa-angle-right"></i> Future Direction</h1>
+                <br/>
+                <hr style="border-top:5px solid;color:#06cd99"/>
+                <br/>
+
+                <div id="2015"></div>
+
+                <h1><i class="green_font fa fa-angle-right"></i> <a onclick="togglevisibility('2015body')">2015</a></h1>
+
+                <div id="2015body" style="display:none">
+
+                <p>Jason Coposky<br/>
+                Chief Technologist<br/>
+                The iRODS Consortium<br/>
+                <i>July 2015</i></p>
+
+                <h2>iRODS 4.2</h2>
+
+                <p>For iRODS 4.2, our focus shifted from hardening the core to hardening the software engineering infrastructure and enhancing integration with external services.  We chose a standard build system and a compiler across all supported platforms, and we moved the system to a dynamic linking strategy, once and for all allowing for the separation of client and server libraries.</p>
+
+                <p>For integration with external services, we worked with existing implementations from our collaborators in our membership and community to capture best practices and standardize message formats and payloads.  The resulting Messaging Framework leveraged the new Rule Engine Plugin Framework, which allows for the use of new programming languages as well as special purpose plugins.</p>
+
+                <h3>Messaging Framework</h3>
+
+                <p>The messaging framework is a means for iRODS to asynchronously reach out to external services via an AMQP message bus.  Several messaging implementations currently exist within the community, namely at CyVerse and DFC.  As this technology has become increasingly important, we intend to gather best practices and standardize message formats, serialization technology, topics, and the services expected to be available for those topics.</p>
+
+                <p>The message bus is typically reached through iRODS via policy enforcement points (PEPs) in the rule engine.  With the addition of the new Rule Engine Plugin Framework, we now have a fine-grained and fast system for message dispatch.</p>
+
+                <h3>Reference Implementations</h3>
+
+                <p>The iRODS Consortium provides and supports reference implementations across a variety of use cases and vertical integrations.  The first three were auditing, indexing, and metadata storage.
+
+                <ul>
+                    <li><strong>Auditing System</strong>: This reference implementation provides the pieces, as well as the wiring, to handle a full, provably-complete, auditing system of every operation within an iRODS deployment.</li>
+                    <li><strong>Indexing System</strong>: This reference implementation provides an external service to handle partial and fulltext indexing of the data objects and metadata stored in an iRODS deployment.</li>
+                    <li><strong>Metadata Storage</strong>: This reference implementation provides an external service to store large numbers of metadata attributes associated with data stored in an iRODS deployment.</li>
+                </ul>
+                </p>
+
+                <p>Together, these reference implementations provide a glimpse into the power of iRODS as a cohesive system to track every operation and to provide custom search across arbitrarily detailed amounts of metadata and fulltext.</p>
+
+                <h3>Rule Engine Plugin Framework</h3>
+
+                <p>This framework allows the definition of rules in languages other than the Rule Language, such as Python or C++.  It also provides the ability to run multiple rule engine plugins and rule bases simultaneously for a given data management operation, which enables the creation of special purpose Rule Engines.  Coupled with the use of dynamic policy enforcement points (PEPs), this creates a powerful and versatile system for a variety of applications.  In concert with the new Messaging Framework, a special rule engine plugin may publish any and all policy enforcement points and associated data to the AMQP message bus for ingest or action.</p>
+
+                <h3>Software Engineering Infrastructure</h3>
+
+                <p>iRODS continues to improve under the hood due to newer software engineering techniques and C++ features being introduced.  With the addition of the Rule Engine Plugin framework, new C++ features are now required, and they needed to be included in the infrastructure used to build and deploy iRODS.  The new build system has been rewritten using CMake.  The build system standardizes on a C++14-capable compiler across all supported platforms. All of the setup, upgrade, and control scripts are standardized on Python.  The dynamic libraries for the server and the client have been separated and versioned, and the C API  cleanly defined and isolated.  This was a major departure from the prior bash and make-based build system but now provides unprecedented flexibility, power, and control as features are added in 4.2+.</p>
+
+                <h2>Future Direction</h2>
 
                 <p>The long term vision of the Consortium for iRODS is to create a hardened core broker which invokes services across groups of plugins accessed through a suite of thin and easy-to-use client APIs. <strong>iRODS and its source code should focus on data management.</strong> A hardened core broker will ultimately allow iRODS to grow in any direction the Membership and Community may envision.  To that end, we envision a set of capabilities necessary for iRODS to reach this level of enterprise readiness.</p>
 
@@ -96,47 +305,7 @@
 
                 <p>During the creation of the next generation API, it is our intention to further abstract the transportation of data within iRODS.  There is a wealth of existing technologies, such as Aspera and other parallel I/O APIs provided by various storage systems, that can benefit iRODS.  One can envision an implementation in which, during a put or get, iRODS simply brokers the operation and selects the best transport mechanism available for the operation.  This would permit HPC clusters storing data in iRODS on high performance parallel file systems to take full advantage of the native speed of their storage technologies.</p>
 
-                <div id="previous"></div>
-
-                <h1><i class="green_font fa fa-angle-right"></i> Previous Releases</h1>
-
-                <h2>4.2</h2>
-                <p>For iRODS 4.2, our focus shifted from hardening the core to hardening the software engineering infrastructure and enhancing integration with external services.  We chose a standard build system and a compiler across all supported platforms, and we moved the system to a dynamic linking strategy, once and for all allowing for the separation of client and server libraries.
-
-                <div id="messagingframework"></div>
-
-                <p>For integration with external services, we worked with existing implementations from our collaborators in our membership and community to capture best practices and standardize message formats and payloads.  The resulting <a href="#messagingframework">Messaging Framework</a> leveraged the new <a href="#ruleenginepluginframework">Rule Engine Plugin Framework</a>, which allows for the use of new programming languages as well as special purpose plugins.</p>
-
-                <h3>Messaging Framework</h3>
-
-                <p>The messaging framework is a means for iRODS to asynchronously reach out to external services via an AMQP message bus.  Several messaging implementations currently exist within the community, namely at CyVerse and DFC.  As this technology has become increasingly important, we intend to gather best practices and standardize message formats, serialization technology, topics, and the services expected to be available for those topics.</p>
-
-                <p>The message bus is typically reached through iRODS via policy enforcement points (PEPs) in the rule engine.  With the addition of the new Rule Engine Plugin Framework, we now have a fine-grained and fast system for message dispatch.</p>
-
-                <h3>Reference Implementations</h3>
-
-                <p>The iRODS Consortium provides and supports reference implementations across a variety of use cases and vertical integrations.  The first three were auditing, indexing, and metadata storage.
-
-                <ul>
-                    <li><strong>Auditing System</strong>: This reference implementation provides the pieces, as well as the wiring, to handle a full, provably-complete, auditing system of every operation within an iRODS deployment.</li>
-                    <li><strong>Indexing System</strong>: This reference implementation provides an external service to handle partial and fulltext indexing of the data objects and metadata stored in an iRODS deployment.</li>
-                    <li><strong>Metadata Storage</strong>: This reference implementation provides an external service to store large numbers of metadata attributes associated with data stored in an iRODS deployment.</li>
-                </ul>
-                </p>
-
-                <div id="ruleenginepluginframework"></div>
-
-                <p>Together, these reference implementations provide a glimpse into the power of iRODS as a cohesive system to track every operation and to provide custom search across arbitrarily detailed amounts of metadata and fulltext.</p>
-
-                <h3>Rule Engine Plugin Framework</h3>
-
-                <p>This framework allows the definition of rules in languages other than the Rule Language, such as Python or C++.  It also provides the ability to run multiple rule engine plugins and rule bases simultaneously for a given data management operation, which enables the creation of special purpose Rule Engines.  Coupled with the use of dynamic policy enforcement points (PEPs), this creates a powerful and versatile system for a variety of applications.  In concert with the new Messaging Framework, a special rule engine plugin may publish any and all policy enforcement points and associated data to the AMQP message bus for ingest or action.</p>
-
-                <h3>Software Engineering Infrastructure</h3>
-
-                <p>iRODS continues to improve under the hood due to newer software engineering techniques and C++ features being introduced.  With the addition of the Rule Engine Plugin framework, new C++ features are now required, and they needed to be included in the infrastructure used to build and deploy iRODS.  The new build system has been rewritten using CMake.  The build system standardizes on a C++14-capable compiler across all supported platforms. All of the setup, upgrade, and control scripts are standardized on Python.  The dynamic libraries for the server and the client have been separated and versioned, and the C API  cleanly defined and isolated.  This was a major departure from the prior bash and make-based build system but now provides unprecedented flexibility, power, and control as features are added in 4.2+.</p>
-
-                <h2>4.1</h2>
+                <h2>iRODS 4.1</h2>
 
                 <p>Each release of iRODS begins with a general philosophy which shapes the decisions about the overall goals as well as particular features to include.  As of the iRODS Consortium 4.0 release, marking the merge between Enterprise iRODS and the Community Edition, the Consortium has been focused on making this product a stable, reliable, Enterprise Ready data management system. For the 4.1 release this objective limited our scope to activities around hardening the code, fixing bugs, and building Enterprise quality infrastructure around our core product: the iRODS Server.</p>
 
@@ -227,8 +396,12 @@
                     </li>
                 </ul>
                 </p>
+
+                </div>
+
             </div>
         </div>
     </section>
 </body>
 </html>
+
