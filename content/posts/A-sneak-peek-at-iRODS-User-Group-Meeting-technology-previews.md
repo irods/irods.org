@@ -4,7 +4,7 @@ Author: Karen Green
 Slug: A-sneak-peek-at-iRODS-User-Group-Meeting-technology-previews
 Status: published
 
-<div class="full_image"><img src="{filename}/images/ugm_2017_crest.jpg" /></div>
+<div class="full_image"><img src="{static}/images/ugm_2017_crest.jpg" /></div>
 
 New plugins to be highlighted; register now at [https://irods.org/ugm2017/]({filename}/pages/ugm2017.html)!
 

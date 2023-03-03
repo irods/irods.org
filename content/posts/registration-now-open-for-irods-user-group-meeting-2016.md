@@ -4,7 +4,7 @@ Author: Dan Bedard
 Slug: registration-now-open-for-irods-user-group-meeting-2016
 Status: published
 
-<div class="full_image"><img src="{filename}/uploads/2016/02/reg_open.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/02/reg_open.jpg" /></div>
 
 <div style="margin:0px auto 20px; font-family:helvetica; color:#fff; font-size:20px; height:46px; padding:15px 0px; text-align:center; width:250px; background:#00a388">
 

@@ -278,7 +278,7 @@ variables to 8 threads and 5 sec of sleep time, to be more cautious.
 	    rule_engine_server_sleep_time_in_seconds: 5
 
 
-<div class="full_image"><img src="{filename}/uploads/2020/kth-gpfs-migration-htop.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2020/kth-gpfs-migration-htop.png" /></div>
 
 Even after this change, after scheduling enough replication jobs into
 the rule execution queue, the number of `irodsServer` processes and
@@ -299,7 +299,7 @@ again, but the system handled it somewhat well, perhaps due to
 successfully retrying the DB connection and then succesfully executing
 the delayed job in question.
 
-<div class="full_image"><img src="{filename}/uploads/2020/kth-gpfs-migration-read-write.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2020/kth-gpfs-migration-read-write.png" /></div>
 
 However, in one project, 2 objects failed.
 

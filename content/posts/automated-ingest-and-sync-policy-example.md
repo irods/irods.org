@@ -27,7 +27,7 @@ The iRODS Consortium has identified eight capabilities that constitute the balan
 
 Organizations that come to the Consortium for help or advice need some subset of these eight capabilities to solve their data management issues.  If you have others, please let us know.
 
-<a href="{filename}/images/capabilities.png" target="_blank" ><img src="{filename}/images/capabilities.png" class="tech_diagram"></a>
+<a href="{static}/images/capabilities.png" target="_blank" ><img src="{static}/images/capabilities.png" class="tech_diagram"></a>
 
 The first packaged capability we released earlier this year was the [Storage Tiering Framework]({filename}/posts/irods-storage-tiering-framework-is-updated.md).
 
@@ -124,4 +124,4 @@ The above set of example policy will afford an organization the ability to treat
 
 Getting data ingested in an automated way is the first step towards taking control of your data and providing confidence to everyone who needs to use it.
 
-<a href="{filename}/images/data_lifecycle_diagram.jpg" target="_blank" ><img src="{filename}/images/data_lifecycle_diagram.jpg" class="tech_diagram"></a>
+<a href="{static}/images/data_lifecycle_diagram.jpg" target="_blank" ><img src="{static}/images/data_lifecycle_diagram.jpg" class="tech_diagram"></a>

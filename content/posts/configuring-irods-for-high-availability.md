@@ -14,7 +14,7 @@ possible to create a fault-tolerant iRODS Zone that can scale to high
 loads.
 
 This post is based on [High Availability iRODS System
-(HAIRS)]({filename}/uploads/2015/07/irods_HA_London.pdf)
+(HAIRS)]({static}/uploads/2015/07/irods_HA_London.pdf)
 by Yutaka Kawai at KEK and Adil Hasan at the University of Liverpool. I
 use HAProxy for this demonstration, which was not applicable at the time
 of the original HAIRS presentation.
@@ -43,7 +43,7 @@ For this demonstration, I set up 7 virtual servers.
 -   Resource2.example.org - 192.168.1.156
 -   CLI1.example.org - 192.168.1.154
 
-<div class="full_image"><img src="{filename}/uploads/2015/07/high_a.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/07/high_a.jpg" /></div>
 
 To give each server the IP addresses and hostnames listed above,
 configure /etc/hosts as follows:

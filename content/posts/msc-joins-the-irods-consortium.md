@@ -4,7 +4,7 @@ Author: Karen Green
 Slug: msc-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/msc_logo.png" />
+<img src="{static}/images/msc_logo.png" />
 
 <br />
 

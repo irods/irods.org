@@ -29,10 +29,10 @@ Scotty, the iRODS Administration Interface.
 > information locally.<!--more-->
 
 [Paper (475kB,
-PDF)]({filename}/uploads/2013/03/scotty-irods-admin-interface.pdf)
+PDF)]({static}/uploads/2013/03/scotty-irods-admin-interface.pdf)
 
 [Slides (231kB,
-PDF)]({filename}/uploads/2013/03/scotty-irods-admin-interface-slides.pdf)
+PDF)]({static}/uploads/2013/03/scotty-irods-admin-interface-slides.pdf)
 
 Download:  
 [wpdm\_file id=1]
@@ -41,4 +41,4 @@ Download:
 
 Dependencies: Tomcat7
 
-<div class="full_image"><img src="{filename}/uploads/2013/03/dashboard.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2013/03/dashboard.png" /></div>

@@ -4,7 +4,7 @@ Author: Dan Bedard
 Slug: come-see-us-at-sc15
 Status: published
 
-<div class="full_image"><img src="{filename}/images/sc15card.jpg" /></div>
+<div class="full_image"><img src="{static}/images/sc15card.jpg" /></div>
 
 **Learn why** the biggest names in storage are joining forces on iRODS
 
@@ -18,7 +18,7 @@ you.
 **We** have lots of events planned for **SC15**. Don’t miss out!
 
 [Click
-Here]({filename}/uploads/2015/10/irods_sched_sc2015.pdf) to
+Here]({static}/uploads/2015/10/irods_sched_sc2015.pdf) to
 download the iRODS SC15 Schedule.
 
 Want to know more about iRODS? Get hands on experience at the iRODS
@@ -34,4 +34,4 @@ RSVP to attend! Demos, use cases, tutorials ...
 ***Courtyard Austin Downtown***
 (a quick 5 minute walk across the street from the Convention Center)
 
-<div class="full_image"><img src="{filename}/images/sc15map.jpg" /></div>
+<div class="full_image"><img src="{static}/images/sc15map.jpg" /></div>

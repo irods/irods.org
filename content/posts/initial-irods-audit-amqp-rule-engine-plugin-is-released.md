@@ -15,7 +15,7 @@ The Audit plugin has been tested with Apache ActiveMQ 5.13.2 and 5.14.1 and Rabb
 
 The ability to gather, correlate, and interrogate messages from every operation means that a full audit (and very powerful reporting capabilities) become possible.  The original demonstration used the following setup to build a dashboard of live activity within the iRODS Zone.
 
-<div class="full_image"><img src="{filename}/images/amqp_kibana.jpg" /></div>
+<div class="full_image"><img src="{static}/images/amqp_kibana.jpg" /></div>
 
 We demonstrated a few of these possibilities at the [SC17 workshop in Denver]({filename}/pages/sc17.html) a couple weeks ago.
 

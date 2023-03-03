@@ -13,7 +13,7 @@ the iRODS of today.
 [Arcot Rajasekar, Michael Wan, Reagan Moore, Hao Xu (2016) **Evolution
 of Data Grid Technology.** *DICE, University of North Carolina at Chapel
 Hill.* September
-2016.]({filename}/uploads/2016/09/EvolutionOfDataGridTechnology2016.pdf)
+2016.]({static}/uploads/2016/09/EvolutionOfDataGridTechnology2016.pdf)
 
 > Abstract
 >

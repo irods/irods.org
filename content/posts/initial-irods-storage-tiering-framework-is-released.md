@@ -12,7 +12,7 @@ To define a storage tiering group, selected storage resources can be labeled wit
 
 No rules necessary!  Just metadata on resources!
 
-<div class="full_image"><img src="{filename}/images/storage_tiering_diagram.jpg" /></div>
+<div class="full_image"><img src="{static}/images/storage_tiering_diagram.jpg" /></div>
 
 ## Data Tributary Pattern
 
@@ -24,7 +24,7 @@ At the edge of an iRODS deployment, there is usually a use case for ingestion of
 
 The storage tiering capability allows for this pattern very nicely.
 
-<div class="full_image"><img src="{filename}/images/storage_tiering_tributary_pattern.png" /></div>
+<div class="full_image"><img src="{static}/images/storage_tiering_tributary_pattern.png" /></div>
 
 Each lab would be named as a separate `irods::storage_tier_group` and employ a number of tiers on the way into the downstream terminal tier.
 

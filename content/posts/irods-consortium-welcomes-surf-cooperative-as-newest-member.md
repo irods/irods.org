@@ -4,7 +4,7 @@ Author: Karen Green
 Slug: irods-consortium-welcomes-surf-cooperative-as-newest-member
 Status: published
 
-<p><img src="{filename}/images/surf_logo.png" /></p>
+<p><img src="{static}/images/surf_logo.png" /></p>
 
 CHAPEL HILL, NC - SURF, a cooperative of research and educational institutions that supports researchers throughout the Netherlands, has joined the iRODS Consortium and plans to use iRODS to support Dutch scientists and their research data management needs.
 

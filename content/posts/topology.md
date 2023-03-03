@@ -11,7 +11,7 @@ setting up these demonstrations.
 The first thing to understand is how data grids are structured in iRODS.
 I made this simple little diagram to help:
 
-<div class="full_image"><img src="{filename}/uploads/2014/06/iRODS-Grid-Topology1.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/06/iRODS-Grid-Topology1.png" /></div>
 
 <!--more-->
 

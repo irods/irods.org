@@ -4,7 +4,7 @@ Author: iRODS Consortium
 Slug: researchspace-and-irods-partner-to-enable-virtual-file-storage-and-metadata-solutions-for-institutional-research-data-management
 Status: published
 
-<img src="{filename}/images/rspace_logo.png" width="150px" />
+<img src="{static}/images/rspace_logo.png" width="150px" />
 
 <br />
 

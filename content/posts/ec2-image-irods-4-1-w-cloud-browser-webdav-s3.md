@@ -17,7 +17,7 @@ Browser](https://github.com/DICE-UNC/irods-cloud-browser),
 resource plugin](https://github.com/irods/irods_resource_plugin_s3)
 already installed.
 
-<div class="full_image"><img src="{filename}/uploads/2016/03/EC2-iRODS_4.1_CloudBrowser.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/03/EC2-iRODS_4.1_CloudBrowser.png" /></div>
 
 The Cloud Browser supports all basic file interactions: upload,
 download, move, rename, copy, delete. The WebDAV interface allows for

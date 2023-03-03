@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: infinitetactics-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/infinitetactics_logo-circle.png" width="150px" />
+<img src="{static}/images/infinitetactics_logo-circle.png" width="150px" />
 
 <br />
 

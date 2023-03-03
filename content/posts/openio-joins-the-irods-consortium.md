@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: openio-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/openio_logo.png" width="150px" />
+<img src="{static}/images/openio_logo.png" width="150px" />
 
 <br />
 

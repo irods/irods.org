@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: omnibond-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/omnibond_logo.png" width="150px" />
+<img src="{static}/images/omnibond_logo.png" width="150px" />
 
 <br />
 

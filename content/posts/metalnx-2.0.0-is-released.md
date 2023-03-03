@@ -6,7 +6,7 @@ Status: published
 
 In coordination with our partners at the [NIEHS](https://www.niehs.nih.gov), the iRODS Consortium is pleased to announce the release of Metalnx 2.0.0.
 
-<div class="full_image"><img src="{filename}/uploads/2019/metalnx2.0.0.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2019/metalnx2.0.0.png" /></div>
 
 It has been tagged at GitHub and pushed to Docker Hub.
 

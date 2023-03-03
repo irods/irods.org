@@ -4,7 +4,7 @@ Author: Terrell Russell
 
 After [a year with our new website workflow and design]({filename}/posts/new-irods-website-for-2017.md), we have refreshed the look for the coming year.
 
-<div class="full_image"><img src="{filename}/images/2017_site_compare.jpg" /></div>
+<div class="full_image"><img src="{static}/images/2017_site_compare.jpg" /></div>
 
 If last year's design was known as 'pajama pants', this year's is already being called 'hexagons'.
 

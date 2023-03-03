@@ -7,7 +7,7 @@ Status: published
 We are excited to announce the second release of [DFC iRODS Cloud
 Browser](https://github.com/DICE-UNC/irods-cloud-browser).
 
-<div class="full_image"><img src="{filename}/uploads/2016/06/Screen-Shot-2016-06-29-at-3.42.35-PM.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/06/Screen-Shot-2016-06-29-at-3.42.35-PM.png" /></div>
 
 <br />
 

@@ -71,7 +71,7 @@ The following lists capture some stats and how we went about planning (and learn
 
 ## Other Decisions
 
- - <strong>Zoom Meeting for [Group Photo]({filename}/uploads/2020/ugm2020_group_photo.png).</strong> This was scheduled prior to the first session on Day 2.  Our 'photographer' instructed everyone on how it would work, when to smile, and then took multiple screenshots.  These were post-processed to form the final composite image.
+ - <strong>Zoom Meeting for [Group Photo]({static}/uploads/2020/ugm2020_group_photo.png).</strong> This was scheduled prior to the first session on Day 2.  Our 'photographer' instructed everyone on how it would work, when to smile, and then took multiple screenshots.  These were post-processed to form the final composite image.
  - <strong>Pre-Session video loop.</strong> To signal to attendees that they were in the right place, we had a 3-4 slide presentation shared and set to loop for the ~30 minutes prior to 'going live' with our broadcast.  The slides included the agenda for the upcoming session, the expected timing, the code of conduct, and sponsor information.
  - <strong>Swag bag.</strong> For those who paid for a conference T-Shirt and bag of goodies, we shipped swag bags around the world.  This turned out to be more complicated than expected due to customs in a number of countries being backlogged.  Most received their packages in time.
  - <strong>Custom Zoom background.</strong> We worked to craft a simple design that was not distracting or that would be easily blocked or occluded by different head placements and hair type.  We pinned the image in Slack before the conference and reminded speakers about it during their prep sessions.  It was also good for attendees to have during the Group Photo.

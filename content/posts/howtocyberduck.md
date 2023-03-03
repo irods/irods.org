@@ -131,7 +131,7 @@ connection using a .cyberduckprofile Connection Profile file.
     -   Close the bookmark window.
 
     <p>
-    <div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckprofile.png" /></div>
+    <div class="full_image"><img src="{static}/uploads/2015/09/cyberduckprofile.png" /></div>
 
 ## Using Cyberduck
 
@@ -148,7 +148,7 @@ Support](https://trac.cyberduck.io/newticket).
 In the Cyberduck window, double-click a bookmark.
 
 
-<div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckmenu.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/09/cyberduckmenu.png" /></div>
 
 Log in to the iRODS server using your iRODS username and password. By
 default, your Home folder is selected.
@@ -169,7 +169,7 @@ Click the Cyberduck Go menu and then click Go to Folder:
 -   Click Go.
 
 
-<div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckfolder.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/09/cyberduckfolder.png" /></div>
 
 
 ### Upload

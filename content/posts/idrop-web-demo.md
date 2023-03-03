@@ -133,7 +133,7 @@ iCAT-VM$ sudo wget -P /var/lib/tomcat6/webapps http://people.renci.org/~danb/FOR
 Let's see if it works. Open a browser on the VM, and point it to
 http://localhost:8080/idrop-web2.
 
-<div class="full_image"><img src="{filename}/uploads/2014/08/idrop-login-300x215.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/08/idrop-login-300x215.png" /></div>
 <div class="green_font">This is what it should look like.</div>
   
 

@@ -22,7 +22,7 @@ management software.</span>
 the SC15 show floor at the Austin Convention Center.</span>
 
 [caption id="attachment\_3083" align="alignright" width="300"]![iRODS -
-NICS]({filename}/uploads/2015/11/iRODS-NICS-2-300x200.jpeg)
+NICS]({static}/uploads/2015/11/iRODS-NICS-2-300x200.jpeg)
 Dan Bedard, right, welcomes Gregory Peterson, director of the National
 Institute of Computational Sciences, to the iRODS Consortium in the
 RENCI booth at SC15[/caption]

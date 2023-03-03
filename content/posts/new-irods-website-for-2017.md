@@ -4,7 +4,7 @@ Author: Terrell Russell
 
 We are excited to announce the redesign of our website!
 
-<div class="full_image"><img src="{filename}/images/2016_site_compare.jpg" /></div>
+<div class="full_image"><img src="{static}/images/2016_site_compare.jpg" /></div>
 
 The iRODS website has been powered by [WordPress](https://wordpress.org/) since the iRODS Consortium took the mantle from the DICE Group beginning in 2012.  Since then, we've posted over 120 articles and have grown from 1-2 people to a team of 10+.
 

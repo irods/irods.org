@@ -4,7 +4,7 @@ Author: Terrell Russell
 Slug: announcing-irods-ugm-best-student-paper-award
 Status: published
 
-<img src="{filename}/images/ugm2019-bridge.svg" class="tech_diagram"></a>
+<img src="{static}/images/ugm2019-bridge.svg" class="tech_diagram"></a>
 
 Two announcements today about the upcoming [iRODS User Group Meeting 2019 in Utrecht, Netherlands](https://irods.org/ugm2019/):
 

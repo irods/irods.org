@@ -47,16 +47,16 @@ Now, follow these steps to get up and running.
 
 Step 1: Log in at [aws.amazon.com](https://aws.amazon.com/).
 Step 2: Set your region to "US East" or "N. Virginia".
-<div class="full_image"><img src="{filename}/uploads/2014/12/AWS-Region.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/AWS-Region.png" /></div>
 
 Step 3: Click "EC2".
-<div class="full_image"><img src="{filename}/uploads/2014/12/AWS-EC2.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/AWS-EC2.png" /></div>
 
 Step 4: Click "AMIs".
-<div class="full_image"><img src="{filename}/uploads/2014/12/AMIs.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/AMIs.png" /></div>
 
 Step 5: Select "Public images" from the dropdown selector.
-<div class="full_image"><img src="{filename}/uploads/2014/12/AMI-launch.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/AMI-launch.png" /></div>
 
 Step 6: Search for the beppodb/irods-aws AMI. The most recent version is
 AMI ID ~~ami-ee0a9686~~ ami-7ab7d912.
@@ -75,13 +75,13 @@ the defaults.
 Step 10: Configure security group. Open ports 22 (SSH), 80 (HTTP), 1247
 for iRODS control, and 20000-20199 for iRODS parallel file transfers.
 
-<div class="full_image"><img src="{filename}/uploads/2014/12/AWS-security-group.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/AWS-security-group.png" /></div>
 
 Step 11: Review, associate key pairs, and launch!
 
 Step 12: Click "Instance".
 
-<div class="full_image"><img src="{filename}/uploads/2014/12/Instances.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/12/Instances.png" /></div>
 
 Step 13: Wait a few minutes, then check for a hostname.
 

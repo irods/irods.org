@@ -92,8 +92,8 @@ This month's development has been functional code representing the basic
 layout, login/logout, and file upload/download. The two screenshots
 below show multiselect and a details page about an iRODS Data Object.
 
-<div class="full_image"><img src="{filename}/uploads/2015/04/s2.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/04/s2.jpg" /></div>
 
-<div class="full_image"><img src="{filename}/uploads/2015/04/s3.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/04/s3.jpg" /></div>
 
 <!--EndFragment -->

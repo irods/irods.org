@@ -4,7 +4,7 @@ Author: iRODS Consortium
 Slug: irods-and-fujifilm-partner-to-provide-an-archive-solution
 Status: published
 
-<img src="{filename}/images/fujifilm_logo.png" width="150px" />
+<img src="{static}/images/fujifilm_logo.png" width="150px" />
 
 <br />
 

@@ -1,5 +1,5 @@
-<title>FAQ</title>
 <html>
+<head><title>FAQ</title></head>
 <body>
 <section class="white_bg">
         <div class="container">
@@ -75,7 +75,7 @@
                 <br/><br/>
                 <h1><i class="green_font fa fa-angle-right"></i> Performance</h1>
                 <h3>How does iRODS transfer performance compare<br/>with FTP or other protocol <i class="green_font fa fa-question"></i></h3>
-                For files larger than 32MB (by default, but configurable), iRODS uses multiple threads to transfer data in parallel. This provides iRODS with a significant speed advantage over FTP, which only uses a single thread for transfers. For transferring large files, iRODS can be comparable or even faster than GridFTP. Download <a href="{filename}/uploads/2010/2010-ntnu-irods_performance.pdf">2010-ntnu-irods_performance.pdf</a> from <a href="https://www.ntnu.edu/">NTNU</a>.
+                For files larger than 32MB (by default, but configurable), iRODS uses multiple threads to transfer data in parallel. This provides iRODS with a significant speed advantage over FTP, which only uses a single thread for transfers. For transferring large files, iRODS can be comparable or even faster than GridFTP. Download <a href="{static}/uploads/2010/2010-ntnu-irods_performance.pdf">2010-ntnu-irods_performance.pdf</a> from <a href="https://www.ntnu.edu/">NTNU</a>.
                 <br/><br/>
                 Additional networking performance information can be found in our <a href="{filename}/posts/irods-4-1-9-networking-performance-whitepaper.md">2016 performance whitepaper</a>.
                 <br/><br/>
@@ -88,7 +88,7 @@
                 <br/><br/>
                 There are specific adaptations the above institutions have made to their iRODS configurations to operate at scale. To understand how these adaptations work, consider the following diagram of a small iRODS deployment.
                 <br/><br/>
-                <img src="{filename}/images/iRODS-Grid-Topology.png" class="full_width_image"/>
+                <img src="{static}/images/iRODS-Grid-Topology.png" class="full_width_image"/>
                 <br/><br/>
                 Potential bottlenecks exist wherever a workload is not distributed over multiple services. Most efforts to prepare iRODS for scalability focus on distributing the load on the ICAT-enabled server (IES) or the ICAT database. Three methods have been identified to provide this load distribution: zone segmentation, database load balancing, and round-robin DNS.
 

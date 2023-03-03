@@ -11,7 +11,7 @@ has been spearheaded by the [DataNet Federation
 Consortium](http://datafed.org/)\*, with extensive collaboration and
 assistance from the User Interface Team of the iRODS Consortium.
 
-<div class="full_image"><img src="{filename}/uploads/2015/12/image.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/12/image.png" /></div>
 
 This first release requires a couple of manual steps to install and set
 up the web application properly. We are in the process of developing a

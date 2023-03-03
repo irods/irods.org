@@ -4,7 +4,7 @@ Author: Globus
 Slug: globus-for-irods-connector-is-released
 Status: published
 
-<img src="{filename}/images/globus_logo.png" width="150px" />
+<img src="{static}/images/globus_logo.png" width="150px" />
 
 <br />
 

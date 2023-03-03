@@ -97,12 +97,12 @@ Once the container is running, we can test it out. On the host machine,
 I open a browser window and go to https://localhost:8543/idrop-web2. I
 have to acknowledge a warning...
 
-<div class="full_image"><img src="{filename}/uploads/2014/07/idrop-docker1.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/07/idrop-docker1.png" /></div>
 
 But once I do, I can log in with username and password "rods" to take a
 test drive.
 
-<div class="full_image"><img src="{filename}/uploads/2014/07/idrop-docker2.png" /></div>Next
+<div class="full_image"><img src="{static}/uploads/2014/07/idrop-docker2.png" /></div>Next
 steps would be to install iCommands on the host, change the
 administrator password, and create some new users.
 

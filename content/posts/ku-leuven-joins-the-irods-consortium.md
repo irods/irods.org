@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: ku-leuven-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/kuleuven_logo.png" width="150px" />
+<img src="{static}/images/kuleuven_logo.png" width="150px" />
 
 <br />
 
