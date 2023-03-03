@@ -4,7 +4,7 @@ Author: Bonnie Hurst
 Slug: irods-user-group-meeting-2014-agenda
 Status: published
 
-#### [***<span style="text-decoration: underline;">Final Agenda\_iRODS User Group Meeting\_2014</span>***]({filename}/uploads/2014/05/Final-Agenda_iRODS-User-Meeting_2014_ver18.pdf "Final Agenda")
+#### [***<span style="text-decoration: underline;">Final Agenda\_iRODS User Group Meeting\_2014</span>***]({static}/uploads/2014/05/Final-Agenda_iRODS-User-Meeting_2014_ver18.pdf "Final Agenda")
 
 ###
 

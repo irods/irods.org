@@ -11,7 +11,7 @@ contracts, documentation, and backed by extensive unit, functional, and
 regression testing running continuously on RENCI's open infrastructure.
 
 E-iRODS Manual (3.0b2), June 2012 [(PDF,
-77KB)]({filename}/uploads/2012/04/e-irods-manual-3.0b2.pdf)
+77KB)]({static}/uploads/2012/04/e-irods-manual-3.0b2.pdf)
 
 This 3.0b2 release is provided as four different packages across three
 different platforms:

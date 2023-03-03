@@ -4,7 +4,7 @@ Author: Jayasree Jaganatha
 Slug: it4i-national-supercomputing-center-joins-the-irods-consortium
 Status: published
 
-<p><img src="{filename}/images/it4innovations_logo.png" width="250px" /></p>
+<p><img src="{static}/images/it4innovations_logo.png" width="250px" /></p>
 
 [IT4Innovations National Supercomputing Center](https://www.it4i.cz/en) at VSB – Technical University of Ostrava, which is based in the Czech Republic, has become the newest member of the iRODS Consortium. The consortium brings together businesses, research organizations, universities, and government agencies from around the world to ensure the sustainability of the iRODS software as a solution for distributed storage, transfer, and management of data. Members work with the consortium to guide further development and innovation, expand its user and developer communities, and provide adequate support and educational resources.
 

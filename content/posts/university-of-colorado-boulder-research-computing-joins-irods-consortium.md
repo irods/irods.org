@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: university-of-colorado-boulder-research-computing-joins-irods-consortium
 Status: published
 
-<p><img src="{filename}/images/CUBoulderRC_logo.png" width="250px" /></p>
+<p><img src="{static}/images/CUBoulderRC_logo.png" width="250px" /></p>
 
 The [iRODS Consortium](https://irods.org), the foundation that leads development and support of the integrated Rule-Oriented Data System (iRODS) data management software, welcomes University of Colorado Boulder (CU Boulder) Research Computing as its newest Consortium member.
 

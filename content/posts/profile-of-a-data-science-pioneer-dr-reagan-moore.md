@@ -18,7 +18,7 @@ interconnected and heterogeneous resources. With those changes came
 challenges. As Moore recalls, the software needed to manage data and
 interactions in a widely distributed environment didn't exist.
 
-<div class="full_image"><img src="{filename}/uploads/2016/06/Moore-UGM-1600x-768x510.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/06/Moore-UGM-1600x-768x510.jpg" /></div>
 
 <div class="green_font">Reagan Moore addresses attendees at the iRODS User Group Meeting, held
 June 8 and 9 in Chapel Hill, NC.</div>
@@ -58,7 +58,7 @@ organizations that help with iRODS deployments and support services.
 It's a software and enabling science success story that developed over
 two decades and involved much hard work as well as an aggressive goal.
 
-<div class="full_image"><img src="{filename}/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg" /></div>
 <div class="green_font">Reagan Moore, left, with RENCI Director Stan Ahalt after receiving
 recognition for long and successful career at the recent iRODS User
 Group meeting in Chapel Hill, NC.</div>
@@ -136,7 +136,7 @@ the world wanted to virtualize storage; we wanted to virtualize the data
 you were putting into the storage so you could manage collection
 properties independently of the choice of storage technology," he said.
 
-<div class="full_image"><img src="{filename}/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg" /></div>
 <div class="green_font">Reagan Moore, left, is congratulated for his years of service by Jason
 Coposky, interim executive director of the iRODS Consortium, at the
 annual iRODS User Group Meeting in June. In the background are Helen

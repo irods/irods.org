@@ -52,13 +52,13 @@ certification chain.
 7.  Pull down the selection box next to "Attached to:" and select
     "Host-only Adapter".  
 
-    <div class="full_image"><img src="{filename}/uploads/2015/04/adapter2.png" /></div>
+    <div class="full_image"><img src="{static}/uploads/2015/04/adapter2.png" /></div>
 8.  Click "OK"
 9.  In VirtualBox, click the "Start" button.
 10. Open a terminal and use `ifconfig` to get the IP address of eth1.
     **Take note of this IP address. You will need it later.**  
 
-    <div class="full_image"><img src="{filename}/uploads/2015/04/ipaddr.png" /></div>
+    <div class="full_image"><img src="{static}/uploads/2015/04/ipaddr.png" /></div>
 
 ### Install and Configure Tomcat, Proxied by Apache, with SSL
 
@@ -99,7 +99,7 @@ certification chain.
 
     Fill in the appropriate information for your certificate.
 
-    <div class="full_image"><img src="{filename}/uploads/2015/04/certs-1.png" /></div>
+    <div class="full_image"><img src="{static}/uploads/2015/04/certs-1.png" /></div>
 
     ~~~~
     sudo mv webdavssl.key /etc/ssl/certs
@@ -252,7 +252,7 @@ Update `irods-webdav/pom.xml`
 a: Change "milton-server-ce" to "milton-server-ent"
 
 </li>
-<div class="full_image"><img src="{filename}/uploads/2015/04/pomxml.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/04/pomxml.png" /></div>
 
   
    
@@ -318,7 +318,7 @@ For Mac OSX:
 
 You should now have access to your iRODS collections via WebDAV.  
 
-<div class="full_image"><img src="{filename}/uploads/2015/04/mounted.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/04/mounted.png" /></div>
 
 For Windows:
 
@@ -340,4 +340,4 @@ For Windows:
 
 You should now have access to your iRODS collections via WebDAV.  
 
-<div class="full_image"><img src="{filename}/uploads/2015/04/winexample.png" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/04/winexample.png" /></div>

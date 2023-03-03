@@ -23,7 +23,7 @@ This month's TWG touched on the many irons we have in the fire in the run up to 
   
     The working group met on March 15 and attracted 17 attendees.  We very much appreciate the enthusiasm and expect to continue the work through the stages of released code and approved standardization.  Thank you to everyone who attended and sent feedback.
 
-    The working [whitepaper]({filename}/uploads/2017/20170315-MetadataTemplates-Whitepaper.pdf), [slides]({filename}/uploads/2017/20170315-MetadataTemplates-Slides.pdf), and [specification](https://github.com/irods-contrib/irods_rest_services/tree/master/metadata_templates) have been posted.  A recorded demo will be a part of the May 17 [TRiRODS]({filename}/pages/trirods.html) meeting in Chapel Hill.
+    The working [whitepaper]({static}/uploads/2017/20170315-MetadataTemplates-Whitepaper.pdf), [slides]({static}/uploads/2017/20170315-MetadataTemplates-Slides.pdf), and [specification](https://github.com/irods-contrib/irods_rest_services/tree/master/metadata_templates) have been posted.  A recorded demo will be a part of the May 17 [TRiRODS]({filename}/pages/trirods.html) meeting in Chapel Hill.
 
 - Preparing [4.1.11](https://github.com/irods/irods/milestone/25) and [4.2.1](https://github.com/irods/irods/milestone/24) releases
 

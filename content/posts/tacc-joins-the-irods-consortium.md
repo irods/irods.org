@@ -4,7 +4,7 @@ Author: Stephanie Suber
 Slug: tacc-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/tacc_logo.png" width="150px" />
+<img src="{static}/images/tacc_logo.png" width="150px" />
 
 <br />
 

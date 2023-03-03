@@ -67,7 +67,7 @@ as more test machines are configured, more Oracle packages will be made
 available.
 
 iRODS Manual (4.0.0rc1), Mar 2014 [(PDF,
-404KB)]({filename}/uploads/2014/03/irods-manual-4.0.0rc1.pdf)
+404KB)]({static}/uploads/2014/03/irods-manual-4.0.0rc1.pdf)
 
 Please find the latest files available
 at <ftp://ftp.renci.org/pub/irods/releases/4.0.0rc1/>.

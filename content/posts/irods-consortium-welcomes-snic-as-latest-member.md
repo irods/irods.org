@@ -5,7 +5,7 @@ Slug: irods-consortium-welcomes-snic-as-latest-member
 Status: published
 
 
-<p><img src="{filename}/images/snic_logo.png" /></p>
+<p><img src="{static}/images/snic_logo.png" /></p>
 
 CHAPEL HILL, NC - The Swedish National Infrastructure for Computing (SNIC), a national research infrastructure hosted at universities across Sweden, is the newest member of the iRODS Consortium, the membership-based foundation that leads development and support of the integrated Rule-Oriented Data System (iRODS).
 

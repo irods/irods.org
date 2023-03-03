@@ -48,7 +48,7 @@ This release includes packages that have been tested on CentOS 5 and 6,
 SuSE 11 and 12, and Ubuntu 10 and 12.
 
 E-iRODS Manual (3.0.1b1), Oct 2013 [(PDF,
-390KB)]({filename}/uploads/2013/10/eirods-manual-3.0.1b1.pdf)
+390KB)]({static}/uploads/2013/10/eirods-manual-3.0.1b1.pdf)
 
 Please find the latest files available
 at <ftp://ftp.renci.org/pub/eirods/releases/3.0.1b1/>.

@@ -13,7 +13,7 @@ We have been working hard to solidify a few things - and we've had a couple good
 
 We are planning to continue writing and telling stories around some best practices and usage patterns that we see in the wild.  However, in addition, the iRODS Consortium will begin packaging small bits of software that address some of these particular patterns.
 
-The first will probably involve the 'Landing Zone' pattern, originally drawn as part of the [Data to Compute use case]({filename}/images/data_to_compute.jpg).  We plan to use a combination of python functions, our upcoming ingest tool, and the [Python Rule Engine Plugin]({filename}/posts/initial-irods-python-rule-engine-plugin-is-released.md).
+The first will probably involve the 'Landing Zone' pattern, originally drawn as part of the [Data to Compute use case]({static}/images/data_to_compute.jpg).  We plan to use a combination of python functions, our upcoming ingest tool, and the [Python Rule Engine Plugin]({filename}/posts/initial-irods-python-rule-engine-plugin-is-released.md).
 
 After that, we hope to create some metadata extraction packages for different domains including genomics, microscopy, and GIS systems.
 

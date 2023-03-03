@@ -8,7 +8,7 @@ We're picking up the pace again after [UGM2019]({filename}/pages/ugm2019.html). 
 
 Our work on NFSRODS has progressed and we now have an NFSv4-aware extended ACLs implementation under testing.  This should allow multiple owner/group permissions within iRODS to be visible and accessible on the NFS side of the mountpoint.  The unix commands `nfs4_getfacl` and `nfs4_setfacl` are behaving as expected, so far.  If you're interested in this work, we'd love to have more testers.
 
-The [cacheless S3 resource]({filename}/uploads/2019/James-iRODS-S3_Resource_Plugin_Cacheless_and_Detached-slides.pdf) code has been merged and will be released for 4.2.6 soon.
+The [cacheless S3 resource]({static}/uploads/2019/James-iRODS-S3_Resource_Plugin_Cacheless_and_Detached-slides.pdf) code has been merged and will be released for 4.2.6 soon.
 
 The refactoring of how replication works within iRODS is nearly complete.  We have introduced a new state so that replicas can now be either 'good', 'stale', or 'intermediate'.  We are very excited to be collapsing nearly ten different codepaths down to one or two.
 

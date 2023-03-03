@@ -6,7 +6,7 @@ Status: published
 
 [The iRODS Primer has been updated for iRODS 4.x and is now available from Morgan Claypool](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1049).
 
-<a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1049"><img src="{filename}/uploads/2017/Xu_iRODS_Primer2_Promo.png" width="200px" border=0></a>
+<a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1049"><img src="{static}/uploads/2017/Xu_iRODS_Primer2_Promo.png" width="200px" border=0></a>
 
 > <b>iRODS Primer 2: Integrated Rule-Oriented Data System</b><br/>
 > Synthesis Lectures on Information Concepts, Retrieval, and Services<br/>

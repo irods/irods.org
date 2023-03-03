@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: minnesota-supercomputing-institute-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/umn_logo.png" width="150px" />
+<img src="{static}/images/umn_logo.png" width="150px" />
 
 <br />
 

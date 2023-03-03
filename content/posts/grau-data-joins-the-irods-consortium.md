@@ -4,7 +4,7 @@ Author: Jayasree Jaganatha
 Slug: grau-data-joins-the-irods-consortium
 Status: published
 
-<p><img src="{filename}/images/grau_data_logo.png" width="250px" /></p>
+<p><img src="{static}/images/grau_data_logo.png" width="250px" /></p>
 
 [GRAU DATA](https://www.graudata.com/en/), a software company headquartered in Schwäbisch Gmünd, Germany, has joined the iRODS Consortium, the membership-based organization that leads development and support of the integrated Rule-Oriented Data System ([iRODS](https://irods.org)).
 

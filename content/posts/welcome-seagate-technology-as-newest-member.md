@@ -4,7 +4,7 @@ Author: Terrell Russell
 Slug: welcome-seagate-technology-as-newest-member
 Status: published
 
-<div class="full_image"><img src="{filename}/uploads/2014/09/seagate_2c_pos-R1-300x96.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2014/09/seagate_2c_pos-R1-300x96.jpg" /></div>
 
 CHAPEL HILL, NC, November 10, 2014 – Seagate Technology, a world leader
 in storage solutions, is the latest corporation to join the iRODS

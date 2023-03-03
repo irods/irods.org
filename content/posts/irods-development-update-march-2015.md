@@ -69,7 +69,7 @@ deployment and the term Grid to describe the purely physical. An iRODS
 Zone provides services to clients via the iRODS API and the wire-line
 protocol.
 
-<div class="full_image"><img src="{filename}/uploads/2015/03/ControlPlaneDiagram.jpg" /></div> 
+<div class="full_image"><img src="{static}/uploads/2015/03/ControlPlaneDiagram.jpg" /></div> 
 
 Previously, an iRODS Grid had no means of communicating with the outside
 world.  There was no mechanism to gracefully shut down a grid,

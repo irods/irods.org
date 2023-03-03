@@ -112,7 +112,7 @@ agendas as well as highlights from release notes.
 In addition to the [iRODS User's Group
 Meeting](http://irods.org/ugm2015/) and the associated
 [training](http://irods.org/ugm2015/training/) (workbook found
-[here]({filename}/uploads/2015/06/GettingStartedwiRODS4.1.pdf)),
+[here]({static}/uploads/2015/06/GettingStartedwiRODS4.1.pdf)),
 the development team has released as series of point releases given
 community feedback.
 

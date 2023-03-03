@@ -4,9 +4,9 @@ Author: Karen Green
 Slug: irods-consortium-continues-to-grow-signs-on-to-opensfs
 Status: published
 
-<p><img src="{filename}/images/quantum_logo.png" width="200px" /></p>
-<p><img src="{filename}/images/netapp_logo.jpg" width="150px" /></p>
-<p><img src="{filename}/images/opensfs_logo.jpg" width="200px" /></p>
+<p><img src="{static}/images/quantum_logo.png" width="200px" /></p>
+<p><img src="{static}/images/netapp_logo.jpg" width="150px" /></p>
+<p><img src="{static}/images/opensfs_logo.jpg" width="200px" /></p>
 
 
 CHAPEL HILL, NC - Two companies involved in data storage and cloud-based data services recently became the 17th and 18th members of the iRODS Consortium, the membership-based foundation that leads development and support of the integrated Rule-Oriented Data System (iRODS).

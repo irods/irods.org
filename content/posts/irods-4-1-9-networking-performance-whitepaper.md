@@ -19,7 +19,7 @@ iRODS over high-bandwidth, high-latency connections.
 And 4.1.9 is up to 100x faster than 4.1.8!
 
 [Download PDF
-(330k)]({filename}/uploads/2016/09/russell2016-iRODS-networking-419.pdf)
+(330k)]({static}/uploads/2016/09/russell2016-iRODS-networking-419.pdf)
 
 > Summary
 >

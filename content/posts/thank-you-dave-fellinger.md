@@ -4,7 +4,7 @@ Author: Terrell Russell
 Slug: thank-you-dave-fellinger
 Status: published
 
-<img src="{filename}/images/dave_fellinger.jpg" width="150px" />
+<img src="{static}/images/dave_fellinger.jpg" width="150px" />
 
 <br />
 

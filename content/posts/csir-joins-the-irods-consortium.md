@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: csir-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/csir_logo.jpg" width="150px" />
+<img src="{static}/images/csir_logo.jpg" width="150px" />
 
 <br />
 

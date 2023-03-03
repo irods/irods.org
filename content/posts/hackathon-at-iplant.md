@@ -39,4 +39,4 @@ Read the rest of the post at
    
   
 
-<div class="full_image"><img src="{filename}/uploads/2015/02/IMG_0263-1024x414.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2015/02/IMG_0263-1024x414.jpg" /></div>

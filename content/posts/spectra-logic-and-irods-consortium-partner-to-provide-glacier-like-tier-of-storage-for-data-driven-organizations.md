@@ -4,7 +4,7 @@ Author: iRODS Consortium
 Slug: spectra-logic-and-irods-consortium-partner-to-provide-glacier-like-tier-of-storage-for-data-driven-organizations
 Status: published
 
-<img src="{filename}/images/spectra_logic_logo.png" width="150px" />
+<img src="{static}/images/spectra_logic_logo.png" width="150px" />
 
 <br />
 

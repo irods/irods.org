@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: banq-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/banq_logo.png" width="150px" />
+<img src="{static}/images/banq_logo.png" width="150px" />
 
 <br />
 

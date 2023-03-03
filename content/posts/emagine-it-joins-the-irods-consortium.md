@@ -4,7 +4,7 @@ Author: Anne Johnson
 Slug: emagine-it-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/emagine_logo.png" width="150px" />
+<img src="{static}/images/emagine_logo.png" width="150px" />
 
 <br />
 

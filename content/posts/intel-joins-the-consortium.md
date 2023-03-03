@@ -4,7 +4,7 @@ Author: Karen Green
 Slug: intel-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/intel_logo.png" width="150px"/>
+<img src="{static}/images/intel_logo.png" width="150px"/>
 
 
 The integrated Rule-Oriented Data System (iRODS) Consortium today announced [Intel Corporation](http://www.intel.com), has joined the membership-based foundation.

@@ -4,7 +4,7 @@ Author: Stephanie Suber
 Slug: cloudian-joins-the-irods-consortium
 Status: published
 
-<img src="{filename}/images/cloudian_logo.png" width="150px" />
+<img src="{static}/images/cloudian_logo.png" width="150px" />
 
 <br />
 

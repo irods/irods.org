@@ -4,7 +4,7 @@ Author: Terrell Russell
 Slug: save-the-date-ugm2017
 Status: published
 
-<div class="full_image"><img src="{filename}/uploads/2017/ugm2017-save_date.jpg" /></div>
+<div class="full_image"><img src="{static}/uploads/2017/ugm2017-save_date.jpg" /></div>
 
 <hr/>
 

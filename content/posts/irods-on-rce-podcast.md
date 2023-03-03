@@ -9,7 +9,7 @@ iRODS Consortium Executive Director Jason Coposky and Chief Technologist Terrell
 were interviewed on the Research, Computing & Engineering Podcast last week and the
 episode has now been published.
 
-<img src="{filename}/uploads/2017/rce_logo.png" />
+<img src="{static}/uploads/2017/rce_logo.png" />
 
 [RCE Podcast #109 - iRODS Data Management Software](http://www.rce-cast.com/Podcast/rce-109-irods.html) (46min)
 
