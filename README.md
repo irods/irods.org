@@ -45,3 +45,11 @@ rsync -arv output/ user@target:/path/to/output/
 ```
 
 - For Apache, allow the deployed `.htaccess` to override settings for the active `Directory`
+
+## View
+
+You can view the output using Docker by running the following:
+
+```
+docker run -d --rm --name irods.org -p 9090:80 -v $(pwd)/output:/usr/local/apache2/htdocs/ httpd:2.4
+```
