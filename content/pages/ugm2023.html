@@ -220,7 +220,7 @@
                     iRODS is extremely flexible in its configuration. Furthermore, it is not an opinionated system. This makes it powerful, but it also makes it difficult to manage. During this talk I will present a few practices and lessons I've learned over the last ten years maintaining CyVerse's iRODS grid. These practices will include how to decommission a storage server with no or minimal downtime, how to asynchronously replicate data to an off-site resource server, and how to transfer large sets of small files more quickly. Afterwards, I will offer to organize an interest group that would meet periodically to discuss best practices for iRODS administration.
                 </div>
 
-                <b>Updates on iRODS Data Respository Service Adapter</b><br/>
+                <b>Updates on iRODS Data Repository Service Adapter</b><br/>
                 Mike Conway and Deep Patel<br/>
                 NIEHS / NIH<br/>
                 <div class="abstract">
@@ -229,7 +229,7 @@
                     A DRS implementation over iRODS allows the iRODS data grid to expose data to this federated analysis ecosystem. The Federated Analysis System Project (FASP) components represent a formalization of the iRODS 'compute to data' pattern for the important Genomics and Health community.
                 </div>
 
-                <b>An update on Yoda: using iRODS to manage data throughout your research</b><br/>
+                <b>An update on Yoda: Using iRODS to manage data throughout your research</b><br/>
                 Lazlo Westerhof<br/>
                 Utrecht University<br/>
                 <div class="abstract">
@@ -251,7 +251,7 @@
                     Via this tool, we expect users to be able to design metadata schemas of varying complexity for their whole team to apply systematically. This will increase the uniformity and thus usability of metadata and can be used to enforce the inclusion of metadata to certain collections or data objects.
                 </div>
 
-                <b>RSpace + iRODS: Update: plans and vision</b><br/>
+                <b>RSpace + iRODS: Update: Plans and Vision</b><br/>
                 Rory Macneil and Terrell Russell<br/>
                 Research Space and iRODS Consortium<br/>
                 <div class="abstract">
@@ -267,21 +267,21 @@
                     To store data Galaxy utilizes ObjectStore as its data virtualization layer. It abstracts Galaxy's domain logic for data persistence technology. Currently, Galaxy mainly uses a Disk ObjectStore for data persistence. To extend Galaxy's data persistence capabilities, we had previously extended Galaxy's ObjectStore to support iRODS. In this work, we discuss the steps in deploying iRODS Object Store on the USA-based Galaxy server (usegalaxy.org) and the challenges we faced. To the best of our knowledge, after CyVerse (https://cyverse.org/about), this is one of the few application of iRODS to a real time, multi-user system.
                 </div>
 
-                <b>ManGO: a web portal and framework built on top of iRODS for active research data management</b><br/>
+                <b>ManGO: A web portal and framework built on top of iRODS for active research data management</b><br/>
                 Paul Borgermans, Mariana Montes, and Ingrid Barcena Roig<br/>
                 KU Leuven<br/>
                 <div class="abstract">
                     At the  University of Leuven. Belgium, we are building the infrastructure and software layers to leverage iRODS as a major building block in active research data management. This involves various workflows and processing of data and metadata during the lifetime of a research project. One of the important components consists of a modular and adaptable web portal built using the iRODS Python client. Given the wide range of use cases, the web framework employs some classical architectural patterns  to decouple specialised domain specific needs from the core system. It also has features that make it behave like a content management system, including a (view) template override system that make the representation of collections and data objects dependent on for example specific metadata or collection structure. Metadata is a prime focus to steer many aspects of this framework along its core use for research data, and a considerable effort was also put in a user friendly metadata schema management system. In this talk, we will present the current status as well as near future plans.
                 </div>
 
-                <b>Integrating IRODS with Project Eureka and Open OnDemand</b><br/>
+                <b>Integrating iRODS with Project Eureka and Open OnDemand</b><br/>
                 Boyd Wilson and David Reynolds<br/>
                 Omnibond<br/>
                 <div class="abstract">
                     This talk will discuss how we are integrating iRODS into our next evolution of CloudyCluster called Project Eureka. Part of Eureka is a project-based interface in Open OnDemand which will include a storage management UI built to work directly with iRODS.  We will show a demonstration of the work in progress and request feedback from the community.
                 </div>
 
-                <b>rirods: an R client for iRODS</b><br/>
+                <b>rirods: An R client for iRODS</b><br/>
                 Martin Schobben, Mariana Montes, Christine Staiger, and Terrell Russell<br/>
                 Vienna University of Technology, KU Leuven, Utrecht University, and iRODS Consortium<br/>
                 <div class="abstract">
@@ -290,7 +290,7 @@
                     R is a very popular language in data science, and we expect that many R users who are not familiar with Python, or the command line, will benefit from interacting with iRODS through this R package. We will showcase the main functionalities of the package and what we have planned for the future. Crucially, we offer the equivalents of iCommands 'iput', 'iget', 'ils', 'imeta' and a few other functions, but also rirods-specific functions that allow the user to directly stream between memory and iRODS without staging files locally.
                 </div>
 
-                <b>iBridges - a comprehensive way of interfacing with iRODS</b><br/>
+                <b>iBridges: A comprehensive way of interfacing with iRODS</b><br/>
                 Christine Staiger, Tim van Daalen, and John Mc Farland<br/>
                 Utrecht University, Wageningen University, and University of Groningen<br/>
                 <div class="abstract">
@@ -322,13 +322,6 @@
                 iRODS Consortium<br/>
                 <div class="abstract">
                     The iRODS Protocol has remained relatively static for more than 20 years.  This is a testament to its original planning, but also means any redesign would carry a heavy upgrade and migration cost.  Additionally, the protocol is novel to most developers and differs in implementation across client programming languages which hurts both approachability and adoption.  This talk covers the design, implementation, and early performance results of a new HTTP API for interacting with iRODS.
-                </div>
-
-                <b>iRODS Build and Packaging: 2023 Update</b><br/>
-                Markus Kitsinger<br/>
-                iRODS Consortium<br/>
-                <div class="abstract">
-                    
                 </div>
 
                 <b>The iRODS CLI we deserve</b><br/>
