@@ -3,6 +3,7 @@
   {{ super() }}
   {% if article.description %}
     <meta name="description" content="{{article.description}}" />
+        <title>{{ article.title }}</title>
   {% endif %}
 
   {% for tag in article.tags %}
@@ -12,8 +13,7 @@
 {% endblock %}
 
 {% block content %}
-<title>{{ SITENAME }}</title>
-
+<title>{{ article.title }} - {{ SITENAME }}</title>
 <section class="white_bg">
         <div class="container">
             <div class="space_half"></div>
