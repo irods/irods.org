@@ -9,8 +9,8 @@
 {% endif %}
 
 {% block content %}
+    <title>{% block title %}{{ page.title.title() }} - {{ SITENAME }}{% endblock title %}</title>
 
-    <title>{% block title %}{{ page.title.title() }}{% endblock title %}</title>
     {% if page.title == 'news' %}
         <section class="white_bg">
                 <div class="container">
