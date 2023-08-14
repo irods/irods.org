@@ -42,9 +42,77 @@
                 </div>
                 <br><br>
 
-<!--
                 <h2>Upcoming Presentations</h2>
--->
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Updating Zone Report and Other Server Fixes</h3>
+                    <i>By Nishant Dash, iRODS Consortium</i><br>
+                    <i>Wednesday, August 16, 2023</i>
+                    <br><br>
+                    An iRODS Zone can describe its own configuration with a ZoneReport. The schema that defines the ZoneReport is now a bit out of date as the server itself has changed for 4.3.0. Nishant refactored the zone_bundle.json schema and updated the machinery that produces and depends on this format. Issues addressed include the naming of server roles, duplicate plugins, hierarchy information for resources, and self-aware versioning.
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/nishant_dash.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Nishant Dash is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Zone Management Tool and NFSRODS</h3>
+                    <i>By Ganning Xu, iRODS Consortium</i><br>
+                    <i>Wednesday, August 16, 2023</i>
+                    <br><br>
+                    The iRODS Zone Management Tool has been updated to cover management of iRODS Tickets, the Delay Server, and a number of new health checks.
+                    <br><br>
+                    NFSRODS is a client to iRODS that presents iRODS as the NFSv4.1 protocol. We have found that restarting the server disrupts existing clients because the inodes (file handles) do not remain consistent across restarts.  This has now been fixed and provides persistent identifiers.
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/ganning_xu.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Ganning Xu is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Investigating the iRODS Protocol</h3>
+                    <i>By Phillip Davis, iRODS Consortium</i><br>
+                    <i>Wednesday, August 16, 2023</i>
+                    <br><br>
+                    The iRODS Protocol has been pretty stable for nearly 20 years, but not very well documented other than through implementations directly in client library code.  This work seeks to provide more approachable and developer-friendly documentation of the iRODS XML Protocol.
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/phillip_davis2023.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Phillip Davis is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 trirods_event">
+                    <h3>Adding S3 transfer capability to iRODS Automated Ingest</h3>
+                    <i>By Ajay Krishnamurthy, iRODS Consortium</i><br>
+                    <i>Wednesday, August 16, 2023</i>
+                    <br><br>
+                    The Automated Ingest tool is a Python application designed to keep the iRODS catalog up to date with changes in an existing filesystem or S3 bucket. The S3 scanner has implemented the REGISTER_SYNC operation for registering data in-place, but does not yet know how to make a copy of the scanned data into iRODS. This work implements PUT_SYNC to fill out the requested feature.
+                    <br>
+                    <div class="col-sm-12 trirods_speaker">
+                        <div class="col-sm-3 col-xs-12">
+                            <img src="{filename}/images/ajay_krishnamurthy.jpg" class="member_logo">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            Ajay Krishnamurthy is an intern with the iRODS Consortium.
+                        </div>
+                    </div>
+                </div>
 
                 <h2>Previous Presentations</h2>
 
