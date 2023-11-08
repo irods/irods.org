@@ -17,4 +17,4 @@ A [Docker image](https://hub.docker.com/r/irods/irods_http_api) has also been pu
 
 Watch the [Consortium's iRODS User Group Meeting 2023 talk](https://www.youtube.com/watch?v=9iF5nHTvO0w&list=PL29FhEN41mZPWLhE4CY4AvWA1vXygxoXx) or visit the [GitHub repository](https://github.com/irods/irods_client_http_api) to learn more.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9iF5nHTvO0w&list=PL29FhEN41mZPWLhE4CY4AvWA1vXygxoXx" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9iF5nHTvO0w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>

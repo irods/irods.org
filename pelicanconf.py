@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 SITEURL = ''
 # If developing in a subdirectory, use leading slash
 #SITEURL = '/path/to/subdir'
+SITEURL = '/newirodsorg'
 # Production setting is found in publishconf.py
 # Used via 'make publish'
 
