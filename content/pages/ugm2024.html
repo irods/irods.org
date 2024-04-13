@@ -165,7 +165,228 @@
                     </ul>
                 </ul>
             </div>
-            <div class="space phone_hide"></div>
+
+            <div class="space_half"></div>
+            <div class="col-lg-offset-2 col-lg-8" >
+                <h4 class="light_font" id="talks">Accepted Talks</h4>
+                <hr class="small_centered_line_ugm">
+            </div>
+
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+
+<!--
+                <p><a href="{filename}/images/irods_ugm2024_agenda.pdf">Current Agenda (pdf)</a></p>
+                <br/>
+-->
+
+                <b>iRODS UGM 2024 Keynote</b><br/>
+                SURF</br>
+                <br/>
+                <div class="space_half"></div>
+
+                <b>Safeguard your sensitive data in iRODS using data encryption feature available in GoCommands</b><br/>
+                Illyoung Choi, Edwin Skidmore, Tony Edgin, and Nirav Merchant<br/>
+                CyVerse / University of Arizona<br/>
+                <div class="abstract">
+                    iRODS has been utilized across various scientific domains for storing and sharing research data. However, certain domains, such as health sciences, require stringent confidentiality measures for utilizing iRODS as their data management solution. Compliance with regulations such as HIPPA (Health Insurance Portability and Accountability Act) necessitates end-to-end encryption, meaning that data must be encrypted for both storage and transmission. While iRODS provides encryption in transit using SSL (Secure Socket Layer), the responsibility for encrypted data storage at rest lies with the iRODS infrastructure provider and presents a significant limitation. Encrypting data before uploading it and decrypting it after download adds additional steps and complexity for manual encryption and decryption process.
+                    <br/><br/>
+                    To address these multiple challenges and to meet the requirement for encrypted data storage, we have simplified the process of encrypting and decrypting data as built-in capability in GoCommands. GoCommands is a cross platform command-line utility for iRODS, offering data access and management capabilities similar to iCommands. The encryption at rest algorithm employs AES-256-CTR to encrypt both file names and content before uploading, thereby ensuring that data remains encrypted within iRODS. When listing and downloading encrypted files, they are automatically decrypted using the encryption key provided by the user. Since GoCommands and WinSCP share the same encryption algorithm, users who are not familiar with the command-line interface can utilize WinSCP, a GUI-based tool, making it more user-friendly. This end-to-end encryption functionality requires no server-side changes to iRODS, ensuring compatibility with existing iRODS servers.
+                    <br/><br/>
+                    This new data encryption feature will empower researchers to utilize iRODS for storing and accessing their sensitive data and meeting regulatory compliance, thereby facilitating broader adoption of iRODS across various research domains.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Testing iRODS-based applications: Experiences with Yoda</b><br/>
+                Claire Saliers, Lazlo Westerhof, Sietse Snel, and Sirjan Kaur<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    Yoda is a research data management system based on iRODS that enables researchers to deposit, share, publish and preserve data. It is developed at Utrecht University, and used at multiple universities, as well as other organizations. In this contribution, we share our approach for testing Yoda and planned future work.
+                    <br/><br/>
+                    Our testing approach primarily revolves around automated scripted testing, encompassing unit tests, integration tests, API tests and UI tests. Additionally, we have explored use of scriptless testing and fuzzing to supplement scripted tests.
+                    <br/><br/>
+                    Planned future work includes improving test coverage, introducing accessibility tests and exploring ways to improve reliability of UI tests.
+                    <br/><br/>
+                    Drawing from our experiences, we share recommendations regarding how to improve testability and reliability of iRODS-based applications.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Streamlining iRODS: Kafka-based Data Pipelines</b><br/>
+                Peter Verraedt and Jo Wijnant<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    We sketch how changes in the iRODS catalog can be captured in realtime into Apache Kafka, and how we materialize those master-records as a readonly 'view' in OpenSearch using Apache Flink stream processor. We show that the same tools can be used to continuously monitor project usage within iRODS. As a last application, we sketch how audit logs can be collected and processed, and show future challenges.
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS replication management and our future iRODS world at Wellcome Sanger Institute</b><br/>
+                Sai Poomdla<br/>
+                Wellcome Sanger Institute<br/>
+                <div class="abstract">
+                    At Wellcome Sanger Institute, we manage 20 Petabytes of genomic data using iRODS. We currently use iRODS 4.2.7 in our production (and our tales of upgrading it to a later version) and due to various scenarios, whether it might be in hiccup in the network connection or data object corruption in the transit, we end up with failure in our replica creation process leading to Single, Dirty and Triple replicas. To mitigate these issues, we have developed in-house solutions using python iRODS client. Also, we are evolving into a new iRODS world, where we want to replace our storage servers with single large file-system and allow our users directly to read from this file-system instead of downloading the files into a high-performance file system.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Sharing data in a multi-system multi-role environment centered on iRODS</b><br/>
+                Claudio Cacciari, Eduard Klapwijk, Simone Mulder, Mark Mulder, Stephan Heunis, Frans van der Zijde, and Wouter Timmer<br/>
+                SURF and Erasmus University Rotterdam<br/>
+                <div class="abstract">
+                    SURF, the cooperative association of Dutch educational and research institutions, offers data infrastructure and services to the research communities. Some of its services are based on iRODS and are often used as building blocks for data platforms. One increasingly common architectural component in those platforms is a web portal where researchers can discover data using project specific queries. Once the data are found, they are made available to the researcher, directly, for example, with a download link or indirectly, triggering a copy to a computing environment where they are analyzed. The implementation of such workflow is time consuming. Its maintenance in the long term is often jeopardized by limited support available within the project and design choices too tailored for that use case makes its adoption by other organizations too difficult. We think that it is possible to model that workflow in a generic way as a re-usable modular component and in a way flexible enough to support even the more stringent requirements associated with sensitive data. The component relies on iRODS and links together multiple web portals and repositories through an API layer based on FastAPI. We present here a proof of concept developed within the GUTS project, in collaboration with the project’s data management team and the research support.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Python package for metadata schemas</b><br/>
+                Mariana Montes and Ronny Moreas<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    In this talk we will present a Python package to validate, write and read structured metadata based on schemas. The schemas are described in a JSON file following the specifications of the metadata schema manager developed in the context of the ManGO portal, but this implementation is independent from the web application. Given a schema, users can provide hierarchical metadata in a Python dictionary, validate its contents and add it to an iRODS data object or collection as AVUs with the appropriate namespacing. The same package allows to read back the AVUs and parse them into a Python dictionary preserving the original hierarchy.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Update: The Intersection Between Policy-Based Data Management and Emerging Health Science Data Standards</b><br/>
+                Mike Conway<br/>
+                NIH / NIEHS<br/>
+                <div class="abstract">
+                    iRODS is a domain-agnostic platform. The flexibility of iRODS flows from the fact that policy-based data management is at its core. By encoding metadata standards and management policies appropriate to a research domain into an iRODS data grid, an organization can create a powerful tool for data-driven research.
+                    <br/><br/>
+                    The Health Science domain is increasingly characterized by the co-location of data and compute, often 'bringing the compute to the data' and increasingly in a hybrid environment that spans cloud providers and bridges premises and cloud computing. This overview will look at GA4GH standards that intersect with the policy-based data management capabilities of iRODS for compute-to-data, access control, and federated search.
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS-based system turbocharged next-gen sequencing analysis during pandemic and beyond</b><br/>
+                Robert Verhagen and Erwin van Wieringen<br/>
+                National Institute for Public Health and the Environment (RIVM)<br/>
+                <div class="abstract">
+                    The National Institute for Public Health and the Environment (RIVM) has numerous projects in various scientific domains that generate next generation sequencing data. Bioinformatics plays an important role in analysing and interpreting this sequencing data. To support these analyses we developed a platform that consists of a High Performance Compute (HPC) cluster, a Linux Scientific Workspace for software development and a Data Management System (DMS) based on iRODS. On top of this DMS, we also created a Job Engine: a tightly integrated process automation tool that manages the automated analyses of sequencing data on the HPC.
+                    <br/><br/>
+                    The development of this robust and scalable platform started two years prior to the COVID-19 pandemic. As the pandemic unfolded, the RIVM found itself tasked with extensive analyses of vast amounts of COVID-19 surveillance data. We were able to quickly and seamlessly scale the system up to meet this increased demand.
+                    <br/><br/>
+                    For better automation and user experience, we created additional components within and alongside iRODS. The aforementioned Job Engine and a tool to import data from a variety of internal and external sources are used for automation purposes, while an extensive web interface with collection and document viewer functionalities, a data lineage viewer and (meta)data search capabilities were added for easy user interaction. We also created rules to pack and archive iRODS collections to an iRODS consumer at SURF (collaborative organisation for IT in Dutch education and research). With the DMS and these additional components, we have made the data analysis component of many vital processes within the RIVM reproducible.
+                    <br/><br/>
+                    By leveraging the iRODS software both the efficiency and the quality of data analyses within the RIVM has been improved significantly. The platform has proven to be crucial, notably during the pandemic, for processing otherwise unimaginable amounts of data.
+                </div>
+                <div class="space_half"></div>
+
+                <b>The LEXIS Platform V2 and using iRODS for large scale data management</b><br/>
+                Martin Golasowski and Mohamad Hayek<br/>
+                IT4Innovations, VSB-TU Ostrava and Leibniz Supercomputing Centre<br/>
+                <div class="abstract">
+                    The LEXIS Platform allows easy access to HPC and Cloud resources with complex workflow orchestration and distributed data management based on iRODS. In our talk we present the improved version of the LEXIS Platform, including centralised metadata index, direct staging from iRODS zones and application container support. Extension of the LEXIS data management features are planned within the Horizon Europe EXA4MIND project, which focuses on handling large amounts of data between various data sources like databases or object storage and HPC infrastructure, including data publication features following FAIR principles. We also describe various use-cases for iRODS in the HPC environment, including using iRODS as data transfer gateway and preservation service based on EUDAT B2SAFE and testing of new iRODS interfaces such as S3 and HTTP API.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Integration of iRODS in a Federated IT Service through HTTP and Python API</b><br/>
+                Gautier Debaecker<br/>
+                CC-IN2P3<br/>
+                <div class="abstract">
+                    The Federated IT Service (FITS) project, a collaborative endeavor between the IN2P3 (Institut national de physique nucléaire et de physique des particules) computing center and French national HPC Center named IDRIS (Institut du développement et des ressources en informatique scientifique), addresses the challenge of managing the escalating data volumes generated by research infrastructures. The project aims to consolidate computing and storage resources while maintaining control over hosting expenses and minimizing the ecological footprint of digital technologies.
+                    <br/><br/>
+                    Within the FITS project, iRODS was selected as the storage pooling solution, leveraging its established use within the IN2P3 Computing Centre. This implementation enables project users to seamlessly access their data without being aware of its physical location. The project outlines three primary access interfaces:
+                    <br/><br/>
+                    1. A 'simple' utilization through icommands for streamlined data sending and processing via the command line interface.
+                    <br/><br/>
+                    2. A python API-based graphical interface for local data management and processing.
+                    <br/><br/>
+                    3. A graphical/web interface utilizing HTTP API accessible through a user portal, facilitating user authentication through identity managers such as Indigo IAM or Keycloak. Initial functionalities will include data viewing and collection creation, with plans for expanded features such as group creation, iRODS rule configurations, and more in subsequent phases. While initial constraints of the HTTP API limit direct browser-based data transfers, the system will enable essential data interactions, marking the beginning of an evolving suite of functionalities for enhanced user accessibility and data management within the FITS project framework.
+                </div>
+                <div class="space_half"></div>
+
+                <b>A Rust Library Crate for iRODS</b><br/>
+                Phillip Davis<br/>
+                Appalachian State University<br/>
+                <div class="abstract">
+                    Rust has a number of features that make it desirable for an iRODS client. For example, its strong type system and the borrow checker provide compile-time guarantees against unexpected runtime errors. I present an iRODS client library written in Rust. Connections are presently coupled with their connection pool, implemented using the deadpool library, but could be used independently with slight additions. However, deadpool allows connections to make limited use of async. Connection pools are generic over iRODS protocol encoding (currently only XML is supported), transport protocol, and authentication strategy. Message serialization and deserialization will only allocate heap memory if users explicitly opt in by using message types which own their data. Finally, TLS/SSL is delegated to operating system implementations using the native-tls library.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Optimizing Data Management for AI: The Synergistic Role of Metadata-Hub and iRODS</b><br/>
+                David Cerf<br/>
+                GRAU DATA GmbH<br/>
+                <div class="abstract">
+                    Metadata-Hub, when combined with iRODS, becomes a transformative solution for managing escalating volumes of machine-generated and unstructured data. It places embedded metadata at the heart of storage management and data preparation, offering a more efficient, cost-effective, and scalable approach. At the time of data creation, Metadata-Hub extracts embedded metadata, allowing raw data files to be immediately archived to affordable storage solutions. This drastically cuts the need for expensive primary storage. Metadata-Hub becomes the repository for all metadata and makes it readily available. It reduces data preparation time for computational applications, analytics, and artificial intelligence (AI), accelerating the transition from data acquisition to insight derivation. Furthermore, the integration of Metadata-Hub into iRODS provides a robust, contextually-aware framework for automated and intelligent data workflows driven by embedded metadata, including archiving, replication, and distribution.
+                </div>
+                <div class="space_half"></div>
+
+                <b>Evaluation of an iRODS-based Machine Learning Data Processing Pipeline for Large Georeferenced Video Assets with Ground Truth Annotations</b><br/>
+                Weston Monceaux<br/>
+                U.S. Army Engineer Research and Development Center (EDRC)<br/>
+                <div class="abstract">
+                    This presentation will describe the evaluation of an iRODS-based machine learning data processing pipeline. This pipeline allows video data that is collected in the field or generated synthetically to be stored with ground truth objects and locations. This video data can later be queried based on their metadata for training machine learning models. Individual video frames containing specific objects or located within a range of geographic locations could be queried to expedite gathering training sets of images for machine learning model training.
+                    <br/><br/>
+                    The automated pipeline and the resulting video assets were intended to benefit three related, but otherwise independent, groups of researchers and practitioners.
+                    <br/><br/>
+                    1. Teams that collect the original video data and label the ground truth objects and locations can use an automated storage system to store their annotated video assets.
+                    <br/><br/>
+                    2. Teams that train machine learning models can use information from the videos and object locations stored in the iRODS system are able to more easily generate training and testing data sets from vetted video data required to train new machine learning models.
+                    <br/><br/>
+                    3. Teams that use existing machine learning models can use them to refine and label new or synthetically generated video data as well as update annotations and metadata for video data already managed by iRODS.
+                    <br/><br/>
+                    This presentation will describe the pipeline's components, iRODS configuration, and overall strategy used in its evaluation to provide a reliable storage system for annotated video assets and the generation of vetted data sets for training machine learning models.
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS Build and Test v9: Automation via GitHub and Kubernetes</b><br/>
+                Phil Owen, Terrell Russell, Kory Draughn, and Alan King<br/>
+                Renaissance Computing Institute and iRODS Consortium<br/>
+                <div class="abstract">
+                    A reliable and efficient testing environment is vital to foster the quality of iRODS products and enhance developer productivity. It has become a moderately complex and time-consuming undertaking to create, maintain, and execute testing suites across numerous iRODS environment variants in order to comprehensively test iRODS source code.
+                    <br/><br/>
+                    Typically, unit and topology testing of iRODS components begins with building packages from modified source code. Next, iRODS packages are installed on various target environments that are defined within a matrix of versioned operating systems and DBMS types. Finally, test suites are executed in each environment where log files of all test results are compiled and analyzed.
+                    <br/><br/>
+                    In this talk we will discuss our newest approach (and future vision) of automating iRODS testing using GitHub and Kubernetes. This discussion will cover some details on how developers will request testing runs, how the build/test process works, and the forensics performed on the test results.
+                </div>
+                <div class="space_half"></div>
+
+                <b>RSpace - iRODS integration: Update and next steps</b><br/>
+                Rory Macneil and Ander Astudillo<br/>
+                Research Space and SURF<br/>
+                <div class="abstract">
+                    At the 2023 UGM the Stage 1 integration, which ensures that when external files linked to RSpace documents change location, the link integrity is maintained, solving the ‘broken links’ problem and enhancing the reliability of the research record maintained in RSpace, was presented. This year Stage 2 of the integration, which enables export of datasets and associated metadata from RSpace to iRODS, will be presented. This will open the possibility of association of data from RSpace with the potentially vast range of data – e.g. all the data tracked by iRODS and captured in a university’s data storage facilities or all the data in a multi-university or a national project such as a biodiversity initiative. The RSpace data in iRODS will be discoverable via the associated metadata, enabling meaningful association with related data from other research resources, and re-use and repurposing of the data via, e.g., AI engines.
+                    <br/><br/>
+                    We will also introduce an idea for a Stage 3 integration that will enable RSpace to become a 'research data management front end' for iRODS. The working idea for this concept is as follows: The RSpace Gallery would act as a front end for iRODS to allow upload of data to iRODS (possibly even defaulting to storage in iRODS when files are added to the Gallery). Previewing/inline viewing of certain data types from iRODS should be possible, for example for image files (mirroring the current functionality for files stored in the RSpace Gallery).
+                    <br/><br/>
+                    Finally, in order to allow retrieval of data from iRODS (outside of RSpace), RSpace should be able to update a specific metadata field in the iRODS catalogue when files are linked to experiment entries in RSpace, so that querying the metadata catalogue for a particular document identifier could retrieve all data associated with that document (similar to seeing the linked documents in RSpace itself).
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS Security Challenges Within an Enterprise Environment</b><br/>
+                Ryan Blome and Simon Cook<br/>
+                Dow<br/>
+                <div class="abstract">
+                    Dow's focus on data security necessitates a tailored approach for our internal users, leading to the development of the Scientific Data Management System (SDMS) Query Tool (SQT) — a user-friendly tool designed to facilitate secure access to specific datasets. The current gap with Metalnx for general users is that there is too much control over modifying data and collections. Additionally, it is difficult to synchronize the iRODS users to our existing Azure Security groups for permission management. This talk outlines the development of a Querying Tool utilizing the iRODS C++ API as a backend to communicate with iRODS. The talk will highlight the need for robust security architecture for Enterprise scale applications and where we are hoping to take the project to in the future (HTTP API, etc.)
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS HTTP API v0.3.0 with OpenID Connect</b><br/>
+                Kory Draughn and Martin Flores<br/>
+                iRODS Consortium<br/>
+                <div class="space_half"></div>
+
+                <b>iRODS S3 API v0.2.0 with Multipart</b><br/>
+                Justin James<br/>
+                iRODS Consortium<br/>
+                <div class="space_half"></div>
+
+                <b>iRODS Build and Packaging: 2024 Update</b><br/>
+                Markus Kitsinger<br/>
+                iRODS Consortium<br/>
+                <div class="space_half"></div>
+
+                <b>DAViDD: Initial data management solution for UNC's READDI AViDD Center</b><br/>
+                Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="abstract">
+                    The Rapidly Emerging Antiviral Drug Discovery Initiative AViDD Center (READDI-AC) is an NIH-funded public-private partnership focused on developing effective antiviral drugs to combat emerging viruses.  The READDI-AC is one of nine Antiviral Drug Discovery (AViDD) Centers funded by the National Institute of Allergy and Infectious Disease (NIAID) at the National Institutes of Health.
+                    <br/><br/>
+                    The data management preparation, storage, and analysis are handled with DAViDD, a combination of iRODS, the HTTP API, and a custom Angular application.  This talk will discuss the development of laboratory and researcher use cases; designing, building, and staging the application; and its early production use.
+                </div>
+                <div class="space_half"></div>
+
+                <b>iRODS Metadata Templates Working Group: Building Blocks and Lessons Learned</b><br/>
+                Terrell Russell<br/>
+                iRODS Consortium<br/>
+                <div class="space_half"></div>
+
+            </div>
 
             <div class="space"></div>
 
