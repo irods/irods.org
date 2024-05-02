@@ -182,6 +182,8 @@ Alongside the core packages included in 4.3.2, the following plugins have been u
 - irods-microservice-plugins-curl
 - irods-resource-plugin-s3
 - irods-rule-engine-plugin-audit-amqp
+- irods-rule-engine-plugin-elasticsearch
+- irods-rule-engine-plugin-indexing
 - irods-rule-engine-plugin-logical-quotas
 - irods-rule-engine-plugin-metadata-guard
 - irods-rule-engine-plugin-python
