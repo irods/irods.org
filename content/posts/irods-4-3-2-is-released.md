@@ -177,7 +177,7 @@ The latest binary packages for CentOS7, AlmaLinux8, RockyLinux9, Ubuntu20, Ubunt
 > - Remove Ubuntu 18.04 as supported platform [#7519]
 
 
-Alongside the core packages included in 4.3.1, the following plugins have been updated for compatibility:
+Alongside the core packages included in 4.3.2, the following plugins have been updated for compatibility:
 
 - irods-microservice-plugins-curl
 - irods-resource-plugin-s3
