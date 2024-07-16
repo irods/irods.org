@@ -2,7 +2,7 @@
 
 
 ## Requirements
-- python
+- python3
 - pip
 
 Then:
