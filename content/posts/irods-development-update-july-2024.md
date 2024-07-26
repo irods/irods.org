@@ -1,5 +1,5 @@
 Title: iRODS Development Update: July 2024
-Date: 2024-06-26 14:45
+Date: 2024-07-26 14:45
 Author: Kory Draughn
 Slug: irods-development-update-july-2024
 Status: published
