@@ -29,5 +29,6 @@ The complete list of coverage from the event is below.
 - [Global file technology iRODS aims for wider commercial reach | Blocks and Files](https://blocksandfiles.com/2024/10/19/global-file-technology-irods-aims-for-wider-commercial-reach/)
 - [iRODS zorgt voor datamanagement | Dutch IT Channel](https://www.dutchitchannel.nl/news/511352/irods-zorgt-voor-datamanagement)
 - [iRODS: Open-Source-Datenmanagement für akademische Institute | Computer Weekly](https://www.computerweekly.com/de/feature/iRODS-Open-Source-Datenmanagement-fuer-akademische-Institute)
+- [Innovation in Data Management: Key Insights from the 58th IT Press Tour | Insights from Analytics](https://www.insightsfromanalytics.com/post/innovation-in-data-management-key-insights-from-the-58th-it-press-tour)
 
 To learn more about iRODS and the iRODS Consortium, please visit [irods.org](https://irods.org).
