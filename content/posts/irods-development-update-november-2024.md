@@ -1,66 +1,57 @@
-Title: iRODS Development Update: October 2024
-Date: 2024-10-16 10:00
+Title: iRODS Development Update: November 2024
+Date: 2024-11-27 22:00
 Author: Kory Draughn
-Slug: irods-development-update-october-2024
+Slug: irods-development-update-november-2024
 Status: published
 
 
 Hello reader,
 
-[Supercomputing 2024]({filename}/pages/sc24.html) is in Atlanta soon! If you're attending, swing by the RENCI booth and say hi. Let's get into the development update.
+We're back from [Supercomputing 2024]({filename}/pages/sc24.html) and it was great! It's always nice to speak to existing and potentially new users.
 
-To start, the atomic ACLs API endpoint now supports the full range of permissions. Work on the iRODS 5 server is progressing well. For many years now, Python was used to validate configuration files. That job has now been moved into the server and now uses the jsoncons C++ library for validation. The server startup process has been redesigned and is showing signs of faster startup times. Server shutdown and configuration reload are now controlled through the use of signals just like other popular server applications. Lastly, the iRODS Rule Language rule engine plugin has been updated to require absolute paths for core.re and other files.
+For the server, we've improved the tracking of ticket information. Exceeding the use-count of a ticket no longer results in an ODBC error. We've also adjusted the ODBC code to return the appropriate iRODS error code when a duplicate key constraint is violated.
 
-Last month we announced that a new C++ project template for authentication plugins was in development. That work is now complete and has been absorbed into the iRODS namespace. For those interested, see [https://github.com/irods/irods_project_template_cpp_auth_plugin](https://github.com/irods/irods_project_template_cpp_auth_plugin).
+Progress on the iRODS 5 server is going well. Two rule engine plugin operations, `setup` and `teardown`, have been added to improve configuration management. These operations speed up agent startup by moving the loading of configuration information to the agent factory. Servers are no longer sensitive to launch order. That means, catalog service consumers now wait for catalog service providers to start before accepting client connections, and catalog service providers now wait for the database to start before accepting client connections. The delay server now locks delay rules before execution to keep other delay servers from duplicating the work. This change helps simplify delay server migration and also sets the foundation for future capabilities.
 
-Work to add support for virtual environments to the Python rule engine plugin is still ongoing. We'll have more to share soon.
+Work to remove support for Python 2 from the Python iRODS Client (PRC) is close. The initial work is complete. Python 2 has been EOL for many years, so this is a very important step for the PRC. Support for PAM passwords has improved as well. Users will soon be able to include special characters in their passwords. The iRODS Consortium has taken ownership of the **irods** namespace in PyPI. Installing the **irods** module via `pip` will now result in the installation of the PRC. To wrap up the PRC update, we have been exploring the possibility of offering a new CLI via the PRC. The goal of this new CLI would be to provide a client that works on all platforms and offer the same power as the iCommands. This effort would take the place of the [C++ CLI](https://youtu.be/wsvvyd0Ot8s?si=CyATYEXuXCWwAXjX) we presented during [UGM 2023](https://irods.org/ugm2023/). We'll have more to share in the future so stay tuned.
 
-Python iRODS Client (PRC) 2.2.0 has been released. This release fixes several bugs and includes `iinit`-like functionality. Client-side redirection has been adjusted. It is now disabled by default, but can always be re-enabled. To understand why this change was made, see [https://github.com/irods/python-irodsclient/issues/627](https://github.com/irods/python-irodsclient/issues/627). The release notes can be found at [https://github.com/irods/python-irodsclient/releases/tag/v2.2.0](https://github.com/irods/python-irodsclient/releases/tag/v2.2.0).
+iRODS HTTP API 0.5.0 has been released. It includes a user-mapping plugin system that enables dynamic user-mapping and improved security through token validation. To learn more, see the release notes at [https://github.com/irods/irods_client_http_api/releases/tag/0.5.0](https://github.com/irods/irods_client_http_api/releases/tag/0.5.0).
 
-Automated Ingest Capability 0.6.0 has been released as well. With this release comes improved documentation, support for `rsync --delete`-like functionality, and more information about individual jobs in the output of the `list` subcommand. It's been a long time coming, but users will finally be able to remove data objects and collections from iRODS based on the source being ingested. For more information, see the release notes at [https://github.com/irods/irods_capability_automated_ingest/releases/tag/v0.6.0](https://github.com/irods/irods_capability_automated_ingest/releases/tag/v0.6.0).
+Metalnx users will be happy to know that development is ramping up again. We are now working to make Metalnx a pure client. That means removing the requirement on a local database. We're making good progress and hope to have more information soon.
 
-For the iRODS HTTP API, work to introduce user mapping plugins has been merged. The next release will allow administrators to modify the user mapping in real time. Not only that, but work to add support for local JWT validation has begun. This will help organizations using identity providers which do not expose an introspection endpoint for token validation.
-
-To wrap up, iRODS S3 API 0.3.0 is available. This release includes support for **ListParts** and **ListMultipartUploads** operations and more importantly, a ~40% performance improvement for multipart upload. To learn more, see the release notes at [https://github.com/irods/irods_client_s3_api/releases/tag/0.3.0](https://github.com/irods/irods_client_s3_api/releases/tag/0.3.0).
-
-Thanks for reading. Talk to you next month!
+That wraps up this month's update. Talk to you in December!
 
 
-### October Technology Working Group
+### November Technology Working Group
 
 - [Imaging Working Group](https://github.com/irods-contrib/irods_working_group_imaging)
 
     - initial effort is an OMERO integration
     - working meeting
-        - Thur, October 17, 2024, 10am ET
+        - Thur, January 16, 2025, 10am ET
 
 - [Authentication Working Group](https://github.com/irods-contrib/irods_working_group_authentication)
 
     - PAM Interactive auth plugin v0.1.0 is released
     - working meeting
-        - Tues, October 22, 2024, 10am ET
+        - Tues, January 28, 2025, 10am ET
 
 - [S3 Working Group](https://github.com/irods-contrib/irods_working_group_s3)
 
     - have released C++ S3 API
     - working meeting
-        - Fri, November 1, 2024, 3pm ET
+        - Fri, February 7, 2025, 3pm ET
 
 - [Metadata Templates Working Group](https://github.com/irods-contrib/irods_working_group_metadata_templates)
 
     - draft paper for circulation among group
     - server-side validation now working
     - working meeting
-        - Tues, October 15, 2024, 10am ET
-
-- [TRiRODS](https://irods.org/trirods)
-
-    - Wed, December 4, 2024, 4pm ET
-    - speaker, Andrew Su, iRODS Intern
+        - Tues, January 21, 2025, 10am ET
 
 - [4.3.4](https://github.com/irods/irods/milestone/44)
 
-    - 64 bugs / 207 open, 8 closed
+    - 64 bugs / 214 open, 12 closed
 
 - [4.3.5](https://github.com/irods/irods/milestone/43)
 
@@ -68,70 +59,86 @@ Thanks for reading. Talk to you next month!
 
 - [4.3 Backlog](https://github.com/irods/irods/milestone/34)
 
-    - 125 bugs / 295 open, 0 closed
+    - 124 bugs / 290 open, 0 closed
 
 - [5.0.0](https://github.com/irods/irods/milestone/41)
 
-    - 6 bugs / 54 open, 2 closed
+    - 7 bugs / 64 open, 3 closed
 
 - [5.0 Backlog](https://github.com/irods/irods/milestone/6)
 
-    - 0 bugs / 41 open, 0 closed
+    - 0 bugs / 39 open, 0 closed
 
 - New Development Work
 
-    - no updates
+    - New Python Metapackage 'irods'
+        - [https://github.com/irods/irods_python_metapackage](https://github.com/irods/irods_python_metapackage)
+    - started exploratory work on new iRODS CLI in python-irodsclient
+    - working with intern to enable fuzz testing of the HTTP API
 
 - Active Development Work
 
     - [iRODS Server](https://github.com/irods/irods)
-        - new C++ project template for auth plugin absorbed into irods namespace
-        - atomic ACLs API endpoint supports full range of permissions
+        - modified ticket use logic so behavior stays consistent when at a ticket use limit
+            - had caused a Function Sequence Error in the database
+        - fixed issue where server returned SQL error instead of duplicate catalog item error
+            - CAT_SQL_ERR vs CATALOG_ALREADY_HAS_ITEM_BY_THAT_NAME
+            - had caused a Function Sequence Error in the database
         - iRODS 5.0.0
-            - configuration validation moved into server binary
-            - configuration files can be placed anywhere in filesystem
-            - redesigned / reimplemented server startup sequence
-            - server uses SIGTERM (fast shutdown) and SIGQUIT (graceful shutdown)
-            - server uses SIGHUP to reload configuration
-            - removed control plane
-            - iRODS Rule Language rule engine plugin requires absolute paths
-
-    - [Python Rule Engine Plugin](https://github.com/irods/irods_rule_engine_plugin_python)
-        - working on interpreter configuration
-        - working to add support for virtual environments
-
-    - [Python iRODS Client (PRC)](https://github.com/irods/python-irodsclient)
-        - 2.2.0 release imminent
-        - client-side resource redirection is now disabled by default
-        - added iinit-like capability
-        - fixed several bugs
-
-    - [Automated Ingest Capability](https://github.com/irods/irods_capability_automated_ingest)
-        - 0.6.0 release imminent
-        - merged new Celery application with separated tasks for filesystem and S3
-        - expanded and reorganized README documentation
-        - implemented Delete Mode event handler method to sync removals from source storage
-            - modes: DO_NOT_DELETE (default), UNREGISTER, TRASH, NO_TRASH
-            - only some Delete Modes are compatible with certain operations
-                - e.g. cannot use NO_TRASH with REGISTER_SYNC
-        - added job info to output of list subcommand for irods_sync script
-        - fixed other issues in irods_sync script subcommands
-        - added tests for S3 bucket syncs
-
-    - [iRODS HTTP API](https://github.com/irods/irods_client_http_api)
-        - merged user mapping plugin work
-        - working to add support for local JWT validation for OAuth
-
-    - [iRODS S3 API](https://github.com/irods/irods_client_s3_api)
-        - released 0.3.0
-        - performance 'efficient store-and-forward' - ~40% throughput improvement
-        - implemented ListParts and ListMultipartUploads operations
-
-- Background Items
+            - considering changing acPreConnect()'s default value to CS_NEG_REQUIRE
+            - working to improve handling of passwords for native auth
+                - integrating with existing native auth plugin and password-setting mechanisms
+            - reverted absolute path change for iRODS Rule Language plugin
+            - started testing and addressing review comments
+            - upgrade logic is no longer run on server startup
+                - requires the admin to manually run the upgrade operation
+            - provider servers now wait for the catalog to become available before starting
+            - consumer servers now wait for the provider to become available before starting
+            - added new setup/teardown operations to rule engine plugin interfaces
+                - rule engine plugins no longer read configuration on agent startup
+                - reload functionality available via SIGHUP
+            - delay server now marks delay rules it is actively executing
+                - keeps multiple delay servers from executing the same delay rules
+                - execution of delay rules is visible in real time via GenQuery
+                - in support of the configuration reload functionality
+            - removed irods-grid command
+                - removes need for port 1248
 
     - Build and Packaging
-        - last update: October 2024
         - working on moving more dependencies over to find_package
+        - mostly focused on boost libraries
+
+    - [Python Rule Engine Plugin](https://github.com/irods/irods_rule_engine_plugin_python)
+        - work on interpreter configuration is now on hold
+        - work to add support for virtual environments is now on hold
+        - will use/depend on setup/teardown operations in rule engine plugins
+            - to prevent spinning up multiple python interpreters (aka performance)
+
+    - [Python iRODS Client (PRC)](https://github.com/irods/python-irodsclient)
+        - released 2.2.0
+        - working on 3.0.0
+            - completed initial work to remove all Python 2 compatibility
+        - completed work to make PAM passwords work with special characters
+            - see [https://github.com/irods/python-irodsclient/pull/656](https://github.com/irods/python-irodsclient/pull/656)
+            - tests are passing against 4.2 and 4.3
+            - will look for testing/confirmation from RUG soon
+
+    - [Automated Ingest Capability](https://github.com/irods/irods_capability_automated_ingest)
+        - released 0.6.0
+        - [https://github.com/irods/irods_capability_automated_ingest/releases/tag/v0.6.0](https://github.com/irods/irods_capability_automated_ingest/releases/tag/v0.6.0)
+
+    - [iRODS HTTP API](https://github.com/irods/irods_client_http_api)
+        - 0.5.0 release imminent
+            - implemented local JWT access token validation for OpenID Connect
+            - added additional validation to introspection endpoint response
+            - added validation of the OIDC metadata returned from the well-known endpoint
+            - improved error message on connection failure to OIDC provider
+            - improved documentation for tls_certificates_directory config property
+
+    - [Metalnx](https://github.com/irods-contrib/metalnx-web)
+        - working towards pure iRODS client - removing the required local database
+
+- Background Items
 
     - iRODS Documentation
         - last update: September 2024
@@ -145,6 +152,7 @@ Thanks for reading. Talk to you next month!
         - removed .irodsA.json feature
         - added configuration for PAM stack
         - fixed issues with authenticating while connected to catalog service consumer
+        - moved pam_interactive to PRC 3.1 for now
 
     - [Audit AMQP Plugin](https://github.com/irods/irods_rule_engine_plugin_audit_amqp)
         - last update: September 2024
@@ -183,6 +191,12 @@ Thanks for reading. Talk to you next month!
     - [Docker-based Development Environment](https://github.com/irods/irods_development_environment)
         - last update: March 2024
         - updated to support libstdc++
+
+    - [iRODS S3 API](https://github.com/irods/irods_client_s3_api)
+        - last update: October 2024
+        - released 0.3.0
+        - performance 'efficient store-and-forward' - ~40% throughput improvement
+        - implemented ListParts and ListMultipartUploads operations
 
     - iRODS Kubernetes Testing Environment
         - last update: April 2024
@@ -228,19 +242,15 @@ Thanks for reading. Talk to you next month!
         - last update: February 2024
         - CherryPy web application, uses PRC to let users modify their own password
 
-    - [Metalnx](https://github.com/irods-contrib/metalnx-web)
-        - last update: September 2023
-        - working towards removing the required local database
-
     - [R client (rirods)](https://github.com/irods/irods_client_library_rirods)
         - last update: September 2023
         - released 0.1.1
         - submitted and accepted to CRAN
-        - new website - https://irods4r.org
+        - new website - [https://irods4r.org](https://irods4r.org)
         - presented at UGM 2023
 
     - [Policy Composition](https://github.com/irods/irods_policy_composition_framework)
-        - https://github.com/irods/irods_rule_engine_plugins_policy
+        - [https://github.com/irods/irods_rule_engine_plugins_policy](https://github.com/irods/irods_rule_engine_plugins_policy)
         - last update: August 2023
         - merged PR submitted for 4.3.0 compatibility
 
