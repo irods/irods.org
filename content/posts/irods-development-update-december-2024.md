@@ -19,7 +19,7 @@ The PAM Interactive Authentication Plugin has received a small tweak to its pack
 
 The iRODS HTTP API has received a few updates. We've added support for the Undefined Behavior Sanitizer to help with detecting more bugs before a release. GitHub Actions have been added to the pull request process. Opening a new pull request will now trigger GitHub Workflows for compilation, code formatting, and static analysis. A new option for enabling stricter **aud** checking for the Introspection Endpoint has been added. We've also introduced documentation for testing all features of the HTTP API server.
 
-It's been a long time coming, but administrators of the Metalnx web application will be happy to know that the dependency on a secondary database has been removed. We've also removed several other things as a result. For example, templates and bookmarks. The major benefit of this is that deployment of Metalnx only require a working iRODS server moving forward.
+It's been a long time coming, but administrators of the Metalnx web application will be happy to know that the dependency on a secondary database has been removed. We've also removed several other things as a result. For example, templates and bookmarks. The major benefit of this is that deployment of Metalnx only requires a working iRODS server moving forward.
 
 I hope you found the final update of 2024 exciting. 2025 is looking very promising for iRODS.
 
