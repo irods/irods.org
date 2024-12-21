@@ -1,0 +1,22 @@
+name: build-website
+on: [push]
+jobs:
+  build:
+    name: build-website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: SSH the remote script
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.BUILDER_HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.BUILDER_KEY }}
+          proxy_host: ${{ secrets.PROXY_HOST }}
+          proxy_username: ${{ secrets.USERNAME }}
+          proxy_port: ${{ secrets.PORT }}
+          proxy_key: ${{ secrets.PROXY_KEY }}
+          script: |
+            time ./build_website.sh
