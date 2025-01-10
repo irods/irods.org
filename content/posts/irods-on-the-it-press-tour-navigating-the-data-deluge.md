@@ -33,5 +33,7 @@ The complete list of coverage from the event is below.
 - [iRODS: An Open-Source Approach to Data Management in Large-Scale Research Environments | DZone](https://dzone.com/articles/irods-an-open-source-approach-to-data-management-i)
 - [Big Data: More, Faster, Cheaper | CRN Poland](https://crn.pl/artykuly/wielkie-zbiory-danych-wiecej-szybciej-taniej/)
 - [iRODS koppelt datagebruikers los van de infrastructuur | DataNews](https://datanews.knack.be/analyse/achtergrond/irods-koppelt-datagebruikers-los-van-de-infrastructuur/)
+- [Recap of the 58th IT Press Tour in Boston, MA | Storage Newsletter](https://www.storagenewsletter.com/2024/11/15/recap-of-58th-it-press-tour-in-boston-ma/)
+- [Recap of the 58th IT Press Tour in Boston, MA | FST Blog](https://filestorage.blogspot.com/2024/11/recap-of-58th-it-press-tour-in-boston-ma.html)
 
 To learn more about iRODS and the iRODS Consortium, please visit [irods.org](https://irods.org).
