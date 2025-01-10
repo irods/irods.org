@@ -5,8 +5,6 @@ jobs:
     name: build-website
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
       - name: SSH the remote script
         uses: appleboy/ssh-action@v1.2.0
         with:
