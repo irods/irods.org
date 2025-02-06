@@ -4,6 +4,8 @@ Author: Kory Draughn
 Slug: irods-internship-summer-2025
 Status: published
 
+**Update:**  Due to an unexpected change in our funding situation, this process has been closed for the summer.
+
 ## Join Us
 
 The iRODS Consortium is looking for qualified, motivated candidates for a paid, full-time, remote, summer internship (probably three months, June-August).  We have brainstormed five separate projects, each appropriate for a summer of focus.  Each project is real work that we would like to have done and will be an important part of the iRODS ecosystem in the near future.
