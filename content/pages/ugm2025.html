@@ -171,6 +171,210 @@
             </div>
             <div class="space phone_hide"></div>
 
+            <div class="space_half"></div>
+            <div class="col-lg-offset-2 col-lg-8" >
+                <h4 class="light_font" id="talks">Accepted Talks</h4>
+                <hr class="small_centered_line_ugm">
+            </div>
+
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
+
+<!--
+                <p><a href="{static}/images/irods_ugm2025_agenda.pdf">Current Agenda (pdf)</a></p>
+                <br/>
+-->
+
+                <b>iRODS UGM 2025 Keynote</b><br/>
+<!--
+                Ashok Krishnamurthy<br/>
+                Renaissance Computing Institute (RENCI)<br/>
+-->
+
+                <br /><br />
+                <b>Exploring the iRODS Native protocol, a hidden gem</b><br/>
+                Ton Smeele<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    The iRODS grid deploys a versatile protocol for client-server communications. While its XML serialization variant is used by many client applications, the more efficient Native variant is currently only available to C-language based clients.
+                    <br /><br />
+                    We discuss a design for an iRODS client library that also supports the Native protocol variant in languages other than C. We validate the usability of our design via an example implementation in Java. This example implementation is utilized at Utrecht University by a Java application that transfers data objects between unfederated iRODS zones.
+                </div>
+
+                <br /><br />
+                <b>Towards FAIRification of instrument data: Exploring streamlined generation, aggregation, management and sharing of instrument data with iRODS, RSpace, and Dataverse</b><br/>
+                Rory Macneil, Terrell Russell, John Martin<br/>
+                Research Space, iRODS Consortium, UNC-Chapel Hill<br/>
+                <div class="abstract">
+                    Research institutions face a growing challenge in managing the increasing volume of scientific data while maintaining its long-term value and reusability. Researchers currently struggle with fragmented workflows where data storage, metadata capture, and data publishing are disconnected processes. This leads to inefficient storage usage and increased cost, degraded metadata quality, and ultimately reduces the potential for data reuse. While solutions exist for individual aspects of this challenge (e.g. RSpace for capturing the research process, iRODS for storage management, Dataverse for publishing), they typically operate in isolation or with limited overlap. Applying the principle of Vertical Interoperability, the project presented here proposes to explore approaches to integrating research tools belonging to different stages of the instrument data lifecycle into a seamless workflow environment for instrument data that simultaneously serves researchers' immediate needs, optimizes institutional IT resources, and enhances the institution's research impact through improved data reusability.
+                    <br /><br />
+                    Explore an end-to-end solution through the practical development of a prototype workflow to concretely understand pain points and design decisions that are needed from the generation of primary research data by instruments to highly re-usable and discoverable research data
+                    <br /><br />
+                    RSpace serves as the daily companion for researchers, acting as an orchestrator of the data flow. It captures experimental context and collects instrument and process/workflow metadata from the point of initial data generation using highly interoperable metadata schema and persistent identifiers for instruments. Data is stored in iRODS providing intelligent data storage infrastructure that enables persistent and controlled access to data objects while efficiently managing storage resources. Data products of the raw data, e.g. obtained through local or high-performance computing are published through RSpace to Dataverse to enable efficient data discovery through federated access and persistent identifiers (DOIs). Original/raw data is linked persistently from Dataverse, while storage and access are managed by iRODS. Other researchers are enabled to find and re-use this data. R Space, iRODS, and Dataverse will serve as representative tools of their category, and the focus will be on exploring how they can best serve their roles as they're described in this paragraph.
+                </div>
+
+                <br /><br />
+                <b>An iBridges update: How easy can we make it for scientists to use iRODS?</b><br/>
+                Christine Staiger, Raoul Schram, Maarten Schermer<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    iRODS is a research data management (RDM) system that provides the backend to support researchers in all steps of the data life cycle.
+                    <br /><br />
+                    iRODS allows institutes to implement data management policies, e.g. for archiving and publishing data packages. To guide researchers through those data management policies most iRODS-based RDM systems provide a user-friendly webportal. However, those webportals are limited when it comes down to supporting researchers in their daily work with their data and researchers are usually referred to existing tools to interact with iRODS like the iCommands and various iRODS APIs.
+                    <br /><br />
+                    For scientists, these tools are not straightforward to use and the step from working with a webportal to working with those powerful tools is often too large. Hence, despite all the effort of building RDM systems based on iRODS, this lack of understandable and accessible tooling means that the full capabilities of iRODS remain unused.
+                    <br /><br />
+                    To do their daily work researchers often fall back to storage services which are easier to steer e.g. through WebDav mounts or services which offer sharing of data through shareable links.
+                    <br /><br />
+                    iBridges is an open-source project which addresses the above-mentioned problem by developing software packages and tools to actively work with the data in the existing iRODS-based RDM systems. The tools combine user-friendliness with all features iRODS has to offer (from simple data transfer to metadata manipulation). It can be used to work with data on
+                    all iRODS-based RDM platforms and addresses scientists of all backgrounds. iBridges provides:
+                    <ol>
+                    <li> a python package for scientific programmers to integrate their compute pipelines with research data management;
+                    <li> a command line interface for data transfers for data managers and scientists employing scripting languages (R, Matlab etc.);
+                    <li> a generic graphical interface to iRODS targeting the non-programming scientists.
+                    </ol>
+                    <br />
+                    In this presentation we will demonstrate how iBridges tries to improve the end-user experience:
+                    </ul>
+                    <li> The onboarding process by presetting and checking environment variables in the environment json file;
+                    <li> Handling access to different iRODS instances by aliasing and password caching;
+                    <li> Defining upload and download iRODS paths through a new IrodsPath class which adds python pathlib-like functionality;
+                    <li> Easing the use of the python-irodsclient's metadata functionality;
+                    <li> Defining easy-to-use upload, download and synchronisation functionality which also includes the metadata.
+                    </ul>
+                </div>
+
+                <br /><br />
+                <b>Integrating iRODS into scientific workflows</b><br/>
+                Raoul D. Schram, Maarten D. Schermer, Matty S. Vermet<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    Commonly, in a researcher's workflow the raw data resides in an iRODS system, researchers download this data, perform local analysis, and upload the output of this analysis back to this same iRODS system. For more complex analyses this process might happen multiple times. In such cases, the advantage of using standardized workflow methods is reproducibility of analyses, and the possibility of sharing results, workflows, and visualizations with the community.
+                    <br /><br />
+                    This can technically be achieved using shell scripting in combination with iRODS command line tools such as GoCommands, iCommands, or iBridges. Workflow frameworks can make the process easier and improve the reproducibility of researchers' work. In the scientific domain, Galaxy, nextflow, and Snakemake are the most widely used workflow frameworks.
+                    <br /><br />
+                    Galaxy is an open-source workflow-system, accessed through an interactive, web-based GUI. To create workflows, researchers can drop, drag, and connect the various steps in their pipeline. This makes Galaxy easy to use for researchers with little or no experience in programming.
+                    <br /><br />
+                    Before our work there were several existing ways in which Galaxy can interact with iRODS. However, none of these allow end users to configure their credentials and server-specific settings. This effectively forces the use of a single set of iRODS-credentials for all users of a specific Galaxy deployment. Furthermore, implementation prohibits easy integration of these tools in actual workflows.
+                    <br /><br />
+                    We have created a new tool that enables researchers to directly use data on iRODS servers in their workflows. Up- and download of both files (data objects) and collections to and from iRODS can be seamlessly integrated into Galaxy workflows. Furthermore, our tool allows for use with individual iRODS accounts and configurations within the same Galaxy instance, rather than using a single set of credentials for every user. Additionally, we developed an interactive Galaxy tool for browsing an iRODS instance, allowing users to explore the filesystems hierarchy and select relevant iRODS paths within the Galaxy environment.
+                    <br /><br />
+                    Snakemake is a command line-based workflow management system aimed at creating reproducible and scalable data analyses. An iRODS plugin based on the PRC already exists for SnakeMake. We have adapted this plugin to work on top of iBridges, which greatly simplifies the plugin, adds a few features such as wildcard expansion, and integrates with the iBridges CLI.
+                    <br /><br />
+                    We will give a live demonstration of the Galaxy and Snakemake plugins.
+                </div>
+
+                <br /><br />
+                <b>Efficient data staging with iRODS HTTP API in the LEXIS Platform 2</b><br/>
+                Marek Nieslanik, Martin Golasowski<br/>
+                IT4Innovations, VSB-TU Ostrava<br/>
+                <div class="abstract">
+                    The LEXIS Platform is a solution for easy and secure access to complex computing workflows running on supercomputers or Cloud with distributed data management features based on iRODS. We present the latest updates of the LEXIS Platform along with several use cases focusing on the data management. One of the recent additions is migration to the iRODS 4.3 and its native HTTP API along with support for OpenID. In our talk, we describe the full solution along with the new approach to user space data staging between HPC and iRODS using in-memory buffers, including benchmark results.
+                </div>
+
+                <br /><br />
+                <b>Enhancing iRODS Monitoring</b><br/>
+                Alice Stuart-Lee, Francisco Morales<br/>
+                SURF<br/>
+                <div class="abstract">
+                    As the data management team of SURF, we support universities and research institutes in the Netherlands by hosting and managing iRODS instances. With the growing adoption of iRODS across these organisations, the need for robust monitoring solutions has become increasingly important. In this presentation, we will share how we've developed a comprehensive monitoring setup that provides insights into iRODS usage and performance.
+                    <br /><br />
+                    We'll walk through our monitoring stack, from backend tools (OpenSearch and Logstash) to the front-end dashboards and alerting setup in Grafana. In addition to showcasing the outputs, we will demonstrate the custom automation tools we've built to streamline the creation and customisation of monitoring setups for each client.
+                    <br /><br />
+                    A key focus of our approach is the use of iRODS data integrity metrics, which enable us to quickly identify issues such as missing checksums or registered data objects without corresponding physical files. These metrics, combined with usage and availability patterns, have significantly improved our troubleshooting efficiency, saving time that would otherwise be spent combing through logs.
+                    <br /><br />
+                    The goal of this presentation is to share our experiences and foster a discussion about monitoring strategies with the iRODS community. By learning from each other's approaches, we hope to help others optimise their iRODS environments and tackle common challenges more effectively.
+                </div>
+
+                <br /><br />
+                <b>A data mesh for research data management</b><br/>
+                Claudio Cacciari<br/>
+                SURF<br/>
+                <div class="abstract">
+                    In our experience, as data management team of SURF (the Dutch national IT cooperative for education and research), we have seen iRODS adopted successfully in various organizations, like universities or medical centers, or part of them, like departments or laboratories. It is typically used as "brain" of a data infrastructure to implement storage virtualization, storage tiering and, in general, the full data lifecycle management. However, when we look at research projects that encompass multiple organizations, or multiple units within big distributed organizations, we notice that there are more difficulties, both of human and technical nature. Sometimes just opening ports in a firewall is quite hard, or, in other cases, the data governance is not well defined or understood.
+                    <br /><br />
+                    In the last two decades, in that part of the data management field more business oriented, new paradigms and concepts emerged, like data warehouse, data lake and, more recently, data fabric, data product, and data mesh. In this presentation we borrow some of those concepts and we map them to research data infrastructures and iRODS to propose a solution that addresses some of the issues of building data platforms for large distributed projects and communities. We will describe an initial technical and organizational implementation with a perspective for the next steps.
+                </div>
+
+                <br /><br />
+                <b>AI Verde MCP Server: Bridging Generative AI with CyVerse Data Resources</b><br/>
+                Illyoung Choi, Edwin Skidmore, Nirav Merchant<br/>
+                CyVerse / University of Arizona<br/>
+                <div class="abstract">
+                    This talk introduces the AI Verde MCP Server, a new Model-Context-Protocol (MCP) Server being developed to extend the capabilities of AI-VERDE—an integration platform designed to support research and educational teams working with generative AI technologies. AI-VERDE provides secure and flexible access to a wide range of commercial and open-source LLMs, including GPT-4, Claude, and LLaMA4, as well as inference service providers supported by the NSF, such as Jetstream2.
+                    <br /><br />
+                    The AI Verde MCP Server enables integration with data and computing services within the CyVerse infrastructure. Its initial focus is on providing access to the CyVerse Data Store, a research data repository built on the iRODS data management system. Operated for over a decade, the Data Store hosts a wide variety of research data across scientific domains. By connecting this data to AI systems through the MCP Server, researchers will be able to explore new methods of analyzing stored datasets using large language models. Future plans include extending this integration to the CyVerse Discovery Environment.
+                    <br /><br />
+                    This talk will share the architecture and development progress of the AI Verde MCP Server, and explore how connecting AI-VERDE to CyVerse resources can enable practical, data-driven AI applications in research and education.
+                </div>
+
+                <br /><br />
+                <b>Metadata schemas updates: JSON schemas and storage in iRODS</b><br/>
+                Mariana Montes, Paul Borgermans, Joachim Bovin, Danai Kafetzaki, Jef Scheepers, Mustafa Dikmen, Ingrid Barcena Roig<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    At KU Leuven, researchers are encouraged to group, structure, validate, and describe their metadata with metadata schemas. We have developed a tool to create forms that can be used to fill in the metadata in our web portal, and a Python package to validate and convert metadata to namespaced iRODS AVUs from Python dictionaries. The latest developments include storing the schemas in iRODS and describing them as JSON Schema, which would allow implementing iRODS's server-side validation. This also fits our goals of integration and interoperability, as it facilitates importing and exporting even schema metadata from and to JSON for different purposes. In this talk we will introduce these changes and illustrate metadata schema user workflows, particularly in combination with other automated processes.
+                </div>
+
+                <br /><br />
+                <b>FriGO: the KU Leuven long-term archiving solution with iRODS</b><br/>
+                Mariana Montes, Ingrid Barcena Roig, Mustafa Dikmen, Joachim Bovin, Danai Kafetzaki, Paul Borgermans, Jef Scheepers<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    In recent years, researchers are increasingly faced with the challenge of properly managing research data in all phases of the data lifecycle, from the start of the project to publication and long-term preservation. In order to support them conducting robust and high-quality research, research institutions must prioritize Research Data Management (RDM), offering central, integrated support services for RDM.
+                    <br /><br />
+                    In this context, KU Leuven has made significant investments in RDM infrastructure over the past years, resulting in a solid ecosystem, with an institutional Research Data Repository (RDR) based on Dataverse to facilitate data publication, and the ManGO platform based on iRODS to manage active research data. However, a third important component was missing: a solution for long-term storage of research data that is not to be published but needs to be kept safe, to ensure reproducibility and possible reuse. In order to fill this gap, we have developed FriGO, the KU Leuven long-term archiving solution, also built upon iRODS.
+                    <br /><br />
+                    Active collections stored in ManGO can be selected for archiving via the ManGO Portal. Users must then provide dataset-level metadata to ensure that datasets are properly described, including authorship, access rights, and the lifetime established following the KU Leuven RDM policies. Once the metadata is ready the collection can be prepared and packaged: metadata stored in iRODS both at the data object and collection level is exported as sidecar files, the collection is turned into a BagIt wrapped in an RO-Crate, and the final package is tarred. Upon approval by a responsible party of the research project and the support team, the tar is archived and only the metadata is made available to the users, mostly in the form of an RO-Crate Metadata Document.
+                    <br /><br />
+                    In this presentation we will present the product, currently in its piloting phase, focusing on its design and architecture.
+                </div>
+
+                <br /><br />
+                <b>Yoda: "Much to learn, you still have"</b><br/>
+                Sirjan Kaur<br/>
+                Utrecht University<br/>
+                <div class="abstract">
+                    Yoda is an iRODS-based research data management solution developed and maintained by Utrecht University to meet research data management challenges. Yoda enables researchers to preserve, share, archive, and publish their research data in compliance with FAIR principles.
+                    <br /><br />
+                    Since its launch in 2015, Yoda has significantly improved and expanded to more than 13,000 users and over 4 petabytes of research data. In March 2023, the Yoda Consortium was formed to allow effective collaboration on the development of Yoda, support for researchers, and sharing of knowledge between universities and organizations across the Netherlands. To accommodate this growth and to maintain product quality, we implemented testing strategies for Yoda and presented them at iRODS User Group Meeting 2024.
+                    <br /><br />
+                    In this session, we will present an update on these testing strategies, and we will discuss our technical enhancements over the past year, including the upgrade to Python 3 and iRODS 4.3.4, the use of static type checking, and other changes.
+                </div>
+
+                <br /><br />
+                <b>ManGO Platform updates: ManGO portal, ManGO Ingest, and ManGO Flow</b><br/>
+                Paul Borgermans, Mariana Montes, Ingrid Barcena Roig, Danai Kafetzaki, Jef Scheepers, Joachim Bovin, Mustafa Dikmen, Ronny Moreas, Peter Verraedt<br/>
+                KU Leuven<br/>
+                <div class="abstract">
+                    ManGO is the Active Research Data Management Platform built upon iRODS, offered by KU Leuven to all its researchers. Around it, we have developed a number of modular, open source, Python-based products to address particular needs. ManGO ingest is a standalone ingestion tool that monitors file systems for automatic uploads to iRODS with robust retry mechanisms, enriched with automated metadata extraction, filtering and other features. ManGO Flow, based on the Celery framework, supports refined post-ingest workflows for data management, from filename validation and normalization to metadata extraction to automatic user and group account management and permissions. In addition, it is the framework we use for long running asynchronous operations. Finally, the already known highly customizable ManGO Portal keeps evolving with new developments in reporting and user interactions.
+                </div>
+
+                <br /><br />
+                <b>Kando: An iRODS Compatible Data Organizer for CKAN</b><br/>
+                Tanmay Dewangan, Tony Edgin, Nirav Merchant<br/>
+                CyVerse / University of Arizona<br/>
+                <div class="abstract">
+                    As scientific data grows in scale and complexity, researchers increasingly rely on disparate infrastructure, like local servers, cloud buckets, and institutional archives, to store and manage data. However, this fragmentation makes it difficult to build a cohesive, discoverable, and FAIR-aligned data commons.
+                    <br /><br />
+                    This talk presents Kando, which is a metadata curation tool that connects iRODS-managed data and metadata with a Comprehensive Knowledge Archive Network (CKAN) data commons. iRODS serves as the underlying data infrastructure within CyVerse and is used to manage metadata and files across a 7.2 PB research data store. Kando is designed to work within the CyVerse environment, enabling researchers to extract, standardize, and publish metadata from iRODS using modern standards like DCAT and Croissant. It inventories datasets, collects metadata (such as authors, file size, content type, custom tags, etc.) and transforms these records into searchable, CKAN-compatible datasets that link back to the original files. Kando applies a similar approach to public AWS S3 and Google Cloud Storage buckets by allowing researchers to incorporate cloud hosted project data into a unified CKAN data commons.
+                    <br /><br />
+                    By unifying metadata from both institutional and cloud sources, Kando provides an intuitive user interface that makes it easier for researchers to share, discover, and access data through a single CKAN portal. This streamlined approach reduces the time and effort needed to curate datasets, supports FAIR data practices, and helps research communities build flexible, project-specific data commons that promote collaboration and reuse.
+                </div>
+
+                <br /><br />
+                <b>Managing dataflows in a research hospital</b><br/>
+                Jan De Graaf, Marjolijn Mertz<br/>
+                Netherlands Cancer Institute (NKI)<br/>
+                <div class="abstract">
+                    At the Antoni van Leeuwenhoek hospital and Netherlands Cancer Institute (NKI-AVL) the demands for data storage and data management are rapidly evolving. Departments in our institute increasingly integrate their data acquisition and analysis, sparking interdisciplinary research projects. Furthermore, national and international regulations require researchers to make their data FAIR (Findable, Accessible, Interoperable, Reusable). Also, the development of the “-omic” techniques, such as genomic and proteomics, massively increases the size of acquired data. After analysis, this data should be archived for longer periods of time (>10y). Storing this data on rapid and available storage is a waste of resources and money. All these developments necessitate meta-data driven data management.
+                    <br /><br />
+                    We have recently deployed iRODS at our institute to facilitate this type of data management. Additionally, we have deployed ManGO as a user front-end to enable easy data access and allow users to search based on meta-data. With this setup we stimulate project-based research, where access is no longer based on departments or groups but on membership of projects. The abstraction of storage resources by iRODS allows seamless integration with Azure, reducing the demands on on-site storage and greatly lowering costs of archival storage for our institute.
+                    <br /><br />
+                    We will present the lessons learned during iRODS deployment. In a hospital with an integrated research department there is a demand for secure dataflows. As a case-study we will present how iRODS is used to support dataflow of clinical pathology data to AI for training of neural networks. We show how this technology impacts clinical and fundamental research and how it allows researchers of our institute to share and access data.
+                </div>
+              
+            </div>
+
             <div class="space"></div>
 
         </div>
