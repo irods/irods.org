@@ -22,7 +22,7 @@ Notable updates include:
 
 The iRODS 5 series will federate with the iRODS 4.3 series. However, the Consortium reserves the right to change requirements around federation, if necessary.
 
-If upgrading to iRODS 5.0.0 and using rsyslog, please add `irodsAgent` to your rsyslog configuration to avoid missing important log messages. See [rsyslog configuration](https://docs.irods.org/5.0.0/system_overview/#rsyslog-configuration) for more information.
+If upgrading to iRODS 5.0.0 and using rsyslog, please add `irodsAgent` to your rsyslog configuration to avoid missing important log messages. See [rsyslog configuration](https://docs.irods.org/5.0.0/system_overview/server_log/#rsyslog-configuration) for more information.
 
 This release consists of [957 commits from 16 contributors](https://github.com/irods/irods/compare/4.3.0...5.0.0) and [closed 178 issues marked for 5.0.0](https://github.com/irods/irods/issues?q=milestone%3A5.0.0) and [an additional 24 closed issues to be included in the upcoming 4.3.5 release](https://github.com/irods/irods/issues?q=is%3Aissue%20state%3Aclosed%20milestone%3A4.3.5%20closed%3A%3C%3D2025-05-20).
 
