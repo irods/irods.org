@@ -24,6 +24,7 @@
 
                 <h1><i class="green_font fa fa-angle-right"></i> Document History</h1>
                 <ul>
+                    <li><a href="#2025">2025</a></li>
                     <li><a href="#2023">2023</a></li>
                     <li><a href="#2017">2017</a></li>
                     <li><a href="#2015">2015</a></li>
@@ -45,11 +46,133 @@
                 <br/>
 
                 <div id="upcoming"></div>
+                <div id="2025"></div>
+
+                <h1><i class="green_font fa fa-angle-right"></i> <a onclick="togglevisibility('2025body')">2025</a></h1>
+
+                <div id="2025body" style="display:block">
+
+                    <p>Kory Draughn<br/>
+                    Chief Technologist<br/>
+                    The iRODS Consortium<br/>
+                    <i>June 2025</i></p>
+
+                    <h2>iRODS 2025 Roadmap</h2>
+
+                    <p>With each release of iRODS, the server, libraries, and clients become more stable and featureful. The needs of users and administrators become more complex over time. Users want tools and GUIs that are easy to understand quickly. Administrators want more flexibility and visibility into what the system is doing.</p>
+
+                    <p>In order to facilitate these needs, the Consortium plans to improve approachability by focusing on the following:</p>
+
+                    <h3>Primary Objectives</h3>
+
+                    <ul>
+                        <li>Include ready-to-use tools for common tasks, out of the box</li>
+                        <li>Track and expose common metrics</li>
+                        <li>Improve approachability and accessibility</li>
+                    </ul>
+
+                    <h3>The Server</h3>
+
+                    <ul>
+                        <li>Provide administrative GUI
+                            <ul>
+                                <li>Generate reports, query metrics, manage zone</li>
+                            </ul>
+                        </li>
+                        <li>Improve server's ability to scale
+                            <ul>
+                                <li>Use process pools and/or thread pools to service requests</li>
+                                <li>Partition processes to handle specific tasks</li>
+                                <li>Consider using io_uring or alternative async IO library</li>
+                            </ul>
+                        </li>
+                        <li>Make server cloud-friendly
+                            <ul>
+                                <li>Decouple FQDN/hostname from server
+                                    <ul>
+                                        <li>Allow name which identifies a server to change</li>
+                                    </ul>
+                                </li>
+                                <li>All servers run as Catalog Service Providers</li>
+                                <li>Centralize configuration</li>
+                            </ul>
+                        </li>
+                        <li>Absorb HTTP API</li>
+                        <li>Absorb stable plugins into server</li>
+                            <ul>
+                                <li>Metadata Guard rule engine plugin</li>
+                                <li>Logical Quotas rule engine plugin</li>
+                                <li>Storage Tiering capability plugin</li>
+                                <li>S3 resource plugin</li>
+                            </ul>
+                        </li>
+                        <li>Replace all use of legacy parallel transfer with multi-1247 parallel transfer
+                            <ul>
+                                <li>Remove high ports</li>
+                            </ul>
+                        </li>
+                        <li>Make GenQuery2 the default GenQuery parser</li>
+                        <li>Parallelize resource rebalance operation</li>
+                        <li>Improve support for archive files
+                            <ul>
+                                <li>Deprecate all functionality stemming from special collections and imcoll</li>
+                                <li>Make archive entries visible in the catalog
+                                    <ul>
+                                        <li>Design new abstractions, semantics, and APIs</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>Plugins and Capabilities</h3>
+
+                    <ul>
+                        <li>Finish and release the Policy Composition rule engine plugin</li>
+                        <li>Finish and release the Publishing capability plugin</li>
+                    </ul>
+
+                    <h3>Libraries</h3>
+
+                    <ul>
+                        <li>Polish and release HTTP API client libraries</li>
+                        <li>Implement pam_interactive authentication scheme for client libraries
+                            <ul>
+                                <li>Only applies to libraries speaking the iRODS protocol</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>Clients</h3>
+
+                    <ul>
+                        <li>Optimize the HTTP API's upload performance for large files</li>
+                        <li>Optimize the S3 API's upload performance for large files</li>
+                    </ul>
+
+                    <h3>Testing</h3>
+
+                    <ul>
+                        <li>Fully automate release testing
+                            <ul>
+                                <li>Provide clear report of what was tested and what happened</li>
+                                <li>Default test run to cover server, plugins, clients, and integrations</li>
+                                <li>Should run on consumer hardware</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div> <!-- End of 2025 Roadmap -->
+
+                <br/>
+                <hr style="border-top:5px solid;color:#06cd99"/>
+                <br/>
+
                 <div id="2023"></div>
 
                 <h1><i class="green_font fa fa-angle-right"></i> <a onclick="togglevisibility('2023body')">2023</a></h1>
 
-                <div id="2023body" style="display:block">
+                <div id="2023body" style="display:none">
 
                     <p>Kory Draughn<br/>
                     Chief Technologist<br/>
