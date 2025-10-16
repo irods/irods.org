@@ -11,7 +11,7 @@ September has come and gone, which means it's time for another development updat
 
 Now for the actual development update ...
 
-For the server, we've started implementing a brand new authentication scheme. This new scheme is in support of FIPS compliance and will introduce various features. Work on physical quotas _(also known as resource quotas)_ has started. Quotas are an important tools for decision makers, so we want to make sure that support in iRODS is solid.
+For the server, we've started implementing a brand new authentication scheme. This new scheme is in support of FIPS compliance and will introduce various features. Work on physical quotas _(also known as resource quotas)_ has started. Quotas are an important tool for decision makers, so we want to make sure that support in iRODS is solid.
 
 On the build and packaging side of things, we've updated the instructions for setting up the apt repository to avoid use of `apt-key`.
 
