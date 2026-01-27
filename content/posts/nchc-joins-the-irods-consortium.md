@@ -4,7 +4,7 @@ Author: Jayasree Jaganatha
 Slug: nchc-joins-the-irods-consortium
 Status: published
 
-<img src="{static}/images/nchc_logo.jpg" width="150px" />
+<img src="{static}/images/nchc_logo.png" width="150px" />
 
 <br />
 
