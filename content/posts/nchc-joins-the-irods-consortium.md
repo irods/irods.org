@@ -4,11 +4,11 @@ Author: Jayasree Jaganatha
 Slug: nchc-joins-the-irods-consortium
 Status: published
 
-<img src="{static}/images/nchc_logo.png" width="150px" />
+<img src="{static}/images/nchc_logo_full.png" width="450px" />
 
 <br />
 
-The [National Center for High-Performance Computing (NCHC)](https://www.nchc.org.tw/en/), a major national research infrastructure organization supporting high-performance computing (HPC), AI, large-scale data services, and scientific research across Taiwan, has become the newest member of the iRODS Consortium, the membership-based organization that leads development and support of the integrated Rule-Oriented Data System ([iRODS](https://irods.org/)).
+The [National Center for High-Performance Computing, National Institutes of Applied Research (NCHC, NIAR)](https://www.nchc.org.tw/en/), a major national research infrastructure organization supporting high-performance computing (HPC), AI, large-scale data services, and scientific research across Taiwan, has become the newest member of the iRODS Consortium, the membership-based organization that leads development and support of the integrated Rule-Oriented Data System ([iRODS](https://irods.org/)).
 
 The NCHC works to strengthen national high-performance computing (HPC) technology, provide world-class supercomputing and academic research network infrastructure, and lay the foundation for the development of technology in Taiwan. In the spirit of "driving transformation for a better future with HPC", the organization is dedicated to promoting HPC technology and applications development, leading digital transformation in industries and smart living. With the emergence of applications such as artificial intelligence (AI), big data, and digital twins, the demand for and the importance of HPC are increasing by the day. NCHC continues to build a new generation of HPC platforms, create robust academic research networks, conduct research on information security and data encryption, and develop advanced HPC methods, quantum computing, and big data analysis.
 
