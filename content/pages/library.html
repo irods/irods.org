@@ -1682,6 +1682,70 @@
             renderInstantiations(list);
         }
 
+        function syncPublicationRelations(publicationId, selectedAuthors, selectedEventId, instantiations) {
+            const existingAuthors = (db.exec(`SELECT person_id, position FROM persons_publications WHERE publication_id = ?`, [publicationId])[0]?.values || [])
+                .map(([personId, position]) => ({ personId, position }));
+            const existingAuthorsById = new Map(existingAuthors.map(author => [author.personId, author]));
+            const authorPositionBase = existingAuthors.length > 0
+                ? Math.min(...existingAuthors.map(author => Number(author.position) || 0))
+                : 0;
+            const desiredAuthors = selectedAuthors
+                .filter(author => author.id)
+                .map((author, index) => ({ personId: Number(author.id), position: authorPositionBase + index }));
+            const desiredAuthorsById = new Map(desiredAuthors.map(author => [author.personId, author]));
+
+            existingAuthors.forEach(author => {
+                if (!desiredAuthorsById.has(author.personId)) {
+                    db.run(`DELETE FROM persons_publications WHERE publication_id = ? AND person_id = ?`, [publicationId, author.personId]);
+                }
+            });
+            desiredAuthors.forEach(author => {
+                const existingAuthor = existingAuthorsById.get(author.personId);
+                if (!existingAuthor) {
+                    db.run(`INSERT INTO persons_publications (person_id, publication_id, position) VALUES (?, ?, ?)`, [author.personId, publicationId, author.position]);
+                } else if (existingAuthor.position !== author.position) {
+                    db.run(`UPDATE persons_publications SET position = ? WHERE publication_id = ? AND person_id = ?`, [author.position, publicationId, author.personId]);
+                }
+            });
+
+            const existingEventRow = db.exec(`SELECT event_id, position FROM events_publications WHERE publication_id = ? LIMIT 1`, [publicationId])[0]?.values[0] || null;
+            const desiredEventId = selectedEventId ? Number(selectedEventId) : null;
+            const eventPosition = existingEventRow ? existingEventRow[1] : 0;
+            if (existingEventRow && !desiredEventId) {
+                db.run(`DELETE FROM events_publications WHERE publication_id = ? AND event_id = ?`, [publicationId, existingEventRow[0]]);
+            } else if (!existingEventRow && desiredEventId) {
+                db.run(`INSERT INTO events_publications (event_id, publication_id, position) VALUES (?, ?, ?)`, [desiredEventId, publicationId, eventPosition]);
+            } else if (existingEventRow && desiredEventId && existingEventRow[0] !== desiredEventId) {
+                db.run(`UPDATE events_publications SET event_id = ?, position = ? WHERE publication_id = ? AND event_id = ?`, [desiredEventId, eventPosition, publicationId, existingEventRow[0]]);
+            }
+
+            const existingInstantiations = (db.exec(`SELECT document_type_id, url, doi FROM instantiations WHERE publication_id = ?`, [publicationId])[0]?.values || [])
+                .map(([typeId, url, doi]) => ({ typeId, url, doi }));
+            const existingInstantiationsByTypeId = new Map(existingInstantiations.map(inst => [inst.typeId, inst]));
+            const desiredInstantiations = instantiations
+                .filter(inst => inst.typeId)
+                .map(inst => ({
+                    typeId: Number(inst.typeId),
+                    url: inst.url || null,
+                    doi: inst.doi || null
+                }));
+            const desiredInstantiationsByTypeId = new Map(desiredInstantiations.map(inst => [inst.typeId, inst]));
+
+            existingInstantiations.forEach(inst => {
+                if (!desiredInstantiationsByTypeId.has(inst.typeId)) {
+                    db.run(`DELETE FROM instantiations WHERE publication_id = ? AND document_type_id = ?`, [publicationId, inst.typeId]);
+                }
+            });
+            desiredInstantiations.forEach(inst => {
+                const existingInst = existingInstantiationsByTypeId.get(inst.typeId);
+                if (!existingInst) {
+                    db.run(`INSERT INTO instantiations (publication_id, document_type_id, url, doi) VALUES (?, ?, ?, ?)`, [publicationId, inst.typeId, inst.url, inst.doi]);
+                } else if (existingInst.url !== inst.url || existingInst.doi !== inst.doi) {
+                    db.run(`UPDATE instantiations SET url = ?, doi = ? WHERE publication_id = ? AND document_type_id = ?`, [inst.url, inst.doi, publicationId, inst.typeId]);
+                }
+            });
+        }
+
         function handleAutocomplete(e) {
             const input = e.target;
             const query = input.value.toLowerCase();
@@ -1817,14 +1881,7 @@
                     vals.push(editingId);
                     db.run(`UPDATE ${currentTable} SET ${sets} WHERE id = ?`, vals);
                     if (currentTable === 'publications') {
-                        db.run(`DELETE FROM persons_publications WHERE publication_id = ?`, [editingId]);
-                        selectedAuthors.forEach((a, i) => db.run(`INSERT INTO persons_publications (person_id, publication_id, position) VALUES (?, ?, ?)`, [a.id, editingId, i + 1]));
-                        db.run(`DELETE FROM events_publications WHERE publication_id = ?`, [editingId]);
-                        if (selectedEventId) db.run(`INSERT INTO events_publications (event_id, publication_id, position) VALUES (?, ?, ?)`, [selectedEventId, editingId, 1]);
-                        db.run(`DELETE FROM instantiations WHERE publication_id = ?`, [editingId]);
-                        instantiations.forEach(inst => {
-                            if (inst.typeId) db.run(`INSERT INTO instantiations (publication_id, document_type_id, url, doi) VALUES (?, ?, ?, ?)`, [editingId, inst.typeId, inst.url || null, inst.doi || null]);
-                        });
+                        syncPublicationRelations(editingId, selectedAuthors, selectedEventId, instantiations);
                     }
                 } else {
                     const fields = Object.keys(data).join(', ');
