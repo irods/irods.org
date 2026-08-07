@@ -1896,14 +1896,37 @@
             URL.revokeObjectURL(url);
         }
 
+        function getTableDumpOrderClause(tableName) {
+            const info = db.exec(`PRAGMA table_info("${tableName}")`)[0]?.values || [];
+            const columns = info.map(row => ({
+                name: row[1],
+                pkPosition: row[5]
+            }));
+
+            if (columns.some(column => column.name === 'id')) {
+                return ' ORDER BY "id"';
+            }
+
+            const primaryKeyColumns = columns
+                .filter(column => column.pkPosition > 0)
+                .sort((a, b) => a.pkPosition - b.pkPosition)
+                .map(column => `"${column.name}"`);
+
+            if (primaryKeyColumns.length > 0) {
+                return ` ORDER BY ${primaryKeyColumns.join(', ')}`;
+            }
+
+            return ' ORDER BY rowid';
+        }
+
         function generateSqlDump() {
             let publications_count = 0;
             let out = 'PRAGMA foreign_keys=OFF;\nBEGIN TRANSACTION;\n';
-            const tables = db.exec("SELECT name, sql FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'");
+            const tables = db.exec("SELECT name, sql FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name");
             if (tables.length === 0) return '-- Empty Database';
             tables[0].values.forEach(([tableName, createSql]) => {
                 out += createSql + ';\n';
-                const c = db.exec(`SELECT * FROM "${tableName}"`);
+                const c = db.exec(`SELECT * FROM "${tableName}"${getTableDumpOrderClause(tableName)}`);
                 if (c.length > 0) {
                     c[0].values.forEach(row => {
                         const fv = row.map(v => {
