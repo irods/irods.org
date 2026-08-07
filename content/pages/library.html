@@ -556,6 +556,7 @@
         #editForm[data-table="events"] .form-group[data-field="venue_id"] { grid-column: 2; }
         #editForm[data-table="events"] .form-group[data-field="start_date"] { grid-column: 1; }
         #editForm[data-table="events"] .form-group[data-field="end_date"] { grid-column: 2; }
+        #editForm .related-items-panel { grid-column: 1 / -1; }
 
         .form-group label {
             display: block;
@@ -619,6 +620,62 @@
             margin-bottom: 10px;
         }
         .instantiation-item input, .instantiation-item select { margin: 0; }
+
+        .related-items-box {
+            background: #f0f0f0;
+            padding: 12px;
+            border-radius: 4px;
+            border-left: 4px solid #18bc9c;
+        }
+        .related-items-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .related-item-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .related-item-badge {
+            background: #18bc9c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.85em;
+        }
+        .event-publication-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .event-publication-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            background: white;
+            border: 1px solid #d8d8d8;
+            border-radius: 4px;
+            cursor: grab;
+            user-select: none;
+        }
+        .event-publication-item.dragging {
+            opacity: 0.6;
+        }
+        .event-publication-order {
+            font-weight: 700;
+            color: #106b59;
+            min-width: 24px;
+        }
+        .event-publication-handle {
+            color: #777;
+            font-size: 1.1em;
+            line-height: 1;
+        }
+        .event-publication-title {
+            flex: 1;
+            text-align: left;
+        }
 
 
         /* Success toast */
@@ -738,6 +795,7 @@
         let currentEditTab = 'publications';
         let currentTable = null;
         let editingId = null;
+        let draggedEventPublicationIndex = null;
         const filters = {
             authors: new Set(),
             organizations: new Set(),
@@ -1449,6 +1507,21 @@
             return items;
         }
 
+        function getEventRelatedPublications(id) {
+            return (db.exec(`
+                SELECT p.id, p.title, ep.position
+                FROM events_publications ep
+                JOIN publications p ON ep.publication_id = p.id
+                WHERE ep.event_id = ?
+                ORDER BY COALESCE(ep.position, 0), p.date DESC, p.id
+            `, [id])[0]?.values || [])
+                .map(([publicationId, title, position]) => ({
+                    publicationId,
+                    title,
+                    position
+                }));
+        }
+
         function openAddModal(tableName) {
             currentTable = tableName;
             editingId = null;
@@ -1476,19 +1549,6 @@
             const form = document.getElementById('editForm');
             form.innerHTML = '';
             form.dataset.table = currentTable;
-
-            if (editingId) {
-                const related = getRelatedItems(currentTable, editingId);
-                if (related.length > 0) {
-                    const div = document.createElement('div');
-                    div.style.cssText = 'grid-column: 1 / -1; background: #f0f0f0; padding: 12px; border-radius: 4px; border-left: 4px solid #18bc9c;';
-                    div.innerHTML = `<div style="font-weight:600; margin-bottom:8px;">Related Items:</div>
-                        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-                            ${related.map(r => `<span style="background:#18bc9c; color:white; padding:5px 10px; border-radius:3px; font-size:0.85em;">${escapeHtml(r)}</span>`).join('')}
-                        </div>`;
-                    form.appendChild(div);
-                }
-            }
 
             schema.forEach(field => {
                 const group = document.createElement('div');
@@ -1601,6 +1661,110 @@
                     }
                 }
             });
+
+            if (editingId) {
+                if (currentTable === 'events') {
+                    appendEventRelatedItems(form, editingId);
+                } else {
+                    appendGenericRelatedItems(form, getRelatedItems(currentTable, editingId));
+                }
+            }
+        }
+
+        function appendGenericRelatedItems(form, relatedItems) {
+            if (relatedItems.length === 0) return;
+
+            const group = document.createElement('div');
+            group.className = 'form-group related-items-panel';
+            group.innerHTML = `<div class="related-items-box">
+                <div class="related-items-title">Related Items:</div>
+                <div class="related-item-badges">
+                    ${relatedItems.map(item => `<span class="related-item-badge">${escapeHtml(item)}</span>`).join('')}
+                </div>
+            </div>`;
+            form.appendChild(group);
+        }
+
+        function appendEventRelatedItems(form, eventId) {
+            const publications = getEventRelatedPublications(eventId);
+            if (publications.length === 0) return;
+
+            const group = document.createElement('div');
+            group.className = 'form-group related-items-panel';
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'related-items-box';
+            wrapper.innerHTML = `<div class="related-items-title">Related Publications</div>
+                <div style="font-size:0.9em; color:#666; margin-bottom:10px; text-align:left;">Drag to reorder how publications appear within this event.</div>`;
+
+            const list = document.createElement('div');
+            list.id = 'event-related-publications';
+            list.className = 'event-publication-list';
+            list.dataset.relatedPublications = JSON.stringify(publications);
+            renderEventRelatedPublications(list);
+
+            wrapper.appendChild(list);
+            group.appendChild(wrapper);
+            form.appendChild(group);
+        }
+
+        function renderEventRelatedPublications(container) {
+            const publications = JSON.parse(container.dataset.relatedPublications || '[]');
+            container.innerHTML = '';
+
+            publications.forEach((publication, index) => {
+                const item = document.createElement('div');
+                item.className = 'event-publication-item';
+                item.draggable = true;
+                item.dataset.index = index;
+                item.innerHTML = `<span class="event-publication-order">${index + 1}.</span>
+                    <span class="event-publication-handle">::</span>
+                    <span class="event-publication-title">${escapeHtml(publication.title)}</span>`;
+                item.addEventListener('dragstart', handleEventPublicationDragStart);
+                item.addEventListener('dragend', handleEventPublicationDragEnd);
+                item.addEventListener('dragover', handleEventPublicationDragOver);
+                item.addEventListener('drop', handleEventPublicationDrop);
+                container.appendChild(item);
+            });
+        }
+
+        function handleEventPublicationDragStart(event) {
+            draggedEventPublicationIndex = Number(event.currentTarget.dataset.index);
+            event.currentTarget.classList.add('dragging');
+            event.dataTransfer.effectAllowed = 'move';
+            event.dataTransfer.setData('text/plain', String(draggedEventPublicationIndex));
+        }
+
+        function handleEventPublicationDragEnd(event) {
+            event.currentTarget.classList.remove('dragging');
+            draggedEventPublicationIndex = null;
+        }
+
+        function handleEventPublicationDragOver(event) {
+            event.preventDefault();
+            event.dataTransfer.dropEffect = 'move';
+        }
+
+        function handleEventPublicationDrop(event) {
+            event.preventDefault();
+            const targetIndex = Number(event.currentTarget.dataset.index);
+            if (draggedEventPublicationIndex === null || draggedEventPublicationIndex === targetIndex) return;
+
+            const container = document.getElementById('event-related-publications');
+            if (!container) return;
+
+            const publications = JSON.parse(container.dataset.relatedPublications || '[]');
+            const [movedPublication] = publications.splice(draggedEventPublicationIndex, 1);
+            publications.splice(targetIndex, 0, movedPublication);
+            container.dataset.relatedPublications = JSON.stringify(publications);
+            draggedEventPublicationIndex = null;
+            renderEventRelatedPublications(container);
+        }
+
+        function getEventRelatedPublicationIds() {
+            const container = document.getElementById('event-related-publications');
+            if (!container) return [];
+            return JSON.parse(container.dataset.relatedPublications || '[]').map(publication => publication.publicationId);
         }
 
         function renderSelectedAuthors(container) {
@@ -1746,6 +1910,24 @@
             });
         }
 
+        function syncEventPublicationOrder(eventId, publicationIds) {
+            if (publicationIds.length === 0) return;
+
+            const existingPublications = (db.exec(`SELECT publication_id, position FROM events_publications WHERE event_id = ?`, [eventId])[0]?.values || [])
+                .map(([publicationId, position]) => ({ publicationId, position }));
+            const existingPositionsByPublicationId = new Map(existingPublications.map(publication => [publication.publicationId, publication.position]));
+            const positionBase = existingPublications.length > 0
+                ? Math.min(...existingPublications.map(publication => Number(publication.position) || 0))
+                : 0;
+
+            publicationIds.forEach((publicationId, index) => {
+                const desiredPosition = positionBase + index;
+                if (existingPositionsByPublicationId.get(publicationId) !== desiredPosition) {
+                    db.run(`UPDATE events_publications SET position = ? WHERE event_id = ? AND publication_id = ?`, [desiredPosition, eventId, publicationId]);
+                }
+            });
+        }
+
         function handleAutocomplete(e) {
             const input = e.target;
             const query = input.value.toLowerCase();
@@ -1867,6 +2049,10 @@
                 delete data.instantiations;
             }
 
+            const eventRelatedPublicationIds = currentTable === 'events' && editingId
+                ? getEventRelatedPublicationIds()
+                : [];
+
             // Normalize empty strings to NULL for all fields. NOT NULL columns
             // (e.g. title, city, country, name) will surface a real validation
             // error instead of silently storing ''.
@@ -1882,6 +2068,8 @@
                     db.run(`UPDATE ${currentTable} SET ${sets} WHERE id = ?`, vals);
                     if (currentTable === 'publications') {
                         syncPublicationRelations(editingId, selectedAuthors, selectedEventId, instantiations);
+                    } else if (currentTable === 'events') {
+                        syncEventPublicationOrder(editingId, eventRelatedPublicationIds);
                     }
                 } else {
                     const fields = Object.keys(data).join(', ');
