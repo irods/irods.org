@@ -2280,6 +2280,7 @@ INSERT INTO persons VALUES(491,'John Constable',206);
 INSERT INTO persons VALUES(492,'Natalia Bedoya',207);
 INSERT INTO persons VALUES(494,'Dave McDonnell',132);
 INSERT INTO persons VALUES(495,'Laura Capps',6);
+INSERT INTO persons VALUES(496,'Tobias Janca',179);
 CREATE TABLE persons_publications (
   person_id INTEGER NOT NULL,
   publication_id INTEGER NOT NULL,
@@ -3181,6 +3182,7 @@ INSERT INTO persons_publications VALUES(491,536,1,0);
 INSERT INTO persons_publications VALUES(492,537,1,0);
 INSERT INTO persons_publications VALUES(494,539,1,0);
 INSERT INTO persons_publications VALUES(495,550,1,0);
+INSERT INTO persons_publications VALUES(496,518,3,0);
 CREATE TABLE publications (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         title TEXT NOT NULL,
