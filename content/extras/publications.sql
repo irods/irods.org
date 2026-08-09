@@ -1480,6 +1480,7 @@ INSERT INTO instantiations VALUES(513,1,NULL,'https://irods.org/uploads/2026/Rus
 INSERT INTO instantiations VALUES(513,14,NULL,'https://www.youtube.com/watch?v=jtc_bDL2uz0&list=PLGIb5h1l207o');
 INSERT INTO instantiations VALUES(514,1,NULL,'https://irods.org/uploads/2026/Draughn-iRODS-UGM2026_Technology_Update-slides.pdf');
 INSERT INTO instantiations VALUES(514,14,NULL,'https://www.youtube.com/watch?v=CaX-LD2JZv4&list=PLGIb5h1l207o');
+INSERT INTO instantiations VALUES(515,1,NULL,'https://irods.org/uploads/2026/Verraedt-KULeuven-iron_a_Go-based_iRODS_client_and_library_and_a_bridge_between_iRODS_and_the_ownCloud_desktop_client-slides.pdf');
 INSERT INTO instantiations VALUES(515,14,NULL,'https://www.youtube.com/watch?v=OSSAQPcNYc4&list=PLGIb5h1l207o');
 INSERT INTO instantiations VALUES(516,1,NULL,'https://irods.org/uploads/2026/Tsyganov-Groningen-iRODS_Labels_A_Proposal_for_a_Complementary_Labeling_Mechanism_in_iRODS-slides.pdf');
 INSERT INTO instantiations VALUES(516,8,NULL,'https://irods.org/uploads/2026/Tsyganov-Groningen-iRODS_Labels_A_Proposal_for_a_Complementary_Labeling_Mechanism_in_iRODS-paper.pdf');
