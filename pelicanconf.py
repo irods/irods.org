@@ -44,6 +44,7 @@ STATIC_PATHS = ['extras','images','uploads']
 EXTRA_PATH_METADATA = {
     'extras/.htaccess':   {'path': '.htaccess'},
     'extras/partners.html':   {'path': 'partners/index.html'},
+    'extras/partner.html':   {'path': 'partner/index.html'},
     'extras/consortium.html':   {'path': 'consortium/index.html'},
     'extras/faq.html':   {'path': 'about/faq/index.html'},
     'extras/overview.html':   {'path': 'about/overview/index.html'},
