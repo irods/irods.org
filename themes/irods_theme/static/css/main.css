@@ -613,9 +613,28 @@ td{
     text-align: left;
     border-left: 2px solid #ffffff;
 }
+.funded_projects{
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 3fr) minmax(0, 4fr);
+}
+.funded_projects::before,
+.funded_projects::after{
+    display: none;
+}
+.funded_projects > div{
+    float: none;
+    width: auto;
+    min-width: 0;
+    min-height: 47px;
+    overflow-wrap: anywhere;
+}
+@media(min-width:768px){
+    .funded_projects{
+        grid-template-columns: minmax(0, 6fr) minmax(0, 2fr) minmax(0, 4fr);
+    }
+}
 .funded_cell{
     border: 1px solid #aaa;
-    height:47px;
     padding-left:10px;
     padding-right:10px;
 }
@@ -624,7 +643,6 @@ td{
     background: #afafaf;
     padding-left:10px;
     padding-right:10px;
-    height:47px;
 }
 .full_width_image{
     width:100%;
@@ -1150,23 +1168,17 @@ MEDIA QUERY STYLES
     }
 }
 @media(max-width:580px){
+    .funded_projects > div{
+        min-height: 92px;
+    }
     .event_list_hr{
         margin:5px 0px;
         padding: 0px;
         border-top:4px double #aaaaaa;
     }
-    .funded_cell{
-        border: 1px solid #aaa;
-        height:92px;
-        padding-left:10px;
-        padding-right:10px;
-    }
     .funded_cell_dark{
         border: 1px solid #aaa;
         background: #efefef;
-        padding-left:10px;
-        padding-right:10px;
-        height:92px;
     }
     .small_centered_line_ugm2017{
         width: 100%;
@@ -1247,6 +1259,9 @@ MEDIA QUERY STYLES
     }
 }
 @media(min-width:1200px) {
+    .funded_projects > div{
+        min-height: 25px;
+    }
     .splash_box{
         background: url("../../images/splash_box.png") center center;
         background-repeat: no-repeat;
@@ -1256,18 +1271,9 @@ MEDIA QUERY STYLES
         height: 450px;
         padding: 15px 0px 0px 0px;
     }
-    .funded_cell{
-        border: 1px solid #aaa;
-        height:25px;
-        padding-left:10px;
-        padding-right:10px;
-    }
     .funded_cell_dark{
         border: 1px solid #aaa;
         background: #efefef;
-        height:25px;
-        padding-left:10px;
-        padding-right:10px;
     }
     .core_competencies_container{
         padding: 0px;
@@ -1325,4 +1331,3 @@ MEMBER LOGOS
     min-width: 200px;
     max-width: 300px;
 }
-
