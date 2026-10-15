@@ -13,11 +13,11 @@ Notable updates include:
 - **Ubuntu 26.04** - Added support for Canonical's latest LTS version of Ubuntu.
 - **TLS during Server Setup** - The setup script now prompts for TLS certificates when passed `--tls`.
 - **FIPS Compatibility** - To improve compatibility with FIPS-enabled environments, the server now supports configuring hashing algorithms other than MD5.
-- **New Authentication Scheme** - This release introduces the `irods` authentication scheme to address limitations in the `native` authentication scheme. It is provided as an opt-in, but will eventually become the default. See ["irods" Authentication](plugins/pluggable_authentication.md#irods-authentication) to learn more.
-- **Logical Quotas** - The server now provides built-in support for Logical Quotas. Unlike the rule-engine-based implementation, Logical Quotas is passive and behaves similarly to the existing Physical Quotas system. See [Logical Quotas](system_overview/quotas.md#logical-quotas) to learn more.
-- **Resource Rebalance** - The rebalance operation now attempts all possible replications rather than stopping at the first encountered error. See [Rebalancing](plugins/composable_resources.md#rebalancing) to learn more.
+- **New Authentication Scheme** - This release introduces the `irods` authentication scheme to address limitations in the `native` authentication scheme. It is provided as an opt-in, but will eventually become the default. See ["irods" Authentication](https://docs.irods.org/5.1.0/plugins/pluggable_authentication/#irods-authentication) to learn more.
+- **Logical Quotas** - The server now provides built-in support for Logical Quotas. Unlike the rule-engine-based implementation, Logical Quotas is passive and behaves similarly to the existing Physical Quotas system. See [Logical Quotas](https://docs.irods.org/5.1.0/system_overview/quotas/#logical-quotas) to learn more.
+- **Resource Rebalance** - The rebalance operation now attempts all possible replications rather than stopping at the first encountered error. See [Rebalancing](https://docs.irods.org/5.1.0/plugins/composable_resources/#rebalancing) to learn more.
 - **Random Scheme Vault Paths** - Administrators can now customize how physical paths are generated when using the random scheme vault path policy. See documentation for microservices `msi_random_scheme_set_style()` and `msi_random_scheme_set_suffix_length()`.
-- **iCommands Compatibility Check** - The iCommands now warn users when a compatibility issue is detected with the connected server. See [Server Version Compatibility](icommands/general_info.md#server-version-compatibility) for more information.
+- **iCommands Compatibility Check** - The iCommands now warn users when a compatibility issue is detected with the connected server. See [Server Version Compatibility](https://docs.irods.org/5.1.0/icommands/general_info/#server-version-compatibility) for more information.
 
 Starting with iRODS 5.1.0, the server will reject operations that attempt to modify any of the following paths or their contents. These locations are reserved for the operation of the server.
 
